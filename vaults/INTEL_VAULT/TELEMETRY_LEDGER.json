@@ -257,5 +257,16 @@
     },
     "hash": "e9429be9545e4a5b8a4ddc844cc1749656d38aef7774b016be3a350a13376780",
     "prevHash": "cad1f7b6d0ba4e93713c247350570ce1ca64b57c54e1d404423b4ea45288d105"
+  },
+  {
+    "id": "07376b71-2feb-417b-93e1-bc3ecba0c68a",
+    "timestamp": "2026-02-28T08:01:05.029Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "2333689a50279435d71b4b8a9a72a815a48074edf8f44099f66ebbb14f6f50ed",
+    "prevHash": "e9429be9545e4a5b8a4ddc844cc1749656d38aef7774b016be3a350a13376780"
   }
 ]
