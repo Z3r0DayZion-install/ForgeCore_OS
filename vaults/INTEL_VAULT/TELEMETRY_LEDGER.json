@@ -1,0 +1,261 @@
+[
+  {
+    "id": "30f440b9-d846-4c57-ab92-edb91695c071",
+    "timestamp": "2026-02-26T05:56:43.036Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "19088870ba55c697d8868dc3ac633b1dc6494dc3a59db16d5b10168d5990c560",
+    "prevHash": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "id": "ac2e3131-85ca-477b-aa4e-06d20b25eb13",
+    "timestamp": "2026-02-26T05:56:48.254Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 1
+    },
+    "hash": "05aa039c3f758b39fadded611cde8157ce836911f8b8de000ecf3d8878c3cf83",
+    "prevHash": "19088870ba55c697d8868dc3ac633b1dc6494dc3a59db16d5b10168d5990c560"
+  },
+  {
+    "id": "5ca1e5ec-d436-4104-9f5b-ad5ce93bf84d",
+    "timestamp": "2026-02-26T05:56:49.820Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 2
+    },
+    "hash": "9ff1694fd4104109712171b5c77e793d2471b8a52d72e840393382c6f311e432",
+    "prevHash": "05aa039c3f758b39fadded611cde8157ce836911f8b8de000ecf3d8878c3cf83"
+  },
+  {
+    "id": "6f162a90-ab8e-4c4a-ad0b-ec250218dfc7",
+    "timestamp": "2026-02-26T05:56:52.390Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 3
+    },
+    "hash": "8713ff221200cf905978dda185ab45637db85922aa92af1d73f2bee1e82ed7da",
+    "prevHash": "9ff1694fd4104109712171b5c77e793d2471b8a52d72e840393382c6f311e432"
+  },
+  {
+    "id": "3383bd2c-da58-42cd-a568-c910b65b1296",
+    "timestamp": "2026-02-26T05:56:55.510Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 4
+    },
+    "hash": "13bfec3cb3ea34b81630a0e2324c3144f4875c647177ff7bf4ec326b1d2c96da",
+    "prevHash": "8713ff221200cf905978dda185ab45637db85922aa92af1d73f2bee1e82ed7da"
+  },
+  {
+    "id": "495e7357-c534-434f-8edc-bc186eadc199",
+    "timestamp": "2026-02-26T05:56:59.188Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 5
+    },
+    "hash": "a845da228d94c89cca443af27dacc600906d0256543ed6558424d8b9cff52b68",
+    "prevHash": "13bfec3cb3ea34b81630a0e2324c3144f4875c647177ff7bf4ec326b1d2c96da"
+  },
+  {
+    "id": "b09f37bb-2f9c-448c-abf0-b646770a99c2",
+    "timestamp": "2026-02-26T07:54:08.458Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "b6d6573bc610154df8568847962765a9a0c04779f501c35c68ed3e2bfbe56101",
+    "prevHash": "a845da228d94c89cca443af27dacc600906d0256543ed6558424d8b9cff52b68"
+  },
+  {
+    "id": "9051a0c7-874f-40c9-9b52-7e359f53d588",
+    "timestamp": "2026-02-26T07:54:13.315Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 1
+    },
+    "hash": "883fce1281bd4ad619304bb45c4374172e865b2a115b8ee67453f58e0f136d21",
+    "prevHash": "b6d6573bc610154df8568847962765a9a0c04779f501c35c68ed3e2bfbe56101"
+  },
+  {
+    "id": "3148557c-bd5a-4e5b-8b70-8c91d5e8c42d",
+    "timestamp": "2026-02-26T07:54:54.466Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 2
+    },
+    "hash": "9609d196e239117f7d032bd8f4c4d79dfb2ac0cb5cb42e706783eef2d81b739d",
+    "prevHash": "883fce1281bd4ad619304bb45c4374172e865b2a115b8ee67453f58e0f136d21"
+  },
+  {
+    "id": "d4326d99-f621-401f-b42c-0a165f0af5f6",
+    "timestamp": "2026-02-26T07:54:55.360Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 3
+    },
+    "hash": "3c144c907700583cc54fa4a7961e2a86a9b1ca9f6ae0bbb3100a33e541d4a881",
+    "prevHash": "9609d196e239117f7d032bd8f4c4d79dfb2ac0cb5cb42e706783eef2d81b739d"
+  },
+  {
+    "id": "2d356ba7-65c0-47b5-a04d-c07dc8f18ec8",
+    "timestamp": "2026-02-26T07:54:56.438Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 4
+    },
+    "hash": "87cbfcaaf5b379ecfa58c3697d597d11f77d46619ae260f5219cad555b2d5fc2",
+    "prevHash": "3c144c907700583cc54fa4a7961e2a86a9b1ca9f6ae0bbb3100a33e541d4a881"
+  },
+  {
+    "id": "43f7c3e6-1c30-4827-b135-039b957ff73c",
+    "timestamp": "2026-02-26T07:56:36.707Z",
+    "event": "SYSTEM_UNLOCK",
+    "details": {
+      "success": true
+    },
+    "hash": "6cacf222eb559c0beccf8d1519d64cea0ed55e218a80bd0cc31991cfb219e4a5",
+    "prevHash": "87cbfcaaf5b379ecfa58c3697d597d11f77d46619ae260f5219cad555b2d5fc2"
+  },
+  {
+    "id": "fa8b53b6-9208-4cf1-897a-614fcb7e9070",
+    "timestamp": "2026-02-26T08:12:09.857Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "94228c9e8085df4cf5204f04b7b03ee8bda7aaa7f26c4f723ff60d4acce405c4",
+    "prevHash": "6cacf222eb559c0beccf8d1519d64cea0ed55e218a80bd0cc31991cfb219e4a5"
+  },
+  {
+    "id": "64eb9cd4-f83b-4f00-921b-87fb7778326c",
+    "timestamp": "2026-02-26T08:14:01.261Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 1
+    },
+    "hash": "0c5347253e98acbb631ee8b92768215898cde4e415b5d7d093218c4f5ec5c791",
+    "prevHash": "94228c9e8085df4cf5204f04b7b03ee8bda7aaa7f26c4f723ff60d4acce405c4"
+  },
+  {
+    "id": "e264d0f0-0a8b-4644-92ec-0e33a3e1d4d2",
+    "timestamp": "2026-02-26T08:14:04.024Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 2
+    },
+    "hash": "8a54854c78c4ab5b1ede7d3328052f2ed9bee00a6cbc751d36d73e7d260b0bbe",
+    "prevHash": "0c5347253e98acbb631ee8b92768215898cde4e415b5d7d093218c4f5ec5c791"
+  },
+  {
+    "id": "7cf7262f-d1b3-4074-914b-0e4e5771ad1d",
+    "timestamp": "2026-02-26T08:14:05.227Z",
+    "event": "AUTH_FAILURE",
+    "details": {
+      "attempt": 3
+    },
+    "hash": "3062ffa88ee29f9516327bb0ffde263c137e7852fd10cbd854b80b53c408b1ee",
+    "prevHash": "8a54854c78c4ab5b1ede7d3328052f2ed9bee00a6cbc751d36d73e7d260b0bbe"
+  },
+  {
+    "id": "716908e9-7ae5-453e-8c59-101002021c1c",
+    "timestamp": "2026-02-26T08:14:26.410Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "09a84fc3542c19829d22d017efcc08180f685aff2ecfd4271f9d1578f04b3b08",
+    "prevHash": "3062ffa88ee29f9516327bb0ffde263c137e7852fd10cbd854b80b53c408b1ee"
+  },
+  {
+    "id": "758347ae-d549-462d-9765-1caca8dc3854",
+    "timestamp": "2026-02-26T08:15:05.080Z",
+    "event": "SYSTEM_UNLOCK",
+    "details": {
+      "success": true
+    },
+    "hash": "6b3928b3c0142cbe149202bf5c67b817be6a2561bb6f7af5e88718c1ff9ab16e",
+    "prevHash": "09a84fc3542c19829d22d017efcc08180f685aff2ecfd4271f9d1578f04b3b08"
+  },
+  {
+    "id": "ea070005-c8a2-4801-bb77-17b8db10fe5c",
+    "timestamp": "2026-02-26T08:17:48.032Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "6115cd615b693be388fe786e4b771a3ee994dd36b93c572044aace56c3ddaa74",
+    "prevHash": "6b3928b3c0142cbe149202bf5c67b817be6a2561bb6f7af5e88718c1ff9ab16e"
+  },
+  {
+    "id": "cbe0c91a-e0e3-4c7b-95db-0913dfc2e504",
+    "timestamp": "2026-02-26T08:18:10.174Z",
+    "event": "SYSTEM_UNLOCK",
+    "details": {
+      "success": true
+    },
+    "hash": "16fc327b303aa512687fdffa148cfd4059e33c51e9ad1bcf0cc47d6b016c25c7",
+    "prevHash": "6115cd615b693be388fe786e4b771a3ee994dd36b93c572044aace56c3ddaa74"
+  },
+  {
+    "id": "c8ca12a7-cc18-42af-8899-8e0519bff831",
+    "timestamp": "2026-02-26T08:19:55.140Z",
+    "event": "SYSTEM_UNLOCK",
+    "details": {
+      "success": true
+    },
+    "hash": "2036374a6d038897b8abf542b77b7d7fa60c1482e476adb54ef0ab1523eddb2e",
+    "prevHash": "16fc327b303aa512687fdffa148cfd4059e33c51e9ad1bcf0cc47d6b016c25c7"
+  },
+  {
+    "id": "a5eca0ca-0bff-475d-8246-5d079e90d082",
+    "timestamp": "2026-02-26T08:22:39.544Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "019c35052bfadbda4e4a0aefd92e92cb4eb5a45f2cedd346a742c47b6d3c4c85",
+    "prevHash": "2036374a6d038897b8abf542b77b7d7fa60c1482e476adb54ef0ab1523eddb2e"
+  },
+  {
+    "id": "c5d26aa5-cfa4-48c5-ab06-3d14457dc407",
+    "timestamp": "2026-02-27T07:46:38.271Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "8aacf819f2c13e95d2e183e724d331a5bd4337362423a6921d805686891625ef",
+    "prevHash": "019c35052bfadbda4e4a0aefd92e92cb4eb5a45f2cedd346a742c47b6d3c4c85"
+  },
+  {
+    "id": "88df536a-6e29-4d5b-9b4a-5b61b3a9abed",
+    "timestamp": "2026-02-27T07:47:01.862Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "cad1f7b6d0ba4e93713c247350570ce1ca64b57c54e1d404423b4ea45288d105",
+    "prevHash": "8aacf819f2c13e95d2e183e724d331a5bd4337362423a6921d805686891625ef"
+  },
+  {
+    "id": "3d1fba7a-4c2d-403c-bd24-9ba8edf6c04c",
+    "timestamp": "2026-02-28T00:01:25.945Z",
+    "event": "SYSTEM_BOOT",
+    "details": {
+      "version": "2.0.0",
+      "codename": "Singularity-Prime"
+    },
+    "hash": "e9429be9545e4a5b8a4ddc844cc1749656d38aef7774b016be3a350a13376780",
+    "prevHash": "cad1f7b6d0ba4e93713c247350570ce1ca64b57c54e1d404423b4ea45288d105"
+  }
+]

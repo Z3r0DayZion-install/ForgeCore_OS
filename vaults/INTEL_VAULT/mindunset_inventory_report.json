@@ -1,0 +1,345 @@
+{
+  "inventory_count": 28,
+  "manifest_path": "C:/Users/KickA/MANIFEST_MindUnset.json",
+  "inventory": [
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\lex.txt",
+      "size": 84303,
+      "modified": "2025-05-22T02:49:01.799Z",
+      "modified_ts": 1747882141.799155,
+      "extension": ".txt",
+      "sha256": "e2bc05f2efd72dd3c504f3c1dec2d781800b66ba8bdb7d69959a7f3c3395359f",
+      "sensitive": false,
+      "category": "lexicon"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\lexicon.txt",
+      "size": 164378,
+      "modified": "2025-05-20T21:21:00.865Z",
+      "modified_ts": 1747776060.8653202,
+      "extension": ".txt",
+      "sha256": "421fe034af9c00fe9c7755eb08f203325cdb8578dff9dd8d3452190335595bcc",
+      "sensitive": false,
+      "category": "lexicon"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\megachat.txt",
+      "size": 3471390,
+      "modified": "2025-05-20T21:42:14.979Z",
+      "modified_ts": 1747777334.9797947,
+      "extension": ".txt",
+      "sha256": "18c4c52576dfed86319ad4bf2dee22dce480a75accab01d87b143a6c52890859",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\mindset,flex.txt",
+      "size": 286647,
+      "modified": "2025-05-22T02:44:16.561Z",
+      "modified_ts": 1747881856.5618987,
+      "extension": ".txt",
+      "sha256": "3e86427df063a76f6c16596a6ee869841ca7ceda873a36364d0a8aae783464e9",
+      "sensitive": false,
+      "category": "lexicon"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\Mindunset.txt",
+      "size": 548156,
+      "modified": "2025-05-22T02:43:22.008Z",
+      "modified_ts": 1747881802.0084713,
+      "extension": ".txt",
+      "sha256": "647734d124522e866e4bf64f11ad55bccb87fe0387b6e10d35c8493bfdf9d65a",
+      "sensitive": false,
+      "category": "canon manuscript"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Desktop\\New folder (3)\\THE WEIGHT OF LANGUAGE A Mind Unset Lexicon of Power Table o.pdf",
+      "size": 296990,
+      "modified": "2025-05-19T23:58:51.509Z",
+      "modified_ts": 1747699131.509708,
+      "extension": ".pdf",
+      "sha256": "30b84b550c1baa25f55ec4b60aca1bd354b53d05c91ae531cf9ca60c0f2473d4",
+      "sensitive": false,
+      "category": "lexicon"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Documents\\THE WEIGHT OF LANGUAGE A Mind Unset Lexicon of Power Table o.txt",
+      "size": 12832,
+      "modified": "2025-05-19T23:34:49.561Z",
+      "modified_ts": 1747697689.5613463,
+      "extension": ".txt",
+      "sha256": "30c90a30e8817d052e021df6e223edaf420fc874262adcd0c08b6bf27fd3e0cb",
+      "sensitive": false,
+      "category": "lexicon"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\HyperSnatch_DevAgent_Continuation_0213.txt",
+      "size": 2925,
+      "modified": "2026-02-13T08:04:27.479Z",
+      "modified_ts": 1770969867.4795926,
+      "extension": ".txt",
+      "sha256": "8fec7bfdafb5677787f6f7e9c5eef1dd7aef0c1d1f7b1e625da560a767297aef",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_DevAgent_Brief.txt",
+      "size": 1721,
+      "modified": "2026-02-13T09:23:40.085Z",
+      "modified_ts": 1770974620.0852067,
+      "extension": ".txt",
+      "sha256": "181b872e0ab8bb4e9dc5eb8f6ced97ab13baa5f8b13b1fed617cf96fcd73d941",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_DevAgent_InstructionPlan.txt",
+      "size": 2328,
+      "modified": "2026-02-13T08:33:38.135Z",
+      "modified_ts": 1770971618.1358588,
+      "extension": ".txt",
+      "sha256": "6d82c2212841a349626337075b1f779ee1287aff7f45b11c57478aea7304935f",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_export.html",
+      "size": 15718,
+      "modified": "2026-02-14T01:40:32.895Z",
+      "modified_ts": 1771033232.8950877,
+      "extension": ".html",
+      "sha256": "f1959d792d53083a7b8b95b4c7981c8b0738efc7a886b09fb080a26a0179c70c",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_Final_Lockin_Instructions.txt",
+      "size": 1567,
+      "modified": "2026-02-13T09:17:37.129Z",
+      "modified_ts": 1770974257.1290567,
+      "extension": ".txt",
+      "sha256": "00aa73694548b33d69be8af564b6788c1e72df2f739411e0684425c78e4142e0",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_FinalPhase_FULL_Plan.txt",
+      "size": 2223,
+      "modified": "2026-02-13T08:10:44.441Z",
+      "modified_ts": 1770970244.4414794,
+      "extension": ".txt",
+      "sha256": "248178f967c69c3f84eed6f757a1743a35c9c868e7184ee2031024f3c67d8fec",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_FinalPhase_Plan.txt",
+      "size": 2129,
+      "modified": "2026-02-13T08:09:24.780Z",
+      "modified_ts": 1770970164.7801754,
+      "extension": ".txt",
+      "sha256": "6038a6439d3bfc5145dce5a8d1096c11b3cf187381e9ebb9bec149b4973829d8",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_FullWrittenBook.docx",
+      "size": 39464,
+      "modified": "2026-02-13T09:21:04.235Z",
+      "modified_ts": 1770974464.2356179,
+      "extension": ".docx",
+      "sha256": "d59be92b829c447d2cedf048ddf12918a245671be2eb40a2fcb6ad21c76332c9",
+      "sensitive": false,
+      "category": "docx"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\MindUnset_PHASE100_Final.html",
+      "size": 15015,
+      "modified": "2026-02-13T09:20:57.097Z",
+      "modified_ts": 1770974457.0972204,
+      "extension": ".html",
+      "sha256": "e9f8d4c55b9af5d79f526af4618691210a5b623ca48648c74c71275e1da42ddb",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\neuralshell\\NeuralShell_Core_LockIn_v2.zip",
+      "size": 746,
+      "modified": "2026-02-13T21:57:04.312Z",
+      "modified_ts": 1771019824.3128605,
+      "extension": ".zip",
+      "sha256": "91b78bd3904f1ad4211955071d97c29bbacef034b4d2c8ed2c2c157f4d2fd850",
+      "sensitive": false,
+      "category": "archives/zips"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\neuralshell\\NeuralShell_DevAgent_FullInstructions.txt",
+      "size": 2111,
+      "modified": "2026-02-13T07:12:10.996Z",
+      "modified_ts": 1770966730.9962316,
+      "extension": ".txt",
+      "sha256": "649c145cd0e1871469c1471f24e06cd072d8d583419784aa0d57a012836cab07",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\neuralshell\\NeuralShell_Phase300_LockIn.txt",
+      "size": 2058,
+      "modified": "2026-02-13T07:19:52.038Z",
+      "modified_ts": 1770967192.0389376,
+      "extension": ".txt",
+      "sha256": "f33ceb215917c4801ac2e02471980d426f9bc2049dc3988f8ba4862293421e25",
+      "sensitive": false,
+      "category": "plans"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\mind_unset_neurobook_DYNAMIC.html",
+      "size": 3271,
+      "modified": "2026-02-07T02:42:20.153Z",
+      "modified_ts": 1770432140.1537468,
+      "extension": ".html",
+      "sha256": "f7ced1218195e1ba7111f3b3044c48dd3af95fefda667dbcbd7a9766f25c3d45",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\mind_unset_neurobook_FINAL.html",
+      "size": 3423,
+      "modified": "2026-02-07T02:39:59.342Z",
+      "modified_ts": 1770431999.3422968,
+      "extension": ".html",
+      "sha256": "57c7c3d823426251f857a79001d7f1cec890f749edb61118c237a2326219ac6c",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\mind_unset_neurobook_PATCHED.html",
+      "size": 4144,
+      "modified": "2026-02-07T02:48:53.955Z",
+      "modified_ts": 1770432533.9556913,
+      "extension": ".html",
+      "sha256": "97e84ce8e7991343cf9fa8e5ab86c8e0d9f069860b831a81b5be76d3acefa293",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FinalEdition.docx",
+      "size": 37334,
+      "modified": "2026-02-12T22:40:27.591Z",
+      "modified_ts": 1770936027.5916965,
+      "extension": ".docx",
+      "sha256": "5e278599da8cd69959ffde2154db201d65a62753663773484872dc3564181277",
+      "sensitive": false,
+      "category": "docx"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FinalSnapshot_Feb12.zip",
+      "size": 1103,
+      "modified": "2026-02-12T22:35:48.389Z",
+      "modified_ts": 1770935748.3895457,
+      "extension": ".zip",
+      "sha256": "b6fd11f1e53e6604e94cb520ab5c22e727b6bc25e2075694827a3eb4eb1bf1d7",
+      "sensitive": false,
+      "category": "archives/zips"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FullBook.html",
+      "size": 1256,
+      "modified": "2026-02-12T22:48:27.709Z",
+      "modified_ts": 1770936507.7092113,
+      "extension": ".html",
+      "sha256": "fc5872621daadfa1c893c090277495bf7bcf87ca2b76d90813a1d0fd04dcbb65",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FullDraft_Fused.docx",
+      "size": 36634,
+      "modified": "2026-02-12T22:44:04.537Z",
+      "modified_ts": 1770936244.5370104,
+      "extension": ".docx",
+      "sha256": "b4ac064eb2cbd1b4de4ecda5a37bb7ab8dac75df119f4c67debfeaa8b8e5eb48",
+      "sensitive": false,
+      "category": "docx"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FultlBook.html",
+      "size": 1256,
+      "modified": "2026-02-12T22:51:23.663Z",
+      "modified_ts": 1770936683.6632192,
+      "extension": ".html",
+      "sha256": "fc5872621daadfa1c893c090277495bf7bcf87ca2b76d90813a1d0fd04dcbb65",
+      "sensitive": false,
+      "category": "other"
+    },
+    {
+      "full_path": "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_RepairedFullBook.docx",
+      "size": 36968,
+      "modified": "2026-02-12T22:45:13.595Z",
+      "modified_ts": 1770936313.5958714,
+      "extension": ".docx",
+      "sha256": "85d933bdd411fe6de0027b5374e0dc4e6e8f1f08bebb418200cb5ae28b66196d",
+      "sensitive": false,
+      "category": "docx"
+    }
+  ],
+  "duplicates": {
+    "fc5872621daadfa1c893c090277495bf7bcf87ca2b76d90813a1d0fd04dcbb65": [
+      "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FullBook.html",
+      "C:\\Users\\KickA\\Downloads\\New Folder-01\\MindUnset_FultlBook.html"
+    ]
+  },
+  "variants": {
+    "theweightoflanguageamindunsetlexiconofpowertableo": [
+      "C:\\Users\\KickA\\Desktop\\New folder (3)\\THE WEIGHT OF LANGUAGE A Mind Unset Lexicon of Power Table o.pdf",
+      "C:\\Users\\KickA\\Documents\\THE WEIGHT OF LANGUAGE A Mind Unset Lexicon of Power Table o.txt"
+    ]
+  },
+  "canonical": {
+    "lexicon": "C:\\Users\\KickA\\Desktop\\New folder (3)\\lex.txt",
+    "plans": "C:\\Users\\KickA\\Downloads\\HyperSnatch_DevAgent_Continuation_0213.txt",
+    "canon manuscript": "C:\\Users\\KickA\\Desktop\\New folder (3)\\Mindunset.txt",
+    "other": "C:\\Users\\KickA\\Downloads\\MindUnset_export.html",
+    "docx": "C:\\Users\\KickA\\Downloads\\MindUnset_FullWrittenBook.docx",
+    "archives/zips": "C:\\Users\\KickA\\Downloads\\neuralshell\\NeuralShell_Core_LockIn_v2.zip"
+  },
+  "copied": [
+    {
+      "category": "lexicon",
+      "src": "C:\\Users\\KickA\\Desktop\\New folder (3)\\lex.txt",
+      "dst": "C:/Users/KickA/mind-unset/lexicon/lex.txt",
+      "error": ""
+    },
+    {
+      "category": "plans",
+      "src": "C:\\Users\\KickA\\Downloads\\HyperSnatch_DevAgent_Continuation_0213.txt",
+      "dst": "C:/Users/KickA/mind-unset/plans/HyperSnatch_DevAgent_Continuation_0213.txt",
+      "error": ""
+    },
+    {
+      "category": "canon manuscript",
+      "src": "C:\\Users\\KickA\\Desktop\\New folder (3)\\Mindunset.txt",
+      "dst": "C:/Users/KickA/mind-unset/book/Mindunset.txt",
+      "error": ""
+    },
+    {
+      "category": "other",
+      "src": "C:\\Users\\KickA\\Downloads\\MindUnset_export.html",
+      "dst": "C:/Users/KickA/mind-unset/build/MindUnset_export.html",
+      "error": ""
+    },
+    {
+      "category": "docx",
+      "src": "C:\\Users\\KickA\\Downloads\\MindUnset_FullWrittenBook.docx",
+      "dst": "C:/Users/KickA/mind-unset/book/MindUnset_FullWrittenBook.docx",
+      "error": ""
+    },
+    {
+      "category": "archives/zips",
+      "src": "C:\\Users\\KickA\\Downloads\\neuralshell\\NeuralShell_Core_LockIn_v2.zip",
+      "dst": "C:/Users/KickA/mind-unset/build/NeuralShell_Core_LockIn_v2.zip",
+      "error": ""
+    }
+  ],
+  "git_status": "spawnSync C:\\Windows\\system32\\cmd.exe EPERM"
+}

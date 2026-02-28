@@ -1,0 +1,20 @@
+
+## FINAL_FREEZE_SNAPSHOT @ 2026-02-25T01:05:52.310762Z
+parent.commit=e35fd94e9cff12625eee9991d8a36bfe42952754
+desktop.commit=b420e5498e4c802eea285c8e01c2eb014c94687a
+
+beta.latest.out=C:\Users\KickA\NeuralShell\NeuralShell_Desktop\release\beta\beta_pack_2026-02-25T00-45-47-355Z
+beta.latest.zip=C:\Users\KickA\NeuralShell\NeuralShell_Desktop\release\beta\beta_pack_2026-02-25T00-45-47-355Z.zip
+beta.latest.zip.sha256=6DBE006A6F4F52B1735286BC7DF02763D96C8F3B48334561EE1F5365C2761ADB
+beta.latest.folder.manifest.sha256=CA9C6AE599121D0CC35D6E19DD87C5CD07466CE81DB852DA21EA9501095FCF03
+
+proof:all=PASS (via ship:beta pipeline)
+ship:beta=PASS (Phase4 v4 run 1/2/3)
+phase4.repeatability.v4=PASS stable.folder.manifest.sha256=CA9C6AE599121D0CC35D6E19DD87C5CD07466CE81DB852DA21EA9501095FCF03
+phase5.clean-install=PASS stable.folder.manifest.sha256 matches clean install
+
+ship:public.missing-sign-env=PASS observed "[PUBLIC-ABORT] Missing code signing certificate"
+ship:public.signing-verify=SKIP (no signing cert provided)
+
+repos.clean=PASS (both repos git status porcelain empty)
+

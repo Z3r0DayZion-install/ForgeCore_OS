@@ -1,0 +1,8 @@
+{
+  "vault": "RELEASE_VAULT",
+  "created": "2026-02-25T12:00:00Z",
+  "maintainer": "ARCHITECT_ZERO",
+  "artifacts": [
+    { "id": "REL_001", "name": "HyperSnatch v1.3.0", "path": "release/hypersnatch_v1.3.0.zip", "checksum": "SHA256:..." }
+  ]
+}

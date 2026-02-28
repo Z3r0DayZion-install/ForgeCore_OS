@@ -1,0 +1,71 @@
+[package]
+name = "rust_quantum_crypto"
+version = "0.1.0"
+edition = "2021"
+authors = ["ForgeCore OS Team"]
+description = "Quantum-resistant cryptography implementation in Rust"
+license = "MIT"
+repository = "https://github.com/forgecore/rust-quantum-crypto"
+keywords = ["cryptography", "quantum", "post-quantum", "security", "kyber", "dilithium"]
+categories = ["cryptography"]
+
+[dependencies]
+# Core cryptographic primitives
+sha3 = "0.10.8"
+aes-gcm = "0.10.3"
+
+# Serialization
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+
+# Error handling
+thiserror = "1.0.50"
+
+# Async support (optional)
+tokio = { version = "1.35.0", features = ["full"], optional = true }
+
+# Hardware security module support (optional)
+hmac = { version = "0.12.1", optional = true }
+pbkdf2 = { version = "0.12.2", optional = true }
+
+# Zero-knowledge proof support (optional)
+curve25519-dalek = { version = "4.1.1", optional = true }
+blake2 = { version = "0.10.6", optional = true }
+
+# Performance optimization
+rayon = "1.8.0"
+
+# Mathematical operations
+num-bigint = "0.4.4"
+num-traits = "0.2.17"
+
+# Random number generation
+rand = "0.8.5"
+
+# Target-specific optimizations
+[target.'cfg(target_arch = "x86_64")'.dependencies]
+raw-cpuid = "11.0.1"
+
+# Logging
+log = "0.4.20"
+env_logger = "0.10.1"
+
+[dev-dependencies]
+criterion = "0.5.1"
+hex = "0.4.3"
+
+[features]
+default = ["std"]
+std = []
+async = ["tokio"]
+hsm = ["hmac", "pbkdf2"]
+zkp = ["curve25519-dalek", "blake2"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+opt-level = 3
+
+[profile.bench]
+debug = true

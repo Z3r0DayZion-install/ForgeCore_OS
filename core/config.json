@@ -1,0 +1,25 @@
+{
+  "port": 3000,
+  "host": "127.0.0.1",
+  "theme": "BloodNeon",
+  "vaults": [
+    "INTEL_VAULT",
+    "RELEASE_VAULT",
+    "CHAT_VAULT",
+    "UTILITY_VAULT"
+  ],
+  "security": {
+    "authEnabled": true,
+    "integrityCheck": true,
+    "dnaSeal": "GENERATED_AT_RUNTIME"
+  },
+  "ui": {
+    "theme": "BloodNeon",
+    "matrixOpacity": 0.08,
+    "shadowMask": false
+  },
+  "peers": [
+    { "id": "NODE_ALPHA", "host": "127.0.0.1", "port": 3001, "status": "ACTIVE" },
+    { "id": "NODE_OMEGA", "host": "192.168.1.100", "port": 3000, "status": "OFFLINE" }
+  ]
+}

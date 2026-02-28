@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FORGECORE™ OS // BATTLE_HARDENED</title>
+  <link rel="stylesheet" href="THEME_ENGINE.css">
+  <style>
+    #matrix { position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.08; }
+    .grid-shell { display: grid; grid-template-columns: 280px 1fr; grid-template-rows: 60px 45px 1fr 140px; height: 100vh; gap: 1px; background: var(--border); }
+    .header { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; padding: 0 25px; }
+    .tab-bar { grid-column: 1 / -1; display: flex; background: #000; border-bottom: 1px solid var(--border); }
+    .sidebar { border-right: 1px solid var(--border); padding: 20px 10px; }
+    .content-area { background: #000; overflow-y: auto; padding: 0; position: relative; }
+    .terminal { grid-column: 1 / -1; background: #000; color: var(--ok); font-size: 0.8rem; padding: 15px 25px; overflow-y: auto; }
+    .nav-item { padding: 12px 15px; font-size: 0.75rem; cursor: pointer; color: var(--dim); display: flex; align-items: center; gap: 10px; border-bottom: 1px solid rgba(255,255,255,0.02); }
+    .nav-item:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+    .nav-item.active { color: var(--accent); background: rgba(255,0,60,0.05); border-left: 3px solid var(--accent); }
+    .file-card { padding: 12px 20px; border-bottom: 1px solid rgba(255,255,255,0.02); cursor: pointer; display: flex; justify-content: space-between; font-size: 0.8rem; }
+    .file-card:hover { background: var(--accent); color: white; }
+    .pane { display: none; height: 100%; padding: 40px; }
+    .pane.active { display: block; }
+    #lockdown { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: #000; z-index: 10000; display: flex; align-items: center; justify-content: center; }
+    .seal-badge { font-size: 0.6rem; padding: 2px 10px; border: 1px solid var(--ok); color: var(--ok); border-radius: 15px; margin-left: 15px; }
+    .setting-group { margin-bottom: 30px; }
+    .setting-group label { display: block; font-size: 0.7rem; color: var(--dim); text-transform: uppercase; margin-bottom: 10px; letter-spacing: 1px; }
+  </style>
+</head>
+<body data-theme="BloodNeon">
+  <div id="lockdown">
+    <div class="glass" style="padding: 50px; text-align: center; border-radius: 8px;">
+      <h1 class="glow-text" style="color:var(--accent); letter-spacing: 10px; margin:0;">ARCHITECT_ZERO</h1>
+      <p style="color:#444; font-size: 0.7rem; margin-bottom: 30px; letter-spacing: 2px;">SECURE_UPLINK_REQUIRED</p>
+      <input type="password" id="passphrase" class="lock-input" style="width:100%; text-align:center; background:black; border:1px solid var(--border); color:white; padding:10px;" placeholder="SESSION_PASSPHRASE" autofocus><br>
+      <button class="btn-primary" style="margin-top:30px; width:100%;" onclick="unlock()">ESTABLISH_HANDSHAKE</button>
+    </div>
+  </div>
+
+  <canvas id="matrix"></canvas>
+  <div class="grid-shell">
+    <header class="glass header">
+      <div style="display:flex; align-items:center;">
+        <h1 style="font-size: 1rem; letter-spacing: 5px; margin:0;">FORGECORE™ <span id="productTag">ELITE</span></h1>
+        <span class="seal-badge">TITAN_SEAL_ACTIVE</span>
+      </div>
+      <div style="font-size: 0.7rem; color: #666; display:flex; gap:30px;">
+        <span>DNA: <span style="color:var(--ok)">VERIFIED</span></span>
+        <span>LOAD: <span id="cpu" style="color:var(--ok)">0%</span></span>
+      </div>
+    </header>
+
+    <nav class="tab-bar">
+      <div class="tab active" onclick="switchTab('vaults', this)">🛡️ VAULTS</div>
+      <div class="tab" onclick="switchTab('matrix', this); loadMatrix()">🧬 MATRIX</div>
+      <div class="tab" onclick="switchTab('peers', this); loadPeers()">🌐 PEERS</div>
+      <div class="tab" onclick="switchTab('editor', this)">⚔️ FORGE</div>
+      <div class="tab" onclick="switchTab('settings', this)">⚙️ SETTINGS</div>
+    </nav>
+
+    <aside class="glass sidebar">
+      <h3 style="font-size:0.65rem; color:var(--dim); letter-spacing:2px; margin-bottom:15px; padding-left:15px;">REPOSITORIES</h3>
+      <div class="nav-item repo-nav active" onclick="mount('INTEL_VAULT', this)">🛡️ INTEL_REPOS</div>
+      <div class="nav-item repo-nav" onclick="mount('RELEASE_VAULT', this)">📦 RELEASE_REPOS</div>
+      <div class="nav-item repo-nav" onclick="mount('CHAT_VAULT', this)">📜 CHAT_REPOS</div>
+      <div class="nav-item repo-nav" onclick="mount('UTILITY_VAULT', this)">🛠️ UTILITY_REPOS</div>
+      
+      <h3 style="margin-top:30px; font-size:0.65rem; color:var(--dim); letter-spacing:2px; margin-bottom:15px; padding-left:15px;">ENGINES</h3>
+      <div class="nav-item" onclick="window.open('/engines/HYPERSNATCH_v1.3.0_RELEASE/HyperSnatch_Sovereign.html')">🔥 HYPERSNATCH_V1</div>
+    </aside>
+
+    <main class="content-area">
+      <div id="vaultsPane" class="pane active" style="padding:0;"><div id="fileList"></div></div>
+      <div id="matrixPane" class="pane" style="padding:40px;">
+        <h2 class="glow-text" style="color:var(--accent); margin-bottom:20px;">ADAPTIVE_IO_MATRIX</h2>
+        <div id="timelineList" style="display:grid; grid-template-columns: 1fr; gap:10px;"></div>
+        <h2 class="glow-text" style="color:var(--ok); margin-top:40px; margin-bottom:20px;">TELEMETRY_LEDGER</h2>
+        <div id="ledgerList" style="font-family:monospace; font-size:0.7rem; background:#050505; border:1px solid var(--border); padding:20px; height:300px; overflow-y:auto; color:#888;"></div>
+      </div>
+      <div id="peersPane" class="pane" style="padding:40px;">
+        <h2 class="glow-text" style="color:var(--accent); margin-bottom:40px;">SOVEREIGN_NETWORK_PEERS</h2>
+        <div id="peerList" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:20px;"></div>
+      </div>
+      <div id="editorPane" class="pane" style="padding:0;">
+        <div style="height:100%; display:flex; flex-direction:column;">
+          <div style="background:#111; padding:8px 25px; font-size:0.65rem; display:flex; justify-content:space-between; border-bottom:1px solid var(--border);">
+            <span id="currentPath" style="color:var(--dim)">SELECT_ARTIFACT</span>
+            <button class="btn-primary" style="padding:2px 15px; font-size:0.6rem;" onclick="saveFile()">COMMIT_TO_VAULT</button>
+          </div>
+          <textarea id="editor" style="flex:1; background:transparent; color:var(--text); border:none; padding:40px; outline:none; resize:none; font-family:inherit; font-size:0.9rem; line-height:1.7;" spellcheck="false"></textarea>
+        </div>
+      </div>
+      <div id="settingsPane" class="pane">
+        <h2 class="glow-text" style="color:var(--accent); margin-bottom:40px;">SYSTEM_CUSTOMIZATION</h2>
+        <div class="setting-group">
+          <label>Visual Interface Theme</label>
+          <select id="themeSelect" onchange="applyTheme(this.value)" style="width:300px; background:black; color:white; border:1px solid var(--border); padding:10px;">
+            <option value="BloodNeon">BloodNeon</option>
+            <option value="Cobalt">Cobalt</option>
+            <option value="Emerald">Emerald</option>
+            <option value="Amber">Amber</option>
+          </select>
+        </div>
+        <div class="setting-group">
+          <label>Matrix Background Intensity</label>
+          <input type="range" id="matrixOpacity" min="0" max="0.3" step="0.01" value="0.08" oninput="applyMatrixOpacity(this.value)" style="width:300px;">
+        </div>
+        <div class="setting-group">
+          <label>Security Masking</label>
+          <input type="checkbox" id="shadowMaskToggle" onchange="toggleShadowMask(this.checked)">
+          <span style="font-size:0.8rem; margin-left:10px;">Obfuscate Vault Names</span>
+        </div>
+        <div class="setting-group" style="margin-top:50px;">
+          <button class="btn-primary" onclick="saveSettings()">SAVE_PREFERENCES</button>
+        </div>
+      </div>
+    </main>
+    <footer class="terminal">
+      <div id="term" style="height:80px; overflow-y:auto; margin-bottom:10px;">[READY] ForgeCore™ SINGULARITY-PRIME v2.0.0 initialized.</div>
+      <div style="display:flex; gap:10px; align-items:center;">
+        <span style="color:var(--accent)">FORGE_OS></span>
+        <input type="text" id="termInput" style="flex:1; background:transparent; border:none; color:var(--ok); font-family:inherit; font-size:0.8rem; outline:none;" placeholder="ENTER_COMMAND..." onkeydown="handleCommand(event)">
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const term = document.getElementById('term');
+    function log(msg, st = "SYS") { term.innerHTML += `<br>[${new Date().toLocaleTimeString().split(' ')[0]}] [${st}] ${msg}`; term.scrollTop = term.scrollHeight; }
+    
+    async function unlock() {
+      const passphrase = document.getElementById('passphrase').value;
+      const res = await fetch('/api/system/unlock', { method: 'POST', body: JSON.stringify({ passphrase }) });
+      const data = await res.json();
+      if(data.success) { 
+        document.getElementById('lockdown').style.display = 'none';
+        log("Sovereign Handshake Established.", "AUTH");
+        await syncSettings(); mount('INTEL_VAULT');
+      } else { 
+        log("Handshake Rejected: Invalid Passphrase", "ERR"); 
+        if(data.ghost) {
+            document.getElementById('lockdown').style.display = 'none';
+            document.getElementById('productTag').innerText = "DECOY_VERSION";
+            document.getElementById('productTag').style.color = "orange";
+            log("GHOST_PROTOCOL_ACTIVE: Plausible Deniability Engaged.", "CRITICAL");
+            await syncSettings(); mount('user_backups');
+        }
+      }
+    }
+
+    async function handleCommand(e) {
+      if(e.key === 'Enter') {
+        const input = e.target.value.trim();
+        e.target.value = '';
+        if(!input) return;
+        
+        log(`> ${input}`, "USER");
+        const [cmd, ...args] = input.split(' ');
+        
+        try {
+          const res = await fetch('/api/system/execute', { method: 'POST', body: JSON.stringify({ command: cmd, args }) });
+          const data = await res.json();
+          log(data.output, "KERN");
+        } catch(err) { log("Execution Failed: " + err.message, "ERR"); }
+      }
+    }
+
+    async function syncSettings() {
+      try {
+        const res = await fetch('/api/system/settings');
+        if(!res.ok) throw new Error("GHOST_LOCKED");
+        const cfg = await res.json();
+        if(cfg.theme) applyTheme(cfg.theme);
+        if(cfg.matrixOpacity) applyMatrixOpacity(cfg.matrixOpacity);
+        if(cfg.shadowMask) toggleShadowMask(cfg.shadowMask);
+        document.getElementById('themeSelect').value = cfg.theme || 'BloodNeon';
+        document.getElementById('matrixOpacity').value = cfg.matrixOpacity || 0.08;
+        document.getElementById('shadowMaskToggle').checked = !!cfg.shadowMask;
+      } catch(e) { log("Settings sync failed: " + e.message, "ERR"); }
+    }
+
+    async function saveSettings() {
+      const settings = {
+        theme: document.getElementById('themeSelect').value,
+        matrixOpacity: document.getElementById('matrixOpacity').value,
+        shadowMask: document.getElementById('shadowMaskToggle').checked
+      };
+      const res = await fetch('/api/system/settings', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(settings) });
+      if(res.ok) log("Global Preferences Sealed.", "OK");
+    }
+
+    function applyTheme(t) { document.body.setAttribute('data-theme', t); log(`Theme: ${t}`); }
+    function applyMatrixOpacity(v) { document.getElementById('matrix').style.opacity = v; }
+    function toggleShadowMask(active) {
+      const names = active ? ["system_logs", "temp_cache", "old_updates", "utility_dump"] : ["INTEL_VAULT", "RELEASE_VAULT", "CHAT_VAULT", "UTILITY_VAULT"];
+      const labels = active ? ["INTEL_REPOS", "RELEASE_REPOS", "CHAT_REPOS", "UTILITY_REPOS"] : ["INTEL_REPOS", "RELEASE_REPOS", "CHAT_REPOS", "UTILITY_REPOS"];
+      document.querySelectorAll('.repo-nav').forEach((el, i) => { 
+          const icon = el.innerText.split(' ')[0]; 
+          el.innerText = `${icon} ${labels[i]}`;
+          el.setAttribute('onclick', `mount('${names[i]}', this)`);
+      });
+    }
+
+    function switchTab(id, el) { 
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active')); 
+      document.querySelectorAll('.pane').forEach(v => v.classList.remove('active'));
+      el.classList.add('active'); document.getElementById(id + 'Pane').classList.add('active'); 
+    }
+
+    async function loadMatrix() {
+      try {
+        const tRes = await fetch('/api/system/timeline');
+        const timeline = await tRes.json();
+        const tList = document.getElementById('timelineList');
+        tList.innerHTML = timeline.map(i => `
+          <div class="glass" style="padding:15px; border:1px solid rgba(255,255,255,0.05); display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <span style="color:var(--accent); font-size:0.6rem; text-transform:uppercase;">${i.vault}</span>
+              <div style="font-size:0.85rem; margin-top:5px;">${i.file}</div>
+            </div>
+            <div style="text-align:right; font-size:0.65rem; color:#444;">
+              ${new Date(i.mtime).toLocaleString()}<br>${i.size}
+            </div>
+          </div>
+        `).join('');
+
+        const lRes = await fetch('/api/system/ledger');
+        const ledger = await lRes.json();
+        const lList = document.getElementById('ledgerList');
+        lList.innerHTML = ledger.reverse().map(l => `
+          <div style="margin-bottom:8px; border-bottom:1px solid #111; padding-bottom:5px;">
+            <span style="color:var(--ok)">[${new Date(l.timestamp).toLocaleTimeString()}]</span> 
+            <span style="color:var(--text)">${l.event}</span> 
+            <span style="color:#444">${JSON.stringify(l.details)}</span>
+          </div>
+        `).join('');
+      } catch(e) { log("Matrix load failed.", "ERR"); }
+    }
+
+    async function loadPeers() {
+      try {
+        const res = await fetch('/api/peers');
+        const peers = await res.json();
+        const pList = document.getElementById('peerList');
+        pList.innerHTML = peers.map(p => `
+          <div class="glass" style="padding:25px; border:1px solid var(--border); position:relative;">
+            <div style="position:absolute; top:10px; right:10px; width:10px; height:10px; border-radius:50%; background:${p.status === 'ACTIVE' ? 'var(--ok)' : '#300'}"></div>
+            <h3 style="margin:0; font-size:0.9rem;">${p.id}</h3>
+            <div style="color:var(--dim); font-size:0.7rem; margin-top:5px;">${p.host}:${p.port}</div>
+            <button class="btn-primary" style="margin-top:20px; width:100%; font-size:0.6rem;" ${p.status !== 'ACTIVE' ? 'disabled' : ''}>SYNC_VAULTS</button>
+          </div>
+        `).join('');
+      } catch(e) { log("Peer discovery failed.", "ERR"); }
+    }
+
+    async function mount(v, btn) {
+      if(btn) { document.querySelectorAll('.repo-nav').forEach(b => b.classList.remove('active')); btn.classList.add('active'); }
+      const res = await fetch(`/api/list?vault=${v}`);
+      const files = await res.json();
+      const list = document.getElementById('fileList'); 
+      list.innerHTML = `<h3 style="padding:20px; font-size:0.7rem; color:var(--accent); border-bottom:1px solid var(--border); margin:0;">EXPLORING: ${v}</h3>`;
+      files.forEach(f => {
+        const div = document.createElement('div'); div.className = 'file-card';
+        div.innerHTML = `<span>📄 ${f.name}</span><span style="color:#444; font-size:0.7rem;">${f.size}</span>`;
+        div.onclick = () => openFile(`vaults/${v}/${f.name}`);
+        list.appendChild(div);
+      });
+      switchTab('vaults', document.querySelectorAll('.tab')[0]);
+    }
+
+    async function openFile(p) {
+      const res = await fetch(`/api/raw?path=${p}`);
+      if(res.status === 401) return;
+      document.getElementById('editor').value = await res.text();
+      document.getElementById('currentPath').innerText = p.toUpperCase();
+      switchTab('editor', document.querySelectorAll('.tab')[1]);
+    }
+
+    async function saveFile() {
+      const res = await fetch('/api/save', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ path: document.getElementById('currentPath').innerText.toLowerCase(), content: document.getElementById('editor').value }) });
+      if(res.ok) log("Commit Successful.", "OK");
+    }
+
+    const c = document.getElementById('matrix'); const x = c.getContext('2d');
+    c.width = window.innerWidth; c.height = window.innerHeight;
+    const d = Array(Math.floor(c.width/20)).fill(1);
+    function draw() { x.fillStyle='rgba(3,3,3,0.1)'; x.fillRect(0,0,c.width,c.height); x.fillStyle=getComputedStyle(document.body).getPropertyValue('--accent'); x.font='15px monospace'; d.forEach((y,i)=>{ x.fillText(Math.random()>0.5?"0":"1",i*20,y*20); if(y*20>c.height&&Math.random()>0.975)d[i]=0; d[i]++; }); }
+    setInterval(draw, 33);
+    setInterval(async () => { try { const r = await fetch('/api/hw'); const d = await r.json(); document.getElementById('cpu').innerText = d.cpu + "%"; if(d.locked) location.reload(); } catch(e){} }, 3000);
+  </script>
+</body>
+</html>

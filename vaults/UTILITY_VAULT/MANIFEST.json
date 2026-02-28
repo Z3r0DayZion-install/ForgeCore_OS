@@ -1,0 +1,9 @@
+{
+  "vault": "UTILITY_VAULT",
+  "created": "2026-02-25T12:00:00Z",
+  "maintainer": "SYS_ADMIN_BETA",
+  "tools": [
+    { "name": "Titan Audit", "path": "scripts/TITAN_AUDIT.js" },
+    { "name": "Kernel Resurrection", "path": "core/kernel_resurrection.js" }
+  ]
+}

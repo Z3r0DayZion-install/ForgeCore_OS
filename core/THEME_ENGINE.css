@@ -1,0 +1,42 @@
+:root {
+  --bg: #030303; --panel: rgba(10, 10, 10, 0.95); --border: rgba(255, 0, 60, 0.2);
+  --accent: #ff003c; --text: #e0e0e0; --dim: #666; --ok: #00ff41; --glow: rgba(255, 0, 60, 0.3);
+}
+
+[data-theme="Cobalt"] {
+  --accent: #0088ff; --border: rgba(0, 136, 255, 0.2); --glow: rgba(0, 136, 255, 0.3);
+}
+
+[data-theme="Emerald"] {
+  --accent: #00ff41; --border: rgba(0, 255, 65, 0.2); --glow: rgba(0, 255, 65, 0.3);
+}
+
+[data-theme="Amber"] {
+  --accent: #ff8c00; --border: rgba(255, 140, 0, 0.2); --glow: rgba(255, 140, 0, 0.3);
+}
+
+* { box-sizing: border-box; transition: border-color 0.3s, color 0.3s, background 0.3s; }
+
+body { margin: 0; background: var(--bg); color: var(--text); font-family: 'JetBrains Mono', monospace; height: 100vh; overflow: hidden; }
+
+.glass { background: var(--panel); backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); border: 1px solid var(--border); }
+
+.glow-text { text-shadow: 0 0 10px var(--glow); }
+.glow-border { box-shadow: 0 0 15px var(--glow); }
+
+.tab { padding: 12px 25px; cursor: pointer; font-size: 0.7rem; color: var(--dim); border-bottom: 2px solid transparent; text-transform: uppercase; letter-spacing: 2px; }
+.tab:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.tab.active { color: var(--accent); border-bottom: 2px solid var(--accent); background: rgba(255,0,60,0.05); }
+
+.card { background: rgba(255,255,255,0.02); border: 1px solid var(--border); padding: 20px; border-radius: 4px; margin-bottom: 20px; }
+
+input[type="text"], input[type="password"], select {
+  background: #000; border: 1px solid var(--border); color: white; padding: 10px; font-family: inherit; outline: none; border-radius: 4px;
+}
+input:focus { border-color: var(--accent); box-shadow: 0 0 10px var(--glow); }
+
+.btn-primary {
+  background: var(--accent); color: white; border: none; padding: 12px 25px; cursor: pointer;
+  text-transform: uppercase; font-weight: bold; letter-spacing: 1px; border-radius: 4px;
+}
+.btn-primary:hover { background: white; color: var(--accent); box-shadow: 0 0 20px var(--glow); }

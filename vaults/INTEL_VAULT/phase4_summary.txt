@@ -1,0 +1,8 @@
+
+## Phase4-repeatability @ 2026-02-24T23:05:36.649131Z
+criterion: folder.manifest.sha256 stable across 3 runs; zip.sha256 allowed to drift (pack timestamp in zip paths)
+stable.folder.manifest.sha256=6ECE1CD5E0FEFD57C6D8D630D56D2A5025838B5FA49C6DA2B7EDC73A3E77B619
+desktop.commit=556f201913b91236ae6bfa6e83cf96170a3d7db3
+parent.commit=c35b6e3bed057fe57f809ab21f8a8d2c940fd117
+phase4.runs=phase4-burnin-run1,phase4-burnin-run2,phase4-burnin-run3
+

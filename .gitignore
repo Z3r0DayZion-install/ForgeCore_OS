@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+artifacts/
+*.log
+
+# Rust
+**/target/
+**/*.pdb
+**/*.rlib
+**/*.rmeta
+
+# Secrets
+.env
+*.key
+*.pem
+secrets/
