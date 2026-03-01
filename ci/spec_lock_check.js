@@ -2,9 +2,10 @@ const fs = require("fs");
 const { execSync } = require("child_process");
 
 const frozenFiles = [
-  "docs/security/CRYPTO_SPEC.md",
-  "docs/security/MERKLE_SPEC.md",
+  "docs/security/CRYPTOGRAPHIC_ARCHITECTURE_SPEC.md",
   "docs/security/ANTI_ROLLBACK_PROTOCOL.md",
+  "docs/security/THREAT_REGRESSION_POLICY.md",
+  "docs/release/MANIFEST_SPEC.md",
   "release/manifest.schema.json",
   "ARCHITECTURE_LOCK_STATE.md"
 ];
@@ -13,7 +14,9 @@ const lockStateFile = "ARCHITECTURE_LOCK_STATE.md";
 
 function getDiff(file) {
   try {
-    return execSync(`git diff HEAD -- ${file}`).toString().trim();
+    // Check both staged and unstaged changes against HEAD
+    const diff = execSync(`git diff HEAD -- ${file}`).toString().trim();
+    return diff;
   } catch (e) {
     return "";
   }
@@ -40,15 +43,12 @@ function checkSpecLock() {
   }
 
   if (violations.length > 0) {
-    console.error("
-❌ SPEC LOCK VIOLATION DETECTED:");
+    console.error("\n❌ SPEC LOCK VIOLATION DETECTED:");
     violations.forEach(v => console.error(` - ${v}`));
-    console.error("
-Level 3 changes require ARCHITECTURE_LOCK_STATE update and version bump.");
+    console.error("\nChanges to frozen specifications require ARCHITECTURE_LOCK_STATE update.");
     process.exit(1);
   } else {
-    console.log("
-✅ Spec lock check passed.");
+    console.log("\n✅ Spec lock check passed.");
     process.exit(0);
   }
 }
