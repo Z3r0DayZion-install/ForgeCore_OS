@@ -1,6 +1,6 @@
 # ARCHITECTURE_LOCK_STATE
 **Project:** NeuralCache  
-**Version:** v3.1 (Current)  
+**Version:** v3.2 (Current)  
 **Status:** ARCHITECTURE_LOCKED
 
 ## Current Locked Versions:
