@@ -1,5 +1,6 @@
 "use strict";
 
+const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const SecurityAudit = require('./security_audit');
@@ -20,8 +21,10 @@ const KernelResurrection = {
             const backup = path.join(historyDir, f);
             
             if (fs.existsSync(backup)) {
-                const currentHash = fs.readFileSync(current, 'utf8');
-                const backupHash = fs.readFileSync(backup, 'utf8');
+                const currentContent = fs.readFileSync(current);
+                const backupContent = fs.readFileSync(backup);
+                const currentHash = crypto.createHash('sha256').update(currentContent).digest('hex');
+                const backupHash = crypto.createHash('sha256').update(backupContent).digest('hex');
                 
                 if (currentHash !== backupHash) {
                     console.warn(`[HEALER] Corruption detected in ${f}. Resurrecting...`);

@@ -71,7 +71,7 @@ const DECOY_VAULTS = {
 
 const server = http.createServer((req, res) => {
     const url = new URL(req.url, `http://localhost:3000`);
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     const clientIP = req.connection.remoteAddress || req.socket.remoteAddress;
 
@@ -151,8 +151,14 @@ const server = http.createServer((req, res) => {
         let body = ''; req.on('data', c => body += c);
         req.on('end', () => {
             const { passphrase } = JSON.parse(body);
-            // Master Key Verification
-            if (passphrase === "FORGE_MASTER_2026") {
+            // Master Key Verification — compare against hashed passphrase from config
+            const expectedHash = CONFIG.security.passphraseHash;
+            if (!expectedHash) {
+                res.writeHead(500);
+                return res.end(JSON.stringify({ success: false, error: "No passphrase hash configured. Run setup first." }));
+            }
+            const inputHash = crypto.createHash('sha256').update(passphrase).digest('hex');
+            if (crypto.timingSafeEqual(Buffer.from(inputHash, 'hex'), Buffer.from(expectedHash, 'hex'))) {
                 sessionPassphrase = passphrase;
                 failedAttempts = 0;
                 GHOST_MODE = false;
@@ -184,8 +190,18 @@ const server = http.createServer((req, res) => {
                 } else if (command === "audit") {
                     output = `[AUDITOR] Current Core Seal: ${SecurityAudit.seal(CORE_DIR)}`;
                 } else if (command === "hotload") {
-                    const artifact = fs.readFileSync(path.join(VAULT_DIR, 'UTILITY_VAULT', args[0]), 'utf8');
-                    const result = await Lazarus.process(artifact, (a) => eval(a));
+                    // Sanitize filename to prevent path traversal
+                    const safeName = path.basename(String(args[0] || ''));
+                    if (!safeName || safeName === '.' || safeName === '..') {
+                        throw new Error('Invalid artifact name');
+                    }
+                    const artifactPath = path.join(VAULT_DIR, 'UTILITY_VAULT', safeName);
+                    if (!artifactPath.startsWith(path.join(VAULT_DIR, 'UTILITY_VAULT'))) {
+                        throw new Error('Path traversal blocked');
+                    }
+                    const artifact = fs.readFileSync(artifactPath, 'utf8');
+                    // Process artifact through Lazarus WITHOUT eval — use safe execution only
+                    const result = await Lazarus.process(artifact, { execute: null });
                     output = `[LAZARUS] Hot-load result: ${JSON.stringify(result.result)}`;
                 } else {
                     output = `[ERR] Unknown command: ${command}`;
@@ -236,12 +252,16 @@ const server = http.createServer((req, res) => {
         if (!sessionPassphrase) { res.writeHead(401); return res.end("LOCKED"); }
         if (GHOST_MODE) return res.end(crypto.randomBytes(1024)); // Tier 3: Holographic Noise
         let reqPath = url.searchParams.get('path') || '';
+        // Block path traversal sequences before any processing
+        if (reqPath.includes('..') || reqPath.includes('\0')) {
+            res.writeHead(403); return res.end("FORBIDDEN");
+        }
         if (CONFIG.ui.shadowMask) {
             for (const [mask, real] of Object.entries(SHADOW_MAP)) {
                 if (reqPath.startsWith(`vaults/${mask}`)) reqPath = reqPath.replace(`vaults/${mask}`, `vaults/${real}`);
             }
         }
-        const p = path.join(ROOT_DIR, reqPath);
+        const p = path.resolve(ROOT_DIR, reqPath);
         if (!p.startsWith(ROOT_DIR)) { res.writeHead(403); return res.end("FORBIDDEN"); }
         try {
             // Tier 3: Direct Buffer I/O for VaultCrypt
