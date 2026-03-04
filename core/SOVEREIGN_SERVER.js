@@ -12,6 +12,12 @@ const VaultCrypt = require('./vault_crypt');
 const Lazarus = require('./lazarus');
 const KernelResurrection = require('./kernel_resurrection');
 const TelemetryLedger = require('./telemetry_ledger');
+const {
+    resolvePassphraseHash,
+    verifyPassphrase,
+    resolveSafeRootPath,
+    resolveUtilityArtifactPath
+} = require('./security_guards');
 
 /**
  * FORGECORE™ OS // v2.0 IMMORTAL EDITION [SINGULARITY-PRIME]
@@ -50,6 +56,7 @@ if (!CONFIG.security.dnaSeal) {
 // 2. CORE INTEGRITY SEAL
 const CORE_HASH = SecurityAudit.seal(CORE_DIR);
 console.log(`[IMMORTAL] CORE_SEAL: ${CORE_HASH.substring(0, 16)}`);
+const PASSPHRASE_HASH = resolvePassphraseHash(CONFIG.security.passphraseHash);
 
 let sessionPassphrase = null;
 let failedAttempts = 0;
@@ -71,7 +78,7 @@ const DECOY_VAULTS = {
 
 const server = http.createServer((req, res) => {
     const url = new URL(req.url, `http://localhost:3000`);
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     const clientIP = req.connection.remoteAddress || req.socket.remoteAddress;
 
@@ -151,8 +158,12 @@ const server = http.createServer((req, res) => {
         let body = ''; req.on('data', c => body += c);
         req.on('end', () => {
             const { passphrase } = JSON.parse(body);
-            // Master Key Verification
-            if (passphrase === "FORGE_MASTER_2026") {
+            // Master Key Verification — compare against hashed passphrase from config
+            if (!PASSPHRASE_HASH) {
+                res.writeHead(500);
+                return res.end(JSON.stringify({ success: false, error: "No passphrase hash configured. Run setup first." }));
+            }
+            if (verifyPassphrase(passphrase, PASSPHRASE_HASH)) {
                 sessionPassphrase = passphrase;
                 failedAttempts = 0;
                 GHOST_MODE = false;
@@ -184,8 +195,10 @@ const server = http.createServer((req, res) => {
                 } else if (command === "audit") {
                     output = `[AUDITOR] Current Core Seal: ${SecurityAudit.seal(CORE_DIR)}`;
                 } else if (command === "hotload") {
-                    const artifact = fs.readFileSync(path.join(VAULT_DIR, 'UTILITY_VAULT', args[0]), 'utf8');
-                    const result = await Lazarus.process(artifact, (a) => eval(a));
+                    const artifactPath = resolveUtilityArtifactPath(VAULT_DIR, args[0]);
+                    const artifact = fs.readFileSync(artifactPath, 'utf8');
+                    // Process artifact through Lazarus WITHOUT eval — use safe execution only
+                    const result = await Lazarus.process(artifact, { execute: null });
                     output = `[LAZARUS] Hot-load result: ${JSON.stringify(result.result)}`;
                 } else {
                     output = `[ERR] Unknown command: ${command}`;
@@ -241,9 +254,8 @@ const server = http.createServer((req, res) => {
                 if (reqPath.startsWith(`vaults/${mask}`)) reqPath = reqPath.replace(`vaults/${mask}`, `vaults/${real}`);
             }
         }
-        const p = path.join(ROOT_DIR, reqPath);
-        if (!p.startsWith(ROOT_DIR)) { res.writeHead(403); return res.end("FORBIDDEN"); }
         try {
+            const p = resolveSafeRootPath(ROOT_DIR, reqPath);
             // Tier 3: Direct Buffer I/O for VaultCrypt
             if (reqPath.includes('/vaults/')) {
                 const encryptedBuf = fs.readFileSync(p);
@@ -265,9 +277,8 @@ const server = http.createServer((req, res) => {
                     if (reqPath.startsWith(`vaults/${mask}`)) reqPath = reqPath.replace(`vaults/${mask}`, `vaults/${real}`);
                 }
             }
-            const p = path.join(ROOT_DIR, reqPath);
-            if (!p.startsWith(ROOT_DIR)) { res.writeHead(403); return res.end("FORBIDDEN"); }
             try {
+                const p = resolveSafeRootPath(ROOT_DIR, reqPath);
                 // Tier 3: Buffer writing for Holographic encryption
                 // Use the absolute path `p` to check if it's going into the vaults, overcoming any mask bypass
                 if (p.includes('vaults')) {
