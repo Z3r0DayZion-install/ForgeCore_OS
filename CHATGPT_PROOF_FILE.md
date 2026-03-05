@@ -149,9 +149,9 @@ Executed in this workspace on March 5, 2026:
 Source: `dist/release-manifest.json` + `dist/forgecore-os-2.0.0.sha256.txt`
 
 - Artifact: `dist/forgecore-os 2.0.0.exe`
-- Size: `84,708,810` bytes
-- SHA-256: `9CC687001043DC30D4A6ACADE781F4885456DDA2D45A01D9776D4F165BE815E4`
-- Manifest timestamp: `2026-03-05T21:16:27.548Z`
+- Size: `84,711,372` bytes
+- SHA-256: `BCE82D1CABF15061227A1D2E7D0C9E8E94D96BFCA13E53E836F0853087348613`
+- Manifest timestamp: `2026-03-05T22:06:41.105Z`
 - Specs manifest: `dist/specs-manifest.json`
 - Specs manifest SHA-256: `4228DDC97B4DA2A7B9BED76840509930E29119CAE6D53B3275EFCB8AA1EC3784`
 - Specs signatures: `dist/specs-manifest.signatures.json`

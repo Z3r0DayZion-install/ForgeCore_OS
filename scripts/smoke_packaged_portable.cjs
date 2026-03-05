@@ -15,9 +15,14 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function requestJson(route) {
+function requestJson(route, opts = {}) {
+    const method = String(opts.method || "GET").toUpperCase();
+    const headers = { ...(opts.headers || {}) };
+    const body = opts.body === undefined ? null : JSON.stringify(opts.body);
+    if (body) headers["Content-Type"] = "application/json";
+
     return new Promise((resolve, reject) => {
-        const req = http.request(`${BASE}${route}`, { method: "GET" }, (res) => {
+        const req = http.request(`${BASE}${route}`, { method, headers }, (res) => {
             let raw = "";
             res.on("data", (chunk) => raw += chunk.toString("utf8"));
             res.on("end", () => {
@@ -31,6 +36,7 @@ function requestJson(route) {
             });
         });
         req.on("error", reject);
+        if (body) req.write(body);
         req.end();
     });
 }
@@ -132,6 +138,74 @@ async function assertStaticAssets() {
     }
 }
 
+async function assertRuntimeApiWiring() {
+    const unlock = await requestJson("/api/system/unlock", {
+        method: "POST",
+        body: { passphrase: String(process.env.FORGE_MASTER_PASSPHRASE || "FORGE_MASTER_2026") }
+    });
+    if (unlock.statusCode !== 200 || !unlock.json || !unlock.json.token) {
+        throw new Error(`unlock_failed:status=${unlock.statusCode}`);
+    }
+
+    const authHeaders = {
+        Authorization: `Bearer ${unlock.json.token}`
+    };
+
+    const routes = [
+        "/api/system/info",
+        "/api/system/timeline",
+        "/api/system/ledger",
+        "/api/peers",
+        "/api/swarm/status",
+        "/api/tear/stats",
+        "/api/tear/witnesses",
+        "/api/forge/repos"
+    ];
+    for (const route of routes) {
+        const res = await requestJson(route, { headers: authHeaders });
+        if (res.statusCode !== 200) {
+            throw new Error(`runtime_route_failed:${route}:status=${res.statusCode}`);
+        }
+    }
+
+    const execRes = await requestJson("/api/system/execute", {
+        method: "POST",
+        headers: authHeaders,
+        body: { commandString: "status" }
+    });
+    if (execRes.statusCode !== 200 || !execRes.json || !execRes.json.output) {
+        throw new Error(`runtime_execute_failed:status=${execRes.statusCode}`);
+    }
+
+    const probeName = `packaged_probe_${Date.now()}.txt`;
+    const createRes = await requestJson("/api/vault/new", {
+        method: "POST",
+        headers: authHeaders,
+        body: { vault: "INTEL_VAULT", name: probeName, content: "PACKAGED_OK" }
+    });
+    if (createRes.statusCode !== 200 || !createRes.json || createRes.json.ok !== true) {
+        throw new Error(`runtime_vault_new_failed:status=${createRes.statusCode}`);
+    }
+
+    const listRes = await requestJson("/api/list?vault=INTEL_VAULT", { headers: authHeaders });
+    if (listRes.statusCode !== 200 || !Array.isArray(listRes.json)) {
+        throw new Error(`runtime_vault_list_failed:status=${listRes.statusCode}`);
+    }
+    const found = listRes.json.some((row) => row && row.name === probeName);
+    if (!found) {
+        throw new Error("runtime_vault_probe_missing_after_create");
+    }
+
+    const deleteRes = await requestJson("/api/vault/delete", {
+        method: "POST",
+        headers: authHeaders,
+        body: { vault: "INTEL_VAULT", file: probeName }
+    });
+    if (deleteRes.statusCode !== 200 || !deleteRes.json || deleteRes.json.ok !== true) {
+        throw new Error(`runtime_vault_delete_failed:status=${deleteRes.statusCode}`);
+    }
+}
+
 function killTree(pid) {
     if (!pid) return;
     try {
@@ -161,9 +235,11 @@ async function main() {
             throw new Error("invalid_handshake_payload");
         }
         await assertStaticAssets();
+        await assertRuntimeApiWiring();
         console.log(`[SMOKE] exe=${path.basename(artifactPath)}`);
         console.log(`[SMOKE] handshakeStatus=${String(handshake.status || "unknown")}`);
         console.log(`[SMOKE] seal=${String(handshake.seal || "").slice(0, 16)}`);
+        console.log("[SMOKE] runtimeApi=OK");
         console.log("[SMOKE] status=OK");
     } finally {
         killTree(child.pid);

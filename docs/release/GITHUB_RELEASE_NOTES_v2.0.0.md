@@ -15,8 +15,8 @@ Generated (manifest): `2026-03-05T21:16:27.548Z`
 ## Integrity proof
 
 - Artifact: `forgecore-os 2.0.0.exe`
-- Size: `84,708,810` bytes
-- SHA-256: `9CC687001043DC30D4A6ACADE781F4885456DDA2D45A01D9776D4F165BE815E4`
+- Size: `84,711,372` bytes
+- SHA-256: `BCE82D1CABF15061227A1D2E7D0C9E8E94D96BFCA13E53E836F0853087348613`
 - Specs manifest SHA-256: `4228DDC97B4DA2A7B9BED76840509930E29119CAE6D53B3275EFCB8AA1EC3784`
 - Specs signatures SHA-256: `0897E327B3552ADD2EFB685284A7F6A0CE5BF1C95C4FB8F507BD96CB1CF2D246`
 
@@ -25,6 +25,7 @@ Generated (manifest): `2026-03-05T21:16:27.548Z`
 - `npm run release:harden:stable` PASS
 - `npm run founder:ops` PASS
 - `npm run release:align:stable` PASS
+- `npm run smoke:portable` PASS (`runtimeApi=OK`)
 - Dist publish alignment: `OK`
 - Deployed publish alignment: `OK`
 
@@ -40,4 +41,3 @@ Generated (manifest): `2026-03-05T21:16:27.548Z`
 - `specs-manifest.signatures.json`
 - `specs-manifest.sig.stub.json`
 - `CHATGPT_PROOF_FILE.md`
-
