@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "repos/minepacks/NeuralEmpire_ChatArchive_MinePack",
+  "bundleSha256": "C0C48A7350FAF045F3A7B9F298CC8616789019E8089FEF740B146B70651A60B8",
+  "files": [
+    {
+      "path": "00_OVERVIEW.md",
+      "bytes": 674,
+      "sha256": "C00F958164D1AF1C9E491D9D42AD61C328D95D0C2702D30CB7C7A7DB01938373"
+    },
+    {
+      "path": "01_TOP_TERMS.md",
+      "bytes": 2106,
+      "sha256": "6D166D443A7FBDB67DECBD0046A1107D7EC2EEAE768050E52777B694B34F3220"
+    },
+    {
+      "path": "02_GREENPRINT_GOLDPRINT_VERIFICATION.md",
+      "bytes": 4797,
+      "sha256": "0524D883B6BBE0F05B512AA4D8A7C574310A75217EAA2D37904A5E5A298F4B1E"
+    },
+    {
+      "path": "03_STARTUP_OPPORTUNITY_SHORTLIST.md",
+      "bytes": 424,
+      "sha256": "63A09AF80AC214195DB93585DA5BF924A2DDA10C5135580872AE494FE61736CF"
+    },
+    {
+      "path": "codex_prompts/00_SYSTEM.md",
+      "bytes": 225,
+      "sha256": "A129FA3D60C6FE002AE96272FC9BB627BF1C9BC7D805AD3AD796FFC1B35A010E"
+    },
+    {
+      "path": "codex_prompts/01_MINE_TO_SPECS.md",
+      "bytes": 297,
+      "sha256": "6C482C726A688C625E564EC8309FE70EFCEDBC0DC6259AB06997D3E99D0607C8"
+    },
+    {
+      "path": "data/project_presence.json",
+      "bytes": 756,
+      "sha256": "91D4923AF8A7B648266CF69C1BA5E9FF893EA885E7F4FDFB7CC01D226F813FF5"
+    },
+    {
+      "path": "data/top_brands.json",
+      "bytes": 13556,
+      "sha256": "E162C6A4314BB90AE85799A0EDBEEF1A41E8726425D757B4181A6A35F279D48E"
+    },
+    {
+      "path": "projects/HyperSnatch.md",
+      "bytes": 2199,
+      "sha256": "ABEC55E36EB478D834805E2FA63FAD9B4421D5B233B03631F90CE308B87E7609"
+    },
+    {
+      "path": "projects/Mind_Unset.md",
+      "bytes": 2628,
+      "sha256": "525EBC02E26CEFC09A4DD4E59B16F4C821C3E55F1BE4EE47FB1734FC9E289372"
+    },
+    {
+      "path": "projects/NeuralBrowser.md",
+      "bytes": 1613,
+      "sha256": "1AEA3006149A5B58A682E9E620FBF46C7921ACE5FA2123454C07C36A0EBA0FDD"
+    },
+    {
+      "path": "projects/NeuralLink.md",
+      "bytes": 2096,
+      "sha256": "77D14175BDB932E19BF389BDFB04CB936141A8DEF7123DA645F123A63CBBD4CC"
+    },
+    {
+      "path": "projects/NeuralOS.md",
+      "bytes": 2226,
+      "sha256": "81DE2A468B8FB168E752F8EB748CD97C77A4E3CF73A2C09CD3232452E2664091"
+    },
+    {
+      "path": "projects/NeuralShell.md",
+      "bytes": 2370,
+      "sha256": "7A7DF506DDB8401C60BE6676CC8618A166CFC68BE069AFF8FEB895C29E630377"
+    },
+    {
+      "path": "projects/NeuralShield.md",
+      "bytes": 1307,
+      "sha256": "B4B8FA530252A5AF001F0F92E965A4E9861E845CB4BACF14F646B49A0B23FDE8"
+    },
+    {
+      "path": "projects/NeuralTube.md",
+      "bytes": 2363,
+      "sha256": "A9DFB2EF8B60AE4CE77BCC6B53BBF240F5A5691397A0873DEF26562BEDAFC34D"
+    },
+    {
+      "path": "projects/NeuralVault.md",
+      "bytes": 2612,
+      "sha256": "DA5F833A18D5AA7A3618A183CE65D7EFA78F3F3D5BFC6C2B04DB86F3A284C24D"
+    },
+    {
+      "path": "projects/NeuroDrop.md",
+      "bytes": 2614,
+      "sha256": "BE5BCE02DD0EDB8B8AB69F64969A33E55AEB54B848BBC10F621249DE2A0A6296"
+    },
+    {
+      "path": "projects/Obey.md",
+      "bytes": 2402,
+      "sha256": "5715564C4E37FADC6B21EF79E136E44CDD63ED03CF6543B37D730106FB3A5CFC"
+    },
+    {
+      "path": "projects/Refund_Ops.md",
+      "bytes": 2619,
+      "sha256": "81CC178EA5A37AE2ED3C0788833E0E09985E3FD92176D237E371E6A0EA7D2EBC"
+    },
+    {
+      "path": "projects/Scamazon.md",
+      "bytes": 2421,
+      "sha256": "6DE1A7A94C95E8D0C569F77124F5979BFEB80571ACED7198C399A3FA80A8250E"
+    },
+    {
+      "path": "projects/Snoozurp.md",
+      "bytes": 2350,
+      "sha256": "16FFD9692A7EA3BB23A8FAD2F4D27CF50AB597F5AFF7EE8C49F87C1EEB2BF9CB"
+    },
+    {
+      "path": "projects/TearGrid.md",
+      "bytes": 1412,
+      "sha256": "5934B4585780C59AF94CCF2151B8B4735AB35D15EE04EE9BE784109B908C1933"
+    },
+    {
+      "path": "projects/TruthCore.md",
+      "bytes": 1290,
+      "sha256": "E86DFF5AEBEE594D22146CE21D9F2B9F7DD54457561ECE1FFFD14FD4DCC964F4"
+    },
+    {
+      "path": "projects/VaultPanel.md",
+      "bytes": 1799,
+      "sha256": "7B470DF203039A43E7DFDFFE8FB8BA85EAA7B64E3A152E1B8AE78D830C5DFA5C"
+    },
+    {
+      "path": "projects/VIPN.md",
+      "bytes": 1834,
+      "sha256": "0182C1CD1FD3D9189A2DF130E2C4F57C1B4F20A0A84D7DA105FE068D94CDBDBA"
+    },
+    {
+      "path": "projects/WinShadow.md",
+      "bytes": 1842,
+      "sha256": "B81335026D5532EA8C08EC241591B6BDDD6904FD86B4641A6A92A778FF296924"
+    },
+    {
+      "path": "projects/XXXplorer.md",
+      "bytes": 1702,
+      "sha256": "768EAE2A4712B783B583AE9C00B759414700778A97C614EC0B23F55AA010BA84"
+    },
+    {
+      "path": "projects/ZeroTrace.md",
+      "bytes": 2613,
+      "sha256": "5D2B5658CAFE9E685BC1409CF3C72A9C3661E85DBD1AA3C9381C844F704FB036"
+    }
+  ]
+}

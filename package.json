@@ -1,0 +1,113 @@
+{
+    "name": "forgecore-os",
+    "version": "2.0.0",
+    "description": "ForgeCore™ OS // Singularity-Prime",
+    "main": "electron_main.js",
+    "scripts": {
+        "start": "electron .",
+        "server": "node core/v3_sovereign_server.js",
+        "dev": "concurrently \"npm run server\" \"wait-on http://localhost:3000 && npm start\"",
+        "build:zerotrace": "pkg zerotrace_standalone.js --target node18-win-x64 --output dist/ZeroTrace.exe",
+        "manifest:refresh": "node scripts/refresh_manifest_signature.cjs",
+        "specs:generate": "node scripts/generate_minepack_specs.cjs",
+        "specs:materialize:obey": "node scripts/materialize_obey_outputs.cjs",
+        "specs:materialize:mind_unset": "node scripts/materialize_mind_unset_outputs.cjs",
+        "specs:check": "node scripts/generate_minepack_specs.cjs --check",
+        "specs:verify": "node scripts/verify_specs_bundle.cjs",
+        "specs:sign": "node scripts/sign_specs_manifest.cjs",
+        "specs:verify:signatures": "node scripts/verify_specs_signatures.cjs",
+        "specs:attest": "npm run specs:verify && npm run specs:sign && npm run specs:verify:signatures",
+        "test:specs:obey": "node tests/specs_obey_outputs.test.cjs",
+        "test:specs:mind_unset": "node tests/specs_mind_unset_outputs.test.cjs",
+        "build:portable": "npm run manifest:refresh && electron-builder --win portable",
+        "release:portable": "npm run build:portable && node scripts/release_portable.cjs",
+        "verify:portable": "node scripts/verify_portable.cjs",
+        "verify:release": "node scripts/verify_release.cjs",
+        "verify:release:ps1": "powershell -ExecutionPolicy Bypass -File scripts/VERIFY_RELEASE.ps1",
+        "build:reproducible": "npm run specs:generate && npm run specs:materialize:obey && npm run specs:materialize:mind_unset && npm run test:specs:obey && npm run test:specs:mind_unset && npm run specs:attest && npm run build:portable && node scripts/release_portable.cjs && npm run verify:portable && npm run verify:release",
+        "smoke:portable": "node scripts/smoke_packaged_portable.cjs",
+        "test:resilience": "node tests/resilience_regression.js",
+        "prove:ghost-witness": "node scripts/prove_ghost_witness.cjs",
+        "founder:ops": "node scripts/founder_ops_pipeline.cjs",
+        "ship:ready": "node scripts/prepare_ship_bundle.cjs",
+        "sign:check:portable": "node scripts/check_signature_portable.cjs",
+        "update:metadata:portable": "node scripts/generate_update_metadata_portable.cjs",
+        "ship:portable": "npm run specs:check && npm run specs:materialize:obey && npm run specs:materialize:mind_unset && npm run test:specs:obey && npm run test:specs:mind_unset && npm run specs:attest && npm run release:portable && npm run verify:portable && npm run smoke:portable && npm run sign:check:portable && npm run update:metadata:portable",
+        "ship:portable:strict": "cmd /c \"set FORGE_REQUIRE_SIGNED=1&& npm run ship:portable\"",
+        "trust:check": "node scripts/check_trust_root.cjs",
+        "trust:list": "node scripts/trust_root_manage.cjs list",
+        "trust:keygen": "node scripts/generate_signing_keypair.cjs",
+        "trust:add:key": "node scripts/trust_root_manage.cjs add-key",
+        "trust:revoke:key": "node scripts/trust_root_manage.cjs revoke-key",
+        "trust:set:policy": "node scripts/trust_root_manage.cjs set-policy",
+        "publish:sign:portable": "node scripts/sign_publish_channel.cjs",
+        "publish:cosign:portable": "node scripts/publish_cosign_portable.cjs",
+        "publish:verify:portable": "node scripts/verify_publish_channel.cjs",
+        "publish:portable": "npm run trust:check && npm run ship:portable && node scripts/publish_portable_bundle.cjs && npm run publish:cosign:portable && npm run publish:verify:portable",
+        "publish:portable:strict": "cmd /c \"set FORGE_REQUIRE_SIGNED=1&& npm run publish:portable\"",
+        "deploy:publish:local": "node scripts/deploy_publish_local.cjs",
+        "release:align:stable": "node scripts/check_release_feed_alignment.cjs --channel stable --require-deployed",
+        "release:align:dist:stable": "node scripts/check_release_feed_alignment.cjs --channel stable --dist-only",
+        "release:harden:stable": "node scripts/release_harden_stable.cjs --channel stable",
+        "ship:portable:full": "npm run publish:portable && npm run deploy:publish:local && npm run feed:verify:local && npm run release:align:stable",
+        "feed:verify:local": "node scripts/install_portable_from_feed.cjs --verify-only",
+        "feed:verify:fresh": "cmd /c \"set FORGE_MAX_METADATA_AGE_DAYS=30&& npm run feed:verify:local\"",
+        "feed:install:local": "node scripts/install_portable_from_feed.cjs",
+        "feed:install:launch": "node scripts/install_portable_from_feed.cjs --launch",
+        "feed:install:force": "cmd /c \"set FORGE_ALLOW_DOWNGRADE=1&& npm run feed:install:local\""
+    },
+    "keywords": [],
+    "author": "FORGE_MASTER",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^31.7.7",
+        "electron-builder": "^24.13.3",
+        "pkg": "^5.8.1"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "monaco-editor": "^0.44.0",
+        "wait-on": "^7.2.0",
+        "xterm": "^5.3.0",
+        "xterm-addon-fit": "^0.8.0",
+        "y-websocket": "^3.0.0",
+        "yjs": "^13.6.29"
+    },
+    "pkg": {
+        "assets": [
+            "core/swarm/zerotrace.html"
+        ],
+        "targets": [
+            "node18-win-x64"
+        ]
+    },
+    "build": {
+        "files": [
+            "**/*",
+            "!dist/**",
+            "!release/**",
+            "!REPORTS_ARCHIVE/**",
+            "!.github/**",
+            "!CI_PIPELINE/**",
+            "!proof_bundle/**",
+            "!proof_bundle.zip",
+            "!.snapshots/**",
+            "!workflows/**",
+            "!rust_quantum_crypto/target/**",
+            "rust_quantum_crypto/target/release/rust_quantum_crypto.exe"
+        ],
+        "asarUnpack": [
+            "core/**"
+        ],
+        "directories": {
+            "output": "dist"
+        },
+        "win": {
+            "target": [
+                "portable"
+            ],
+            "artifactName": "forgecore-os ${version}.exe",
+            "signAndEditExecutable": true
+        }
+    }
+}

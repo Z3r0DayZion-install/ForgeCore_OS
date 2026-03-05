@@ -1,0 +1,21 @@
+{
+  "defaultDecision": "deny",
+  "rules": [
+    {
+      "action": "obey.read.status",
+      "description": "Read-only module status query",
+      "riskTier": "low"
+    },
+    {
+      "action": "obey.validate.contract",
+      "description": "Validate contract payload against deterministic schema",
+      "riskTier": "low"
+    },
+    {
+      "action": "obey.audit.emit",
+      "description": "Emit immutable audit event for accepted action",
+      "riskTier": "medium"
+    }
+  ],
+  "version": "1.0.0"
+}

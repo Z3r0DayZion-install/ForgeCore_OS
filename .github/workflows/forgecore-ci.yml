@@ -1,0 +1,71 @@
+name: ForgeCore CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  build-portable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate MinePack specs
+        run: npm run specs:generate
+
+      - name: Materialize Obey outputs
+        run: npm run specs:materialize:obey
+
+      - name: Test Obey outputs
+        run: npm run test:specs:obey
+
+      - name: Materialize MindUnset outputs
+        run: npm run specs:materialize:mind_unset
+
+      - name: Test MindUnset outputs
+        run: npm run test:specs:mind_unset
+
+      - name: Verify MinePack specs bundle
+        run: npm run specs:verify
+
+      - name: Build portable
+        run: npm run build:portable
+
+      - name: Generate release manifest
+        run: node scripts/release_portable.cjs
+
+      - name: Verify artifact
+        run: npm run verify:portable
+
+      - name: Verify release hash chain
+        run: npm run verify:release
+
+      - name: Build dist publish metadata
+        run: node scripts/publish_portable_bundle.cjs
+
+      - name: Verify dist release/feed alignment
+        run: npm run release:align:dist:stable
+
+      - name: Upload verification bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: forgecore-verification
+          path: |
+            dist/release-manifest.json
+            dist/*.sha256.txt
+            dist/artifact_hashes.txt
+            dist/specs-manifest.json
+            dist/specs-manifest.signatures.json
+            dist/specs-manifest.sig.stub.json
+            dist/release-feed-alignment.json

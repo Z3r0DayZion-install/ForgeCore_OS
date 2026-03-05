@@ -1,0 +1,22 @@
+{
+  "contractId": "mind_unset.context.widget",
+  "refreshIntervalMs": 4000,
+  "tiles": [
+    {
+      "id": "memory_snapshot",
+      "label": "Memory Snapshot",
+      "type": "status"
+    },
+    {
+      "id": "intent_profile",
+      "label": "Intent Profile",
+      "type": "status"
+    },
+    {
+      "id": "summary_digest",
+      "label": "Summary Digest",
+      "type": "counter"
+    }
+  ],
+  "version": "1.0.0"
+}

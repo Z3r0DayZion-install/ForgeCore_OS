@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "eventId": {
+      "minLength": 16,
+      "type": "string"
+    },
+    "eventType": {
+      "enum": [
+        "memory_snapshot",
+        "intent_profile",
+        "summary_emit"
+      ],
+      "type": "string"
+    },
+    "module": {
+      "const": "mind_unset",
+      "type": "string"
+    },
+    "outcome": {
+      "enum": [
+        "accepted",
+        "rejected"
+      ],
+      "type": "string"
+    },
+    "payloadSha256": {
+      "pattern": "^[A-F0-9]{64}$",
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "trace": {
+      "additionalProperties": false,
+      "properties": {
+        "blockCid": {
+          "minLength": 32,
+          "type": "string"
+        },
+        "chainHead": {
+          "minLength": 32,
+          "type": "string"
+        },
+        "sessionId": {
+          "minLength": 8,
+          "type": "string"
+        }
+      },
+      "required": [
+        "blockCid",
+        "chainHead",
+        "sessionId"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "eventId",
+    "eventType",
+    "module",
+    "outcome",
+    "payloadSha256",
+    "reason",
+    "timestamp",
+    "trace"
+  ],
+  "title": "MindUnsetAuditEvent",
+  "type": "object"
+}

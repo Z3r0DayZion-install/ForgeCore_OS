@@ -1,0 +1,21 @@
+{
+  "defaultDecision": "deny",
+  "rules": [
+    {
+      "action": "mind_unset.memory.snapshot",
+      "description": "Capture deterministic memory state summary",
+      "riskTier": "low"
+    },
+    {
+      "action": "mind_unset.intent.profile",
+      "description": "Compute deterministic intent profile from approved sources",
+      "riskTier": "low"
+    },
+    {
+      "action": "mind_unset.summary.emit",
+      "description": "Emit audit-safe summary payload for HUD and reports",
+      "riskTier": "medium"
+    }
+  ],
+  "version": "1.0.0"
+}

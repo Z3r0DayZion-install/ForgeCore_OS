@@ -1,0 +1,19 @@
+{
+  "action": "summarize",
+  "context": {
+    "domain": "memory",
+    "sessionId": "sess-0001",
+    "source": "vault.INTEL_VAULT"
+  },
+  "payload": {
+    "content": "Map known constraints and high-priority next operations.",
+    "labels": [
+      "deterministic",
+      "planning",
+      "defensive"
+    ],
+    "score": 0.93
+  },
+  "timestamp": "2026-03-05T20:50:00.000Z",
+  "version": "1.0.0"
+}

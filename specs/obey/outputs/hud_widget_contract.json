@@ -1,0 +1,22 @@
+{
+  "contractId": "obey.health.proof.widget",
+  "refreshIntervalMs": 5000,
+  "tiles": [
+    {
+      "id": "intent_decision",
+      "label": "Intent Decision",
+      "type": "status"
+    },
+    {
+      "id": "audit_sync",
+      "label": "Audit Sync",
+      "type": "status"
+    },
+    {
+      "id": "proof_bundle",
+      "label": "Proof Bundle",
+      "type": "counter"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "ingest",
+        "profile",
+        "summarize"
+      ],
+      "type": "string"
+    },
+    "context": {
+      "additionalProperties": false,
+      "properties": {
+        "domain": {
+          "enum": [
+            "memory",
+            "intent",
+            "ops"
+          ],
+          "type": "string"
+        },
+        "sessionId": {
+          "minLength": 8,
+          "type": "string"
+        },
+        "source": {
+          "minLength": 3,
+          "type": "string"
+        }
+      },
+      "required": [
+        "domain",
+        "sessionId",
+        "source"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "content": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "labels": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "score": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        }
+      },
+      "required": [
+        "content",
+        "labels",
+        "score"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "version": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "context",
+    "payload",
+    "timestamp",
+    "version"
+  ],
+  "title": "MindUnsetContract",
+  "type": "object"
+}

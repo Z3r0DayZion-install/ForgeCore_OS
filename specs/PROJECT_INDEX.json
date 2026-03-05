@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Obey",
+    "slug": "obey",
+    "mentions": 106,
+    "sourceType": "project_presence",
+    "sourceName": "Obey",
+    "dossier": "projects/Obey.md",
+    "spec": "specs/obey/SPEC.md",
+    "tasks": "specs/obey/TASKS.md",
+    "outputs": "specs/obey/outputs"
+  },
+  {
+    "name": "Mind Unset",
+    "slug": "mind_unset",
+    "mentions": 102,
+    "sourceType": "project_presence",
+    "sourceName": "Mind Unset",
+    "dossier": "projects/Mind_Unset.md",
+    "spec": "specs/mind_unset/SPEC.md",
+    "tasks": "specs/mind_unset/TASKS.md",
+    "outputs": "specs/mind_unset/outputs"
+  },
+  {
+    "name": "TearGrid",
+    "slug": "teargrid",
+    "mentions": 91,
+    "sourceType": "project_presence",
+    "sourceName": "TEAR",
+    "dossier": "projects/TearGrid.md",
+    "spec": "specs/teargrid/SPEC.md",
+    "tasks": "specs/teargrid/TASKS.md",
+    "outputs": "specs/teargrid/outputs"
+  },
+  {
+    "name": "Scamazon",
+    "slug": "scamazon",
+    "mentions": 87,
+    "sourceType": "project_presence",
+    "sourceName": "Scamazon",
+    "dossier": "projects/Scamazon.md",
+    "spec": "specs/scamazon/SPEC.md",
+    "tasks": "specs/scamazon/TASKS.md",
+    "outputs": "specs/scamazon/outputs"
+  },
+  {
+    "name": "NeuralOS",
+    "slug": "neuralos",
+    "mentions": 80,
+    "sourceType": "project_presence",
+    "sourceName": "NeuralOS",
+    "dossier": "projects/NeuralOS.md",
+    "spec": "specs/neuralos/SPEC.md",
+    "tasks": "specs/neuralos/TASKS.md",
+    "outputs": "specs/neuralos/outputs"
+  },
+  {
+    "name": "HyperSnatch",
+    "slug": "hypersnatch",
+    "mentions": 58,
+    "sourceType": "project_presence",
+    "sourceName": "HyperSnatch",
+    "dossier": "projects/HyperSnatch.md",
+    "spec": "specs/hypersnatch/SPEC.md",
+    "tasks": "specs/hypersnatch/TASKS.md",
+    "outputs": "specs/hypersnatch/outputs"
+  },
+  {
+    "name": "Refund Ops",
+    "slug": "refund_ops",
+    "mentions": 55,
+    "sourceType": "project_presence",
+    "sourceName": "Refund Ops",
+    "dossier": "projects/Refund_Ops.md",
+    "spec": "specs/refund_ops/SPEC.md",
+    "tasks": "specs/refund_ops/TASKS.md",
+    "outputs": "specs/refund_ops/outputs"
+  },
+  {
+    "name": "NeuralShell",
+    "slug": "neuralshell",
+    "mentions": 47,
+    "sourceType": "project_presence",
+    "sourceName": "NeuralShell",
+    "dossier": "projects/NeuralShell.md",
+    "spec": "specs/neuralshell/SPEC.md",
+    "tasks": "specs/neuralshell/TASKS.md",
+    "outputs": "specs/neuralshell/outputs"
+  },
+  {
+    "name": "WinShadow",
+    "slug": "winshadow",
+    "mentions": 43,
+    "sourceType": "project_presence",
+    "sourceName": "WinShadow",
+    "dossier": "projects/WinShadow.md",
+    "spec": "specs/winshadow/SPEC.md",
+    "tasks": "specs/winshadow/TASKS.md",
+    "outputs": "specs/winshadow/outputs"
+  },
+  {
+    "name": "NeuralTube",
+    "slug": "neuraltube",
+    "mentions": 39,
+    "sourceType": "project_presence",
+    "sourceName": "NeuralTube",
+    "dossier": "projects/NeuralTube.md",
+    "spec": "specs/neuraltube/SPEC.md",
+    "tasks": "specs/neuraltube/TASKS.md",
+    "outputs": "specs/neuraltube/outputs"
+  }
+]

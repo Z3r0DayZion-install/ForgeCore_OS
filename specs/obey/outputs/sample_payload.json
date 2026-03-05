@@ -1,0 +1,23 @@
+{
+  "action": "validate",
+  "actor": {
+    "id": "operator.local",
+    "role": "founder"
+  },
+  "intent": {
+    "category": "governance",
+    "riskTier": "low",
+    "tags": [
+      "deterministic",
+      "defensive"
+    ]
+  },
+  "payload": {
+    "command": "obey.validate.contract",
+    "parameters": {
+      "strict": true
+    }
+  },
+  "timestamp": "2026-03-05T20:00:00.000Z",
+  "version": "1.0.0"
+}

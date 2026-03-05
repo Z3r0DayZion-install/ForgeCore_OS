@@ -1,0 +1,42 @@
+{
+  "bundle": {
+    "format": "neurodrop-tear",
+    "module": "mind_unset",
+    "version": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "api_contract.schema.json",
+      "sha256": "1825C7238EB54AA009A88CE6B4BDE29E16486550A9182C330711E396EC480896"
+    },
+    {
+      "path": "sample_payload.json",
+      "sha256": "7E69A6D5EB452E7EDD533950160C3CC9365C2916E3155204F618C9D7142E0380"
+    },
+    {
+      "path": "intent_allowlist.json",
+      "sha256": "42E9B03EA52B6A372ED40449F7F3A9E2863E1234D1F0C9938ACD4A538E395577"
+    },
+    {
+      "path": "audit_event.schema.json",
+      "sha256": "11965721F2CC9F2375034023546694DF01DF51646807453427C2211F16389DDE"
+    },
+    {
+      "path": "hud_widget_contract.json",
+      "sha256": "2D4D84655E26EAB6A20C8DE3BD7BE2D9B5AB55247249144298C5F44337699117"
+    },
+    {
+      "path": "proof_bundle_checklist.md",
+      "sha256": "9F56C2319E43816192DEF574236CE40E3B6037C220B2AF656EE34EDD77E71A71"
+    },
+    {
+      "path": "verification_notes.md",
+      "sha256": "B8E465D14F958E30A87F706508E9802871531CA3B5057C06BC75C72CD896A85C"
+    }
+  ],
+  "policy": {
+    "deterministic": true,
+    "intentFirewallRequired": true,
+    "offlineFirst": true
+  }
+}
