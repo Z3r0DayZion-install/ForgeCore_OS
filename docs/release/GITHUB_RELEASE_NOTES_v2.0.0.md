@@ -1,8 +1,8 @@
-# ForgeCore OS v2.0.0 Final
+# ForgeCore OS v2.0.0 Final (R2)
 
-Tag: `v2.0.0-forgecore-final-20260305`  
-Commit: `9aee08468954a30463c4e4bb5e81b957ac4c3f29`  
-Generated (manifest): `2026-03-05T21:16:27.548Z`
+Tag: `v2.0.0-forgecore-final-20260305-r2`  
+Commit: `87f3624`  
+Generated (manifest): `2026-03-05T22:06:41.105Z`
 
 ## What shipped
 
