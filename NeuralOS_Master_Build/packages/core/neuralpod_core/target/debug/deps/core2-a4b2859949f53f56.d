@@ -1,0 +1,12 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\core2-a4b2859949f53f56.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\error.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\mod.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\cursor.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\error.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\impls.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\traits.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\util.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\libcore2-a4b2859949f53f56.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\error.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\mod.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\cursor.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\error.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\impls.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\traits.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\util.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\error.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\mod.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\cursor.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\error.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\impls.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\traits.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\core2-0.4.0\src\io\util.rs:

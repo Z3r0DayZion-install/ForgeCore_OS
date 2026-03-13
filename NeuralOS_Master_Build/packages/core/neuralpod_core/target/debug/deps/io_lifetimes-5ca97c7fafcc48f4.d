@@ -1,0 +1,10 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\io_lifetimes-5ca97c7fafcc48f4.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\portability.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\traits.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\example_ffi.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\raw.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\views.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\libio_lifetimes-5ca97c7fafcc48f4.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\portability.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\traits.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\example_ffi.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\raw.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\views.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\portability.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\traits.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\example_ffi.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\raw.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\io-lifetimes-1.0.11\src\views.rs:

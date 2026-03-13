@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { 
-  Terminal as TermIcon, Monitor, Grid, 
-  Cpu, Zap, Shield, Cpu as Processor,
-  HardDrive, Activity
-} from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { Terminal } from 'xterm';
+import { FitAddon } from 'xterm-addon-fit';
+import 'xterm/css/xterm.css';
+import { Activity, Monitor, Grid, Terminal as TermIcon } from 'lucide-react';
 
 declare global {
   interface Window {
@@ -11,44 +10,56 @@ declare global {
   }
 }
 
-const TerminalLine = ({ type, text }: { type: 'cmd' | 'res' | 'sys', text: string }) => {
-  const colors = {
-    cmd: 'text-neural-green',
-    res: 'text-gray-400',
-    sys: 'text-neural-blue'
-  };
-  return (
-    <div className="flex gap-2 font-mono text-xs mb-1">
-      <span className={colors[type]}>{type === 'cmd' ? '>' : type === 'sys' ? '#' : '|'}</span>
-      <span className={colors[type]}>{text}</span>
-    </div>
-  );
-};
-
 function App() {
-  const [lines, setLines] = useState([
-    { type: 'sys', text: 'NeuralLinux Kernel v1.0.1 Sovereign-Prime' },
-    { type: 'sys', text: 'Lineage confirmed via trustctl' },
-    { type: 'cmd', text: 'neofetch --sovereign' }
-  ]);
-  const [input, setInput] = useState('');
-  const terminalEndRef = useRef<null | HTMLDivElement>(null);
-
-  const handleCommand = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!input.trim()) return;
-
-    const newLines = [...lines, { type: 'cmd', text: input }];
-    setLines(newLines);
-    
-    const result = await window.neuralos.shell.execute(input);
-    setLines([...newLines, { type: 'res', text: result.response }]);
-    setInput('');
-  };
+  const terminalRef = useRef<HTMLDivElement>(null);
+  const xtermRef = useRef<Terminal | null>(null);
 
   useEffect(() => {
-    terminalEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [lines]);
+    if (!terminalRef.current) return;
+
+    // Initialize XTerm
+    const term = new Terminal({
+      theme: {
+        background: '#020202',
+        foreground: '#00ff00',
+        cursor: '#00ff00',
+        selectionBackground: 'rgba(0, 255, 0, 0.3)',
+      },
+      fontFamily: 'JetBrains Mono, Fira Code, monospace',
+      fontSize: 12,
+      cursorBlink: true,
+      allowTransparency: true,
+    });
+
+    const fitAddon = new FitAddon();
+    term.loadAddon(fitAddon);
+    term.open(terminalRef.current);
+    fitAddon.fit();
+
+    xtermRef.current = term;
+
+    // Connect to Native PTY Bridge
+    window.neuralos.pty.onData((data: string) => {
+      term.write(data);
+    });
+
+    term.onData((data) => {
+      window.neuralos.pty.send(data);
+    });
+
+    window.addEventListener('resize', () => {
+      fitAddon.fit();
+      window.neuralos.pty.resize(term.cols, term.rows);
+    });
+
+    term.writeln('\x1b[1;34m# NeuralLinux Kernel v1.0.1 Sovereign-Prime\x1b[0m');
+    term.writeln('\x1b[1;32m# Lineage confirmed via trustctl\x1b[0m');
+    term.writeln('');
+
+    return () => {
+      term.dispose();
+    };
+  }, []);
 
   return (
     <div className="h-screen w-screen bg-[#020202] text-neural-green overflow-hidden flex font-mono select-none">
@@ -73,12 +84,6 @@ function App() {
               <div className="h-full bg-neural-blue w-[68%]"></div>
             </div>
           </div>
-          <div>
-            <div className="text-[10px] text-gray-600 mb-2 uppercase">TRUST_INDEX</div>
-            <div className="h-1.5 w-full bg-neural-900 rounded-full overflow-hidden border border-neural-800">
-              <div className="h-full bg-neural-green w-[100%]"></div>
-            </div>
-          </div>
         </div>
 
         <div className="mt-auto flex flex-col gap-4 text-[10px]">
@@ -88,7 +93,7 @@ function App() {
           <button onClick={() => window.neuralos.shell.switch('neuralmac')} className="flex items-center gap-3 text-gray-500 hover:text-white transition-colors">
             <Grid size={14}/> NEURALMAC
           </button>
-          <button className="flex items-center gap-3 text-neural-green">
+          <button className="flex items-center gap-3 text-neural-green text-left">
             <TermIcon size={14}/> NEURALLINUX
           </button>
         </div>
@@ -96,28 +101,10 @@ function App() {
 
       {/* Terminal Main Area */}
       <div className="flex-1 flex flex-col bg-black/20 relative">
-        <div className="absolute top-4 right-6 text-[9px] text-gray-700 uppercase tracking-[0.5em]">
+        <div className="absolute top-4 right-6 z-10 text-[9px] text-gray-700 uppercase tracking-[0.5em]">
           Tiling_WM: i3-Sovereign
         </div>
-        
-        <div className="flex-1 p-8 overflow-y-auto custom-scrollbar">
-          {lines.map((line, i) => (
-            <TerminalLine key={i} {...line as any} />
-          ))}
-          <div ref={terminalEndRef} />
-        </div>
-
-        <form onSubmit={handleCommand} className="p-4 bg-neural-900/50 border-t border-neural-800 flex items-center gap-3">
-          <span className="text-neural-green font-bold">$</span>
-          <input 
-            autoFocus
-            type="text" 
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            className="bg-transparent border-none outline-none flex-1 text-xs text-neural-green font-mono uppercase"
-            placeholder="Command_Input..."
-          />
-        </form>
+        <div ref={terminalRef} className="flex-1 p-4 overflow-hidden" />
       </div>
     </div>
   );

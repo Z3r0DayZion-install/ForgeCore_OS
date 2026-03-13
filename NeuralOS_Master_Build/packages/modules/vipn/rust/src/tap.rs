@@ -1,22 +1,23 @@
 use std::error::Error;
+use windows_sys::Win32::NetworkManagement::IpHelper::*;
+use windows_sys::Win32::NetworkManagement::WindowsFilteringPlatform::*;
+use windows_sys::Win32::Foundation::*;
 
 /**
  * VIPN TAP Adapter Implementation (NT-VPN-03)
- * Exclusively for Windows Sovereign Nodes.
  */
+
 pub fn create_tap() -> Result<(), Box<dyn Error>> {
-    println!("[VIPN-TAP] Initializing Virtual Adapter...");
-    // TODO: Direct syscalls to create TAP-Windows6 adapter
+    println!("[VIPN-TAP] Virtual adapter creation stub.");
     Ok(())
 }
 
 pub fn enable_killswitch() -> Result<(), Box<dyn Error>> {
-    println!("[VIPN-WFP] Engaging Global Kill-Switch...");
-    // TODO: Implement WFP FWPM_CONDITION_IP_REMOTE_ADDRESS rules
+    println!("[VIPN-WFP] Sovereign kill-switch stub.");
     Ok(())
 }
 
 pub fn disable_killswitch() -> Result<(), Box<dyn Error>> {
-    println!("[VIPN-WFP] Releasing Network Lock.");
+    println!("[VIPN-WFP] Release stub.");
     Ok(())
 }

@@ -4,8 +4,11 @@ const fs = require('fs');
 const si = require('systeminformation');
 const crypto = require('crypto');
 
-// Load the Sovereign Rust Core
+// Load the Sovereign Rust Cores
 const trustctl = require('./packages/core/trustctl/index.js');
+const vaultfs = require('./packages/core/vaultfs/index.js');
+const vipn = require('./packages/modules/vipn/rust/index.js');
+const sealpulse = require('./packages/core/seal_pulse/index.js');
 
 let mainWindow;
 
@@ -14,13 +17,15 @@ async function generateHardwareSeal() {
         const cpu = await si.cpu();
         const net = await si.networkInterfaces();
         const primaryMac = (net[0] && net[0].mac) ? net[0].mac : '00:00:00:00:00:00';
-        const hardwareString = `${cpu.manufacturer}-${cpu.brand}-${cpu.processors}-${primaryMac}`;
-        const hash = crypto.createHash('sha256').update(hardwareString).digest('hex');
-        console.log(`[SEAL-PULSE] Hardware Bind Complete: ${hash.substring(0, 16)}...`);
+        
+        const cpuId = `${cpu.manufacturer}-${cpu.brand}-${cpu.processors}`;
+        const hash = sealpulse.generateSealV4(cpuId, primaryMac);
+        
+        console.log(`[SEAL-PULSE] V4 TPM Root Active: ${hash.substring(0, 16)}...`);
         return hash;
     } catch (err) {
-        console.error('[SEAL-PULSE] Failed to generate hardware seal:', err);
-        return 'FALLBACK-SEAL';
+        console.error('[SEAL-PULSE] V4 Failed, falling back to legacy.', err);
+        return 'FALLBACK-SEAL-V4';
     }
 }
 
@@ -71,6 +76,56 @@ function createWindow() {
         console.error(`[NEURALOS] Shell not found, falling back.`);
         mainWindow.loadFile(path.join(__dirname, 'packages', 'shells', 'winshadow', 'dist', 'index.html'));
     });
+
+    setupPTY(mainWindow);
+}
+
+const pty = require('node-pty');
+const os = require('os');
+
+// --- NATIVE PTY BRIDGE (Phase 10) ---
+let ptyProcess = null;
+
+function setupPTY(window) {
+    const shell = os.platform() === 'win32' ? 'powershell.exe' : 'bash';
+    
+    ptyProcess = pty.spawn(shell, [], {
+        name: 'xterm-color',
+        cols: 80,
+        rows: 30,
+        cwd: process.cwd(),
+        env: process.env
+    });
+
+    ptyProcess.onData(data => {
+        if (window) window.webContents.send('pty-data', data);
+    });
+
+    ipcMain.on('pty-input', (event, data) => {
+        if (ptyProcess) ptyProcess.write(data);
+    });
+
+    ipcMain.on('pty-resize', (event, { cols, rows }) => {
+        if (ptyProcess) ptyProcess.resize(cols, rows);
+    });
+}
+
+// --- NODECHAIN™ REACTIVE STATE ENGINE ---
+let systemState = {
+    activeShell: 'winshadow',
+    vaultStatus: 'LOCKED',
+    lastOperation: null,
+    notifications: []
+};
+
+function updateState(patch) {
+    systemState = { ...systemState, ...patch };
+    console.log(`[NODECHAIN] State Sync:`, patch);
+    
+    // Broadcast to all active shell windows
+    if (mainWindow) {
+        mainWindow.webContents.send('state-update', systemState);
+    }
 }
 
 // --- SOVEREIGN MEMORY ENGINE ---
@@ -132,29 +187,21 @@ ipcMain.handle('fs-verify', async (event, filePath) => {
     try {
         const hash = trustctl.calculateHash(filePath);
         logOperation('VERIFY', { path: filePath, hash });
+        updateState({ lastOperation: { type: 'VERIFY', path: filePath, status: 'SUCCESS' } });
         return { success: true, hash };
     } catch (e) {
         logOperation('VERIFY_FAIL', { path: filePath, error: e.message });
+        updateState({ lastOperation: { type: 'VERIFY', path: filePath, status: 'FAILED' } });
         return { success: false, error: e.message };
     }
 });
 
-// 3. Vault Move (Hard-Fail Logic)
+// 3. Vault Move (Rust-Powered Hard-Fail Logic)
 ipcMain.handle('fs-vault-move', async (event, src, dest) => {
     try {
-        const srcHash = trustctl.calculateHash(src);
-        fs.copyFileSync(src, dest);
-        const destHash = trustctl.calculateHash(dest);
-
-        if (srcHash !== destHash) {
-            fs.unlinkSync(dest);
-            logOperation('MOVE_FAIL_HASH_MISMATCH', { src, dest, srcHash, destHash });
-            throw new Error('Lineage Mismatch: Integrity Corrupted During Transfer.');
-        }
-
-        fs.unlinkSync(src);
-        logOperation('MOVE_SUCCESS', { src, dest, hash: destHash });
-        return { success: true, hash: destHash };
+        const hash = vaultfs.vaultMove(src, dest);
+        logOperation('MOVE_SUCCESS', { src, dest, hash });
+        return { success: true, hash };
     } catch (e) {
         logOperation('MOVE_CRITICAL_ERROR', { src, dest, error: e.message });
         return { success: false, error: e.message };
@@ -165,8 +212,8 @@ ipcMain.handle('fs-vault-move', async (event, src, dest) => {
 ipcMain.handle('vpn-start', async (event, config) => {
     try {
         logOperation('VPN_START_INIT', { config });
-        // placeholder for Rust core call
-        return { success: true };
+        const success = vipn.vpnStart(config);
+        return { success };
     } catch (e) {
         return { success: false, error: e.message };
     }
@@ -174,11 +221,12 @@ ipcMain.handle('vpn-start', async (event, config) => {
 
 ipcMain.handle('vpn-stop', async () => {
     logOperation('VPN_STOP', {});
-    return { success: true };
+    const success = vipn.vpnStop();
+    return { success };
 });
 
 ipcMain.handle('vpn-status', async () => {
-    return 'CONNECTED'; // Placeholder
+    return vipn.vpnStatus();
 });
 
 // 5. NeuralShell™ AI Core (Weeks 7-8)
@@ -201,6 +249,31 @@ ipcMain.handle('shell-command', async (event, input) => {
     }
 
     return { response: 'COMMAND_ACKNOWLEDGED. AI_PERSONA_NEURAL: READY.' };
+});
+
+// 6. NeuralPod Protocol™ (NT-NP-01)
+ipcMain.handle('pod-start', async () => {
+    logOperation('POD_START', {});
+    // TODO: Connect to neuralpod_core Rust binary
+    return { success: true };
+});
+
+ipcMain.handle('pod-stop', async () => {
+    logOperation('POD_STOP', {});
+    return { success: true };
+});
+
+ipcMain.handle('pod-status', async () => {
+    return 'DISCOVERING_MESH';
+});
+
+// 7. NodeChain™ Global State (Phase 9)
+ipcMain.handle('state-get', async () => {
+    return systemState;
+});
+
+ipcMain.on('state-set', (event, patch) => {
+    updateState(patch);
 });
 
 app.whenReady().then(async () => {

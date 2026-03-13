@@ -1,0 +1,1 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\vaultfs\target\release\vaultfs.dll: C:\Users\KickA\NeuralOS_Master_Build\packages\core\vaultfs\src\copy_with_verify.rs C:\Users\KickA\NeuralOS_Master_Build\packages\core\vaultfs\src\lib.rs

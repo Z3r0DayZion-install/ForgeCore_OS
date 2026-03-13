@@ -5,7 +5,8 @@
   "main": "main.desktop.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development electron main.desktop.js",
-    "proof:all": "node scripts/proofRunner.js",
+    "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
+    "test:e2e": "playwright test tests/xxxplorer.spec.ts",
     "build:win": "electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",
     "proof:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
@@ -21,17 +22,24 @@
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "systeminformation": "^5.21.22"
+    "node-pty": "^1.1.0",
+    "systeminformation": "^5.21.22",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
   },
   "build": {
     "appId": "com.neuralempire.neuralos",
     "productName": "NeuralOS",
     "linux": {
-      "target": ["dir"],
+      "target": [
+        "dir"
+      ],
       "category": "Utility"
     },
     "win": {
-      "target": ["portable"],
+      "target": [
+        "portable"
+      ],
       "icon": "assets/icon.ico"
     },
     "portable": {
