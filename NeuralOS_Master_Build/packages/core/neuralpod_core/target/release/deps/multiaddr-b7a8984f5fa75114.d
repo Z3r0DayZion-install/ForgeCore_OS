@@ -1,0 +1,11 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\multiaddr-b7a8984f5fa75114.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\errors.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\onion_addr.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\protocol.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\from_url.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\libmultiaddr-b7a8984f5fa75114.rlib: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\errors.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\onion_addr.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\protocol.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\from_url.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\libmultiaddr-b7a8984f5fa75114.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\errors.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\onion_addr.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\protocol.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\from_url.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\errors.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\onion_addr.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\protocol.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\multiaddr-0.18.2\src\from_url.rs:

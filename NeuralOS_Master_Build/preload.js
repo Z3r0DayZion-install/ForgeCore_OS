@@ -42,5 +42,11 @@ contextBridge.exposeInMainWorld('neuralos', {
         send: (data) => ipcRenderer.send('pty-input', data),
         onData: (callback) => ipcRenderer.on('pty-data', (event, data) => callback(data)),
         resize: (cols, rows) => ipcRenderer.send('pty-resize', { cols, rows })
+    },
+    // Global System Management
+    system: {
+        audit: () => ipcRenderer.invoke('system-audit'),
+        launch: (path) => ipcRenderer.invoke('system-launch', path),
+        metrics: () => ipcRenderer.invoke('system-metrics')
     }
 });
