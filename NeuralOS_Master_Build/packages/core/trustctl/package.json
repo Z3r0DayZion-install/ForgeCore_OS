@@ -1,0 +1,13 @@
+{
+  "name": "@neuralos/core-trustctl",
+  "version": "1.0.0",
+  "description": "NeuralOS trustctl - Rust-based file lineage tracker",
+  "main": "index.node",
+  "scripts": {
+    "build": "neon build --release",
+    "debug": "neon build"
+  },
+  "devDependencies": {
+    "@neon-rs/cli": "^0.2.6"
+  }
+}

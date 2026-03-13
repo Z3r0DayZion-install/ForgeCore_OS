@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XXXplorer™ Universal File System</title>
+    <link rel="stylesheet" href="xxxplorer.css">
+</head>
+<body>
+    <div class="explorer-app">
+        <!-- Sidebar: Virtual Drives -->
+        <div class="sidebar">
+            <div class="section-title">SOVEREIGN VOLUMES</div>
+            
+            <div class="drive-item active" onclick="Explorer.loadDrive('win')">
+                <span class="drive-icon">🪟</span>
+                <div class="drive-info">
+                    <span class="drive-name">Windows (NTFS)</span>
+                    <span class="drive-detail">C:\</span>
+                </div>
+            </div>
+
+            <div class="drive-item" onclick="Explorer.loadDrive('mac')">
+                <span class="drive-icon">🍎</span>
+                <div class="drive-info">
+                    <span class="drive-name">Macintosh HD (APFS)</span>
+                    <span class="drive-detail">/Volumes/Mac</span>
+                </div>
+            </div>
+
+            <div class="drive-item" onclick="Explorer.loadDrive('lin')">
+                <span class="drive-icon">🐧</span>
+                <div class="drive-info">
+                    <span class="drive-name">Linux Root (EXT4)</span>
+                    <span class="drive-detail">/</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-view">
+            <!-- Toolbar -->
+            <div class="toolbar">
+                <button class="tool-btn" onclick="Explorer.goUp()">⬆️ Up</button>
+                <div class="path-bar">
+                    <input type="text" id="path-input" readonly>
+                </div>
+                <button class="tool-btn">🔍 Search</button>
+            </div>
+
+            <!-- File Grid -->
+            <div class="file-grid" id="file-grid">
+                <!-- JS Populated Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Universal Execution Wrapper Modal (Hidden) -->
+    <div id="exec-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3 id="exec-title">Universal Execution</h3>
+            <p id="exec-desc">Initializing compatibility layer...</p>
+            <div class="progress-bar"><div class="progress-fill" id="exec-progress"></div></div>
+            <button onclick="Explorer.closeExecModal()" style="margin-top: 15px; cursor:pointer;">Cancel</button>
+        </div>
+    </div>
+
+    <script src="xxxplorer.js"></script>
+</body>
+</html>

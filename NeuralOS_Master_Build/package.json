@@ -1,0 +1,41 @@
+{
+  "name": "neuralos-master",
+  "version": "1.0.0",
+  "description": "NeuralOS™ Sovereign Runtime // Singularity-Prime Phase 1",
+  "main": "main.desktop.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron main.desktop.js",
+    "proof:all": "node scripts/proofRunner.js",
+    "build:win": "electron-builder --windows portable",
+    "build:tear": "node scripts/tearPack.js",
+    "proof:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "author": "Neural Empire",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^29.1.1",
+    "electron-builder": "^24.13.3",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "systeminformation": "^5.21.22"
+  },
+  "build": {
+    "appId": "com.neuralempire.neuralos",
+    "productName": "NeuralOS",
+    "linux": {
+      "target": ["dir"],
+      "category": "Utility"
+    },
+    "win": {
+      "target": ["portable"],
+      "icon": "assets/icon.ico"
+    },
+    "portable": {
+      "artifactName": "NeuralOS_Master_v${version}.exe"
+    }
+  }
+}
