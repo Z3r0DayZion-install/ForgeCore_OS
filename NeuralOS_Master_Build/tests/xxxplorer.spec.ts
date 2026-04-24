@@ -11,7 +11,7 @@ test('Sovereign Move Integrity Test', async () => {
   const projectRoot = path.join(__dirname, '..');
   const electronApp = await electron.launch({
     args: [path.join(projectRoot, 'main.desktop.js')],
-    env: { ...process.env, NODE_ENV: 'test' }
+    env: { ...process.env, NODE_ENV: 'test', SHELL_MODE: 'winshadow' }
   });
 
   const window = await electronApp.firstWindow();
@@ -19,6 +19,10 @@ test('Sovereign Move Integrity Test', async () => {
 
   // 1. Prepare Test File
   const testFile = path.join(projectRoot, 'sample.txt');
+  const destinationFile = path.join(projectRoot, 'packages', 'sample.txt');
+  if (fs.existsSync(destinationFile)) {
+    fs.unlinkSync(destinationFile);
+  }
   fs.writeFileSync(testFile, 'SOVEREIGN_DATA_INTEGRITY_CHECK_2026');
 
   // 2. Simulate Drag-and-Drop (Trigger via IPC context call since actual mouse drag is flaky in CI)
@@ -36,6 +40,10 @@ test('Sovereign Move Integrity Test', async () => {
   const logContent = fs.readFileSync(logPath, 'utf-8');
   expect(logContent).toContain('MOVE_SUCCESS');
   expect(logContent).toContain('sample.txt');
+
+  if (fs.existsSync(testFile)) {
+    fs.unlinkSync(testFile);
+  }
 
   await electronApp.close();
 });

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { HardDrive, Search, Filter, LayoutGrid, List } from 'lucide-react';
+import React from 'react';
+import { Filter, HardDrive, Search } from 'lucide-react';
 
 /**
  * NT-XXX-05: Refined Dual-Pane Layout Component.
@@ -19,17 +19,24 @@ const PaneHeader = ({ title }: { title: string }) => (
   </div>
 );
 
-export const DualPane = ({ leftContent, rightFiles }: any) => {
+type DualPaneProps = {
+  leftContent: React.ReactNode;
+  rightFiles: React.ReactNode;
+  leftTitle?: string;
+  rightTitle?: string;
+};
+
+export const DualPane = ({ leftContent, rightFiles, leftTitle = 'Sector_A', rightTitle = 'Sector_B' }: DualPaneProps) => {
   return (
     <div className="flex-1 flex overflow-hidden bg-black/20">
       <div className="flex-1 flex flex-col border-r border-neural-800">
-        <PaneHeader title="Sector_A" />
+        <PaneHeader title={leftTitle} />
         <div className="flex-1 overflow-y-auto p-2">
           {leftContent}
         </div>
       </div>
       <div className="flex-1 flex flex-col">
-        <PaneHeader title="Sector_B" />
+        <PaneHeader title={rightTitle} />
         <div className="flex-1 overflow-y-auto p-2">
           {rightFiles}
         </div>

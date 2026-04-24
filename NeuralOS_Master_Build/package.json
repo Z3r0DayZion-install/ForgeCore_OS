@@ -7,6 +7,7 @@
     "start": "cross-env NODE_ENV=development electron main.desktop.js",
     "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
     "test:e2e": "playwright test tests/xxxplorer.spec.ts",
+    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts",
     "build:win": "electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",
     "proof:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
@@ -14,6 +15,7 @@
   "author": "Neural Empire",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "cross-env": "^7.0.3",
     "electron": "^29.1.1",
     "electron-builder": "^24.13.3",
