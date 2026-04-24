@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, globalShortcut } = require('electron');
+const { app, BrowserWindow, ipcMain, globalShortcut, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
 const os = require('os');
@@ -17,12 +17,17 @@ let mainWindow;
 let ptyProcess = null;
 let ptyHandlersBound = false;
 
-const MEMORY_DIR = path.join(__dirname, 'memory');
+const RUNTIME_ROOT = process.env.NEURALOS_RUNTIME_DIR
+    ? path.resolve(process.env.NEURALOS_RUNTIME_DIR)
+    : app.isPackaged
+        ? app.getPath('userData')
+        : __dirname;
+const MEMORY_DIR = path.join(RUNTIME_ROOT, 'memory');
 const SESSION_LOG = path.join(MEMORY_DIR, 'SESSION.jsonl');
 const STATE_FILE = process.env.NEURALOS_STATE_FILE
     ? path.resolve(process.env.NEURALOS_STATE_FILE)
     : path.join(MEMORY_DIR, 'NODECHAIN_STATE.json');
-const PROOF_DIR = path.join(__dirname, 'proof_bundle');
+const PROOF_DIR = path.join(RUNTIME_ROOT, 'proof_bundle');
 const LOG_FILE = path.join(PROOF_DIR, 'OPERATIONS.log');
 
 function ensureDir(dirPath) {
@@ -57,6 +62,25 @@ const DEFAULT_SYSTEM_STATE = {
         }
     }
 };
+
+const NATIVE_LAUNCH_TARGETS = new Map([
+    ['calc', { command: 'calc.exe' }],
+    ['calculator', { command: 'calc.exe' }],
+    ['calc.exe', { command: 'calc.exe' }],
+    ['notepad', { command: 'notepad.exe' }],
+    ['notepad.exe', { command: 'notepad.exe' }],
+    ['paint', { command: 'mspaint.exe' }],
+    ['mspaint', { command: 'mspaint.exe' }],
+    ['mspaint.exe', { command: 'mspaint.exe' }],
+    ['task-manager', { command: 'taskmgr.exe' }],
+    ['windows-task-manager', { command: 'taskmgr.exe' }],
+    ['taskmgr', { command: 'taskmgr.exe' }],
+    ['taskmgr.exe', { command: 'taskmgr.exe' }],
+    ['explorer', { command: 'explorer.exe' }],
+    ['explorer.exe', { command: 'explorer.exe' }],
+    ['windows-settings', { external: 'ms-settings:' }],
+    ['settings', { external: 'ms-settings:' }]
+]);
 
 function isPlainObject(value) {
     return typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -168,6 +192,19 @@ function resolveShellPath(shellMode) {
     return resolved || candidates[candidates.length - 1];
 }
 
+function resolveNativeLaunchTarget(appPath) {
+    if (typeof appPath !== 'string') {
+        return null;
+    }
+
+    const normalized = appPath.trim().toLowerCase();
+    if (!normalized) {
+        return null;
+    }
+
+    return NATIVE_LAUNCH_TARGETS.get(normalized) || null;
+}
+
 function setupPTY(window) {
     if (ptyProcess) {
         try {
@@ -246,7 +283,7 @@ function createWindow() {
             nodeIntegration: false,
             contextIsolation: true,
             preload: path.join(__dirname, 'preload.js'),
-            webviewTag: true
+            webviewTag: false
         }
     });
 
@@ -297,18 +334,29 @@ function logOperation(op, data) {
 
 // --- NATIVE OS BRIDGE ---
 ipcMain.handle('system-launch', async (_event, appPath) => {
-    if (typeof appPath !== 'string' || appPath.trim().length === 0) {
-        return { success: false, error: 'Invalid application path.' };
+    const target = resolveNativeLaunchTarget(appPath);
+    if (!target) {
+        logOperation('NATIVE_LAUNCH_BLOCKED', { path: appPath });
+        return { success: false, error: 'Unsupported native launch target.' };
     }
 
     logOperation('NATIVE_LAUNCH', { path: appPath });
     commitMemory('SYSTEM_ACTION', `Launching native application: ${appPath}`);
 
     try {
-        const child = spawn(appPath, [], {
+        if (process.env.NODE_ENV === 'test') {
+            return { success: true, dryRun: true, target };
+        }
+
+        if (target.external) {
+            await shell.openExternal(target.external);
+            return { success: true };
+        }
+
+        const child = spawn(target.command, [], {
             detached: true,
             stdio: 'ignore',
-            shell: true
+            windowsHide: false
         });
         child.unref();
         return { success: true };

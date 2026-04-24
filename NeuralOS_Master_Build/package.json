@@ -5,10 +5,12 @@
   "main": "main.desktop.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development electron main.desktop.js",
+    "build:assets": "npm --prefix packages/modules/xxxplorer run build && npm --prefix packages/shells/winshadow run build",
     "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
     "test:e2e": "playwright test tests/xxxplorer.spec.ts",
-    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts",
-    "build:win": "electron-builder --windows portable",
+    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts tests/native-launch.spec.ts",
+    "test:packaged": "node scripts/smokePackaged.js",
+    "build:win": "npm run build:assets && electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",
     "proof:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
@@ -32,6 +34,34 @@
   "build": {
     "appId": "com.neuralempire.neuralos",
     "productName": "NeuralOS",
+    "files": [
+      "main.desktop.js",
+      "preload.js",
+      "package.json",
+      "node_modules/**/*",
+      "packages/core/*/index.js",
+      "packages/core/*/index.node",
+      "packages/modules/vipn/rust/index.js",
+      "packages/modules/vipn/rust/index.node",
+      "packages/modules/xxxplorer/dist/**/*",
+      "packages/modules/vipn/ui/dist/**/*",
+      "packages/modules/vaultpanel-plus/dist/**/*",
+      "packages/shells/winshadow/dist/**/*",
+      "packages/shells/neuralmac/dist/**/*",
+      "packages/shells/neurallinux/dist/**/*",
+      "!**/*.pdb",
+      "!node_modules/node-pty/deps/**/*",
+      "!node_modules/node-pty/scripts/**/*",
+      "!node_modules/node-pty/src/**/*",
+      "!node_modules/node-pty/**/*.map",
+      "!node_modules/node-pty/**/*.test.*",
+      "!node_modules/node-pty/prebuilds/darwin-*/*",
+      "!node_modules/node-pty/prebuilds/win32-arm64/**/*",
+      "!node_modules/node-pty/third_party/conpty/**/win10-arm64/**/*"
+    ],
+    "asarUnpack": [
+      "**/*.node"
+    ],
     "linux": {
       "target": [
         "dir"

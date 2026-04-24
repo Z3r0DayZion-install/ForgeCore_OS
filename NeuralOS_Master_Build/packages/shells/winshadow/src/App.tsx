@@ -412,7 +412,7 @@ function App() {
   return (
     <div className="h-screen w-screen bg-[#020202] text-white overflow-hidden relative select-none font-sans">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#0a0a0a_0%,#020202_100%)] opacity-100 z-0" />
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.15] contrast-150 mix-blend-overlay z-0" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(0deg,rgba(255,255,255,0.025)_1px,transparent_1px)] bg-[size:48px_48px] opacity-20 z-0" />
 
       <div className="absolute top-12 left-12 grid grid-cols-1 gap-10 z-10 text-center">
         <div onClick={() => openWindow('explorer')} className="flex flex-col items-center gap-2 group cursor-pointer">
