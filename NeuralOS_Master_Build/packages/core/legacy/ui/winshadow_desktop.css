@@ -1,0 +1,285 @@
+:root {
+    --bg: #020406; 
+    --accent: #58a6ff; 
+    --accent-glow: rgba(88, 166, 255, 0.4);
+    --taskbar-bg: rgba(2, 4, 6, 0.7);
+    --window-bg: rgba(5, 8, 12, 0.85);
+    --dim: #555;
+    --text: #c9d1d9;
+    --red: #ff5a6f;
+    --border: rgba(88, 166, 255, 0.15);
+    --border-bright: rgba(88, 166, 255, 0.3);
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono'), local('Courier New');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'JetBrains Mono', 'Segoe UI', monospace;
+    color: var(--text);
+    background: var(--bg);
+    overflow: hidden;
+    user-select: none;
+    letter-spacing: 0.5px;
+}
+
+/* Background Effects */
+.scanlines {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), 
+                linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+    background-size: 100% 3px, 3px 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.05);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    pointer-events: none;
+    z-index: 0;
+}
+
+#desktop {
+    position: relative;
+    height: calc(100% - 40px); /* Leave room for taskbar */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    z-index: 1;
+}
+
+/* Desktop Icons */
+.desktop-icon {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    z-index: 2;
+}
+
+.desktop-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.icon-text {
+    font-size: 0.8rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Taskbar */
+#taskbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: var(--taskbar-bg);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 10000;
+}
+
+#start-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#start-btn:hover {
+    background: rgba(88, 166, 255, 0.15);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+#start-btn .logo { font-size: 1.2rem; }
+
+#open-apps {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+.taskbar-app {
+    padding: 5px 15px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.taskbar-app.active {
+    background: rgba(255,255,255,0.1);
+    border-bottom: 2px solid var(--accent);
+}
+
+#tray {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.85rem;
+}
+
+.tray-icon { cursor: pointer; }
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Start Menu */
+#start-menu {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    width: 300px;
+    background: var(--window-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+    transition: opacity 0.2s, transform 0.2s;
+    transform-origin: bottom left;
+}
+
+#start-menu.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+.start-header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.start-header h3 { margin: 0 0 5px 0; color: var(--accent); font-weight: 300; }
+.start-header span { font-size: 0.7rem; color: var(--dim); font-family: monospace; }
+
+.start-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.start-body button {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.start-body button:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.start-body hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin: 5px 0;
+}
+
+/* Floating Windows */
+.os-window {
+    position: absolute;
+    background: var(--window-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.window-header {
+    height: 30px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    cursor: grab;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.window-header:active { cursor: grabbing; }
+
+.window-title { font-size: 0.85rem; font-weight: bold; color: var(--dim); }
+
+.window-controls { display: flex; gap: 10px; }
+.win-btn { 
+    width: 12px; height: 12px; border-radius: 50%; 
+    background: var(--dim); cursor: pointer; transition: background 0.2s;
+}
+.win-btn.close:hover { background: var(--red); }
+.win-btn.max:hover { background: #00ff41; }
+.win-btn.min:hover { background: #f1fa8c; }
+
+.window-content {
+    flex-grow: 1;
+    background: #000;
+    position: relative;
+}
+
+.window-content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

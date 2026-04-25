@@ -1,0 +1,8 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\seal_pulse\target\release\deps\hex-253414d2260adcdf.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\error.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\seal_pulse\target\release\deps\libhex-253414d2260adcdf.rlib: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\error.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\seal_pulse\target\release\deps\libhex-253414d2260adcdf.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\error.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hex-0.4.3\src\error.rs:

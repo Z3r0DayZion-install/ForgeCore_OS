@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FORGECORE™ OS // BATTLE_HARDENED</title>
+  <!-- SECURITY: Hardened CSP. No eval, no inline scripts, no CDN dependencies -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+
+  <link rel="stylesheet" href="THEME_ENGINE.css">
+  <link rel="stylesheet" href="vendor/xterm.css">
+
+  <script src="vendor/xterm.js"></script>
+  <script src="vendor/xterm-addon-fit.js"></script>
+
+  <!-- Sync Boot for FOUC Prevention -->
+  <script src="ui/boot.js"></script>
+
+  <!-- Monaco Editor: LOCALIZED (zero CDN dependency) -->
+  <script src="vendor/monaco/min/vs/loader.js"></script>
+
+  <!-- IP Gold 3D Renderer -->
+  <script src="ui/dag_3d_viewer.js"></script>
+
+  <!-- Load our modular ES App -->
+  <script type="module" src="ui/empire_app.js"></script>
+</head>
+
+<body data-theme="BloodNeon">
+  <!-- SOVEREIGN OVERLAY LAYER -->
+  <div class="system-overlay"></div>
+  <div class="scanline-beam"></div>
+
+  <!-- === ELECTRON TITLE BAR === -->
+  <div class="title-bar">
+    <div style="display:flex; align-items:center; gap:8px;">
+      <span style="color:var(--accent); font-weight:bold;">FORGECORE™</span>
+      <span>SINGULARITY-PRIME // V3.0.0-QUANTUM</span>
+    </div>
+    <div class="window-controls">
+      <span data-action="windowControl('minimize')">_</span>
+      <span data-action="windowControl('maximize')">□</span>
+      <span data-action="emergencyClose" style="color:#d9534f">✕</span>
+    </div>
+  </div>
+
+  <!-- === LOCKDOWN GATE === -->
+  <div id="lockdown" class="lockdown-overlay">
+    <canvas id="lockParticles" class="fullscreen-canvas"></canvas>
+    <div class="glass glow-border lockdown-box">
+      <h1 class="glow-text lockdown-title">ARCHITECT_ZERO</h1>
+      <p class="lockdown-subtitle">SECURE_UPLINK_REQUIRED</p>
+
+      <div id="bootRitual" style="display:none; margin-bottom:20px;">
+        <div class="ritual-step" id="ritualStep1">1. [setTier 3]</div>
+        <div class="ritual-step" id="ritualStep2">2. [scan]</div>
+        <div class="ritual-step" id="ritualStep3">3. [ritual init]</div>
+        <div class="ritual-step" id="ritualStep4">4. [whoami]</div>
+      </div>
+
+      <input type="password" id="passphrase" class="lockdown-input" placeholder="SESSION_PASSPHRASE" autofocus
+        data-keydown="unlock">
+      <br>
+      <button class="btn-primary lockdown-btn" data-action="unlock">ESTABLISH_HANDSHAKE</button>
+      <div id="passphraseBootstrapPanel" style="display:none; margin-top:12px;">
+        <input type="password" id="bootstrapPassphrase" class="lockdown-input" style="width:100%;" placeholder="SET_MASTER_PASSPHRASE">
+        <input type="password" id="bootstrapPassphraseConfirm" class="lockdown-input" style="width:100%; margin-top:8px;" placeholder="CONFIRM_MASTER_PASSPHRASE">
+        <button class="btn-primary lockdown-btn" style="width:100%; margin-top:8px;" data-action="bootstrapPassphrase">INITIALIZE_MASTER_KEY</button>
+      </div>
+      <div style="margin-top:8px;">
+        <button class="btn-primary lockdown-btn" style="width:100%; border-color:var(--warn); color:var(--warn);" data-action="recoverPassphrase">RECOVERY_RESET_MASTER_KEY</button>
+      </div>
+      <div id="lockdownStatus" style="margin-top:10px; min-height:18px; font-size:0.62rem; color:var(--dim); letter-spacing:0.06em;">
+        ENTER PASSPHRASE TO UNLOCK KERNEL SERVICES
+      </div>
+      <div id="lockDiagnostics" style="margin-top:10px; padding:8px; border:1px solid var(--border); background:rgba(0,0,0,0.25); text-align:left; font-size:0.54rem; letter-spacing:0.05em; color:var(--dim);">
+        <div>RUNTIME: <span id="lockDiagRuntime">BOOTING</span></div>
+        <div>HANDSHAKE: <span id="lockDiagHandshake">UNKNOWN</span></div>
+        <div>LAST_ERROR: <span id="lockDiagError">NONE</span></div>
+      </div>
+
+      <div class="lockdown-footer">FORGECORE™ SINGULARITY-PRIME v3.0.0-Quantum</div>
+    </div>
+  </div>
+
+  <!-- === OVERSOUL RED ALERT === -->
+  <div id="oversoulAlert" class="oversoul-alert-overlay" style="display:none;">
+    <div class="alert-content">
+      <h1 class="alert-title">KERNEL_INTERVENTION</h1>
+      <div class="alert-reason" id="oversoulReason">MALICIOUS_INTENT_DETECTED</div>
+      <p class="alert-sub">AI_OVERSOUL_SECURITY_KERNEL_ENGAGED</p>
+      <button class="btn-primary alert-btn" data-action="dismissOversoul">ACKNOWLEDGE</button>
+    </div>
+  </div>
+
+  <!-- === PARTICLE BACKGROUND === -->
+  <canvas id="particles" class="fullscreen-canvas-bg"></canvas>
+
+  <!-- === MAIN GRID === -->
+  <div class="grid-shell">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-brand">FORGECORE™ <span id="productTag" class="tag-elite">ELITE</span></h1>
+        <span class="seal-badge">TITAN_SEAL_ACTIVE</span>
+        <span class="seal-badge badge-tear" id="tearBadge">TEAR: INIT</span>
+      </div>
+      <div class="header-right">
+        <div class="shell-switcher" style="margin-right: 15px; display: flex; gap: 5px; background: rgba(0,0,0,0.3); padding: 2px; border: 1px solid var(--border); border-radius: 4px;">
+          <button class="shell-btn active" data-action="switchShell('winshadow')" title="WinShadow™ Mode">WIN</button>
+          <button class="shell-btn" data-action="switchShell('neuralmac')" title="NeuralMac™ Mode">MAC</button>
+          <button class="shell-btn" data-action="switchShell('neurallinux')" title="NeuralLinux™ Mode">LIN</button>
+        </div>
+        <span>DNA: <span style="color:var(--ok)">SEALED (QUANTUM)</span></span>
+        <span>SEAL: <span id="coreSeal" style="color:var(--ok)">—</span></span>
+        <div class="status-indicator">
+          <span class="status-dot"></span>
+          <span style="color:var(--ok)" id="statusText">ONLINE</span>
+          <span id="latencyDisplay" style="color:var(--dim); font-size:0.55rem; margin-left:4px;"></span>
+        </div>
+        <span>LOAD: <span id="cpu" style="color:var(--ok)">0%</span></span>
+        <span>ACTIONS: <span id="actionCapabilityStatus" style="color:var(--ok)">--</span></span>
+        <span id="clockDisplay" style="color:var(--dim)"></span>
+        <button class="btn-logout" data-action="triggerLockdown">LOGOUT</button>
+      </div>
+    </header>
+
+    <!-- TAB BAR -->
+    <nav class="tab-bar">
+      <div class="tab active" data-action="switchTab('dashboard')">📊 DASHBOARD</div>
+      <div class="tab" data-action="switchTab('vaults')">🛡️ VAULTS</div>
+      <div class="tab" data-action="switchTab('xxxplorer')">🧭 XXXPLORER</div>
+      <div class="tab" data-action="switchTab('neuralpass')">🔑 PASS</div>
+      <div class="tab" data-action="switchTab('swarm')">🌌 SWARM</div>
+      <div class="tab" data-action="switchTab('matrix')">🧬 MATRIX</div>
+      <div class="tab" data-action="switchTab('peers')">🌐 PEERS</div>
+      <div class="tab" data-action="switchTab('forge')">⚔️ FORGE</div>
+      <div class="tab" data-action="switchTab('neuralhub')">🧠 NEURAL_HUB</div>
+      <div class="tab" data-action="switchTab('zerotrace')">🔥 ZEROTRACE</div>
+      <div class="tab" data-action="switchTab('settings')">⚙️ SETTINGS</div>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h3 class="sidebar-heading">REPOSITORIES</h3>
+      <div class="nav-item repo-nav active" data-action="mountVault('INTEL_VAULT')">🛡️ INTEL_REPOS</div>
+      <div class="nav-item repo-nav" data-action="mountVault('RELEASE_VAULT')">📦 RELEASE_REPOS</div>
+      <div class="nav-item repo-nav" data-action="mountVault('CHAT_VAULT')">📜 CHAT_REPOS</div>
+      <div class="nav-item repo-nav" data-action="mountVault('UTILITY_VAULT')">🛠️ UTILITY_REPOS</div>
+
+      <h3 class="sidebar-heading mt-25">ENGINES</h3>
+      <div id="engineList">
+        <!-- Engines populated dynamically by loadEngines() -->
+      </div>
+
+      <h3 class="sidebar-heading mt-25">SYSTEM</h3>
+      <div class="nav-item system-nav">
+        <span class="status-dot"></span> SWARM: ACTIVE
+      </div>
+      <div class="nav-item system-nav">
+        <span class="status-dot"></span> GHOST: LINKED
+      </div>
+      <div id="uptimeDisplay" class="nav-item uptime-nav">UPTIME: 0s</div>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content-area">
+
+      <!-- DASHBOARD PANE -->
+      <div id="dashboardPane" class="pane active">
+        <div class="dash-grid">
+          <!-- GAUGE ROW -->
+          <div class="dash-gauges">
+            <div class="gauge-header">
+              <div class="gauge-title">SYSTEM_METRICS</div>
+            </div>
+
+            <div class="gauge-ring">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="45" fill="none" class="track" stroke-width="3" />
+                <circle id="cpuArc" cx="50" cy="50" r="45" fill="none" stroke="var(--accent)" stroke-width="3"
+                  class="arc" stroke-dasharray="282.7" stroke-dashoffset="282.7" stroke-linecap="butt" />
+              </svg>
+              <div class="value" id="cpuGaugeVal">0%</div>
+              <div class="label">CPU</div>
+            </div>
+
+            <div class="gauge-ring">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="45" fill="none" class="track" stroke-width="3" />
+                <circle id="memArc" cx="50" cy="50" r="45" fill="none" stroke="var(--ok)" stroke-width="3" class="arc"
+                  stroke-dasharray="282.7" stroke-dashoffset="282.7" stroke-linecap="butt" />
+              </svg>
+              <div class="value" id="memGaugeVal">0%</div>
+              <div class="label">MEM</div>
+            </div>
+
+            <div class="gauge-ring">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="45" fill="none" class="track" stroke-width="3" />
+                <circle id="entropyArc" cx="50" cy="50" r="45" fill="none" stroke="var(--warn)" stroke-width="3"
+                  class="arc" stroke-dasharray="282.7" stroke-dashoffset="141.4" stroke-linecap="butt" />
+              </svg>
+              <div class="value" id="entropyGaugeVal">7.99</div>
+              <div class="label">ENT</div>
+            </div>
+
+            <div class="gauge-ring">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="45" fill="none" class="track" stroke-width="3" />
+                <circle cx="50" cy="50" r="45" fill="none" stroke="var(--ok)" stroke-width="3" class="arc"
+                  stroke-dasharray="282.7" stroke-dashoffset="0" stroke-linecap="butt" />
+              </svg>
+              <div class="value status-ok-text">OK</div>
+              <div class="label">INTEG</div>
+            </div>
+
+            <div class="gauge-footer">
+              <div class="gauge-footer-text">FORGECORE_v3.0_QUANTUM</div>
+            </div>
+          </div>
+
+          <!-- STAT ROW -->
+          <div class="dash-stats">
+            <div class="stat-card">
+              <div class="stat-value" id="peerCount">0</div>
+              <div class="stat-label">Peers</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="insightCount">0</div>
+              <div class="stat-label">Insights</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="vaultCount">4</div>
+              <div class="stat-label">Vaults</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value status-ok-text">ACTIVE</div>
+              <div class="stat-label">Quantum Bridge</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value status-ok-text">ENFORCED</div>
+              <div class="stat-label">Omega Kernel</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value status-warn-text" id="tearChainLen">0</div>
+              <div class="stat-label">TEAR Chain</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="releaseIntegrityState">--</div>
+              <div class="stat-label">Release Integrity</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="releaseHashShort">--</div>
+              <div class="stat-label">Release Hash</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="paneHealthSummary">--</div>
+              <div class="stat-label">Pane Health</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="paneBlockedCount">--</div>
+              <div class="stat-label">Pane Blocked</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="paneBackendSummary">--</div>
+              <div class="stat-label">Pane Backend</div>
+            </div>
+          </div>
+
+          <!-- INFO PANELS -->
+          <div class="info-panels">
+            <div class="card">
+              <h3 class="panel-heading">MESH_TOPOLOGY</h3>
+              <canvas id="topoCanvas" width="400" height="200"></canvas>
+            </div>
+            <div class="card">
+              <h3 class="panel-heading">SYSTEM_ACTIVITY</h3>
+              <canvas id="activityCanvas" width="400" height="200"></canvas>
+            </div>
+            <div class="card">
+              <h3 class="panel-heading">TEAR_AUDIT_FEED</h3>
+              <div class="live-feed" id="tearFeed">
+                <div class="entry"><span class="ts">[BOOT]</span> <span class="kind">Awaiting seal data...</span></div>
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="panel-heading">API_FAILURE_WATCHDOG</h3>
+              <div class="watchdog-summary">
+                <span class="watchdog-summary-label">FAILURES_60S:</span>
+                <span class="watchdog-summary-value" id="apiWatchdogFailureCount">0</span>
+              </div>
+              <div class="live-feed watchdog-feed" id="apiWatchdogFeed">
+                <div class="entry"><span class="ts">[INIT]</span> <span class="kind">Awaiting API failure events...</span></div>
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="panel-heading">SOVEREIGN_ATTESTATION</h3>
+              <div class="witness-grid">
+                <div class="witness-item">
+                  <span class="witness-label">HEADS</span>
+                  <span class="witness-value" id="witnessHeadCount">0</span>
+                </div>
+                <div class="witness-item">
+                  <span class="witness-label">OBSERVER_QUORUM</span>
+                  <span class="witness-value" id="witnessObserverCount">0</span>
+                </div>
+                <div class="witness-item witness-wide">
+                  <span class="witness-label">LATEST_HEAD</span>
+                  <span class="witness-value witness-cid" id="witnessLastHead">NONE</span>
+                </div>
+                <div class="witness-item">
+                  <span class="witness-label">AUTO_HEAL</span>
+                  <span class="witness-value status-ok-text" id="autoHealState">NOMINAL</span>
+                </div>
+                <div class="witness-item witness-wide">
+                  <span class="witness-label">LAST_HEAL_EVENT</span>
+                  <span class="witness-value witness-heal" id="autoHealLastEvent">NONE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VAULTS PANE -->
+      <div id="vaultsPane" class="pane wrapper-pane">
+        <div class="vault-header">
+          <h2 id="currentVaultName" class="glow-text vault-title">SELECT_VAULT</h2>
+          <div class="vault-actions">
+            <button class="btn-primary btn-outline-ok" data-action="vaultNewFile">NEW_ARTIFACT</button>
+            <button class="btn-primary btn-upload" data-action="triggerUpload">UPLOAD</button>
+            <button class="btn-primary btn-outline-dim" data-action="refreshActiveVault">REFRESH</button>
+            <input type="file" id="vaultUploadInput" style="display:none" data-change="vaultUploadFile">
+          </div>
+        </div>
+        <div id="fileList" class="vault-grid"></div>
+      </div>
+
+      <!-- XXXPLORER PANE -->
+      <div id="xxxplorerPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">XXXPLORER™ // MERKLE-DAG_TIME_TRAVEL</h2>
+        <div class="xxxplorer-layout">
+          <div class="card" style="position:relative; height: 350px;">
+            <h3 class="card-heading">TEMPORAL_STREAM (3D)</h3>
+            <canvas id="dag3DViewer" style="width: 100%; height: 100%; background: #000; border: 1px solid var(--accent);"></canvas>
+            <div id="xxxHistory" class="cid-list" style="position:absolute; top: 40px; right: 10px; width: 150px; background: rgba(0,0,0,0.8); z-index: 10;">
+              <!-- CIDs populated by api/xxxplorer/history -->
+            </div>
+          </div>
+          <div class="card" style="height: 350px; display:flex; flex-direction:column;">
+            <h3 class="card-heading">HOLOGRAPHIC_PREVIEW</h3>
+            <div id="xxxPreview" class="hologram-preview" style="flex:1;">
+              SELECT_NODE_IN_3D_SPACE
+            </div>
+            <button class="btn-primary mt-20" style="width:100%" data-action="triggerResurrection">RESURRECT_PINNED_STATE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- FARADAY BRIDGE PANE -->
+      <div id="faradayPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">FARADAY_BRIDGE™ // OPTICAL_DATA_DIODE</h2>
+        <div class="card" style="text-align:center; min-height:450px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+          <h3 class="card-heading">AIR-GAP_SYNC_STREAM</h3>
+          <div id="faradayQRContainer" style="width:300px; height:300px; background:#fff; margin:20px auto; border:10px solid #fff; display:none;">
+             <!-- High-speed data blocks generated here -->
+             <div id="faradayVisual" style="width:100%; height:100%; display:grid; grid-template-columns: repeat(16, 1fr);"></div>
+          </div>
+          <p id="faradayStatus" style="color:var(--dim); font-family:monospace;">READY_FOR_HANDSHAKE</p>
+          <button class="btn-primary" style="width:200px;" data-action="triggerFaraday">INITIATE_OPTICAL_SYNC</button>
+        </div>
+      </div>
+
+      <!-- NEURALPASS PANE -->
+      <div id="neuralpassPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">NEURALPASS™ // TPM_HARDWARE_VAULT</h2>
+        <div class="neuralpass-grid">
+          <div class="card">
+            <h3 class="card-heading">SEAL_NEW_CREDENTIAL</h3>
+            <input type="text" id="npId" class="lockdown-input" style="width:100%" placeholder="IDENTIFIER">
+            <input type="password" id="npSecret" class="lockdown-input" style="width:100%; margin-top:10px;" placeholder="SECRET_PAYLOAD">
+            <button class="btn-primary mt-20" style="width:100%" data-action="npStore">SEAL_TO_TPM</button>
+          </div>
+          <div class="card">
+            <h3 class="card-heading">ACCESS_HARDWARE_KEY</h3>
+            <div id="npList" class="credential-list">
+              <!-- Credentials listed here -->
+            </div>
+            <div id="npReveal" class="shadow-mask-reveal" style="display:none;">
+              <span id="npPlaintext">********</span>
+              <button class="btn-logout" style="margin-left:10px;" data-action="hideNeuralPassReveal">SHRED</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="swarmPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">SECURE_GATEWAY_CONTROL_CENTER</h2>
+
+        <div class="mesh-visualizer card mb-20"
+          style="padding:0; overflow:hidden; position:relative; min-height:400px;">
+          <h3 class="card-heading" style="position:absolute; top:20px; left:20px; z-index:10; margin:0;">
+            NEURAL_TOPOLOGY_ORCHESTRATION</h3>
+          <canvas id="meshCanvas" style="width:100%; height:400px; display:block;"></canvas>
+          <div
+            style="position:absolute; bottom:15px; right:20px; font-size:0.6rem; color:var(--dim); letter-spacing:2px; font-family:'JetBrains Mono', monospace;">
+            NODE_STATE: SYNCHRONIZED</div>
+        </div>
+
+        <div class="swarm-grid">
+          <div class="card">
+            <h3 class="card-heading">SECURE_CORE_GATEWAY</h3>
+            <div class="vipn-controls" style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:15px;">
+              <button class="btn-primary"
+                style="background:rgba(var(--accent-rgb), 0.1); border-color:var(--accent); color:var(--accent); font-weight:700; letter-spacing:2px;"
+                data-action="gatewayInitialize">INITIALIZE</button>
+              <button class="btn-primary"
+                style="background:rgba(0, 229, 255, 0.1); border-color:#00e5ff; color:#00e5ff; font-weight:700; letter-spacing:2px;"
+                data-action="gatewayEngage">ENGAGE_PROXY</button>
+              <button class="btn-primary"
+                style="background:rgba(255, 100, 100, 0.1); border-color:#ff6464; color:#ff6464; font-variant:small-caps;"
+                data-action="gatewayBypass">BYPASS_PROXY</button>
+              <button class="btn-primary" style="background:rgba(150, 150, 150, 0.1); border-color:#999; color:#999;"
+                data-action="gatewayFlush">FLUSH_STACK</button>
+            </div>
+            <div id="vipnStatus"
+              style="margin-top:15px; font-family:'JetBrains Mono', monospace; font-size:0.75rem; color:var(--dim);">
+              > VIPN_STATE: STANDBY
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-heading">GHOST_NODES</h3>
+            <div id="ghostNodeList"></div>
+          </div>
+        </div>
+        <div class="card mt-20">
+          <h3 class="card-heading">CONSOLIDATED_INTELLIGENCE</h3>
+          <div id="swarmManifest" class="manifest-text"></div>
+        </div>
+      </div>
+
+      <!-- MATRIX PANE -->
+      <div id="matrixPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">ADAPTIVE_IO_MATRIX</h2>
+        <div id="timelineList" class="timeline-grid"></div>
+        <h2 class="glow-text pane-title-secondary">TELEMETRY_LEDGER</h2>
+        <div id="ledgerList" class="ledger-box"></div>
+        <h2 class="glow-text pane-title-secondary">ACTION_AUDIT_TIMELINE</h2>
+        <div id="actionAuditList" class="ledger-box"></div>
+      </div>
+
+      <!-- PEERS PANE -->
+      <div id="peersPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">SOVEREIGN_NETWORK_PEERS</h2>
+        <div id="peerList" class="peer-grid"></div>
+      </div>
+
+      <!-- FORGE PANE (Code Browser) -->
+      <div id="forgePane" class="pane wrapper-pane">
+        <div class="forge-layout">
+          <!-- Forge Sidebar -->
+          <div class="forge-sidebar">
+            <div class="forge-search-box">
+              <input type="text" id="forgeSearchInput" placeholder="SEARCH_CODE..." data-keydown="forgeSearch">
+              <button class="btn-primary btn-icon" data-action="forgeSearch">🔍</button>
+            </div>
+            <div class="forge-repo-box">
+              <select id="forgeRepoSelect" data-change="loadForgeTree">
+                <option value="">SELECT_REPOSITORY</option>
+              </select>
+            </div>
+            <div id="forgeTree" class="forge-tree"></div>
+          </div>
+
+          <!-- Forge Content Area -->
+          <div class="forge-content">
+            <div class="forge-header">
+              <span id="forgeCurrentPath" class="forge-path">NO_FILE_SELECTED</span>
+              <div class="forge-actions">
+                <button class="btn-primary btn-outline-dim" data-action="initRepo">INIT_REPO</button>
+                <button class="btn-primary btn-outline-ok" data-action="executeFile">EXECUTE_RUN</button>
+                <button class="btn-primary" data-action="commitFile">COMMIT_CHANGES</button>
+              </div>
+            </div>
+            <div class="forge-content-inner" style="display:flex; flex:1; min-height:0;">
+              <div id="forgeEditorContainer" class="forge-editor-wrapper">
+                <div id="forgeMonaco" class="fullscreen-canvas"></div>
+                <div id="forgeLoading" class="forge-loader">FORGE_READY</div>
+              </div>
+              <div id="forgeHistory" class="forge-history">
+                <div style="font-size:0.6rem; color:var(--dim); letter-spacing:2px; margin-bottom:10px; text-align:center;">COMMIT_HISTORY</div>
+                <!-- History items populated dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEURAL HUB PANE -->
+      <div id="neuralhubPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">NEURAL_EMPIRE_HUB</h2>
+        <div class="neuralhub-layout">
+          <div class="card neuralhub-sidebar">
+            <h3 class="card-heading">DASHBOARD_CHANNELS</h3>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('dev_os')">DEV_OS</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('control_grid')">CONTROL_GRID</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('intelligence_engine')">INTELLIGENCE_ENGINE</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('forgecore')">FORGECORE</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('signal_bus')">SIGNAL_BUS</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('agent_framework')">AGENT_FRAMEWORK</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('hypersnatch')">HYPERSNATCH</button>
+            <button class="btn-primary neuralhub-btn" data-action="openNeuralDashboard('neuraltube')">NEURALTUBE</button>
+            <div id="neuralHubMeta" class="manifest-text">
+              MODULE: DEV_OS
+              PATH: /neural_empire/dev_os/dashboard/index.html
+            </div>
+          </div>
+          <div class="card neuralhub-frame-card">
+            <h3 class="card-heading">LIVE_CONSOLE</h3>
+            <iframe id="neuralHubFrame" class="neuralhub-frame" sandbox="allow-scripts allow-same-origin"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- ZEROTRACE PANE -->
+      <div id="zerotracePane" class="pane wrapper-pane" style="position:relative; overflow:hidden;">
+        <!-- Local scope Matrix Rain -->
+        <canvas id="zerotraceMatrixCanvas"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:1; opacity:0.3; pointer-events:none;"></canvas>
+
+        <div class="zt-glass-panel" id="ztMainPanel"
+          style="position:relative; z-index:10; background:rgba(0,20,0,0.6); backdrop-filter:blur(24px); border:1px solid rgba(var(--accent-rgb), 0.3); box-shadow:0 8px 32px rgba(0,0,0,0.5); width:90%; max-width:600px; padding:30px; border-radius:12px; text-align:center; transition:all 0.3s; margin: 40px auto; display:flex; flex-direction:column;">
+          <div
+            style="font-size:2rem; font-weight:700; text-shadow:0 0 10px #0f0; margin-bottom:5px; letter-spacing:2px; color:var(--ok);">
+            ZeroTrace™</div>
+          <div style="font-size:0.8rem; color:#888; margin-bottom:20px; text-transform:uppercase; letter-spacing:4px;">
+            CRYPTOGRAPHIC DATA ANNIHILATOR</div>
+
+          <div id="ztDropzone"
+            style="border:2px dashed rgba(var(--accent-rgb), 0.3); border-radius:12px; padding:40px 20px; background:rgba(255,255,255,0.03); cursor:pointer; transition:all 0.2s; position:relative; overflow:hidden;">
+            <div id="ztDropText" style="font-size:1.2rem; font-weight:bold; pointer-events:none;">AWAITING TARGET
+              ARTIFACTS</div>
+            <div style="font-size:0.8rem; color:#777; margin-top:10px; pointer-events:none;">Drag & Drop files here.
+              Secure multi-pass overwrite before unlink.</div>
+          </div>
+
+          <div id="ztFileListPanel"
+            style="margin-top:15px; max-height:150px; overflow-y:auto; text-align:left; display:none;"></div>
+
+          <div id="ztStatusPanel"
+            style="margin-top:15px; text-align:left; min-height:80px; max-height:150px; overflow-y:auto; background:rgba(0,0,0,0.5); border:1px solid #111; padding:10px; font-size:0.95rem; border-radius: 8px;">
+            <div style="color:#888; margin-bottom:4px;">>[SYSTEM] ZeroTrace engine initialized. Waiting for input...
+            </div>
+          </div>
+
+          <button id="ztBtnPurge" data-action="zerotracePurge"
+            style="margin-top:20px; background:transparent; color:var(--warn); border:1px solid var(--warn); border-radius: 8px; padding:12px 30px; font-family:'Outfit', sans-serif; font-size:1.2rem; font-weight:bold; cursor:pointer; transition:all 0.2s; display:none; width:100%; text-transform:uppercase; letter-spacing:2px;">INITIATE
+            PURGE SEQUENCE</button>
+
+          <button id="ztBtnCert" data-action="generateCertificate"
+            style="margin-top:15px; background:transparent; color:var(--ok); border:1px solid var(--ok); border-radius: 8px; padding:10px 30px; font-family:'Outfit', sans-serif; font-size:1rem; font-weight:bold; cursor:pointer; transition:all 0.2s; width:100%; text-transform:uppercase; letter-spacing:2px;">GENERATE SOVEREIGN CERTIFICATE</button>
+        </div>
+      </div>
+
+      <!-- SETTINGS PANE -->
+      <div id="settingsPane" class="pane padded-pane">
+        <h2 class="glow-text pane-title">SYSTEM_CUSTOMIZATION</h2>
+        <div class="setting-group"><label>Visual Interface Theme</label>
+          <select id="themeSelect" data-change="applyTheme" class="setting-select">
+            <option value="BloodNeon">BloodNeon</option>
+            <option value="Cobalt">Cobalt</option>
+            <option value="Emerald">Emerald</option>
+            <option value="Amber">Amber</option>
+          </select>
+        </div>
+        <div class="setting-group"><label>Particle Intensity</label>
+          <input type="range" id="matrixOpacity" min="0" max="0.4" step="0.01" value="0.15" data-input="updateOpacity"
+            class="setting-range">
+        </div>
+        <div class="setting-group"><label>Security Masking</label>
+          <input type="checkbox" id="shadowMaskToggle" data-change="toggleShadowMask">
+          <span class="setting-hint">Obfuscate Vault Names</span>
+        </div>
+        <div class="setting-group mt-40">
+          <button class="btn-primary" data-action="saveSettings">SAVE_PREFERENCES</button>
+        </div>
+        <div class="setting-group mt-40">
+          <label>AK Runtime Status</label>
+          <div class="setting-hint">ENGINE: <span id="akRuntimeEnabled">--</span></div>
+          <div class="setting-hint">WITNESS: <span id="akRuntimeWitness">--</span></div>
+          <div class="setting-hint">LAST RUN: <span id="akRuntimeLastRun">--</span></div>
+          <div class="setting-hint">RELEASE: <span id="akRuntimeRelease">--</span></div>
+          <div class="setting-hint" id="akRuntimeOutput">OUTPUT: --</div>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary btn-outline-dim" data-action="refreshAkRuntimeStatus">REFRESH_AK_STATUS</button>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary btn-outline-ok" data-action="runAkScenario">RUN_AK_SCENARIO</button>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary" data-action="generateAkProof">GENERATE_AK_PROOF</button>
+        </div>
+        <div class="setting-group mt-40">
+          <label>Runtime Doctor</label>
+          <div class="setting-hint">OVERALL: <span id="doctorOverall">--</span></div>
+          <div class="setting-hint">ISSUES: <span id="doctorIssueCount">--</span></div>
+          <div class="setting-hint">CRITICAL: <span id="doctorCriticalCount">--</span></div>
+          <div class="setting-hint">LAST RUN: <span id="doctorLastRun">--</span></div>
+          <div class="setting-hint" id="doctorStatus">STATUS: --</div>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary btn-outline-dim" data-action="runRuntimeDoctor">RUN_RUNTIME_DOCTOR</button>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary btn-outline-ok" data-action="repairRuntime">REPAIR_RUNTIME_SAFE</button>
+        </div>
+        <div class="setting-group mt-40">
+          <button class="btn-primary btn-outline-dim" data-action="safeResetRuntime">SAFE_RESET_RUNTIME</button>
+        </div>
+        <div class="setting-group">
+          <button class="btn-primary btn-upload" data-action="emergencyClose">FORCE_EXIT_FAILSAFE</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- TERMINAL & TACTICAL FEED -->
+    <footer class="terminal-footer"
+      style="display:grid; grid-template-columns: 1fr 350px; height: 160px; background: #0a0c10; border-top:1px solid #1a1c20;">
+      <div id="term" style="height: 100%; width: 100%;"></div>
+      <div class="tactical-feed-container"
+        style="border-left:1px solid #1a1c20; padding:10px; display:flex; flex-direction:column;">
+        <div
+          style="font-size:0.6rem; color:var(--accent); letter-spacing:2px; font-weight:bold; margin-bottom:10px; opacity:0.7;">
+          LIVE_TACTICAL_FEED</div>
+        <div id="tacticalFeed"
+          style="flex:1; overflow-y:auto; font-family:'JetBrains Mono', monospace; font-size:0.65rem; color:#888;">
+          <div class="feed-entry" style="color:var(--ok);">[SYSTEM] NODE_STATE: READY</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="actionDialogOverlay" class="action-dialog-overlay" style="display:none;">
+    <div class="action-dialog-card">
+      <div id="actionDialogTitle" class="action-dialog-title">CONFIRM_ACTION</div>
+      <div id="actionDialogMessage" class="action-dialog-message">Proceed?</div>
+      <input id="actionDialogInput" class="action-dialog-input" type="text" style="display:none;">
+      <div class="action-dialog-buttons">
+        <button id="actionDialogCancel" class="btn-primary btn-outline-dim" data-action="dialogNoop">CANCEL</button>
+        <button id="actionDialogConfirm" class="btn-primary" data-action="dialogNoop">CONFIRM</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

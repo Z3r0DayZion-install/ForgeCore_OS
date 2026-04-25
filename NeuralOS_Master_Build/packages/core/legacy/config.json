@@ -1,0 +1,37 @@
+{
+  "port": 3000,
+  "host": "127.0.0.1",
+  "theme": "BloodNeon",
+  "vaults": [
+    "INTEL_VAULT",
+    "RELEASE_VAULT",
+    "CHAT_VAULT",
+    "UTILITY_VAULT"
+  ],
+  "security": {
+    "authEnabled": true,
+    "integrityCheck": true,
+    "mode": "PROD",
+    "dnaSeal": "cd0fb93eea90b1945f45b4742cdc11f6a256a0ca70b8193b7fb695d5f70ffdc5",
+    "rustBinaryHash": "4637a5fdf9f5efee750b6c7d2fc94afc7497996a5c658f7e61da8664fb26976e"
+  },
+  "ui": {
+    "theme": "BloodNeon",
+    "matrixOpacity": 0.08,
+    "shadowMask": false
+  },
+  "peers": [
+    {
+      "id": "NODE_ALPHA",
+      "host": "127.0.0.1",
+      "port": 3001,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "NODE_OMEGA",
+      "host": "192.168.1.100",
+      "port": 3000,
+      "status": "OFFLINE"
+    }
+  ]
+}

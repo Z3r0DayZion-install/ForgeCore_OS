@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Deterministic Release Manifest",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "release_date": { "type": "string", "format": "date-time" },
+    "git_commit": { "type": "string" },
+    "toolchains": {
+      "type": "object",
+      "properties": {
+        "rust": { "type": "string" },
+        "node": { "type": "string" }
+      }
+    },
+    "source_date_epoch": { "type": "integer" },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "version": { "type": "string" },
+          "sha256": { "type": "string" }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "platform": { "type": "string" },
+          "sha256": { "type": "string" }
+        }
+      }
+    },
+    "spec_versions": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "integer" },
+        "envelope_version": { "type": "integer" },
+        "merkle_version": { "type": "integer" },
+        "identity_version": { "type": "integer" },
+        "kdf_version": { "type": "integer" },
+        "pq_abstraction_version": { "type": "integer" }
+      },
+      "required": ["schema_version", "envelope_version", "merkle_version", "identity_version", "kdf_version"]
+    }
+  },
+  "required": ["version", "git_commit", "artifacts", "spec_versions"]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralOS™ Sovereign Shell</title>
+    <link rel="stylesheet" href="triple_os_desktop.css">
+</head>
+<body class="theme-winshadow">
+    <!-- Background Engine -->
+    <canvas id="neural-canvas"></canvas>
+    <div class="scanlines"></div>
+    <div class="watermark" id="os-watermark">WinShadow™ Sovereign Build // Singularity-Prime</div>
+
+    <!-- Triple OS Switcher -->
+    <div class="os-switcher">
+        <button onclick="OSManager.setTheme('winshadow')" title="WinShadow Mode" class="btn-win">🪟 WIN</button>
+        <button onclick="OSManager.setTheme('neuralmac')" title="NeuralMac Mode" class="btn-mac">🍎 MAC</button>
+        <button onclick="OSManager.setTheme('neurallinux')" title="NeuralLinux Mode" class="btn-lin">🐧 LIN</button>
+    </div>
+
+    <!-- Desktop Area -->
+    <div id="desktop">
+        <div class="desktop-icon" onclick="WindowManager.openApp('XXXplorer Universal', 'xxxplorer.html', 'folder')">
+            <div class="icon-img icon-xxxplorer">📁</div>
+            <div class="icon-text">XXXplorer™</div>
+        </div>
+        <div class="desktop-icon" onclick="WindowManager.openApp('HyperSnatch', 'about:blank', 'bolt')">
+            <div class="icon-img icon-hypersnatch">⚡</div>
+            <div class="icon-text">HyperSnatch</div>
+        </div>
+        <div class="desktop-icon" onclick="WindowManager.openApp('Forge CLI', 'about:blank', 'terminal')">
+            <div class="icon-img icon-cli">>_</div>
+            <div class="icon-text">Forge CLI</div>
+        </div>
+    </div>
+
+    <!-- ==================== WINSHADOW UI ==================== -->
+    <div id="win-taskbar" class="os-bar win-bar">
+        <button class="start-btn" onclick="WindowManager.toggleStartMenu(this)">🪟 START</button>
+        <div class="open-apps-container"></div>
+        <div class="tray">
+            <span class="seal-display">SEAL: <span class="seal-val">BOUND</span></span>
+            <span class="clock">00:00</span>
+        </div>
+    </div>
+
+    <!-- ==================== NEURALMAC UI ==================== -->
+    <div id="mac-topbar" class="os-bar mac-topbar">
+        <div class="mac-menu">
+            <span class="mac-apple">🍎</span>
+            <span class="mac-active-app">Finder</span>
+            <span>File</span>
+            <span>Edit</span>
+            <span>View</span>
+            <span>Go</span>
+        </div>
+        <div class="tray">
+            <span class="seal-display"><span class="seal-val">BOUND</span></span>
+            <span class="clock">00:00</span>
+        </div>
+    </div>
+    <div id="mac-dock" class="mac-dock">
+        <!-- Dock items injected via JS -->
+    </div>
+
+    <!-- ==================== NEURALLINUX UI ==================== -->
+    <div id="lin-panel" class="os-bar lin-panel">
+        <button class="lin-menu-btn" onclick="WindowManager.toggleStartMenu(this)">Applications</button>
+        <div class="open-apps-container"></div>
+        <div class="tray">
+            <span class="clock">00:00</span>
+        </div>
+    </div>
+
+    <!-- Start Menu / App Launcher -->
+    <div id="start-menu" class="hidden">
+        <div class="start-header">
+            <h3>NEURAL HUB</h3>
+            <span class="seal-display">SEAL: <span class="seal-val">BOUND</span></span>
+        </div>
+        <div class="start-body">
+            <button onclick="WindowManager.openApp('System Settings', 'about:blank', 'cog'); WindowManager.toggleStartMenu()">⚙️ System Settings</button>
+            <button onclick="WindowManager.openApp('ZeroTrace', 'about:blank', 'shield'); WindowManager.toggleStartMenu()">🛡️ ZeroTrace Audit</button>
+            <hr>
+            <button style="color: var(--theme-red);" onclick="window.close()">⏻ Shutdown NeuralOS</button>
+        </div>
+    </div>
+
+    <script src="triple_os_desktop.js"></script>
+</body>
+</html>

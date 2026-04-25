@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralOS Boot Ritual</title>
+    <style>
+        :root {
+            --bg: #050505;
+            --accent: #58a6ff;
+            --dim: #444;
+            --glow: rgba(88, 166, 255, 0.5);
+            --red: #ff5a6f;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: var(--bg);
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Matrix Scanlines */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(
+                to bottom,
+                rgba(255,255,255,0),
+                rgba(255,255,255,0) 50%,
+                rgba(0,0,0,0.2) 50%,
+                rgba(0,0,0,0.2)
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        /* Slot Machine Container */
+        .slot-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            z-index: 2;
+        }
+
+        .reels-wrapper {
+            display: flex;
+            gap: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border: 2px solid var(--dim);
+            border-radius: 8px;
+            box-shadow: 0 0 20px var(--glow);
+        }
+
+        .reel {
+            width: 80px;
+            height: 120px;
+            background: #111;
+            border: 1px solid var(--accent);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--accent);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .reel-strip {
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            transition: top 0.1s linear;
+        }
+
+        .reel-item {
+            width: 80px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .status-text {
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            min-height: 24px;
+            color: var(--dim);
+            transition: color 0.3s;
+        }
+
+        .status-text.glitch {
+            color: var(--red);
+            text-shadow: 2px 0 0 blue, -2px 0 0 red;
+            animation: glitch-anim 0.2s infinite;
+        }
+
+        .seal-display {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 0.8rem;
+            color: var(--dim);
+            font-family: monospace;
+        }
+
+        /* Jitter Animation */
+        @keyframes jitter {
+            0% { transform: translate(0, 0); }
+            20% { transform: translate(-2px, 1px); }
+            40% { transform: translate(2px, -1px); }
+            60% { transform: translate(-1px, 2px); }
+            80% { transform: translate(1px, -2px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        .btn-start {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 10px 20px;
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+        }
+
+        .btn-start:hover {
+            background: var(--accent);
+            color: #000;
+            box-shadow: 0 0 15px var(--accent);
+        }
+        
+        .btn-start:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        @keyframes glitch-anim {
+            0% { transform: skew(0deg); }
+            20% { transform: skew(-10deg); }
+            40% { transform: skew(10deg); }
+            60% { transform: skew(-5deg); }
+            80% { transform: skew(5deg); }
+            100% { transform: skew(0deg); }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="scanlines"></div>
+
+    <div class="slot-container">
+        <div class="status-text" id="status">AWAITING NEURAL LINK...</div>
+        
+        <div class="reels-wrapper">
+            <div class="reel"><div class="reel-strip" id="reel1"></div></div>
+            <div class="reel"><div class="reel-strip" id="reel2"></div></div>
+            <div class="reel"><div class="reel-strip" id="reel3"></div></div>
+        </div>
+
+        <button class="btn-start" id="startBtn">ENGAGE RITUAL</button>
+    </div>
+    
+    <div class="seal-display" id="sealDisplay">SEAL: [CALCULATING]</div>
+
+    <script>
+        // Browser Compatibility Shim
+        let ipcRenderer = null;
+        try {
+            ipcRenderer = require('electron').ipcRenderer;
+        } catch(e) {
+            console.warn("[BROWSER-MODE] IPC not available, simulating completion.");
+            ipcRenderer = { send: (channel) => {
+                if(channel === 'ritual-complete') {
+                    window.location.href = 'triple_os_desktop.html';
+                }
+            }};
+        }
+        
+        const SYMBOLS = ['SYS', 'NET', 'SEC', 'MEM', 'PWR', 'DNA', 'OS', 'WSH'];
+        const TARGET = ['W', 'I', 'N']; // WinShadow target
+        const REEL_SPINS = 20; // How many symbols to pass before stopping
+        
+        function buildStrip(targetLetter) {
+            let stripHtml = '';
+            for(let i=0; i<REEL_SPINS; i++) {
+                const sym = SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)];
+                stripHtml += `<div class="reel-item">${sym}</div>`;
+            }
+            stripHtml += `<div class="reel-item" style="color:#fff; text-shadow: 0 0 10px #fff;">${targetLetter}</div>`;
+            return stripHtml;
+        }
+
+        document.getElementById('reel1').innerHTML = buildStrip('W');
+        document.getElementById('reel2').innerHTML = buildStrip('I');
+        document.getElementById('reel3').innerHTML = buildStrip('N');
+
+        const btn = document.getElementById('startBtn');
+        const status = document.getElementById('status');
+
+        // Try to get process env (requires nodeIntegration)
+        try {
+            const seal = process.env.NEURALOS_SEAL || "DEV_MODE";
+            document.getElementById('sealDisplay').innerText = `SEAL: ${seal.substring(0, 16)}`;
+        } catch(e) {}
+
+        btn.addEventListener('click', () => {
+            btn.disabled = true;
+            btn.style.opacity = '0';
+            status.innerText = "AUTHENTICATING...";
+            status.classList.add('glitch');
+            
+            // Spin sound logic could go here
+            
+            const spinReel = (reelId, delay, finalIndex) => {
+                return new Promise(resolve => {
+                    const strip = document.getElementById(reelId);
+                    setTimeout(() => {
+                        // 120px is the height of one reel item
+                        const finalPos = -(finalIndex * 120);
+                        strip.style.transition = `top 2s cubic-bezier(0.1, 0.7, 0.1, 1)`;
+                        strip.style.top = `${finalPos}px`;
+                        
+                        setTimeout(resolve, 2000); // Resolve when animation ends
+                    }, delay);
+                });
+            };
+
+            Promise.all([
+                spinReel('reel1', 0, REEL_SPINS),
+                spinReel('reel2', 500, REEL_SPINS),
+                spinReel('reel3', 1000, REEL_SPINS)
+            ]).then(() => {
+                status.classList.remove('glitch');
+                status.style.color = 'var(--accent)';
+                status.innerText = "WINSHADOW™ ONLINE. LAUNCHING...";
+                
+                // Add jitter to whole container
+                document.querySelector('.reels-wrapper').style.animation = 'jitter 0.2s 5';
+                
+                setTimeout(() => {
+                    ipcRenderer.send('ritual-complete');
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[package]
+name = "vaultfs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "vaultfs"
+crate-type = ["cdylib"]
+
+[dependencies]
+neon = "1.0.0"
+sha2 = "0.10"
+hex = "0.4"

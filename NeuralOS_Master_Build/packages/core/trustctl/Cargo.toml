@@ -1,0 +1,14 @@
+[package]
+name = "trustctl"
+version = "0.1.0"
+edition = "2021"
+exclude = ["index.node"]
+
+[lib]
+name = "trustctl"
+crate-type = ["cdylib"]
+
+[dependencies]
+neon = "1.0.0"
+sha2 = "0.10"
+hex = "0.4"

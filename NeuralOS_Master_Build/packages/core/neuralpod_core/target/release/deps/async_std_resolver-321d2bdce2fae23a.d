@@ -1,0 +1,10 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\async_std_resolver-321d2bdce2fae23a.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\net.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\runtime.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\time.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\libasync_std_resolver-321d2bdce2fae23a.rlib: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\net.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\runtime.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\time.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\release\deps\libasync_std_resolver-321d2bdce2fae23a.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\net.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\runtime.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\time.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\net.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\runtime.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\async-std-resolver-0.24.4\src\time.rs:

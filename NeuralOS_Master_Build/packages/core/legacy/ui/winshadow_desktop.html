@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinShadow™ Environment</title>
+    <link rel="stylesheet" href="winshadow_desktop.css">
+</head>
+<body>
+    <!-- The Desktop Area -->
+    <div id="desktop">
+        <!-- Neural Core Background -->
+        <canvas id="neural-canvas" style="position: absolute; top:0; left:0; width:100%; height:100%; z-index:-1;"></canvas>
+        
+        <!-- Background elements -->
+        <div class="scanlines"></div>
+        <div class="watermark">WinShadow™ Sovereign Build // Singularity-Prime</div>
+
+        <!-- Desktop Icons -->
+        <div class="desktop-icon" onclick="WindowManager.openApp('XXXplorer', 'core/EMPIRE_HUD.html')">
+            <div class="icon-img" style="background: var(--accent);">📁</div>
+            <div class="icon-text">XXXplorer™</div>
+        </div>
+        
+        <div class="desktop-icon" onclick="WindowManager.openApp('HyperSnatch', 'about:blank')">
+            <div class="icon-img" style="background: var(--red);">⚡</div>
+            <div class="icon-text">HyperSnatch</div>
+        </div>
+
+        <div class="desktop-icon" onclick="WindowManager.openApp('Terminal', 'about:blank')">
+            <div class="icon-img" style="background: #333; color: var(--accent); border: 1px solid var(--accent);">>_</div>
+            <div class="icon-text">Forge CLI</div>
+        </div>
+    </div>
+
+    <!-- Start Menu (Hidden by default) -->
+    <div id="start-menu" class="hidden">
+        <div class="start-header">
+            <h3>NEURAL HUB</h3>
+            <span id="seal-display">SEAL: UNKNOWN</span>
+        </div>
+        <div class="start-body">
+            <button onclick="WindowManager.openApp('Settings', 'about:blank'); WindowManager.toggleStartMenu()">⚙️ System Settings</button>
+            <button onclick="WindowManager.openApp('ZeroTrace', 'about:blank'); WindowManager.toggleStartMenu()">🛡️ ZeroTrace Audit</button>
+            <hr>
+            <button style="color: var(--red);" onclick="window.close()">⏻ Shutdown WinShadow</button>
+        </div>
+    </div>
+
+    <!-- The Taskbar -->
+    <div id="taskbar">
+        <button id="start-btn" onclick="WindowManager.toggleStartMenu()">
+            <span class="logo">🪟</span> WINSHADOW
+        </button>
+        
+        <div id="open-apps">
+            <!-- Pinned/Open app indicators go here -->
+        </div>
+
+        <div id="tray">
+            <span class="tray-icon" title="Faraday Bridge Active">🔒</span>
+            <span class="tray-icon" title="Seal-Pulse Bound">💓</span>
+            <div id="clock">00:00</div>
+        </div>
+    </div>
+
+    <script src="winshadow_desktop.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+packages:
+  - 'packages/shells/*'
+  - 'packages/core/*'
+  - 'packages/modules/*'

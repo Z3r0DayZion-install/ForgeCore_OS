@@ -1,0 +1,9 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\futures_executor-097e47f85e4b8cbb.d: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\local_pool.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\thread_pool.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\unpark_mutex.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\enter.rs
+
+C:\Users\KickA\NeuralOS_Master_Build\packages\core\neuralpod_core\target\debug\deps\libfutures_executor-097e47f85e4b8cbb.rmeta: C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\lib.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\local_pool.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\thread_pool.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\unpark_mutex.rs C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\enter.rs
+
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\lib.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\local_pool.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\thread_pool.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\unpark_mutex.rs:
+C:\Users\KickA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-executor-0.3.32\src\enter.rs:

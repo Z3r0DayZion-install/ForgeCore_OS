@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-05T00:00:00.000Z",
+  "keys": [
+    {
+      "keyId": "forgecore-architect-root",
+      "algorithm": "ed25519",
+      "status": "active",
+      "roles": [
+        "feed-metadata"
+      ],
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAFxlc+uXKRMXuujMUY35MvOgLglbgiWDx2T8nez6E8G0=\n-----END PUBLIC KEY-----"
+    },
+    {
+      "keyId": "forgecore-cosigner-01",
+      "algorithm": "ed25519",
+      "status": "active",
+      "roles": [
+        "feed-metadata"
+      ],
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAHHRF29upvD+H2vKBxan7NtouoqpLpECPkeM/87Rfq1I=\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "revokedKeyIds": [],
+  "policy": {
+    "minimumSignatures": 2,
+    "maxMetadataAgeDays": 30,
+    "allowedChannels": [
+      "stable",
+      "beta",
+      "canary"
+    ],
+    "requiredSignerKeyIds": [
+      "forgecore-architect-root",
+      "forgecore-cosigner-01"
+    ]
+  },
+  "updatedAt": "2026-03-05T07:19:16.455Z"
+}

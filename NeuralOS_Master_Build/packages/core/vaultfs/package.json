@@ -1,0 +1,13 @@
+{
+  "name": "@neuralos/core-vaultfs",
+  "version": "1.0.0",
+  "description": "NeuralOS VaultFS - Rust-powered verified storage",
+  "main": "index.node",
+  "scripts": {
+    "build": "neon build --release",
+    "debug": "neon build"
+  },
+  "devDependencies": {
+    "@neon-rs/cli": "^1.0.0"
+  }
+}

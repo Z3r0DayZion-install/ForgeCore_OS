@@ -1,0 +1,1 @@
+C:\Users\KickA\NeuralOS_Master_Build\packages\modules\vipn\rust\target\release\vipn_core.dll: C:\Users\KickA\NeuralOS_Master_Build\packages\modules\vipn\rust\src\lib.rs C:\Users\KickA\NeuralOS_Master_Build\packages\modules\vipn\rust\src\tap.rs
