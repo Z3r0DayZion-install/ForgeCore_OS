@@ -12,30 +12,31 @@
     "test:packaged": "node scripts/smokePackaged.js",
     "build:win": "npm run build:assets && electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",
-    "proof:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "proof:lint": "eslint --fix ."
   },
   "author": "Neural Empire",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
     "@playwright/test": "^1.59.1",
     "cross-env": "^7.0.3",
-    "electron": "^29.1.1",
-    "electron-builder": "^24.13.3",
-    "eslint": "^8.57.0",
+    "electron": "^33.4.11",
+    "electron-builder": "^26.8.1",
+    "eslint": "^9.39.4",
+    "globals": "^17.5.0",
     "prettier": "^3.2.5"
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
     "node-pty": "^1.1.0",
-    "systeminformation": "^5.21.22",
-    "xterm": "^5.3.0",
-    "xterm-addon-fit": "^0.8.0"
+    "systeminformation": "^5.21.22"
   },
   "build": {
     "appId": "com.neuralempire.neuralos",
     "productName": "NeuralOS",
     "files": [
       "main.desktop.js",
+      "modules/**/*.js",
       "preload.js",
       "package.json",
       "node_modules/**/*",
