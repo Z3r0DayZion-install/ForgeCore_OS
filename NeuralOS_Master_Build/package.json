@@ -12,11 +12,13 @@
     "test:packaged": "node scripts/smokePackaged.js",
     "build:win": "npm run build:assets && electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",
-    "proof:lint": "eslint --fix ."
+    "proof:lint": "eslint --fix .",
+    "rebuild": "electron-rebuild -f -o node-pty"
   },
   "author": "Neural Empire",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@electron/rebuild": "^4.0.4",
     "@eslint/js": "^9.39.4",
     "@playwright/test": "^1.59.1",
     "cross-env": "^7.0.3",
