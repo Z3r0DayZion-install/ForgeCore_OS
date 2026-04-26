@@ -1,17 +1,44 @@
-# Node
+# Dependencies
 node_modules/
-dist/
-artifacts/
-*.log
 
-# Rust
-**/target/
-**/*.pdb
-**/*.rlib
-**/*.rmeta
+# Build outputs
+dist/
+*.exe
+*.asar
+*.snap
+*.deb
+*.rpm
+*.AppImage
+
+# Electron packager artifacts
+NeuralOS_Master_Build/dist/
+NeuralOS_Master_Build/iso_builder/work/
+NeuralOS_Master_Build/my-electron-app/
+
+# Runtime data
+memory/
+NeuralOS_Master_Build/memory/
+NeuralOS_Master_Build/proof_bundle/OPERATIONS.log
+test-results/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Secrets
-.env
 *.key
 *.pem
-secrets/
+!packages/core/trustctl/*.js
+
+# Misc
+*.log
+*.tsbuildinfo
+.coverage
