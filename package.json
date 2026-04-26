@@ -2,12 +2,9 @@
     "name": "forgecore-os",
     "version": "2.0.0",
     "description": "ForgeCore™ OS // Singularity-Prime",
-    "main": "electron_main.js",
+    "main": "NeuralOS_Master_Build/main.desktop.js",
     "scripts": {
-        "start": "electron .",
-        "server": "node core/v3_sovereign_server.js",
-        "dev": "concurrently \"npm run server\" \"wait-on http://localhost:3000 && npm start\"",
-        "build:zerotrace": "pkg zerotrace_standalone.js --target node18-win-x64 --output dist/ZeroTrace.exe",
+        "start": "cross-env NODE_ENV=development electron .",
         "manifest:refresh": "node scripts/refresh_manifest_signature.cjs",
         "specs:generate": "node scripts/generate_minepack_specs.cjs",
         "specs:materialize:obey": "node scripts/materialize_obey_outputs.cjs",
@@ -60,41 +57,37 @@
     "author": "FORGE_MASTER",
     "license": "ISC",
     "devDependencies": {
-        "electron": "^31.7.7",
-        "electron-builder": "^24.13.3",
-        "pkg": "^5.8.1"
+        "cross-env": "^7.0.3",
+        "electron": "^41.3.0",
+        "electron-builder": "^26.8.1"
     },
-    "dependencies": {
-        "concurrently": "^8.2.2",
-        "monaco-editor": "^0.44.0",
-        "wait-on": "^7.2.0",
-        "xterm": "^5.3.0",
-        "xterm-addon-fit": "^0.8.0",
-        "y-websocket": "^3.0.0",
-        "yjs": "^13.6.29"
-    },
-    "pkg": {
-        "assets": [
-            "core/swarm/zerotrace.html"
-        ],
-        "targets": [
-            "node18-win-x64"
-        ]
-    },
+    "dependencies": {},
     "build": {
         "files": [
-            "**/*",
-            "!dist/**",
-            "!release/**",
-            "!REPORTS_ARCHIVE/**",
-            "!.github/**",
-            "!CI_PIPELINE/**",
-            "!proof_bundle/**",
-            "!proof_bundle.zip",
-            "!.snapshots/**",
-            "!workflows/**",
-            "!rust_quantum_crypto/target/**",
-            "rust_quantum_crypto/target/release/rust_quantum_crypto.exe"
+            "NeuralOS_Master_Build/main.desktop.js",
+            "NeuralOS_Master_Build/modules/**/*.js",
+            "NeuralOS_Master_Build/preload.js",
+            "NeuralOS_Master_Build/package.json",
+            "NeuralOS_Master_Build/packages/core/*/index.js",
+            "NeuralOS_Master_Build/packages/core/*/index.node",
+            "NeuralOS_Master_Build/packages/modules/vipn/rust/index.js",
+            "NeuralOS_Master_Build/packages/modules/vipn/rust/index.node",
+            "NeuralOS_Master_Build/packages/modules/xxxplorer/dist/**/*",
+            "NeuralOS_Master_Build/packages/modules/vipn/ui/dist/**/*",
+            "NeuralOS_Master_Build/packages/modules/vaultpanel-plus/dist/**/*",
+            "NeuralOS_Master_Build/packages/shells/winshadow/dist/**/*",
+            "NeuralOS_Master_Build/packages/shells/neuralmac/dist/**/*",
+            "NeuralOS_Master_Build/packages/shells/neurallinux/dist/**/*",
+            "core/**/*.js",
+            "core/**/*.json",
+            "core/**/*.html",
+            "core/**/*.css",
+            "!core/architect.key",
+            "node_modules/**/*",
+            "!**/*.pdb",
+            "!**/node_modules/node-pty/deps/**",
+            "!**/node_modules/node-pty/src/**",
+            "!**/node_modules/node-pty/**/*.map"
         ],
         "asarUnpack": [
             "core/**"
