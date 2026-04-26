@@ -39,6 +39,17 @@ jobs:
       - name: Verify MinePack specs bundle
         run: npm run specs:verify
 
+      - name: Generate CI architect key
+        run: |
+          node -e "
+          const crypto = require('crypto');
+          const fs = require('fs');
+          const pair = crypto.generateKeyPairSync('ed25519');
+          const pem = pair.privateKey.export({ type: 'pkcs8', format: 'pem' });
+          fs.writeFileSync('core/architect.key', pem, { encoding: 'utf8' });
+          console.log('[CI] architect.key generated for build signing');
+          "
+
       - name: Install Wine for cross-platform build
         run: |
           sudo dpkg --add-architecture i386
