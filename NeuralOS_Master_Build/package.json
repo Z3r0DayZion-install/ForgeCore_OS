@@ -8,7 +8,7 @@
     "build:assets": "npm --prefix packages/modules/xxxplorer run build && npm --prefix packages/shells/winshadow run build",
     "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
     "test:e2e": "playwright test tests/xxxplorer.spec.ts",
-    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts tests/native-launch.spec.ts",
+    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts tests/native-launch.spec.ts tests/shell-hotswap.spec.ts tests/system-metrics.spec.ts tests/vpn-pod-ipc.spec.ts tests/memory-engine.spec.ts",
     "test:packaged": "node scripts/smokePackaged.js",
     "build:win": "npm run build:assets && electron-builder --windows portable",
     "build:tear": "node scripts/tearPack.js",

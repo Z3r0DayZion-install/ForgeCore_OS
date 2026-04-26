@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const { BrowserWindow, globalShortcut } = require('electron');
+const { BrowserWindow, globalShortcut, session } = require('electron');
 const ctx = require('./context');
 const { updateState } = require('./state');
 const { setupPTY } = require('./pty');
@@ -15,6 +15,53 @@ function resolveShellPath(shellMode) {
         path.join(ROOT_DIR, 'packages', 'modules', 'xxxplorer', 'dist', 'index.html')
     ];
     return candidates.find((c) => fs.existsSync(c)) || candidates[candidates.length - 1];
+}
+
+const ALLOWED_PERMISSIONS = new Set(['clipboard-read', 'clipboard-sanitized-write']);
+
+/**
+ * Inject Content-Security-Policy headers on every response flowing
+ * into the default session.  Only local file:// origins and inline
+ * styles/scripts used by the shell front-ends are permitted.
+ */
+function applyCSPHeaders() {
+    session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
+        callback({
+            responseHeaders: {
+                ...details.responseHeaders,
+                'Content-Security-Policy': [
+                    "default-src 'self' file:; " +
+                    "script-src  'self' file: 'unsafe-inline'; " +
+                    "style-src   'self' file: 'unsafe-inline'; " +
+                    "img-src     'self' file: data:; " +
+                    "font-src    'self' file: data:; " +
+                    "connect-src 'self'; " +
+                    "object-src  'none'; " +
+                    "base-uri    'none'; " +
+                    "form-action 'none';"
+                ]
+            }
+        });
+    });
+}
+
+/**
+ * Restrict which renderer-side permission requests are honoured.
+ * Only clipboard access is permitted; everything else (camera, mic,
+ * geolocation, notifications, midi, etc.) is denied outright.
+ */
+function applyPermissionHandler() {
+    session.defaultSession.setPermissionRequestHandler((_webContents, permission, callback) => {
+        if (ALLOWED_PERMISSIONS.has(permission)) {
+            callback(true);
+        } else {
+            console.warn(`[SECURITY] Denied permission request: ${permission}`);
+            callback(false);
+        }
+    });
+    session.defaultSession.setPermissionCheckHandler((_webContents, permission) => {
+        return ALLOWED_PERMISSIONS.has(permission);
+    });
 }
 
 function registerShellShortcut() {
@@ -33,7 +80,15 @@ function registerShellShortcut() {
     });
 }
 
+let securityApplied = false;
+
 function createWindow() {
+    if (!securityApplied) {
+        applyCSPHeaders();
+        applyPermissionHandler();
+        securityApplied = true;
+    }
+
     const shellMode = process.env.SHELL_MODE || (ctx.systemState && ctx.systemState.activeShell) || 'winshadow';
     process.env.SHELL_MODE = shellMode;
     console.log(`[NEURALOS] Loading Shell: ${shellMode}`);
@@ -73,4 +128,4 @@ function createWindow() {
     updateState({ activeShell: shellMode });
 }
 
-module.exports = { resolveShellPath, createWindow };
+module.exports = { resolveShellPath, createWindow, applyCSPHeaders, applyPermissionHandler };

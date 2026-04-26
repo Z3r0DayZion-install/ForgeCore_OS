@@ -1,0 +1,135 @@
+{
+  "version": "2.0.0",
+  "timestamp": "2026-04-26T00:37:43.077Z",
+  "signature": "aace3f9e9c2c17fa572e2b827d1415b8ddfb634c7f47c8e36703ca969e91507eed58b614fc860921dce8648720c3718f9d56bbaa77e9665841ad5b6be06b6e0d",
+  "files": [
+    {
+      "path": "NeuralOS_Master_Build/main.desktop.js",
+      "hash": "f762bd796b7bbb593fa3de720d4a84b4581b1086601cbd8bfb0db4cd050f157d"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/config.js",
+      "hash": "e80cb0e8e4f65f66c08dc51d54f7975a914c0601702ec12f484803c2012884fc"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/context.js",
+      "hash": "0fe2ecf31a9baf34cf74a8ae899313260639dbb2eecf6da75977d8236e50791a"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/hardware.js",
+      "hash": "bece94eda25826ab5f1a4939537a34a645cdec06fb2058cfaad122c86cc1df61"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/ipc.js",
+      "hash": "93d2d9fede6207095328c9176654784e9ca9820eb2293aa23dc492421583292b"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/logging.js",
+      "hash": "fae1952237554b31fbb6849b818cc66908a3b3d24b804a40e8a316595a08881d"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/pty.js",
+      "hash": "a9cefd18360d1f2ce149247bd292308e5c79beec76d22083d21f366b33549cff"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/state.js",
+      "hash": "6d678648f5778f9e936616118e77e01b12aafe5d5605dee5d94b420cb76940bc"
+    },
+    {
+      "path": "NeuralOS_Master_Build/modules/window.js",
+      "hash": "0a35e4e5bf0b05508f415ee2488cd4fb653aeabd511cf78519eb104d6be8f046"
+    },
+    {
+      "path": "NeuralOS_Master_Build/preload.js",
+      "hash": "793d3b392840562e132333fa7e590506cf68f95a3dd0f566718db97ed836056a"
+    },
+    {
+      "path": "NeuralOS_Master_Build/packages/core/neuralpod_core/index.js",
+      "hash": "17fd958782e4205fcb946dd73acb1fb4cd0b6b5912e14386c057ba276cca4bc7"
+    },
+    {
+      "path": "NeuralOS_Master_Build/packages/core/seal_pulse/index.js",
+      "hash": "72e2194e26d269e47b68806e297b9b0c9f4703a0775ed08ebb548685d1234d80"
+    },
+    {
+      "path": "NeuralOS_Master_Build/packages/core/trustctl/index.js",
+      "hash": "dfaebf05a55a60dbb2844162a1a25462ac129c6e5a1b61f0ef8d3368378e881f"
+    },
+    {
+      "path": "NeuralOS_Master_Build/packages/core/vaultfs/index.js",
+      "hash": "297c15f20801df31a1ae4d811f2f4e6521cc83dcf6ce114b72d9aad7718034bb"
+    },
+    {
+      "path": "NeuralOS_Master_Build/packages/modules/vipn/rust/index.js",
+      "hash": "233330317879f1eafd7502ec54681ef8bc7d9892afea64c023c32b713264e5f2"
+    },
+    {
+      "path": "core/config.json",
+      "hash": "ef6fa179a1c8baf2e1b76bf867d67d4dd8e48d4e1d39c815b58068718be3d3f6"
+    },
+    {
+      "path": "core/PRODUCT.json",
+      "hash": "3f6c31f3de2c4a0c2a7c60dad4717cd609f6890e54d9d2bb0c2c3084ef220178"
+    },
+    {
+      "path": "core/SOVEREIGN_SERVER.js",
+      "hash": "d7d87d06929097118782375272d679b78dcbf3ffcb96401aab758e1dd43e17ea"
+    },
+    {
+      "path": "core/ai_threat_detector.js",
+      "hash": "75a676245b15191e569768ad30581766539f1ac8f3609e581d952215d3ffaf3e"
+    },
+    {
+      "path": "core/behavioral_analytics.js",
+      "hash": "556cff054850dadf0b2703972bd6ba38e0738a8823b4fd318ac75e4a7a6125ba"
+    },
+    {
+      "path": "core/decentralized_identity.js",
+      "hash": "2e36c0ceddea181304cd22a9aec71e5ad3432e726cd1b94e23dc7bcc31d131f2"
+    },
+    {
+      "path": "core/dna_seal_generator.js",
+      "hash": "14047d984beaaeb5802a4b7613661fbe7941ecb7dd3b3d37f4a68e0b1b8aa0ca"
+    },
+    {
+      "path": "core/enhanced_sovereign_server.js",
+      "hash": "c0647095d3112b902513f85efbc0ca4adc984ce66bec4dacd63d596aec7afe9d"
+    },
+    {
+      "path": "core/kernel_resurrection.js",
+      "hash": "189d299ea5150d9ca0ba52794a7295c54369715268fe957fd4d18fda0c6812fa"
+    },
+    {
+      "path": "core/lazarus.js",
+      "hash": "5d600f26526e1cef4283570dbc3d8ae4cb1f25408c24bdc99cfe07f25bc90045"
+    },
+    {
+      "path": "core/quantum_resistant_crypto_secure.js",
+      "hash": "c9c8964a1d70155b395fa009b0150746d1e4c899e54d56100f5e8a64f5858ca3"
+    },
+    {
+      "path": "core/secure_mpc.js",
+      "hash": "d37247ba679565774df8ab07857f9cc8ef4c1e44c2aa91f47290c5f4fcba4b13"
+    },
+    {
+      "path": "core/security_audit.js",
+      "hash": "5a288526992cbe67019c70db5a340f74c4c4c048eda7a0eb5c32a17a669cb346"
+    },
+    {
+      "path": "core/security_dna.js",
+      "hash": "e95590b739869d1499a673db89ac6e259677e12a522fa3c172ce50f289d1b8d0"
+    },
+    {
+      "path": "core/telemetry_ledger.js",
+      "hash": "ac1f47c51d6313e940065291c07005513310da6acee270c2eefdbb22a3a301cb"
+    },
+    {
+      "path": "core/vault_crypt.js",
+      "hash": "4ada00e0bd631fdd70b99b25eb28e05bcb2166a1dde6c15fc8c4cc00e16df2c4"
+    },
+    {
+      "path": "scripts/refresh_manifest_signature.cjs",
+      "hash": "48f554f9d1e018a0dc1fd1e05a658bd4282cb4b323ab6a9ec6e5c354d95ad345"
+    }
+  ]
+}
