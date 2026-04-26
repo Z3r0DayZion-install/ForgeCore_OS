@@ -51,8 +51,10 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,
+            sandbox: true,
             preload: path.join(ROOT_DIR, 'preload.js'),
-            webviewTag: false
+            webviewTag: false,
+            webSecurity: true
         }
     });
 

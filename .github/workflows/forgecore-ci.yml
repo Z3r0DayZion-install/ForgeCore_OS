@@ -39,6 +39,12 @@ jobs:
       - name: Verify MinePack specs bundle
         run: npm run specs:verify
 
+      - name: Install Wine for cross-platform build
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq wine64 > /dev/null 2>&1
+
       - name: Build portable
         run: npm run build:portable
 
