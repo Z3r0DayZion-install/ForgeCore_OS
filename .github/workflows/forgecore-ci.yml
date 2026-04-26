@@ -68,6 +68,9 @@ jobs:
       - name: Verify release hash chain
         run: npm run verify:release
 
+      - name: Generate update metadata
+        run: npm run update:metadata:portable
+
       - name: Build dist publish metadata
         run: node scripts/publish_portable_bundle.cjs
 
