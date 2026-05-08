@@ -20,6 +20,13 @@ memory/
 NeuralOS_Master_Build/memory/
 NeuralOS_Master_Build/proof_bundle/OPERATIONS.log
 test-results/
+NeuralOS_Master_Build/playwright-report/
+
+# Local-only workflow/hook artifacts
+.github/workflows/build.yml
+.github/workflows/verify-all.yml
+NeuralOS_Master_Build/.husky/
+NeuralOS_Master_Build/packages/sample.txt
 
 # IDE / editor
 .idea/

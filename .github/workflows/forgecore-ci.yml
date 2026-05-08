@@ -121,7 +121,7 @@ jobs:
 
       - name: Run Playwright E2E tests
         working-directory: NeuralOS_Master_Build
-        run: xvfb-run --auto-servernum npx playwright test
+        run: xvfb-run --auto-servernum npm run test:e2e:all
         env:
           CI: true
           NODE_ENV: test
