@@ -114,6 +114,18 @@ jobs:
         env:
           HUSKY: "0"
 
+      - name: Install renderer asset dependencies
+        working-directory: NeuralOS_Master_Build
+        run: |
+          npm --prefix packages/modules/xxxplorer ci
+          npm --prefix packages/shells/winshadow ci
+        env:
+          HUSKY: "0"
+
+      - name: Build renderer assets
+        working-directory: NeuralOS_Master_Build
+        run: npm run build:assets
+
       - name: Install system dependencies for Electron
         working-directory: NeuralOS_Master_Build
         run: |
