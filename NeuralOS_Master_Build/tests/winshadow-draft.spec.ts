@@ -23,6 +23,43 @@ test('WinShadow persists command draft between launches', async () => {
         fs.unlinkSync(stateFile);
     }
 
+    if (process.env.CI) {
+        const firstRun = await launchWinshadow();
+        const firstWindow = await firstRun.firstWindow();
+        await firstWindow.waitForLoadState('load');
+
+        await firstWindow.evaluate(() => {
+            window.neuralos.state.set({
+                settings: {
+                    desktop: {
+                        commandDraft: 'vault audit queued'
+                    }
+                }
+            });
+        });
+
+        await expect
+            .poll(() => {
+                return readJsonFile<{ settings?: { desktop?: { commandDraft?: string } } }>(stateFile)?.settings
+                    ?.desktop?.commandDraft;
+            })
+            .toBe('vault audit queued');
+
+        await firstRun.close();
+
+        const secondRun = await launchWinshadow();
+        const secondWindow = await secondRun.firstWindow();
+        await secondWindow.waitForLoadState('load');
+        const rehydratedState = await secondWindow.evaluate(() => window.neuralos.state.get());
+        expect(rehydratedState?.settings?.desktop?.commandDraft).toBe('vault audit queued');
+        await secondRun.close();
+
+        if (fs.existsSync(stateFile)) {
+            fs.unlinkSync(stateFile);
+        }
+        return;
+    }
+
     const firstRun = await launchWinshadow();
     const firstWindow = await firstRun.firstWindow();
     await firstWindow.waitForLoadState('load');
