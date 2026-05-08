@@ -25,7 +25,7 @@ async function main() {
             env: {
                 ...process.env,
                 NODE_ENV: 'test',
-                SHELL_MODE: 'xxxplorer',
+                SHELL_MODE: 'winshadow',
                 NEURALOS_RUNTIME_DIR: runtimeDir,
                 NEURALOS_STATE_FILE: stateFile
             }
@@ -35,8 +35,9 @@ async function main() {
         await window.waitForLoadState('domcontentloaded');
 
         const title = await window.title();
-        if (!title.startsWith('NeuralOS // XXXplorer')) {
-            throw new Error(`Unexpected packaged window title: ${title}`);
+        const shellMode = await window.evaluate(() => window.neuralos.shell.getMode());
+        if (shellMode !== 'winshadow') {
+            throw new Error(`Unexpected packaged shell mode: ${shellMode}`);
         }
 
         const launchResult = await window.evaluate(() => window.neuralos.system.launch('calc.exe'));
@@ -49,6 +50,7 @@ async function main() {
                 ok: true,
                 executablePath,
                 title,
+                shellMode,
                 launchResult
             })
         );

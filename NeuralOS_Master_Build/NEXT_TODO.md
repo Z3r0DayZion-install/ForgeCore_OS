@@ -38,4 +38,5 @@ Previous cycle completed: repo hygiene, CI command alignment, docs, release note
 ## Follow-Up Watchlist
 
 - [ ] Consider adding a dedicated packaged shell-switch Playwright test so this lifecycle regression is caught before manual QA.
+- [ ] Triage XXXplorer visual glitching separately from packaged startup smoke.
 - [ ] Decide later whether `NeuralOS_Master_Build` should become its own Git repository after the CI/hooks branch is merged.
