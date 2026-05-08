@@ -1,6 +1,7 @@
 import { _electron as electron, expect, test } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
+import { readJsonFile } from './helpers/readJsonFile';
 
 const projectRoot = path.join(__dirname, '..');
 const stateFile = path.join(projectRoot, 'memory', 'NODECHAIN_STATE.winshadow-draft-test.json');
@@ -31,11 +32,8 @@ test('WinShadow persists command draft between launches', async () => {
 
     await expect
         .poll(() => {
-            if (!fs.existsSync(stateFile)) {
-                return undefined;
-            }
-            const raw = fs.readFileSync(stateFile, 'utf-8');
-            return JSON.parse(raw)?.settings?.desktop?.commandDraft;
+            return readJsonFile<{ settings?: { desktop?: { commandDraft?: string } } }>(stateFile)?.settings?.desktop
+                ?.commandDraft;
         })
         .toBe('vault audit queued');
 

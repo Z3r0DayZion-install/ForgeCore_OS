@@ -135,7 +135,7 @@ jobs:
 
       - name: Run Playwright E2E tests
         working-directory: NeuralOS_Master_Build
-        run: npm run test:e2e:all
+        run: npm run test:e2e:ci
         env:
           CI: true
           NODE_ENV: test

@@ -1,84 +1,85 @@
 {
-  "name": "neuralos-master",
-  "version": "1.0.0",
-  "description": "NeuralOS™ Sovereign Runtime // Singularity-Prime Phase 1",
-  "main": "main.desktop.js",
-  "scripts": {
-    "start": "cross-env NODE_ENV=development electron main.desktop.js",
-    "build:assets": "npm --prefix packages/modules/xxxplorer run build && npm --prefix packages/shells/winshadow run build",
-    "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
-    "test:e2e": "playwright test tests/xxxplorer.spec.ts",
-    "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts tests/native-launch.spec.ts tests/shell-hotswap.spec.ts tests/system-metrics.spec.ts tests/vpn-pod-ipc.spec.ts tests/memory-engine.spec.ts",
-    "test:packaged": "node scripts/smokePackaged.js",
-    "build:win": "npm run build:assets && electron-builder --windows portable",
-    "build:tear": "node scripts/tearPack.js",
-    "proof:lint": "eslint --fix .",
-    "rebuild": "electron-rebuild -f -o node-pty"
-  },
-  "author": "Neural Empire",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@electron/rebuild": "^4.0.4",
-    "@eslint/js": "^9.39.4",
-    "@playwright/test": "^1.59.1",
-    "cross-env": "^7.0.3",
-    "electron": "^41.3.0",
-    "electron-builder": "^26.8.1",
-    "eslint": "^9.39.4",
-    "globals": "^17.5.0",
-    "prettier": "^3.2.5"
-  },
-  "dependencies": {
-    "crypto-js": "^4.2.0",
-    "node-pty": "^1.1.0",
-    "systeminformation": "^5.21.22"
-  },
-  "build": {
-    "appId": "com.neuralempire.neuralos",
-    "productName": "NeuralOS",
-    "files": [
-      "main.desktop.js",
-      "modules/**/*.js",
-      "preload.js",
-      "package.json",
-      "node_modules/**/*",
-      "packages/core/*/index.js",
-      "packages/core/*/index.node",
-      "packages/modules/vipn/rust/index.js",
-      "packages/modules/vipn/rust/index.node",
-      "packages/modules/xxxplorer/dist/**/*",
-      "packages/modules/vipn/ui/dist/**/*",
-      "packages/modules/vaultpanel-plus/dist/**/*",
-      "packages/shells/winshadow/dist/**/*",
-      "packages/shells/neuralmac/dist/**/*",
-      "packages/shells/neurallinux/dist/**/*",
-      "!**/*.pdb",
-      "!node_modules/node-pty/deps/**/*",
-      "!node_modules/node-pty/scripts/**/*",
-      "!node_modules/node-pty/src/**/*",
-      "!node_modules/node-pty/**/*.map",
-      "!node_modules/node-pty/**/*.test.*",
-      "!node_modules/node-pty/prebuilds/darwin-*/*",
-      "!node_modules/node-pty/prebuilds/win32-arm64/**/*",
-      "!node_modules/node-pty/third_party/conpty/**/win10-arm64/**/*"
-    ],
-    "asarUnpack": [
-      "**/*.node"
-    ],
-    "linux": {
-      "target": [
-        "dir"
-      ],
-      "category": "Utility"
+    "name": "neuralos-master",
+    "version": "1.0.0",
+    "description": "NeuralOS™ Sovereign Runtime // Singularity-Prime Phase 1",
+    "main": "main.desktop.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=development electron main.desktop.js",
+        "build:assets": "npm --prefix packages/modules/xxxplorer run build && npm --prefix packages/shells/winshadow run build",
+        "proof:all": "node scripts/proofRunner.js && npm run test:e2e",
+        "test:e2e": "playwright test tests/xxxplorer.spec.ts",
+        "test:e2e:all": "playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/winshadow-draft.spec.ts tests/native-launch.spec.ts tests/shell-hotswap.spec.ts tests/system-metrics.spec.ts tests/vpn-pod-ipc.spec.ts tests/memory-engine.spec.ts",
+        "test:e2e:ci": "playwright test tests/winshadow-draft.spec.ts && playwright test tests/xxxplorer.spec.ts tests/state-persistence.spec.ts tests/xxxplorer-preferences.spec.ts tests/native-launch.spec.ts tests/shell-hotswap.spec.ts tests/system-metrics.spec.ts tests/vpn-pod-ipc.spec.ts tests/memory-engine.spec.ts",
+        "test:packaged": "node scripts/smokePackaged.js",
+        "build:win": "npm run build:assets && electron-builder --windows portable",
+        "build:tear": "node scripts/tearPack.js",
+        "proof:lint": "eslint --fix .",
+        "rebuild": "electron-rebuild -f -o node-pty"
     },
-    "win": {
-      "target": [
-        "portable"
-      ],
-      "icon": "assets/icon.ico"
+    "author": "Neural Empire",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@electron/rebuild": "^4.0.4",
+        "@eslint/js": "^9.39.4",
+        "@playwright/test": "^1.59.1",
+        "cross-env": "^7.0.3",
+        "electron": "^41.3.0",
+        "electron-builder": "^26.8.1",
+        "eslint": "^9.39.4",
+        "globals": "^17.5.0",
+        "prettier": "^3.2.5"
     },
-    "portable": {
-      "artifactName": "NeuralOS_Master_v${version}.exe"
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "node-pty": "^1.1.0",
+        "systeminformation": "^5.21.22"
+    },
+    "build": {
+        "appId": "com.neuralempire.neuralos",
+        "productName": "NeuralOS",
+        "files": [
+            "main.desktop.js",
+            "modules/**/*.js",
+            "preload.js",
+            "package.json",
+            "node_modules/**/*",
+            "packages/core/*/index.js",
+            "packages/core/*/index.node",
+            "packages/modules/vipn/rust/index.js",
+            "packages/modules/vipn/rust/index.node",
+            "packages/modules/xxxplorer/dist/**/*",
+            "packages/modules/vipn/ui/dist/**/*",
+            "packages/modules/vaultpanel-plus/dist/**/*",
+            "packages/shells/winshadow/dist/**/*",
+            "packages/shells/neuralmac/dist/**/*",
+            "packages/shells/neurallinux/dist/**/*",
+            "!**/*.pdb",
+            "!node_modules/node-pty/deps/**/*",
+            "!node_modules/node-pty/scripts/**/*",
+            "!node_modules/node-pty/src/**/*",
+            "!node_modules/node-pty/**/*.map",
+            "!node_modules/node-pty/**/*.test.*",
+            "!node_modules/node-pty/prebuilds/darwin-*/*",
+            "!node_modules/node-pty/prebuilds/win32-arm64/**/*",
+            "!node_modules/node-pty/third_party/conpty/**/win10-arm64/**/*"
+        ],
+        "asarUnpack": [
+            "**/*.node"
+        ],
+        "linux": {
+            "target": [
+                "dir"
+            ],
+            "category": "Utility"
+        },
+        "win": {
+            "target": [
+                "portable"
+            ],
+            "icon": "assets/icon.ico"
+        },
+        "portable": {
+            "artifactName": "NeuralOS_Master_v${version}.exe"
+        }
     }
-  }
 }
