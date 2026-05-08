@@ -91,7 +91,8 @@ jobs:
             dist/release-feed-alignment.json
 
   e2e-tests:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -126,13 +127,6 @@ jobs:
         working-directory: NeuralOS_Master_Build
         run: npm run build:assets
 
-      - name: Install system dependencies for Electron
-        working-directory: NeuralOS_Master_Build
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq xvfb xauth build-essential python3 make g++
-          npx playwright install-deps
-
       - name: Rebuild native modules for Electron
         working-directory: NeuralOS_Master_Build
         run: npm run rebuild
@@ -141,7 +135,7 @@ jobs:
 
       - name: Run Playwright E2E tests
         working-directory: NeuralOS_Master_Build
-        run: xvfb-run --auto-servernum --server-args="-screen 0 1400x900x24" npm run test:e2e:all
+        run: npm run test:e2e:all
         env:
           CI: true
           NODE_ENV: test
