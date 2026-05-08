@@ -94,11 +94,13 @@ function createWindow() {
     console.log(`[NEURALOS] Loading Shell: ${shellMode}`);
 
     const previousWindow = ctx.mainWindow && !ctx.mainWindow.isDestroyed() ? ctx.mainWindow : null;
+    const isTestRuntime = process.env.NODE_ENV === 'test';
     const nextWindow = new BrowserWindow({
         width: 1400,
         height: 900,
-        frame: false,
-        fullscreen: true,
+        frame: isTestRuntime,
+        fullscreen: !isTestRuntime,
+        show: true,
         backgroundColor: '#050505',
         webPreferences: {
             nodeIntegration: false,
