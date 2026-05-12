@@ -31,14 +31,14 @@ function applyCSPHeaders() {
                 ...details.responseHeaders,
                 'Content-Security-Policy': [
                     "default-src 'self' file:; " +
-                    "script-src  'self' file: 'unsafe-inline'; " +
-                    "style-src   'self' file: 'unsafe-inline'; " +
-                    "img-src     'self' file: data:; " +
-                    "font-src    'self' file: data:; " +
-                    "connect-src 'self'; " +
-                    "object-src  'none'; " +
-                    "base-uri    'none'; " +
-                    "form-action 'none';"
+                        "script-src  'self' file: 'unsafe-inline'; " +
+                        "style-src   'self' file: 'unsafe-inline'; " +
+                        "img-src     'self' file: data:; " +
+                        "font-src    'self' file: data:; " +
+                        "connect-src 'self'; " +
+                        "object-src  'none'; " +
+                        "base-uri    'none'; " +
+                        "form-action 'none';"
                 ]
             }
         });
@@ -93,15 +93,14 @@ function createWindow() {
     process.env.SHELL_MODE = shellMode;
     console.log(`[NEURALOS] Loading Shell: ${shellMode}`);
 
-    if (ctx.mainWindow && !ctx.mainWindow.isDestroyed()) {
-        ctx.mainWindow.destroy();
-    }
-
-    ctx.mainWindow = new BrowserWindow({
+    const previousWindow = ctx.mainWindow && !ctx.mainWindow.isDestroyed() ? ctx.mainWindow : null;
+    const isTestRuntime = process.env.NODE_ENV === 'test';
+    const nextWindow = new BrowserWindow({
         width: 1400,
         height: 900,
-        frame: false,
-        fullscreen: true,
+        frame: isTestRuntime,
+        fullscreen: !isTestRuntime,
+        show: true,
         backgroundColor: '#050505',
         webPreferences: {
             nodeIntegration: false,
@@ -113,19 +112,27 @@ function createWindow() {
         }
     });
 
-    ctx.mainWindow.on('closed', () => {
-        ctx.mainWindow = null;
+    ctx.mainWindow = nextWindow;
+
+    nextWindow.on('closed', () => {
+        if (ctx.mainWindow === nextWindow) {
+            ctx.mainWindow = null;
+        }
     });
 
     registerShellShortcut();
 
     const shellPath = resolveShellPath(shellMode);
-    ctx.mainWindow.loadFile(shellPath).catch((err) => {
+    nextWindow.loadFile(shellPath).catch((err) => {
         console.error('[NEURALOS] Failed to load shell:', shellPath, err);
     });
 
-    setupPTY(ctx.mainWindow);
+    setupPTY(nextWindow);
     updateState({ activeShell: shellMode });
+
+    if (previousWindow) {
+        previousWindow.destroy();
+    }
 }
 
 module.exports = { resolveShellPath, createWindow, applyCSPHeaders, applyPermissionHandler };
