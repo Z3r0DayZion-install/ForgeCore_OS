@@ -159,9 +159,10 @@ Each test launches its own isolated Electron instance via `runtimeIsolation.ts`.
 
 ## Known Issues
 
-1. **Recovery window hardening** — `main.desktop.js` recovery window uses `nodeIntegration: true`, `contextIsolation: false`, `sandbox: false`. Real attack surface. Not yet fixed.
-2. **Signing** — SEAL-Pulse signing not available in CI. Artifacts are unsigned.
-3. **`actions/checkout@v4` / `actions/setup-node@v4`** — Still annotated as Node.js 20 actions, forced to Node.js 24 via `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24`. Benign until action authors publish Node.js 24-native tagged releases.
+1. **`main.xxxplorer.js` missing `sandbox: true`** — fixed in NeuralOS_Master_Build PR #6 (`fix/recovery-window-hardening`). The standalone XXXplorer window was missing an explicit `sandbox: true` in its `webPreferences` (relied on Electron default). Now matches main window posture. The "recovery window" entry previously listed here was stale — no such window existed in the codebase.
+2. **preload.js `postMessage` targetOrigin `'*'`** — in `preload.js` line ~150, the bridge-ready reply uses `'*'` as `targetOrigin`. This cannot be narrowed to `'file://'` because `file://` pages have a null (opaque) origin per the HTML spec; narrowing would break the handshake. Comment added in code. The message carries no secrets.
+3. **Signing** — SEAL-Pulse signing not available in CI. Artifacts are unsigned.
+4. **`actions/checkout@v4` / `actions/setup-node@v4`** — Still annotated as Node.js 20 actions, forced to Node.js 24 via `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24`. Benign until action authors publish Node.js 24-native tagged releases.
 
 ---
 
