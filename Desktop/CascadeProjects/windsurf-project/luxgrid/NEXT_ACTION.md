@@ -91,3 +91,31 @@ If there's no OpenRGB device available for testing:
 4. Hardware proof becomes unblocked future work.
 
 This is honest and leaves a clear path for hardware verification later.
+
+---
+
+## Fix OpenRGB Failure Classification
+
+Do not treat `ENOBUFS` as the same as `ECONNREFUSED`.
+
+Expected states and handling:
+
+- `ECONNREFUSED` = OpenRGB SDK server not running; instruct user to start OpenRGB SDK server.
+- `ETIMEDOUT` = host/port unreachable; check network/host firewall or server responsiveness.
+- `ENOBUFS` = socket/resource/buffer exhaustion; investigate system socket limits, firewall/VPN interference, or stale processes.
+- `connected + 0 devices` = OpenRGB running but no devices detected.
+- `connected + devices` = proceed to color test.
+
+Action items for scripts and client:
+
+- Update `check-openrgb.ts`, `hardware-color-test.ts`, and `proof-hardware.ts` to preserve exact error codes and messages in `CHECK_RESULT.json`, `OPENRGB_STATUS.txt`, and `SUMMARY.md`.
+- Ensure the OpenRGB client opens only one socket per check, closes/destroys the socket on failure, uses a connection timeout, does not retry in a tight loop, and writes the exact error code to `CHECK_RESULT.json`.
+- When `ENOBUFS` occurs, report it clearly with guidance:
+
+```
+OpenRGB connection failed with ENOBUFS.
+This is not the normal "server not running" state.
+Check for socket/resource exhaustion, repeated connection loops, firewall/VPN interference, or stale processes.
+```
+
+These checks are intended to prevent misclassification and to provide actionable troubleshooting steps for maintainers.
