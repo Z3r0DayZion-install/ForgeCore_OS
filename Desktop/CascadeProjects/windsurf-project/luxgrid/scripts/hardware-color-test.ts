@@ -135,14 +135,15 @@ async function runHardwareTest() {
 
   if (deviceCount === 0) {
     console.log('❌ No RGB devices found.');
-    console.log('   Connect a keyboard, mouse, or RGB device to OpenRGB.\n');
+    console.log('   Connect a keyboard, mouse, or RGB device to OpenRGB.');
+    console.log('   Hardware color test is blocked until deviceCount > 0.\n');
 
     const failResult = {
       timestamp: new Date().toISOString(),
       phase: '3B',
       result: 'FAIL',
-      openrgb: { connected: true, host: HOST, port: PORT, deviceCount: 0 },
-      note: 'No RGB devices found in OpenRGB'
+      openrgb: { connected: true, host: HOST, port: PORT, deviceCount: 0, classification: 'connected-zero-devices' },
+      note: 'No RGB devices found in OpenRGB. Hardware color test is blocked until deviceCount > 0.'
     };
 
     fs.writeFileSync(path.join(timestampedDir, 'HARDWARE_TEST_RESULT.json'), JSON.stringify(failResult, null, 2));

@@ -14,22 +14,32 @@ cd luxgrid
 # Check if OpenRGB is reachable
 pnpm check:openrgb
 
-# Test color commands if device found
+# If deviceCount > 0, run the color test
 pnpm hardware:test-color
 
-# Generate hardware proof artifact
+# Generate hardware proof artifact if devices exist
 pnpm proof:hardware
 ```
 
+> Note: `deviceCount = 0` blocks hardware proof progression. `pnpm hardware:test-color` and `pnpm proof:hardware` should only be run once OpenRGB reports `deviceCount > 0`.
+
 ### Expected Outputs
 
-**If OpenRGB is running:**
+**If OpenRGB is running and devices are available:**
 ```
 ✓ Found OpenRGB SDK Server on 127.0.0.1:6742
-✓ Device count: N
+✓ Device count: N (> 0)
 ✓ Devices: [...]
 ✓ Color test sent
 ✓ Physical LEDs changed color
+```
+
+**If OpenRGB is running but no devices are detected:**
+```
+✓ Found OpenRGB SDK Server on 127.0.0.1:6742
+⚠️ Device count: 0
+OpenRGB is connected, but no RGB devices are detected.
+Hardware color proof is blocked until deviceCount > 0.
 ```
 
 **If OpenRGB is not running (graceful):**

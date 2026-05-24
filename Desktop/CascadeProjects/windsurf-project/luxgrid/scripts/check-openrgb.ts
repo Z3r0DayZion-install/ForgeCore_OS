@@ -91,6 +91,14 @@ async function checkOpenRGB() {
       console.log('   (Settings → SDK Server → Start Server)\n');
     }
 
+    const openRgbClassification = errorCode === 'ENOBUFS'
+      ? 'enobufs'
+      : errorCode === 'ETIMEDOUT' || String(result.error).toLowerCase().includes('timeout')
+        ? 'openrgb-unreachable'
+        : errorCode === 'ECONNREFUSED'
+          ? 'openrgb-server-not-running'
+          : 'openrgb-connection-failed';
+
     const failContent: any = {
       timestamp: status.timestamp,
       phase: '3B',
@@ -100,10 +108,13 @@ async function checkOpenRGB() {
         host: HOST,
         port: PORT,
         error: result.error,
-        errorCode: errorCode
+        errorCode: errorCode,
+        classification: openRgbClassification
       },
       deviceCount: 0,
       devices: [],
+      hardwareProofReady: false,
+      canRunColorTest: false,
       note: errorCode === 'ENOBUFS'
         ? 'OpenRGB connection failed with ENOBUFS. Investigate socket/resource issues.'
         : 'Start OpenRGB and enable SDK server (Settings → SDK Server → Start Server)'
@@ -113,6 +124,8 @@ async function checkOpenRGB() {
 Host: ${HOST}
 Port: ${PORT}
 Error: ${result.error}${errorCode ? ` (${errorCode})` : ''}
+
+Classification: ${openRgbClassification}
 
 To fix: ${errorCode === 'ENOBUFS' ? 'Investigate socket/resource exhaustion (ENOBUFS).' : 'Start OpenRGB and enable SDK server.'}
 (Settings → SDK Server → Start Server)`;
@@ -170,6 +183,10 @@ To fix: ${errorCode === 'ENOBUFS' ? 'Investigate socket/resource exhaustion (ENO
   console.log('\n✅ OpenRGB check complete.\n');
 
   // Prepare result
+  const classification = deviceCount > 0
+    ? 'connected-devices'
+    : 'connected-zero-devices';
+
   const checkResult = {
     timestamp: status.timestamp,
     phase: '3B',
@@ -179,9 +196,12 @@ To fix: ${errorCode === 'ENOBUFS' ? 'Investigate socket/resource exhaustion (ENO
       host: HOST,
       port: PORT,
       protocolVersion: result.protocolVersion,
-      deviceCount
+      deviceCount,
+      classification
     },
     devices,
+    hardwareProofReady: deviceCount > 0,
+    canRunColorTest: deviceCount > 0,
     note: deviceCount > 0 
       ? 'OpenRGB connected and devices found. Ready for color test.'
       : 'OpenRGB connected but no devices found. Connect RGB hardware.'
@@ -192,11 +212,12 @@ Host: ${HOST}
 Port: ${PORT}
 Protocol: ${result.protocolVersion}
 Device Count: ${deviceCount}
+Classification: ${classification}
 Result: ${checkResult.result}
 
 ${deviceCount > 0 
   ? 'Ready for hardware color test. Run: pnpm hardware:test-color'
-  : 'No devices found. Connect RGB hardware to OpenRGB.'}`;
+  : 'OpenRGB is connected, but no RGB devices are detected. Hardware color proof is blocked until deviceCount > 0.'}`;
 
   // Write to both dirs
   fs.writeFileSync(path.join(timestampedDir, 'OPENRGB_STATUS.txt'), statusTxt);

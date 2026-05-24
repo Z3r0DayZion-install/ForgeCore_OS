@@ -104,8 +104,14 @@ async function runHardwareProof() {
     }
 
     const errorCode = checkJson?.openrgb?.errorCode || null;
+    const classification = checkJson?.openrgb?.classification || null;
+    const deviceCount = checkJson?.openrgb?.deviceCount ?? 0;
 
-    if (errorCode === 'ENOBUFS') {
+    if (classification === 'connected-zero-devices') {
+      console.log('\n❌ STEP 1 BLOCKED: OpenRGB connected but no RGB devices found');
+      console.log('   Hardware proof is blocked until deviceCount > 0.');
+      console.log('   Connect RGB hardware to OpenRGB and re-run `pnpm proof:hardware`.\n');
+    } else if (errorCode === 'ENOBUFS') {
       console.log('\n❌ STEP 1 FAILED: OpenRGB connection error (ENOBUFS)');
       console.log('   This indicates a socket/resource issue. Investigate socket exhaustion, firewall, VPN, or stale processes.\n');
     } else {
@@ -113,16 +119,28 @@ async function runHardwareProof() {
       console.log('   Start OpenRGB and enable SDK server.\n');
     }
 
+    const summaryReason = classification === 'connected-zero-devices'
+      ? 'OpenRGB connected but no RGB devices were detected. Hardware proof is blocked until deviceCount > 0.'
+      : errorCode === 'ENOBUFS'
+        ? 'OpenRGB connection error (ENOBUFS) - investigate socket/resource issues.'
+        : `OpenRGB not reachable at ${HOST}:${PORT}`;
+
+    const actionList = classification === 'connected-zero-devices'
+      ? '1. Connect RGB hardware to OpenRGB.\n2. Verify the device appears in OpenRGB device list.\n3. Re-run `pnpm proof:hardware`.'
+      : errorCode === 'ENOBUFS'
+        ? '1. Investigate socket/resource exhaustion on this host\n2. Check firewall, VPN, or stale OpenRGB processes\n3. Free sockets or reboot if needed'
+        : '1. Start OpenRGB\n2. Go to Settings → SDK Server\n3. Click "Start Server"\n4. Re-run `pnpm proof:hardware`';
+
     fs.writeFileSync(
       path.join(outDir, 'SUMMARY.md'),
-      `# LuxGrid Phase 3B Hardware Proof - FAILED
+      `# LuxGrid Phase 3B Hardware Proof - BLOCKED
 
 **Result:** FAIL
 
-**Reason:** ${errorCode === 'ENOBUFS' ? 'OpenRGB connection error (ENOBUFS) - investigate socket/resource issues' : `OpenRGB not reachable at ${HOST}:${PORT}`} 
+**Reason:** ${summaryReason}
 
 **Required Action:**
-${errorCode === 'ENOBUFS' ? '1. Investigate socket/resource exhaustion on this host\n2. Check firewall, VPN, or stale OpenRGB processes\n3. Free sockets or reboot if needed' : '1. Start OpenRGB\n2. Go to Settings → SDK Server\n3. Click "Start Server"\n4. Re-run `pnpm proof:hardware`'}
+${actionList}
 
 **Timestamp:** ${timestamp}
 `
