@@ -55,3 +55,16 @@ Required to advance:
 - Hardware artifact folder created.
 
 If you don't have OpenRGB hardware available, document graceful degradation (simulator-only mode).
+
+---
+
+## Renderer Verification Note
+
+Renderer smoke was previously verified during Phase 2I. The Phase 2I artifacts show 6/6 smoke tests passing (Edge) and include timestamped color-change proofs.
+
+During the recent truth-lock run we revalidated build and unit tests; `pnpm smoke:renderer` was not re-run successfully in that context because the dev server was not started, which caused a timeout. This does not invalidate the Phase 2I artifacts.
+
+Current source of truth:
+- Renderer proof: verified by Phase 2I artifacts.
+- Latest truth-lock run: build and unit tests passed; renderer smoke was not re-run.
+- Next gate remains physical OpenRGB hardware proof.

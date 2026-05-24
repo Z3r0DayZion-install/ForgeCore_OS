@@ -2,6 +2,8 @@
 
 > **Phase 2 — Renderer Smoke-Verified, Hardware Proof Pending**
 
+**Docs commit branch:** `docs/luxgrid-proof-truth-lock`
+
 ## Current Status
 
 **Phase 1 Complete:** Foundation built ✅  
