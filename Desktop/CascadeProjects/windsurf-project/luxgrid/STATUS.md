@@ -1,25 +1,29 @@
 # LuxGrid™ Status
 
-> **Phase 2 — Renderer Smoke-Verified, Hardware Proof Pending**
+> **Phase 3B — Hardware Proof Verified (2026-05-25)**
 
 **Docs commit branch:** `docs/luxgrid-proof-truth-lock`
 
 ## Current Status
 
 **Phase 1 Complete:** Foundation built ✅  
-**Phase 2 In Progress:** Renderer smoke verification complete, hardware proof pending
+**Phase 2 Complete:** Renderer smoke verification ✅  
+**Phase 3B Complete:** Physical OpenRGB hardware proof ✅
 
 ### Correct Scope Interpretation
 
-**Phase 2 renderer/simulator gates are verified.**  
-**Phase 3 physical OpenRGB hardware proof is pending.**  
-**Production readiness is not claimed.**
+**Phase 2 renderer/simulator gates: VERIFIED**  
+**Phase 3 OpenRGB SDK connection: VERIFIED**  
+**Phase 3 OpenRGB device enumeration: VERIFIED**  
+**Phase 3 physical hardware color proof: VERIFIED**  
+**Production readiness: NOT CLAIMED**  
+**Standalone repo conversion: STILL REQUIRED BEFORE RELEASE WORK**
 
 Not included in "verified" status:
 - ❌ Installer or packaging
 - ❌ macOS or Linux support
 - ❌ Production deployment
-- ❌ Physical RGB device testing
+- ❌ Standalone git repository (still under forge.git root)
 - ❌ Performance optimization
 - ❌ Marketplace or distribution
 
@@ -67,7 +71,7 @@ Not included in "verified" status:
 | Event transitions render | ✅ PASS | Verified: Snoozurp events trigger color change |
 | Logs written | ✅ PASS | Debug logs in `%LOCALAPPDATA%/LuxGrid/logs/` |
 | No fake "connected" state | ✅ PASS | Only reports true connection status |
-| **Physical OpenRGB hardware** | ⏳ PENDING | Requires real device testing |
+| **Physical OpenRGB hardware** | ✅ PASS | 2026-05-25, MSI MPG X570S + Roccat Kone XP, visual confirm |
 
 ---
 
@@ -83,6 +87,12 @@ Key-Q zone      Snoozurp Event   #00ff64 → #ff0064 ✅
 ```
 
 All captured in timestamped validation artifacts.
+
+---
+
+## Hardware Proof Caveat
+
+Hardware color proof selected MSI motherboard device by fallback. OpenRGB reported LEDs: 0 and Zones: 0 for selected device. Manual visual confirmation was yes — physical RGB changed on hardware. Future improvement: better device targeting, zone/LED readback, and explicit Roccat Kone XP test.
 
 ---
 
@@ -139,11 +149,11 @@ All core verification gates now met:
 
 ## Next Required Steps
 
-### Phase 2 Finalization (Current)
-- ⏳ Physical OpenRGB hardware proof (this is the blocker)
-- ⏳ Document hardware-unavailable path (if applicable)
+### Phase 3B Complete (2026-05-25)
+- ✅ Physical OpenRGB hardware proof — DONE
 
-### Phase 3 (After hardware proof)
+### Phase 4 (After standalone repo conversion)
+- Standalone repo extraction from forge.git root
 - Installer packaging
 - Deployment guides
 - Advanced effects
@@ -153,7 +163,7 @@ All core verification gates now met:
 
 ---
 
-**Current Phase:** 2 (Renderer smoke-verified, hardware pending)  
-**Next Milestone:** Hardware proof completion  
-**Blockers:** OpenRGB device availability for testing
+**Current Phase:** 3B complete (hardware proof verified 2026-05-25)  
+**Next Milestone:** Standalone repo conversion  
+**Blockers:** None for proof — standalone extraction required before release work
 

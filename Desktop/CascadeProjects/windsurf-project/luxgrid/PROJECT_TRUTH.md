@@ -21,7 +21,7 @@ The old `repos/rgb-controller`, `repos/sleeptimer-core`, `repos/sleeptimer-gui`,
 | Timer slider → QWERTY color | ✅ Verified |
 | Snoozurp event → QWERTY color | ✅ Verified |
 | OpenRGB failure handling | ✅ Verified |
-| Physical OpenRGB hardware | ⏳ Pending |
+| Physical OpenRGB hardware | ✅ Verified |
 | Production-ready | ❌ No |
 
 ---
@@ -40,21 +40,46 @@ These were true during earlier phases. Current truth is above.
 
 ---
 
+## Phase Truth Summary
+
+| Phase | Status |
+|---|---|
+| Phase 2 renderer/simulator proof | VERIFIED |
+| Phase 3 OpenRGB SDK connection | VERIFIED |
+| Phase 3 OpenRGB device enumeration | VERIFIED |
+| Phase 3 physical hardware color proof | VERIFIED |
+| Production readiness | NOT CLAIMED |
+| Standalone repo conversion | STILL REQUIRED BEFORE RELEASE WORK |
+
+---
+
+## Hardware Proof Caveat
+
+Hardware color proof selected MSI motherboard device by fallback.
+OpenRGB reported LEDs: 0 and Zones: 0 for selected device.
+Manual visual confirmation was yes — physical RGB changed on hardware.
+Future improvement: better device targeting, zone/LED readback, and explicit Roccat Kone XP test.
+
+---
+
+## Completed Gate
+
+Physical OpenRGB hardware proof is **COMPLETE** as of 2026-05-25.
+
+Artifact: `validation-artifacts/luxgrid-hardware-proof-2026-05-25T17-49-56/`
+
+- OpenRGB SDK Server: connected, protocol v5
+- Devices found: 2 (MSI MPG X570S CARBON MAX WIFI, Roccat Kone XP)
+- Color sequence: CYAN / RED / GREEN / BLUE — all PASS
+- Manual visual confirmation: PASS
+
+---
+
 ## Next True Gate
 
-**Physical OpenRGB hardware proof.**
+**Standalone repo conversion before any release work.**
 
-Required to advance:
-
-- OpenRGB running on test machine.
-- SDK server enabled.
-- RGB device detected and listed.
-- Color command sent from LuxGrid.
-- Physical LEDs visibly change.
-- Manual confirmation recorded.
-- Hardware artifact folder created.
-
-If you don't have OpenRGB hardware available, document graceful degradation (simulator-only mode).
+LuxGrid still lives under the parent `forge.git` root (`C:/Users/KickA`). It must be extracted into its own standalone repository before installer, packaging, or distribution work begins.
 
 ---
 

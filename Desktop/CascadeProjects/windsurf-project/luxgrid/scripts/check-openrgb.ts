@@ -8,12 +8,13 @@
  * Usage:
  *   pnpm check:openrgb
  *   pnpm check:openrgb -- --host 192.168.1.100 --port 6742
+ *   pnpm check:openrgb -- --gui-devices-present yes
  */
 
 import { OpenRgbClient } from '../packages/luxgrid-core/src/openrgb/OpenRgbClient.js';
 import type { RgbDevice } from '../packages/luxgrid-core/src/types.js';
-import fs from 'node:fs';
-import path from 'node:path';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
 
 // Parse CLI args
 const args = process.argv.slice(2);
@@ -29,6 +30,7 @@ for (let i = 0; i < args.length; i++) {
 
 const HOST = argMap['host'] || '127.0.0.1';
 const PORT = parseInt(argMap['port'] || '6742', 10);
+const GUI_DEVICES_PRESENT = argMap['gui-devices-present'] === 'yes' || argMap['gui-devices-present'] === 'true';
 
 // Timestamped proof folder
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
@@ -45,6 +47,7 @@ async function checkOpenRGB() {
   console.log('╚═══════════════════════════════════════════════════════╝\n');
   console.log(`Host: ${HOST}`);
   console.log(`Port: ${PORT}`);
+  console.log(`OpenRGB GUI devices present: ${GUI_DEVICES_PRESENT ? 'yes' : 'no'}`);
   console.log(`Proof folder: ${timestampedDir}\n`);
 
   const client = new OpenRgbClient({ host: HOST, port: PORT });
@@ -185,7 +188,9 @@ To fix: ${errorCode === 'ENOBUFS' ? 'Investigate socket/resource exhaustion (ENO
   // Prepare result
   const classification = deviceCount > 0
     ? 'connected-devices'
-    : 'connected-zero-devices';
+    : GUI_DEVICES_PRESENT
+      ? 'sdk-mismatch'
+      : 'connected-zero-devices';
 
   const checkResult = {
     timestamp: status.timestamp,
@@ -197,14 +202,17 @@ To fix: ${errorCode === 'ENOBUFS' ? 'Investigate socket/resource exhaustion (ENO
       port: PORT,
       protocolVersion: result.protocolVersion,
       deviceCount,
+      guiDevicesPresent: GUI_DEVICES_PRESENT,
       classification
     },
     devices,
     hardwareProofReady: deviceCount > 0,
     canRunColorTest: deviceCount > 0,
-    note: deviceCount > 0 
+    note: deviceCount > 0
       ? 'OpenRGB connected and devices found. Ready for color test.'
-      : 'OpenRGB connected but no devices found. Connect RGB hardware.'
+      : GUI_DEVICES_PRESENT
+        ? 'OpenRGB GUI reports devices, but OpenRGB SDK returned zero devices. This indicates a likely SDK protocol mismatch in LuxGrid.'
+        : 'OpenRGB connected but no devices found. Connect RGB hardware or verify OpenRGB SDK device listing.'
   };
 
   const statusTxt = `OpenRGB Status: CONNECTED
@@ -212,12 +220,15 @@ Host: ${HOST}
 Port: ${PORT}
 Protocol: ${result.protocolVersion}
 Device Count: ${deviceCount}
+GUI Devices Present: ${GUI_DEVICES_PRESENT ? 'yes' : 'no'}
 Classification: ${classification}
 Result: ${checkResult.result}
 
-${deviceCount > 0 
+${deviceCount > 0
   ? 'Ready for hardware color test. Run: pnpm hardware:test-color'
-  : 'OpenRGB is connected, but no RGB devices are detected. Hardware color proof is blocked until deviceCount > 0.'}`;
+  : GUI_DEVICES_PRESENT
+    ? 'OpenRGB GUI shows devices, but LuxGrid OpenRGB SDK reports zero devices. Investigate SDK client/protocol mismatch.'
+    : 'OpenRGB is connected, but no RGB devices are detected. Hardware color proof is blocked until deviceCount > 0.'}`;
 
   // Write to both dirs
   fs.writeFileSync(path.join(timestampedDir, 'OPENRGB_STATUS.txt'), statusTxt);

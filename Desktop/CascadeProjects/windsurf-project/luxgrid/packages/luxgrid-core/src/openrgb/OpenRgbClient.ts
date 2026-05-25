@@ -8,12 +8,21 @@ import { EventEmitter } from 'events';
 import type { OpenRgbConfig, OpenRgbConnectionResult, OpenRgbStatus, RgbDevice, RgbColor, RgbCommandResult } from '../types.js';
 import { DEFAULT_OPENRGB_CONFIG } from '../types.js';
 
+const OPENRGB_PACKET_MAGIC = 'ORGB';
+const PACKET_ID_REQUEST_CONTROLLER_COUNT = 0;
+const PACKET_ID_REQUEST_CONTROLLER_DATA = 1;
+const PACKET_ID_REQUEST_PROTOCOL_VERSION = 40;
+const PACKET_ID_SET_CLIENT_NAME = 50;
+
 export class OpenRgbClient extends EventEmitter {
   private socket: Socket | null = null;
   private config: OpenRgbConfig;
   private status: OpenRgbStatus;
   private deviceList: RgbDevice[] = [];
+  private readBuffer = Buffer.alloc(0);
   private isConnected = false;
+  private handshakeComplete = false;
+  private clientName = 'LuxGrid';
 
   constructor(config: Partial<OpenRgbConfig> = {}) {
     super();
@@ -47,23 +56,15 @@ export class OpenRgbClient extends EventEmitter {
           this.status.mode = 'openrgb';
           this.emit('connected');
 
-          // Send OpenRGB SDK handshake: "ORGB" + protocol version (4 bytes, little-endian)
-          const header = Buffer.from('ORGB');
-          const version = Buffer.alloc(4);
-          version.writeUInt32LE(4, 0); // Protocol version 4
-          this.socket?.write(Buffer.concat([header, version]));
-          
-          // Server should respond with protocol version, wait for it
+          // Send OpenRGB SDK protocol version request packet.
+          const payload = Buffer.alloc(4);
+          payload.writeUInt32LE(4, 0);
+          this.sendPacket(0, PACKET_ID_REQUEST_PROTOCOL_VERSION, payload);
         });
 
         this.socket.on('data', (data: Buffer) => {
-          // Check if this is protocol version response (command 0)
-          if (data.length >= 8 && data.readUInt32LE(0) === 0) {
-            const version = data.readUInt32LE(4);
-            this.status.protocolVersion = version;
-            doResolve({ success: true, protocolVersion: version });
-          }
-          this.handleResponse(data);
+          this.readBuffer = Buffer.concat([this.readBuffer, data]);
+          this.parseIncomingData(doResolve);
         });
 
         this.socket.on('error', (err: any) => {
@@ -95,16 +96,6 @@ export class OpenRgbClient extends EventEmitter {
         });
 
         this.socket.connect(this.config.port, this.config.host);
-        
-        // Timeout fallback
-        setTimeout(() => {
-          if (this.isConnected && !resolved) {
-            // Connected but no response - might be old protocol version
-            doResolve({ success: true, protocolVersion: 4 });
-          } else if (!resolved) {
-            doResolve({ success: false, error: 'Connection timeout - no response from server' });
-          }
-        }, this.config.timeoutMs || 5000);
 
       } catch (error: any) {
         const errorMsg = error instanceof Error ? error.message : String(error);
@@ -116,6 +107,115 @@ export class OpenRgbClient extends EventEmitter {
         doResolve({ success: false, error: errorMsg, errorCode: code });
       }
     });
+  }
+
+  private parseIncomingData(doResolve?: (result: OpenRgbConnectionResult) => void): void {
+    while (this.readBuffer.length >= 16) {
+      if (this.readBuffer.toString('utf-8', 0, 4) !== OPENRGB_PACKET_MAGIC) {
+        const magicIndex = this.readBuffer.indexOf(OPENRGB_PACKET_MAGIC, 1, 'utf-8');
+        if (magicIndex === -1) {
+          this.readBuffer = Buffer.alloc(0);
+          break;
+        }
+        this.readBuffer = this.readBuffer.slice(magicIndex);
+        if (this.readBuffer.length < 16) break;
+      }
+
+      const deviceIndex = this.readBuffer.readUInt32LE(4);
+      const packetId = this.readBuffer.readUInt32LE(8);
+      const packetSize = this.readBuffer.readUInt32LE(12);
+      const totalLength = 16 + packetSize;
+
+      if (this.readBuffer.length < totalLength) break;
+
+      const payload = this.readBuffer.slice(16, totalLength);
+      this.readBuffer = this.readBuffer.slice(totalLength);
+      this.handleResponse(packetId, deviceIndex, payload, doResolve);
+    }
+  }
+
+  private sendClientName(): void {
+    if (!this.socket) return;
+
+    const clientNameBuffer = Buffer.from(`${this.clientName}\0`, 'utf-8');
+    this.sendPacket(0, PACKET_ID_SET_CLIENT_NAME, clientNameBuffer);
+  }
+
+  private buildPacketHeader(deviceIndex: number, packetId: number, payloadLength: number): Buffer {
+    const header = Buffer.alloc(16);
+    header.write(OPENRGB_PACKET_MAGIC, 0, 'utf-8');
+    header.writeUInt32LE(deviceIndex, 4);
+    header.writeUInt32LE(packetId, 8);
+    header.writeUInt32LE(payloadLength, 12);
+    return header;
+  }
+
+  private sendPacket(deviceIndex: number, packetId: number, payload: Buffer): void {
+    if (!this.socket || !this.isConnected) return;
+    const header = this.buildPacketHeader(deviceIndex, packetId, payload.length);
+    this.socket.write(Buffer.concat([header, payload]));
+  }
+
+  private sendCommand(commandId: number, data: Buffer): void {
+    this.sendPacket(0, commandId, data);
+  }
+
+  private handleResponse(commandId: number, deviceIndex: number, payload: Buffer, doResolve?: (result: OpenRgbConnectionResult) => void): void {
+    switch (commandId) {
+      case PACKET_ID_REQUEST_PROTOCOL_VERSION: {
+        if (payload.length >= 4) {
+          const version = payload.readUInt32LE(0);
+          this.status.protocolVersion = version;
+          this.emit('protocolVersion', version);
+
+          if (!this.handshakeComplete) {
+            this.sendClientName();
+            this.handshakeComplete = true;
+          }
+
+          if (doResolve) {
+            doResolve({ success: true, protocolVersion: version });
+          }
+        }
+        break;
+      }
+
+      case PACKET_ID_REQUEST_CONTROLLER_COUNT: {
+        if (payload.length >= 4) {
+          const count = payload.readUInt32LE(0);
+          this.emit('deviceCount', count);
+        }
+        break;
+      }
+
+      case PACKET_ID_REQUEST_CONTROLLER_DATA: {
+        if (payload.length >= 10) {
+          const type = payload.readInt32LE(4);
+          const nameLen = payload.readUInt16LE(8);
+          const nameStart = 10;
+          const nameEnd = nameStart + nameLen;
+          const deviceName = payload.slice(nameStart, nameEnd).toString('utf-8').replace(/\0/g, '');
+
+          const device: RgbDevice = {
+            id: `device-${deviceIndex}`,
+            index: deviceIndex,
+            name: deviceName,
+            type: 'unknown',
+            ledCount: 0,
+            zoneCount: 0,
+          };
+
+          if (deviceName) {
+            this.emit(`deviceData_${deviceIndex}`, device);
+          }
+        }
+        break;
+      }
+    }
+  }
+
+  private encodeUInt32LE(value: number): number[] {
+    return [value & 0xff, (value >> 8) & 0xff, (value >> 16) & 0xff, (value >> 24) & 0xff];
   }
 
   async disconnect(): Promise<void> {
@@ -140,8 +240,7 @@ export class OpenRgbClient extends EventEmitter {
     if (!this.isConnected) return 0;
     
     return new Promise((resolve) => {
-      // Command 0x01: Get device count
-      this.sendCommand(0x01, Buffer.alloc(0));
+      this.sendPacket(0, PACKET_ID_REQUEST_CONTROLLER_COUNT, Buffer.alloc(0));
       
       const timeout = setTimeout(() => resolve(0), 3000);
       
@@ -171,10 +270,9 @@ export class OpenRgbClient extends EventEmitter {
 
   private async getDeviceData(index: number): Promise<RgbDevice | null> {
     return new Promise((resolve) => {
-      // Command 0x02: Get device data
       const deviceIdBuffer = Buffer.alloc(4);
       deviceIdBuffer.writeUInt32LE(index, 0);
-      this.sendCommand(0x02, deviceIdBuffer);
+      this.sendPacket(index, PACKET_ID_REQUEST_CONTROLLER_DATA, deviceIdBuffer);
 
       const timeout = setTimeout(() => resolve(null), 3000);
 
@@ -278,53 +376,6 @@ export class OpenRgbClient extends EventEmitter {
         error: errorMsg,
         timestamp: new Date().toISOString(),
       };
-    }
-  }
-
-  private sendCommand(commandId: number, data: Buffer): void {
-    if (!this.socket || !this.isConnected) return;
-
-    const header = Buffer.alloc(4);
-    header.writeUInt32LE(commandId, 0);
-    
-    const packet = Buffer.concat([header, data]);
-    this.socket.write(packet);
-  }
-
-  private handleResponse(data: Buffer): void {
-    // Parse OpenRGB protocol responses
-    if (data.length < 4) return;
-
-    const commandId = data.readUInt32LE(0);
-
-    switch (commandId) {
-      case 0x00: // Protocol version
-        const version = data.readUInt32LE(4);
-        this.emit('protocolVersion', version);
-        break;
-
-      case 0x01: // Device count
-        const count = data.readUInt32LE(4);
-        this.emit('deviceCount', count);
-        break;
-
-      case 0x02: // Device data
-        // Parse device data (simplified)
-        const deviceIndex = data.readUInt32LE(4);
-        const deviceNameLen = data.readUInt16LE(8);
-        const deviceName = data.slice(10, 10 + deviceNameLen).toString('utf-8');
-        
-        const device: RgbDevice = {
-          id: `device-${deviceIndex}`,
-          index: deviceIndex,
-          name: deviceName,
-          type: 'keyboard', // Would parse from actual data
-          ledCount: 104, // Would parse from actual data
-          zoneCount: 1,
-        };
-        
-        this.emit(`deviceData_${deviceIndex}`, device);
-        break;
     }
   }
 }

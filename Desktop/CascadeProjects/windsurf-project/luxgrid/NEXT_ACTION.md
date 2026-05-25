@@ -1,55 +1,26 @@
 # LuxGrid™ Next Action
 
+## Hardware Proof: COMPLETE (2026-05-25)
+
+Physical OpenRGB hardware proof passed. This gate is closed.
+
+```txt
+OpenRGB SDK Server: connected (protocol v5)
+Device count: 2 (MSI MPG X570S CARBON MAX WIFI, Roccat Kone XP)
+Color sequence: CYAN / RED / GREEN / BLUE — all PASS
+Manual visual confirmation: PASS
+Artifact: validation-artifacts/luxgrid-hardware-proof-2026-05-25T17-49-56/
+```
+
+---
+
 ## Do Next
 
-**Run physical OpenRGB hardware proof.**
+**Standalone repo conversion.**
 
-This is the only remaining gate before considering any new features.
+LuxGrid lives under the parent `forge.git` root (`C:/Users/KickA`). Before any installer, packaging, or distribution work, it must be extracted into its own standalone git repository.
 
-### Steps
-
-```bash
-cd luxgrid
-
-# Check if OpenRGB is reachable
-pnpm check:openrgb
-
-# If deviceCount > 0, run the color test
-pnpm hardware:test-color
-
-# Generate hardware proof artifact if devices exist
-pnpm proof:hardware
-```
-
-> Note: `deviceCount = 0` blocks hardware proof progression. `pnpm hardware:test-color` and `pnpm proof:hardware` should only be run once OpenRGB reports `deviceCount > 0`.
-
-### Expected Outputs
-
-**If OpenRGB is running and devices are available:**
-```
-✓ Found OpenRGB SDK Server on 127.0.0.1:6742
-✓ Device count: N (> 0)
-✓ Devices: [...]
-✓ Color test sent
-✓ Physical LEDs changed color
-```
-
-**If OpenRGB is running but no devices are detected:**
-```
-✓ Found OpenRGB SDK Server on 127.0.0.1:6742
-⚠️ Device count: 0
-OpenRGB is connected, but no RGB devices are detected.
-Hardware color proof is blocked until deviceCount > 0.
-```
-
-**If OpenRGB is not running (graceful):**
-```
-✗ ECONNREFUSED 127.0.0.1:6742
-OpenRGB is not reachable.
-Start OpenRGB and enable SDK server.
-```
-
-This is **correct behavior**—not a failure.
+Do not run installer/package/release work until standalone conversion is complete.
 
 ---
 

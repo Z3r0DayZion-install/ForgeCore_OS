@@ -36,35 +36,40 @@ Run `pnpm proof:studio` to generate new renderer artifacts.
 
 ---
 
-## Hardware Proof (Pending)
+## Hardware Proof (Phase 3B — VERIFIED 2026-05-25)
 
-Hardware proof is **not yet completed**.
+Hardware proof is **complete**. Physical RGB color changes confirmed on real hardware.
 
-### Hardware PASS Criteria
+### Hardware PASS Results
 
-- ✅ OpenRGB SDK Server running on port 6742
-- ✅ Device count reported >= 1
-- ✅ Device details populated
-- ✅ Color commands sent successfully
-- ✅ Physical RGB LEDs visibly change color
-- ✅ Manual visual confirmation recorded
-- ✅ Hardware artifact folder created with timestamp
+| Criterion | Result |
+|---|---|
+| OpenRGB SDK Server running on port 6742 | ✅ PASS |
+| Protocol version | 5 |
+| Device count reported >= 1 | ✅ PASS (count: 2) |
+| Devices enumerated | MSI MPG X570S CARBON MAX WIFI (MS-7D52), Roccat Kone XP |
+| Color commands sent (CYAN/RED/GREEN/BLUE) | ✅ PASS |
+| Physical RGB LEDs visibly change color | ✅ PASS |
+| Manual visual confirmation | ✅ PASS (user confirmed) |
+| Hardware artifact folder created | ✅ PASS |
 
-Run:
-```bash
-pnpm check:openrgb
-pnpm hardware:test-color
-pnpm proof:hardware
-```
+### Artifact Location
 
-If OpenRGB is unavailable, expected graceful failure:
 ```txt
-ECONNREFUSED 127.0.0.1:6742
-OpenRGB is not reachable.
-Start OpenRGB and enable SDK server.
+validation-artifacts/luxgrid-hardware-proof-2026-05-25T17-49-56/
+validation-artifacts/hardware-proof-latest/
+  - HARDWARE_COLOR_TEST.json
+  - HARDWARE_CONFIRMATION.json
+  - HARDWARE_TEST_RESULT.json
+  - OPTIONAL_PHOTO_OR_SCREENSHOT_TODO.md
 ```
 
-This is **not a crash**—it's correct handling of missing hardware.
+### Caveat
+
+Hardware color proof selected MSI motherboard device by fallback.
+OpenRGB reported LEDs: 0 and Zones: 0 for selected device.
+Manual visual confirmation was yes — physical RGB changed on hardware.
+Future improvement: better device targeting, zone/LED readback, and explicit Roccat Kone XP test.
 
 ---
 
