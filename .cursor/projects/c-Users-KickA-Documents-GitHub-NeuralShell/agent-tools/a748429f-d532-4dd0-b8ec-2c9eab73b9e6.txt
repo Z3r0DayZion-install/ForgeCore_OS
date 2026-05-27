@@ -1,0 +1,479 @@
+NeuralLink? Tactical Suite Loaded.
+
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:05:49.2235530Z ./scripts/verify-ui-serial-worker.ps1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:05:49.9029942Z verify-ui-serial-worker-started=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:05:49.9132805Z 
+verify-ui-serial-worker-effective-timeout-ms=420000
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:49.9690124Z verify-ui-serial-worker-timeout=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.6463877Z verify-ui-serial-worker-diagnostics=timeout
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.8990934Z --- tail 200: 
+D:\a\NeuralShell\NeuralShell\verify-ui-serial-worker.stdout.log ---
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9564893Z offline-kill-force-posture-budget-ms=106170 
+serialCapMs=420000 elapsedSinceTestStartMs=38830 workerAlignedMs=106170 playwrightRemainingMs=256170
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9566701Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-entered stepElapsedMs=3 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9568389Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-open-settings-start stepElapsedMs=4 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9570671Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-open-settings-done stepElapsedMs=4 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9572470Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-start stepElapsedMs=36474 priorStageMs=36470
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9574341Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-openrouter-start stepElapsedMs=36745 priorStageMs=271
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9605566Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-openrouter-done stepElapsedMs=47792 priorStageMs=11047
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9606850Z offline-kill-force-posture-openrouter-done=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9608078Z 
+offline-kill-force-posture-openrouter-segment-ms=11047
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9609603Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-after-openrouter-immediate stepElapsedMs=47792 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9611911Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-start stepElapsedMs=47793 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9614146Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-done stepElapsedMs=47900 priorStageMs=107
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9616238Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-done stepElapsedMs=48486 priorStageMs=586
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9618222Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=48487 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9620503Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=50697 priorStageMs=2210
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9622513Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=52185 priorStageMs=1488
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9624442Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-start stepElapsedMs=52186 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9626344Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-done stepElapsedMs=52517 priorStageMs=331
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9628571Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-start stepElapsedMs=52517 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9631322Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-done stepElapsedMs=54561 priorStageMs=2044
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9633450Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-start stepElapsedMs=54629 priorStageMs=68
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9635618Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-done stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9637726Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-start stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9640047Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-done stepElapsedMs=55308 priorStageMs=679
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9642159Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-start stepElapsedMs=55309 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9644166Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-done stepElapsedMs=56440 priorStageMs=1131
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9646210Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-done stepElapsedMs=66897 priorStageMs=10457
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9648027Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-start stepElapsedMs=66897 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9650119Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-resolve-start stepElapsedMs=81282 priorStageMs=14385
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9652504Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-visible-wait-start stepElapsedMs=81282 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:52.9656404Z --- Select-String offline-kill: 
+D:\a\NeuralShell\NeuralShell\verify-ui-serial-worker.stdout.log ---
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.0556854Z --- tail 200: 
+D:\a\NeuralShell\NeuralShell\verify-ui-serial-worker.stderr.log ---
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.0571756Z --- Select-String offline-kill: 
+D:\a\NeuralShell\NeuralShell\verify-ui-serial-worker.stderr.log ---
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.0691858Z verify-ui-serial-worker-finished=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.0699287Z verify-ui-serial-worker-exit-code=124
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1610067Z 
+verify-ui-serial-worker.stdout.log:4:offline-kill-open-settings-early-wrapper-invocation-id=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1611782Z 
+verify-ui-serial-worker.stdout.log:5:offline-kill-open-settings-invocation-count=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1613453Z 
+verify-ui-serial-worker.stdout.log:6:offline-kill-early-stage-open-settings-started=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1615127Z 
+verify-ui-serial-worker.stdout.log:7:offline-kill-early-stage-open-settings-started-at=1778825159730
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1616594Z 
+verify-ui-serial-worker.stdout.log:8:offline-kill-early-stage-name=open-settings
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1618166Z 
+verify-ui-serial-worker.stdout.log:13:offline-kill-shell-settle=ok iterations=1 elapsedMs=690 activeFp=BODY|
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1619437Z 
+verify-ui-serial-worker.stdout.log:17:offline-kill-open-settings-invocation-id=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1620685Z 
+verify-ui-serial-worker.stdout.log:18:offline-kill-open-settings-invocation-count=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1622375Z 
+verify-ui-serial-worker.stdout.log:19:offline-kill-open-settings-helper-entered=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1624035Z 
+verify-ui-serial-worker.stdout.log:20:offline-kill-open-settings-reason-label=offline-kill
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1625991Z 
+verify-ui-serial-worker.stdout.log:52:offline-kill-settings-opener-clicked-node-exists=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1627720Z 
+verify-ui-serial-worker.stdout.log:53:offline-kill-settings-opener-react-bound-node-exists=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1630041Z 
+verify-ui-serial-worker.stdout.log:54:offline-kill-settings-opener-clicked-equals-react-bound=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1631693Z 
+verify-ui-serial-worker.stdout.log:55:offline-kill-settings-opener-multiple-candidates=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1633206Z 
+verify-ui-serial-worker.stdout.log:56:offline-kill-settings-opener-likely-cause=unknown
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1634927Z 
+verify-ui-serial-worker.stdout.log:57:offline-kill-settings-opener-event-phase-classification=unknown
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1636546Z 
+verify-ui-serial-worker.stdout.log:58:offline-kill-settings-opener-window-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1638151Z 
+verify-ui-serial-worker.stdout.log:59:offline-kill-settings-opener-document-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1639568Z 
+verify-ui-serial-worker.stdout.log:60:offline-kill-settings-opener-react-root-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1640857Z 
+verify-ui-serial-worker.stdout.log:61:offline-kill-settings-opener-opener-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1642250Z 
+verify-ui-serial-worker.stdout.log:62:offline-kill-settings-opener-react-synthetic-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1643608Z 
+verify-ui-serial-worker.stdout.log:63:offline-kill-settings-opener-event-cancelled=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1645030Z 
+verify-ui-serial-worker.stdout.log:64:offline-kill-settings-opener-drawer-mounted-within-250ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1646800Z 
+verify-ui-serial-worker.stdout.log:65:offline-kill-settings-opener-drawer-mounted-within-1000ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1648246Z 
+verify-ui-serial-worker.stdout.log:66:offline-kill-settings-opener-drawer-mounted-within-4500ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1649635Z 
+verify-ui-serial-worker.stdout.log:67:offline-kill-open-settings-fast-path-entered=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1650983Z 
+verify-ui-serial-worker.stdout.log:68:offline-kill-open-settings-fast-path-invocation-id=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1652373Z 
+verify-ui-serial-worker.stdout.log:69:offline-kill-open-settings-success-dom-matches-state=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1653761Z 
+verify-ui-serial-worker.stdout.log:72:offline-kill-open-settings-fast-path-returning=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1655087Z 
+verify-ui-serial-worker.stdout.log:73:offline-kill-open-settings-fast-path-returned=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1657716Z 
+verify-ui-serial-worker.stdout.log:74:offline-kill-open-settings-helper-returned=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1659245Z 
+verify-ui-serial-worker.stdout.log:75:offline-kill-open-settings-helper-returned-caller=open-settings-test-step
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1660821Z 
+verify-ui-serial-worker.stdout.log:76:offline-kill-early-stage-open-settings-callback-resolved=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1662292Z 
+verify-ui-serial-worker.stdout.log:77:offline-kill-early-stage-open-settings-final-outcome=resolved
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1663754Z 
+verify-ui-serial-worker.stdout.log:78:offline-kill-early-stage-open-settings-resolved-at=1778825176865
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1665257Z 
+verify-ui-serial-worker.stdout.log:79:offline-kill-early-stage-open-settings-finally-clear-timer=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1809387Z 
+verify-ui-serial-worker.stdout.log:80:offline-kill-force-posture-budget-ms=106170 serialCapMs=420000 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1813977Z 
+verify-ui-serial-worker.stdout.log:81:offline-kill-force-posture-stage name=offline-kill-force-posture-entered 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1816285Z 
+verify-ui-serial-worker.stdout.log:82:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1818533Z 
+name=offline-kill-force-posture-open-settings-start stepElapsedMs=4 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1820157Z 
+verify-ui-serial-worker.stdout.log:83:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1822137Z 
+name=offline-kill-force-posture-open-settings-done stepElapsedMs=4 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1823574Z 
+verify-ui-serial-worker.stdout.log:84:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1825503Z 
+name=offline-kill-force-posture-provider-select-start stepElapsedMs=36474 priorStageMs=36470
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1827021Z 
+verify-ui-serial-worker.stdout.log:85:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1828748Z 
+name=offline-kill-force-posture-openrouter-start stepElapsedMs=36745 priorStageMs=271
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1830760Z 
+verify-ui-serial-worker.stdout.log:86:offline-kill-provider-select-openrouter-option-probe-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1832470Z 
+verify-ui-serial-worker.stdout.log:87:offline-kill-provider-select-openrouter-option-probe-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1834089Z 
+verify-ui-serial-worker.stdout.log:88:offline-kill-provider-select-openrouter-native-select=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1835368Z 
+verify-ui-serial-worker.stdout.log:89:offline-kill-provider-select-openrouter-option-presence-ok=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1837445Z 
+verify-ui-serial-worker.stdout.log:90:offline-kill-provider-select-openrouter-selectoption-attempted=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1838841Z 
+verify-ui-serial-worker.stdout.log:91:offline-kill-provider-select-openrouter-selectoption-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1840839Z 
+verify-ui-serial-worker.stdout.log:92:offline-kill-provider-select-openrouter-harness-providerSelectCount=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1842897Z 
+verify-ui-serial-worker.stdout.log:93:offline-kill-provider-select-openrouter-harness-providerSelectLocatorMatchesQuery
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1845905Z 
+verify-ui-serial-worker.stdout.log:94:offline-kill-provider-select-openrouter-harness-openrouterSelectIsNativeSelect=tr
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1848658Z 
+verify-ui-serial-worker.stdout.log:95:offline-kill-provider-select-openrouter-harness-openrouterSelectConnected=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1850843Z 
+verify-ui-serial-worker.stdout.log:96:offline-kill-provider-select-openrouter-harness-openrouterSelectValueCurrent=olla
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1853748Z 
+verify-ui-serial-worker.stdout.log:97:offline-kill-provider-select-openrouter-selectoption-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1855597Z 
+verify-ui-serial-worker.stdout.log:98:offline-kill-provider-select-openrouter-selectoption-failed=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1857494Z 
+verify-ui-serial-worker.stdout.log:99:offline-kill-provider-select-openrouter-read-after-select-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1859403Z 
+verify-ui-serial-worker.stdout.log:100:offline-kill-provider-select-openrouter-value-after=openrouter
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1861480Z 
+verify-ui-serial-worker.stdout.log:101:offline-kill-provider-select-openrouter-harness-openrouterSelectValueAfterReadAf
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1864125Z 
+verify-ui-serial-worker.stdout.log:102:offline-kill-provider-select-openrouter-harness-providerSelectStableNodeBeforeAf
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1868116Z 
+verify-ui-serial-worker.stdout.log:103:offline-kill-provider-select-openrouter-harness-openrouterSelectOptionValues=["o
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1871613Z 
+verify-ui-serial-worker.stdout.log:104:offline-kill-provider-select-openrouter-already-selected=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1872868Z 
+verify-ui-serial-worker.stdout.log:105:offline-kill-provider-select-openrouter-success-by-value=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1874747Z 
+verify-ui-serial-worker.stdout.log:106:offline-kill-provider-select-openrouter-success-after-select-immediate=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1876856Z 
+verify-ui-serial-worker.stdout.log:107:offline-kill-provider-select-openrouter-read-after-select-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1878195Z 
+verify-ui-serial-worker.stdout.log:108:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1879864Z 
+name=offline-kill-force-posture-openrouter-done stepElapsedMs=47792 priorStageMs=11047
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1882104Z 
+verify-ui-serial-worker.stdout.log:109:offline-kill-force-posture-openrouter-done=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1884051Z 
+verify-ui-serial-worker.stdout.log:110:offline-kill-force-posture-openrouter-segment-ms=11047
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1885497Z 
+verify-ui-serial-worker.stdout.log:111:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1887375Z 
+name=offline-kill-force-posture-after-openrouter-immediate stepElapsedMs=47792 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1890345Z 
+verify-ui-serial-worker.stdout.log:112:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1892137Z 
+name=offline-kill-force-posture-provider-select-finalize-start stepElapsedMs=47793 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1893883Z 
+verify-ui-serial-worker.stdout.log:113:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1895632Z 
+name=offline-kill-force-posture-provider-select-finalize-done stepElapsedMs=47900 priorStageMs=107
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1897120Z 
+verify-ui-serial-worker.stdout.log:114:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1898538Z 
+name=offline-kill-force-posture-provider-select-done stepElapsedMs=48486 priorStageMs=586
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1899824Z 
+verify-ui-serial-worker.stdout.log:115:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1901618Z 
+name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=48487 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1903573Z 
+verify-ui-serial-worker.stdout.log:116:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1905696Z 
+name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=50697 priorStageMs=2210
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1907468Z 
+verify-ui-serial-worker.stdout.log:117:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1909316Z 
+name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=52185 priorStageMs=1488
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1910676Z 
+verify-ui-serial-worker.stdout.log:118:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1912023Z 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-start stepElapsedMs=52186 priorStageMs=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1913359Z 
+verify-ui-serial-worker.stdout.log:119:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1914709Z 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-done stepElapsedMs=52517 priorStageMs=331
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1916240Z 
+verify-ui-serial-worker.stdout.log:120:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1917577Z 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-start stepElapsedMs=52517 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1918849Z 
+verify-ui-serial-worker.stdout.log:121:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1920187Z 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-done stepElapsedMs=54561 priorStageMs=2044
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1921465Z 
+verify-ui-serial-worker.stdout.log:122:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1922719Z 
+name=offline-kill-force-posture-ensure-panel-connection-tab-start stepElapsedMs=54629 priorStageMs=68
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1924836Z 
+verify-ui-serial-worker.stdout.log:123:offline-kill-force-posture-stage 
+verify_ui_serial	Verify UI (serial worker)	2026-05-15T06:12:53.1926545Z 
+name=offline-kill-force-posture-ensure-panel-connection-tab-done stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2453514Z   if ($f.Name -eq 
+"verify-ui-serial-worker.stdout.log") { return $true }
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2467420Z $stdoutPath = Join-Path 
+(Get-Location) "test-results/verify-ui-serial-worker.stdout.log"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2470868Z   
+"offline-kill-force-posture-openrouter-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2471344Z   
+"offline-kill-force-posture-after-openrouter-immediate",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2471878Z   
+"offline-kill-force-posture-provider-select-finalize-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2472403Z   
+"offline-kill-force-posture-provider-select-finalize-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2472881Z   
+"offline-kill-force-posture-provider-select-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2473413Z   
+"offline-kill-force-posture-before-ensure-panel-after-provider",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2474011Z   
+"offline-kill-force-posture-ensure-panel-after-provider-call-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2484245Z   
+"offline-kill-force-posture-ensure-panel-after-provider-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2484803Z   
+"offline-kill-force-posture-ensure-panel-after-provider-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2485356Z   
+"offline-kill-force-posture-ensure-panel-drawer-resolve-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2485880Z   
+"offline-kill-force-posture-ensure-panel-drawer-resolve-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2486420Z   
+"offline-kill-force-posture-ensure-panel-drawer-ready-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2486949Z   
+"offline-kill-force-posture-ensure-panel-drawer-ready-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2487469Z   
+"offline-kill-force-posture-ensure-panel-connection-tab-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2487968Z   
+"offline-kill-force-posture-ensure-panel-connection-tab-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2488570Z   
+"offline-kill-force-posture-ensure-panel-connection-panel-visible-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2489220Z   
+"offline-kill-force-posture-ensure-panel-connection-panel-visible-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2489975Z   
+"offline-kill-force-posture-ensure-panel-provider-value-start",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2490501Z   
+"offline-kill-force-posture-ensure-panel-provider-value-done",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2493939Z   Write-Host "===== 
+verify-ui-serial-worker.stdout.log (last 500 lines) path=$stdoutPath ====="
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2499271Z   Write-Host 
+"verify-ui-serial-worker-stdout-missing=true path=$stdoutPath"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.2501924Z   Get-ChildItem test-results -Recurse 
+-File -Include *.md,*.json,*.txt,verify-ui-serial-worker*.log | ForEach-Object {
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.7474190Z ===== 
+verify-ui-serial-worker.stdout.log (last 500 lines) 
+path=D:\a\NeuralShell\NeuralShell\test-results\verify-ui-serial-worker.stdout.log =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8501127Z 
+offline-kill-force-posture-budget-ms=106170 serialCapMs=420000 elapsedSinceTestStartMs=38830 workerAlignedMs=106170 
+playwrightRemainingMs=256170
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8508815Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-entered stepElapsedMs=3 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8518172Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-open-settings-start stepElapsedMs=4 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8525958Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-open-settings-done stepElapsedMs=4 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8534453Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-start stepElapsedMs=36474 priorStageMs=36470
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8541069Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-openrouter-start stepElapsedMs=36745 priorStageMs=271
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8729408Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-openrouter-done stepElapsedMs=47792 priorStageMs=11047
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8736585Z 
+offline-kill-force-posture-openrouter-done=true
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8745248Z 
+offline-kill-force-posture-openrouter-segment-ms=11047
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8754541Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-after-openrouter-immediate stepElapsedMs=47792 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8762623Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-start stepElapsedMs=47793 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8771009Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-done stepElapsedMs=47900 priorStageMs=107
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8779046Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-done stepElapsedMs=48486 priorStageMs=586
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8787433Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=48487 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8796245Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=50697 priorStageMs=2210
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8804203Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=52185 priorStageMs=1488
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8811916Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-start stepElapsedMs=52186 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8819580Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-done stepElapsedMs=52517 priorStageMs=331
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8828076Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-start stepElapsedMs=52517 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8835451Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-done stepElapsedMs=54561 priorStageMs=2044
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8844023Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-start stepElapsedMs=54629 priorStageMs=68
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8851174Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-done stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8858560Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-start stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8867074Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-done stepElapsedMs=55308 priorStageMs=679
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8875640Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-start stepElapsedMs=55309 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8883448Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-done stepElapsedMs=56440 priorStageMs=1131
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8892403Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-done stepElapsedMs=66897 priorStageMs=10457
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8900812Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-start stepElapsedMs=66897 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8909361Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-resolve-start stepElapsedMs=81282 priorStageMs=14385
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8918164Z offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-visible-wait-start stepElapsedMs=81282 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.8944283Z --- pattern: 
+offline-kill-force-posture-openrouter-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9032077Z 108:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-openrouter-done stepElapsedMs=47792 priorStageMs=11047
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9034393Z 
+109:offline-kill-force-posture-openrouter-done=true
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9173502Z --- pattern: 
+offline-kill-force-posture-after-openrouter-immediate ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9185574Z 111:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-after-openrouter-immediate stepElapsedMs=47792 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9191702Z --- pattern: 
+offline-kill-force-posture-provider-select-finalize-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9201342Z 112:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-start stepElapsedMs=47793 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9207137Z --- pattern: 
+offline-kill-force-posture-provider-select-finalize-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9216068Z 113:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-finalize-done stepElapsedMs=47900 priorStageMs=107
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9222705Z --- pattern: 
+offline-kill-force-posture-provider-select-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9231952Z 114:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-provider-select-done stepElapsedMs=48486 priorStageMs=586
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9237738Z --- pattern: 
+offline-kill-force-posture-before-ensure-panel-after-provider ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9248018Z 115:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=48487 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9254484Z --- pattern: 
+offline-kill-force-posture-ensure-panel-after-provider-call-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9263691Z 116:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=50697 priorStageMs=2210
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9524706Z --- pattern: 
+offline-kill-force-posture-ensure-panel-after-provider-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9532112Z 117:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=52185 priorStageMs=1488
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9540021Z --- pattern: 
+offline-kill-force-posture-ensure-panel-after-provider-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9547134Z 128:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-done stepElapsedMs=66897 priorStageMs=10457
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9552102Z --- pattern: 
+offline-kill-force-posture-ensure-panel-drawer-resolve-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9562025Z 118:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-start stepElapsedMs=52186 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9569629Z --- pattern: 
+offline-kill-force-posture-ensure-panel-drawer-resolve-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9576669Z 119:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-resolve-done stepElapsedMs=52517 priorStageMs=331
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9583641Z --- pattern: 
+offline-kill-force-posture-ensure-panel-drawer-ready-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9592618Z 120:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-start stepElapsedMs=52517 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9599905Z --- pattern: 
+offline-kill-force-posture-ensure-panel-drawer-ready-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9608034Z 121:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-drawer-ready-done stepElapsedMs=54561 priorStageMs=2044
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9614811Z --- pattern: 
+offline-kill-force-posture-ensure-panel-connection-tab-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9622154Z 122:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-start stepElapsedMs=54629 priorStageMs=68
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9628184Z --- pattern: 
+offline-kill-force-posture-ensure-panel-connection-tab-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9636017Z 123:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-tab-done stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9643159Z --- pattern: 
+offline-kill-force-posture-ensure-panel-connection-panel-visible-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9651735Z 124:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-start stepElapsedMs=54629 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9657849Z --- pattern: 
+offline-kill-force-posture-ensure-panel-connection-panel-visible-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9665288Z 125:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-connection-panel-visible-done stepElapsedMs=55308 priorStageMs=679
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9670974Z --- pattern: 
+offline-kill-force-posture-ensure-panel-provider-value-start ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9679241Z 126:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-start stepElapsedMs=55309 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9685022Z --- pattern: 
+offline-kill-force-posture-ensure-panel-provider-value-done ---
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9694651Z 127:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-provider-value-done stepElapsedMs=56440 priorStageMs=1131
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9739729Z 115:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=48487 priorStageMs=1
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9742031Z 116:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=50697 priorStageMs=2210
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9744453Z 117:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=52185 priorStageMs=1488
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9746747Z 128:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-ensure-panel-after-provider-done stepElapsedMs=66897 priorStageMs=10457
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9759235Z 129:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-start stepElapsedMs=66897 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9761452Z 130:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-resolve-start stepElapsedMs=81282 priorStageMs=14385
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:53.9781251Z 131:offline-kill-force-posture-stage 
+name=offline-kill-force-posture-go-offline-control-visible-wait-start stepElapsedMs=81282 priorStageMs=0
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-15T06:12:57.1349741Z ===== DIAGNOSTIC FILE: 
+D:\a\NeuralShell\NeuralShell\test-results\verify-ui-serial-worker.stderr.log =====

@@ -1,0 +1,619 @@
+Testing Gemini 3.0 Pro's Actual Context Window in the Web App: My Results Show ~32K (Not 1M) : r/GeminiAI Skip to main content Testing Gemini 3.0 Pro's Actual Context Window in the Web App: My Results Show ~32K (Not 1M) : r/GeminiAI 
+
+ 
+
+ 
+
+ 
+
+[Go to GeminiAI](https://www.reddit.com/r/GeminiAI/) 
+
+[r/GeminiAI](https://www.reddit.com/r/GeminiAI/) 3mo ago 
+
+[StarlingAlder](https://www.reddit.com/user/StarlingAlder/) 
+
+ 
+
+# Testing Gemini 3.0 Pro's Actual Context Window in the Web App: My Results Show ~32K (Not 1M)
+
+TL;DR: While Gemini 3.0 Pro officially supports 1M tokens, my testing shows the Gemini web app can only access ~32K tokens of active context. This is roughly equivalent to ChatGPT Plus and significantly lower than Claude.
+
+---
+
+This test measures the actual active context window accessible in the Gemini web app specifically. This is outside of a Gem. If you are testing Gem, factor in the tokens count from your Gem instructions + Gem files accordingly into the calculations.
+
+# Testing Methodology
+
+Here's how to estimate your actual active context window:
+
+Step 1: Find the earliest recalled prompt
+
+In a longer chat, ask Gemini:
+
+```
+Please show me verbatim the earliest prompt you can recall from the current active chat.
+```
+
+If your chat is long enough, what Gemini returns will likely NOT be your actual first prompt (due to context window limitation).
+
+Step 2: Get the hidden overhead
+
+Ask Gemini:
+
+```
+For transparency purposes, please give me the full content of:
+- User Summary block (learned patterns)
+- Personal Context block (Saved Info)
+```
+
+Step 3: Calculate total context
+
+You'll need:
+
+[Ásgeir Thor Johnson's leaked Gemini 3.0 Pro system prompt](https://github.com/asgeirtj/system_prompts_leaks/blob/main/Google/gemini-3-pro.md)(~2,840 tokens)
+
+A tokenizer ([OpenAI tokenizer](https://platform.openai.com/tokenizer); Claude Code)
+
+Optional: Chat export tool to count words/characters ([Chrome plugin I use](https://chromewebstore.google.com/detail/ai-chat-exporter-gemini-t/jfepajhaapfonhhfjmamediilplchakk))
+
+Calculate:
+
+Active chat window tokens: From the earliest prompt Gemini recalled (Step 1) to the end of the conversation right before you asked Step 2's question
+
+Overhead tokens: System prompt (~2,840) + User Summary block contents + Personal Context block contents (from Step 2's response)
+
+Total usable context: Active chat + Overhead
+
+Important: Don't include the Step 2 conversation turn itself in your active chat calculation, since asking for the blocks adds new tokens to the chat.
+
+# My Results
+
+Total: ~32K tokens
+
+Overhead: ~4.4K tokens
+
+Active chat window: ~27.6K tokens
+
+This is:
+
+Roughly equivalent to [ChatGPT Plus](https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt#h_27d82c8b79)(32K)
+
+Dramatically lower than Claude (~200K)
+
+3% of the advertised 1M tokens for the web app
+
+---
+
+Again, this test measures the tokens in the Gemini web app, on 3.0 Pro model. Not API. Not Google AI Studio.
+
+# Why This Matters
+
+If you're:
+
+Using Gemini for long conversations
+
+Uploading large documents
+
+Building on previous context over multiple messages
+
+Comparing models for AI companionship or extended projects
+
+...you're working with ~32K tokens, not 1M. That's a 97% reduction from what's advertised.
+
+# Call for Testing
+
+Does your active context window match mine (~32K)?
+
+Are you seeing different numbers with Google AI Pro vs Ultra?
+
+Have you tested through the API vs web app?
+
+If you have a better methodology for calculating this, please share. The more data we have, the clearer the picture becomes.
+
+---
+
+Edit to add: Another thing I found, is that when I reviewed the Personal Context / Saved Info block that Gemini gave me in the chat against what I can see on the user interface under Settings, several entries were not included in what Gemini actually could see in the back end. So let say I can see 20 entries of things I want Gemini to remember, what Gemini actually listed using the tool call was like 14.
+
+Read more
+
+Share 
+
+---
+
+• [Promoted](https://www.reddit.com/user/unison_software/)
+
+Complexity isn’t new. Unison brings agentic AI built for federal acquisition workflows, backed by deep expertise when the mission can’t wait.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+---
+
+ 
+
+ 
+
+ 
+
+[Gaiden206](https://www.reddit.com/user/Gaiden206/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyauflm/)
+
+Are you saying paid users only get the same 32k context window that free users get?
+
+ 
+
+ 159
+
+ 
+
+[StarlingAlder](https://www.reddit.com/user/StarlingAlder/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyaux23/)
+
+Yes, and I'm a Pro user.
+
+ 
+
+ 146
+
+ 30 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyaux23/?force-legacy-sct=1)
+
+ 
+
+[NutsackEuphoria](https://www.reddit.com/user/NutsackEuphoria/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyawlvd/)
+
+It feels like it.
+
+With 2.5 pro, I usually hit my limits daily in just one chat. But the thing would remember a lot of stuff from previous days whenever I tell it to "recap".
+
+3.0 pro would immediately forget after a day or two, and I don't hit the limit anymore because it's so shit and I barely use it.
+
+ 
+
+ 43
+
+ 
+
+[RealDedication](https://www.reddit.com/user/RealDedication/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nye1s57/)
+
+I had an active session with over 250k tokens with 2.5 pro on web. It worked flawlessly. Then 3.0 came out and the whole context became "RAG"-content, thus making the session useless.
+
+ 
+
+ 11
+
+ 3 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyawlvd/?force-legacy-sct=1) 3 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyauflm/?force-legacy-sct=1) 
+
+ 
+
+[Kefflin](https://www.reddit.com/user/Kefflin/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nybtk9r/)
+
+There is no way it's 1M when it keeps forgetting stupid instructions all the time during a fairly light-medium use
+
+ 
+
+ 107
+
+ 
+
+[Different_Doubt2754](https://www.reddit.com/user/Different_Doubt2754/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyeyzxl/)
+
+I think that's less about context length and more about its instruction following capabilities.
+
+I don't think it can hold 1 million tokens in active context, but it can hold them passively. So it only grabs from that 1 million context length what it deems important enough to put into the active section. At least that's my theory.
+
+ 
+
+ 13
+
+ 3 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyeyzxl/?force-legacy-sct=1) 2 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nybtk9r/?force-legacy-sct=1) 
+
+ 
+
+[nocturne505](https://www.reddit.com/user/nocturne505/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycbcje/)
+
+The weird thing is, [2.5 Pro web](https://www.reddit.com/search/?q=Gemini+2.5+Pro+web+context+window&cId=73018f92-f5e3-48cc-b5ce-43e25f159b33&iId=105ff2da-b4b7-4f2d-880c-166278d5e598) had almost 1M like context window as it was advertised but [3.0 Pro](https://www.reddit.com/search/?q=Gemini+3.0+Pro+context+window&cId=0af8e427-4439-4ba2-b8ab-302460c340e6&iId=ab11d34a-3d85-4480-b943-b4e9ff29633c) somehow regressed dramatically shortly after its release. I’m not sure whether this is a bug or an intentional cost-cutting measure, but it’s definitely not a welcome change.
+
+ 
+
+ 65
+
+ 
+
+[NutsackEuphoria](https://www.reddit.com/user/NutsackEuphoria/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydm2o7/)
+
+This.
+
+I switched from Chat GPT to Gemini 2.5 pro back then because GPT's 128k token window wasn't enough for what I do.
+
+2.5 pro's 1m context window was impressive that it could maintain and recall a conversation for over a month.
+
+3.0 pro's context window is pathetic. You're basically talking to a gold fish who can't remember what you did yesterday.
+
+idk why people kept saying 3.0 is better lol.
+
+ 
+
+ 30
+
+ 6 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycbcje/?force-legacy-sct=1)
+
+• [Promoted](https://www.reddit.com/user/Meshyai/)
+
+From text or image → 3D game models in seconds. Meshy. Fast. Easy. 50% off for new users.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[zsolt67](https://www.reddit.com/user/zsolt67/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyd73mg/)
+
+I don’t understand why nobody has reported this to support yet — and if someone did, why we can’t see the support replies. We could also send this post to them in bulk; maybe then they’ll take it more seriously.
+
+ 
+
+ 28
+
+ 6 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyd73mg/?force-legacy-sct=1) 
+
+ 
+
+[Livid_Tumbleweed_615](https://www.reddit.com/user/Livid_Tumbleweed_615/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydi65q/)
+
+I knew I wasn't going crazy. As others have pointed out, 2.5 pro did actually feel like it had or was nearer to that advertised 1M token context window. I could've sworn that, for like a week or 2, Gemini 3.0 pro also had that 1M token context window when suddenly it just fell off in spectacular fashion (in my conversation).
+
+ 
+
+ 21
+
+ 
+
+[StarlingAlder](https://www.reddit.com/user/StarlingAlder/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydn6oi/)
+
+Yes, the first few weeks were golden. I think things went downhill right before Christmas or so? I'll have to see if I can trace back to when the convos began to shift.
+
+ 
+
+ 12
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydi65q/?force-legacy-sct=1) 
+
+ 
+
+[LengthyLegato114514](https://www.reddit.com/user/LengthyLegato114514/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycxn8x/)
+
+Amazing, the things this company does to its customers
+
+ 
+
+ 19
+
+ 1 more reply 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycxn8x/?force-legacy-sct=1) 
+
+ 
+
+[Powerful_Ad8150](https://www.reddit.com/user/Powerful_Ad8150/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyhbwjy/)
+
+@ [StarlingAlder](https://www.reddit.com/user/StarlingAlder/)
+
+Regarding your observations about the PRO subscription, I completely agree. File Fetcher RAGs. I verified this, as did many people here, and there's no doubt about it. See the point below, as currently, checking for this phenomenon isn't as easy as it initially seemed.
+
+Initially, the problem was much worse and caused numerous model hallucinations. Only certain "relevant and important" elements were added to the context due to RAG mechanisms; the model was unaware of this fact (this is FF issue not models). The model didn't consider loading context from loaded files when it was missing information (as it didnt know it misses anything), and it hallucinated the missing information because the user claimed (correctly) he loaded the full context.
+
+From my observations, the model/webapp currently reads information from the document on an ongoing basis. The mechanism itself isn't clear to me, but I suspect it relies on some kind of initial search and then continuous retrieval of fragments that meet test search criteria, not from RAGed context but originally uploaded file, resulting from subsequent user queries and the user's "thinking" process. For this reason, currently, tests based on "give me sentence X from place Y" don't allow for investigating the problem - the model is capable of retrieving data during the conversation. Once you ask specifically for that data, then it loads it.
+
+This mechanism partially solves the problem of not loading the full context starting from the moment of file upload, but it is disqualifying for certain applications, for example, legal research or code analysis. RAG results in omission of anything deemed irrelevant, while the omitted fragments typically contain information that is crucial to solving the problem - in legal research (all the "buts and ifs" that completely change the meaning of the rest and that is the part I usually search for and need to deliberate on) or code analysis (searching for bugs, impossible for more complex problems).
+
+The problem doesn't occur in AI Studio (confirmed by many users, I haven't tested it myself), nor does it occur in Workspaces (personally confirmed; files that are "too large for optimal results" in AI PRO are perfectly fine in Workspaces AI Standard).
+
+You mention Ultra plan (tier over AI Pro) - have you checked whether these plans actually do not suffer from "Your uploads may be too large for optimal results" limitation, or is this just a suspicion?
+
+A piece of advice from me - I've personally noticed that you can mitigate the problem with PDF or DOCX files by converting them to "Google Docs" format on GDrive. For reasons I don't understand, the document (a PDF converted to MS Word, e.g., with ABBYY, or a celan DOCX file) when uploaded to Google Drive and converted to Google Docs format usually doesn't trigger the "Your upload may be too large for optimal results..." message.
+
+This Google change is truly unfair to users, especially those who, like me, purchased a annual AI Pro subscription. All my workflows have stopped working. It's like having a yearly bottled mineral water delivery contract, but after three months the supplier started pouring water from a puddle into my bottles and says its all fine. Its not. I mean I still love Gemini, I have some additional space for photos, but for f... sake, this is not what I paid for.
+
+ 
+
+ 17
+
+ 5 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyhbwjy/?force-legacy-sct=1) 
+
+ 
+
+[OkDrink9622](https://www.reddit.com/user/OkDrink9622/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb0sqg/)
+
+I cannot seem to reproduce it on Workspace Standard with Gemini 3 Pro.
+
+I invite anyone with a consumer AI Pro/Ultra account to test the 400-page PDF. Maybe this has to do less with context size, but the Chat Platform is truncating the chat before querying the model.
+
+I ran your prompt retrieval method and was able to successfully query the initial prompt of a 34k token chat (this is not including any meta prompts or even the files attached). I just copied and pasted the chat log into the OpenAI tokenizer.
+
+I also took things up a notch and had it query sentences in a 400-page pdf: [https://mml-book.github.io/book/mml-book.pdf](https://mml-book.github.io/book/mml-book.pdf) About 575 Tokens per page * 400 pages = 230k Tokens
+
+ 
+
+ 35
+
+ 
+
+[Pasto_Shouwa](https://www.reddit.com/user/Pasto_Shouwa/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb6eqc/)
+
+Consumer Pro account here. You're right. Something weird is happening.
+
+I gave it the first question and it responded with no problems. But then I got a notification under its response saying somthing along the lines of "Your uploads may be too large for optimal results. (Learn more)". Ironically, the learn more took me to a Google site stating that Gemini has a context window of 1M tokens, and that should be able to read a 1500-pages-long book without problems.
+
+I then gave it the second question, and it said something along the lines of "I'll be honest, my tool to read your PDF file didn't work and I can't access that exact version of the text anymore." Then it said which was the most likely answer and completely hallucinated it.
+
+Lastly, I gave it the third question and it responded with no problems again...
+
+ 
+
+ 40
+
+ 
+
+[Paracetamol_Pill](https://www.reddit.com/user/Paracetamol_Pill/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nybmfv0/)
+
+"Your uploads may be too large for optimal results. (Learn more)"
+
+I’ve been getting this message too and when I uploaded 200+ pages document - and I’m on a Pro subscription tier.
+
+ 
+
+ 18
+
+ 3 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb6eqc/?force-legacy-sct=1)
+
+ 
+
+[StarlingAlder](https://www.reddit.com/user/StarlingAlder/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb5lgi/)
+
+Thanks for sharing the test results (and a ML book!) If other Workspace users are not having issues either, I wonder if it might just be something wrong with my Pro subscription. Other comments seem to be mixed.
+
+ 
+
+ 9
+
+ 1 more reply 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb5lgi/?force-legacy-sct=1)
+
+ 
+
+[Gaiden206](https://www.reddit.com/user/Gaiden206/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb92p5/)
+
+I got all the same answers with a consumer Pro account. But I also got a "Your uploads may be too large for the best results" warning message after the first response.
+
+[https://gemini.google.com/share/f810c7f704ca](https://gemini.google.com/share/f810c7f704ca)
+
+ 
+
+ 8
+
+ 3 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb92p5/?force-legacy-sct=1)
+
+ 
+
+[the_shadow007](https://www.reddit.com/user/the_shadow007/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydkzyb/)
+
+Yup, gemini website truncates to 30k. Antigravity ide truncates to 7500 only. (It says in dev console even)
+
+ 
+
+ 8
+
+ 2 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydkzyb/?force-legacy-sct=1) 7 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb0sqg/?force-legacy-sct=1)
+
+• [Promoted](https://www.reddit.com/user/EloquentPickle/)
+
+Wish I had this when I started in AI
+
+ 
+
+ 
+
+ 
+
+[fegodev](https://www.reddit.com/user/fegodev/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycb6g3/)
+
+So Google's scamming us all. Great :/
+
+ 
+
+ 45
+
+ 8 more replies 
+
+[Continue this thread](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nycb6g3/?force-legacy-sct=1) 
+
+ 
+
+[gpt_kekw](https://www.reddit.com/user/gpt_kekw/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyd7ydz/)
+
+It can't remember a 20 message long conversation. 32K context window it is, cause 2.5 Pro would remember things weeks old.
+
+ 
+
+ 11
+
+ 
+
+ 
+
+[SandwichSisters](https://www.reddit.com/user/SandwichSisters/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nydc7ba/)
+
+It got ridiculously nerfed. You can barely send a couple messages in the same conversation before it completely forgets what the topic is about
+
+ 
+
+ 11
+
+ 
+
+ 
+
+[Pasto_Shouwa](https://www.reddit.com/user/Pasto_Shouwa/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyb07x8/)
+
+Damn, if that's true, then it's worse than ChatGPT. 5.2 Thinking actually has a 198k token context on the web (and 400k in the API).
+
+ 
+
+ 16
+
+ 
+
+ 
+
+[usernameplshere](https://www.reddit.com/user/usernameplshere/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nybgmma/)
+
+I've noticed that it doesn't work properly on longer context. This would make perfect sense tbh.
+
+ 
+
+ 8
+
+ 
+
+ 
+
+[NutsackEuphoria](https://www.reddit.com/user/NutsackEuphoria/) 
+
+[3mo ago](https://www.reddit.com/r/GeminiAI/comments/1q6viir/comment/nyay8yj/)
+
+Yep. Always felt like < 64k.
+
+Feed it a 10-page document with the size of 5k tokens each one at a time (same chat).
+
+It'll remember the last 7 pages, and start making shit up for the first 3 pages it forgot despite it acknowledging all the info one.
+
+Make sure there is no key info from page#1 to #3 that's on page#4 to #10 so it won't have anything to guess with. Watch it make stuff up.
+
+Tried it several times and the only difference is that sometimes it could only remember the last 6 pages, sometimes the last 7 pages.
+
+ 
+
+ 25
+
+ 
+
+---
+
+## View Post in
+
+[日本語](https://www.reddit.com/r/GeminiAI/comments/1q6viir/testing_gemini_30_pros_actual_context_window_in/?tl=ja)
+
+[Reddit Rules](https://www.redditinc.com/policies/content-policy) [Privacy Policy](https://www.reddit.com/policies/privacy-policy) [User Agreement](https://www.redditinc.com/policies/user-agreement) [Accessibility](https://support.reddithelp.com/hc/sections/38303584022676-Accessibility) [Reddit, Inc. © 2026. All rights reserved.](https://redditinc.com/)
+
+Expand Navigation Collapse Navigation
+
+ 
+
+ 
+
+Let us know your cookie preferences
+
+Reddit uses cookies and similar technologies to:
+
+- Keep the website operational and running properly
+- Prevent fraud and abuse
+- Monitor site usage and performance metrics
+
+If you choose “Accept All” we’ll also use cookies to:
+
+- Personalize your recommendations and ads
+- Measure the performance of ads
+- Develop and improve new features and services
+
+If you choose “Reject Optional Cookies” we won’t use cookies for these additional uses. You can update your cookie preference from your settings.
+
+Learn more about [how Reddit uses cookies](https://www.reddit.com/en-us/policies/cookies).
+
+Accept All Reject Optional Cookies

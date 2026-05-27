@@ -1,0 +1,1902 @@
+NeuralLink? Tactical Suite Loaded.
+
+> neuralshell-v5@2.1.32 preverify:ui
+> npm run renderer:ensure-build
+
+
+> neuralshell-v5@2.1.32 renderer:ensure-build
+> node scripts/ensure_renderer_built.cjs
+
+[renderer:ensure-build] Renderer dist is fresh.
+
+> neuralshell-v5@2.1.32 verify:ui
+> playwright test e2e/react-core.spec.js e2e/agentInstall.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js e2e/billingActivation.spec.js e2e/upgradePrompt.spec.js e2e/marketplacePaidInstall.spec.js e2e/referralFlow.spec.js e2e/whiteLabelBuild.spec.js e2e/partnerConsole.spec.js e2e/certificationFlow.spec.js e2e/ecosystemLauncher.spec.js e2e/missionControl.spec.js e2e/nodeChainRules.spec.js e2e/watchdogAlerts.spec.js e2e/firstBootAuthority.spec.js e2e/splitWorkspace.spec.js e2e/stateSnapshots.spec.js e2e/fleetControl.spec.js e2e/recoveryCenter.spec.js e2e/applianceMode.spec.js e2e/shiftConsole.spec.js e2e/incidentMode.spec.js e2e/policyRollout.spec.js e2e/offlineUpdatePacks.spec.js e2e/missionScheduler.spec.js e2e/airgapOperations.spec.js e2e/trustFabric.spec.js e2e/hardwareAppliance.spec.js e2e/courierTransfer.spec.js e2e/continuityDrills.spec.js e2e/procurementPack.spec.js e2e/tamperSimulation.spec.js e2e/institutionalCommand.spec.js e2e/demoMode.spec.js e2e/deploymentProgram.spec.js e2e/trainingDelivery.spec.js e2e/supportOps.spec.js e2e/buyerJourney.spec.js e2e/pilotConversion.spec.js e2e/commercialPackages.spec.js e2e/fieldLaunch.spec.js e2e/partnerRollout.spec.js e2e/buyerOps.spec.js e2e/demoToPilot.spec.js e2e/pilotExpansion.spec.js e2e/renewalRisk.spec.js e2e/launchWeek.spec.js e2e/followupGenerator.spec.js e2e/fieldFeedback.spec.js e2e/partnerCertification.spec.js e2e/managedServices.spec.js e2e/strategicAccount.spec.js e2e/portfolioRollout.spec.js e2e/revenueOps.spec.js e2e/channelExpansion.spec.js e2e/crossAccountRenewal.spec.js e2e/executiveScale.spec.js e2e/ecosystemPortfolio.spec.js e2e/serviceLine.spec.js e2e/partnerNetworkGovernance.spec.js e2e/globalPlanning.spec.js e2e/ecosystemRevenue.spec.js e2e/boardOperatingPack.spec.js e2e/licensedOperator.spec.js e2e/ecosystemCommand.spec.js e2e/ui-controls-sweep.spec.js -c playwright.e2e.config.js --workers=1
+
+
+Running 97 tests using 1 worker
+
+(node:13500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   1 ..\..\..\Projects\Active\NeuralShell\e2e\agentInstall.spec.js:5:1 › Agent store installs verified core agent (13.3s)
+(node:4272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   2 ..\..\..\Projects\Active\NeuralShell\e2e\airgapOperations.spec.js:60:3 › Air-Gapped Operations › quarantines invalid imports and toggles lock posture (20.0s)
+(node:2744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   3 ..\..\..\Projects\Active\NeuralShell\e2e\applianceMode.spec.js:46:3 › Appliance Mode › opens appliance console and toggles mode (20.0s)
+(node:12228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   4 ..\..\..\Projects\Active\NeuralShell\e2e\billingActivation.spec.js:65:3 › Billing activation › activates valid offline license and surfaces active status (0ms)
+(node:16988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   5 ..\..\..\Projects\Active\NeuralShell\e2e\boardOperatingPack.spec.js:42:3 › Board Operating Pack Console › adds risk section and exports board pack (20.0s)
+(node:608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   6 ..\..\..\Projects\Active\NeuralShell\e2e\buyerJourney.spec.js:45:3 › Buyer Evaluation Journey › opens evaluator journey summary (20.0s)
+(node:6676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 ..\..\..\Projects\Active\NeuralShell\e2e\buyerOps.spec.js:54:3 › Buyer Ops Automation › generates stage-aware follow-up pack (1.3s)
+  ok  8 ..\..\..\Projects\Active\NeuralShell\e2e\certificationFlow.spec.js:59:3 › Certification Flow › certificate can be issued after passing quiz (4.4s)
+  ok  9 ..\..\..\Projects\Active\NeuralShell\e2e\channelExpansion.spec.js:50:3 › Channel Expansion Planner › improves channel score and exports plan (1.5s)
+  ok 10 ..\..\..\Projects\Active\NeuralShell\e2e\commercialPackages.spec.js:53:3 › Commercial Package Matrix › shows sku entries from package matrix (1.0s)
+  ok 11 ..\..\..\Projects\Active\NeuralShell\e2e\continuityDrills.spec.js:76:3 › Continuity Drills › runs drill and captures failure scorecard deltas (1.4s)
+  x  12 ..\..\..\Projects\Active\NeuralShell\e2e\courierTransfer.spec.js:56:3 › Offline Evidence Courier › blocks release until receipt verification then allows release (20.0s)
+(node:12496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  13 ..\..\..\Projects\Active\NeuralShell\e2e\crossAccountRenewal.spec.js:42:3 › Cross-Account Renewal Matrix › escalates account and exports renewal pack (20.0s)
+(node:1756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  14 ..\..\..\Projects\Active\NeuralShell\e2e\demoMode.spec.js:46:3 › Institutional Demo Mode › opens demo flow and toggles deterministic demo mode (20.0s)
+(node:16168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  15 ..\..\..\Projects\Active\NeuralShell\e2e\demoToPilot.spec.js:46:3 › Demo-to-Pilot Conversion Engine › scores pilot fit and generates pack (20.0s)
+(node:12264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  16 ..\..\..\Projects\Active\NeuralShell\e2e\deploymentProgram.spec.js:45:3 › Deployment Program Pack › runs deployment preflight from mission control (20.0s)
+(node:6440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  17 ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemCommand.spec.js:41:3 › Ecosystem Command Center › shows summary cards and opens portfolio drilldown (20.0s)
+(node:4772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  18 ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemLauncher.spec.js:49:3 › Ecosystem Launcher Access › free tier shows launcher and locks enterprise/pro modules (1.0m)
+(node:17032) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17032) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 19 ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemPortfolio.spec.js:50:3 › Ecosystem Portfolio Console › updates line health and exports brief (1.5s)
+  x  20 ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemRevenue.spec.js:42:3 › Ecosystem Revenue Planner › adjusts mix and exports revenue pack (20.0s)
+(node:17052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  21 ..\..\..\Projects\Active\NeuralShell\e2e\executiveScale.spec.js:41:3 › Executive Scale Dashboard › shows scale cards and supports drilldown (20.0s)
+(node:16916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  22 ..\..\..\Projects\Active\NeuralShell\e2e\fieldFeedback.spec.js:46:3 › Field Feedback Intake + Routing › captures feedback note and exports weekly summary (20.0s)
+(node:3916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  23 ..\..\..\Projects\Active\NeuralShell\e2e\fieldLaunch.spec.js:46:3 › Field Launch Command Center › shows launch readiness and drills down to demo flow (20.0s)
+(node:3844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  24 ..\..\..\Projects\Active\NeuralShell\e2e\firstBootAuthority.spec.js:46:3 › First-Boot Authority Funnel › runs and reopens first-boot authority flow (20.0s)
+(node:16796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  25 ..\..\..\Projects\Active\NeuralShell\e2e\fleetControl.spec.js:47:3 › Fleet Control Panel › opens fleet panel and imports local runtime node (20.0s)
+(node:17324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  26 ..\..\..\Projects\Active\NeuralShell\e2e\followupGenerator.spec.js:46:3 › Proof-Backed Follow-Up Generator › generates evidence-backed follow-up draft (20.0s)
+(node:16572) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16572) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  27 ..\..\..\Projects\Active\NeuralShell\e2e\globalPlanning.spec.js:42:3 › Global Planning Console › tunes region capacity and exports planning pack (20.0s)
+(node:13356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  28 ..\..\..\Projects\Active\NeuralShell\e2e\hardwareAppliance.spec.js:47:3 › Hardware Appliance Program › provisions hardware profile with role-aware wizard (20.0s)
+(node:3476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 29 ..\..\..\Projects\Active\NeuralShell\e2e\incidentMode.spec.js:72:3 › Incident Mode › declares and resolves an incident (1.3s)
+  x  30 ..\..\..\Projects\Active\NeuralShell\e2e\institutionalCommand.spec.js:45:3 › Institutional Command Console › shows one-screen summary and drills into modules (20.0s)
+(node:12804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  31 ..\..\..\Projects\Active\NeuralShell\e2e\launchWeek.spec.js:46:3 › Launch Week Command Discipline › adds launch issue and exports end-of-day summary (20.0s)
+(node:7516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  32 ..\..\..\Projects\Active\NeuralShell\e2e\licensedOperator.spec.js:42:3 › Licensed Operator Framework › completes prerequisite and exports launch pack (20.0s)
+(node:16676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  33 ..\..\..\Projects\Active\NeuralShell\e2e\managedServices.spec.js:42:3 › Managed Services Console › raises account risk and exports weekly summary (20.0s)
+(node:14792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  34 ..\..\..\Projects\Active\NeuralShell\e2e\marketplacePaidInstall.spec.js:66:3 › Marketplace paid install › requires receipt for paid agent install and succeeds with receipt (0ms)
+(node:14400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  35 ..\..\..\Projects\Active\NeuralShell\e2e\missionControl.spec.js:45:3 › Mission Control Cockpit › opens cockpit and renders core runtime cards (15.0s)
+(node:2096) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2096) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  36 ..\..\..\Projects\Active\NeuralShell\e2e\missionScheduler.spec.js:46:3 › Mission Scheduler › runs mission template and records history (20.0s)
+(node:16616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  37 ..\..\..\Projects\Active\NeuralShell\e2e\nodeChainRules.spec.js:45:3 › NodeChain Runtime Rules › dispatches manual events and records execution logs (15.0s)
+(node:4568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  38 ..\..\..\Projects\Active\NeuralShell\e2e\offlineUpdatePacks.spec.js:53:3 › Offline Update Packs › rejects unverified update pack import (20.0s)
+(node:4504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  39 ..\..\..\Projects\Active\NeuralShell\e2e\partnerCertification.spec.js:42:3 › Partner Certification Hub › updates certification progress and exports enablement pack (20.0s)
+(node:5084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  40 ..\..\..\Projects\Active\NeuralShell\e2e\partnerConsole.spec.js:50:3 › Partner Console Flow › partner registration works and role gating locks non-allowed access (15.0s)
+(node:9392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  41 ..\..\..\Projects\Active\NeuralShell\e2e\partnerNetworkGovernance.spec.js:42:3 › Partner Network Governance › suspends partner and exports governance report (20.0s)
+(node:9060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  42 ..\..\..\Projects\Active\NeuralShell\e2e\partnerRollout.spec.js:45:3 › Partner Rollout Console › captures blocker and exports handoff summary (20.0s)
+(node:9432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  43 ..\..\..\Projects\Active\NeuralShell\e2e\pilotConversion.spec.js:46:3 › Pilot Conversion Pack › generates pilot conversion pack (20.0s)
+(node:17172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  44 ..\..\..\Projects\Active\NeuralShell\e2e\pilotExpansion.spec.js:46:3 › Pilot Expansion Command › creates expansion summary from selected paths (20.0s)
+(node:12616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  45 ..\..\..\Projects\Active\NeuralShell\e2e\policyRollout.spec.js:55:3 › Policy Rollout Console › rejects unsigned/invalid policy bundle (20.0s)
+(node:15192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  46 ..\..\..\Projects\Active\NeuralShell\e2e\portfolioRollout.spec.js:42:3 › Portfolio Rollout Planner › increments blocker and exports portfolio summary (20.0s)
+(node:14300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  47 ..\..\..\Projects\Active\NeuralShell\e2e\procurementPack.spec.js:46:3 › Procurement Command Center › generates buyer-ready review pack snapshot (20.0s)
+(node:17696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  48 ..\..\..\Projects\Active\NeuralShell\e2e\provGraph.spec.js:5:1 › Provenance graph opens from workspace header (33.0s)
+(node:13768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 49 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:282:5 › NeuralShell React Core UI › App boots and critical React shells render (683ms)
+  ok 50 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:289:5 › NeuralShell React Core UI › Trust indicators are present (48ms)
+  ok 51 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:296:5 › NeuralShell React Core UI › Settings drawer opens, changes state, and preserves values (10.6s)
+  ok 52 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:354:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture (1.4s)
+  ok 53 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:378:5 › NeuralShell React Core UI › Command palette opens and closes (6.0s)
+  ok 54 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:402:5 › NeuralShell React Core UI › Layout presets adjust rail widths and reset panels (2.5s)
+  ok 55 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:437:5 › NeuralShell React Core UI › Inline rail collapse toggles expose mini-rail expand controls (865ms)
+  ok 56 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:456:5 › NeuralShell React Core UI › Keyboard shortcuts nudge rail widths (1.3s)
+  ok 57 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:475:5 › NeuralShell React Core UI › Focused layout overlays expose resize handles (978ms)
+  ok 58 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:492:5 › NeuralShell React Core UI › Composer accepts input (233ms)
+  ok 59 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:501:5 › NeuralShell React Core UI › Thread creation mutates active workspace state (1.5s)
+  ok 60 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:522:5 › NeuralShell React Core UI › Quick-Start cards trigger real kernel responses (2.2s)
+  ok 61 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:534:5 › NeuralShell React Core UI › Proof and ROI commands execute narratives (1.1s)
+  ok 62 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:554:5 › NeuralShell React Core UI › /clear command wipes the local chat history (1.2s)
+  ok 63 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:566:5 › NeuralShell React Core UI › Session modal exposes dialog semantics and dismisses with Escape (458ms)
+  ok 64 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:579:5 › NeuralShell React Core UI › Settings drawer close control has an accessible name (865ms)
+  x  65 ..\..\..\Projects\Active\NeuralShell\e2e\recoveryCenter.spec.js:45:3 › Recovery Center › opens recovery center and exports bundle (20.0s)
+(node:16960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  66 ..\..\..\Projects\Active\NeuralShell\e2e\referralFlow.spec.js:37:3 › Referral flow › creates and exports referral attribution report (0ms)
+(node:17156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  67 ..\..\..\Projects\Active\NeuralShell\e2e\renewalRisk.spec.js:46:3 › Renewal Risk Console › computes and exports renewal risk summary (20.0s)
+(node:17548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  68 ..\..\..\Projects\Active\NeuralShell\e2e\revenueOps.spec.js:42:3 › Revenue Ops Console › adjusts pipeline value and exports monthly pack (20.0s)
+(node:844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  69 ..\..\..\Projects\Active\NeuralShell\e2e\serviceLine.spec.js:42:3 › Service Line Console › bumps utilization and exports service ops pack (20.0s)
+(node:10532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  70 ..\..\..\Projects\Active\NeuralShell\e2e\shiftConsole.spec.js:46:3 › Shift Console › opens shift console and updates role/notes (20.0s)
+(node:15972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  71 ..\..\..\Projects\Active\NeuralShell\e2e\splitWorkspace.spec.js:45:3 › Split Workspace › opens split workspace and routes right pane context (15.0s)
+(node:12264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  72 ..\..\..\Projects\Active\NeuralShell\e2e\stateSnapshots.spec.js:46:3 › Runtime State Snapshots › captures, compares, and restores snapshots (15.0s)
+(node:3852) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3852) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  73 ..\..\..\Projects\Active\NeuralShell\e2e\strategicAccount.spec.js:42:3 › Strategic Account Console › adds risk and exports executive brief (20.0s)
+(node:7208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  74 ..\..\..\Projects\Active\NeuralShell\e2e\supportOps.spec.js:46:3 › Support Operations Pack › captures support intake and updates triage queue (20.0s)
+(node:3316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 75 ..\..\..\Projects\Active\NeuralShell\e2e\tamperSimulation.spec.js:72:3 › Tamper Simulation Mode › runs sandboxed tamper simulation and records report (1.2s)
+  x  76 ..\..\..\Projects\Active\NeuralShell\e2e\trainingDelivery.spec.js:46:3 › Training Delivery Pack › generates offline training bundle (20.0s)
+(node:12424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  77 ..\..\..\Projects\Active\NeuralShell\e2e\trustFabric.spec.js:48:3 › PKI Trust Fabric › issues and revokes local certificates (20.0s)
+(node:11388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 78 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:395:5 › UI controls sweep › top-bar core elements are visible (160ms)
+  ok 79 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:407:5 › UI controls sweep › primary top-bar buttons open and close (4.7s)
+  ok 80 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:430:5 › UI controls sweep › trust indicator is present (124ms)
+  ok 81 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:438:5 › UI controls sweep › presence pill is present (120ms)
+  ok 82 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:446:5 › UI controls sweep › binary clock toggle opens and closes popup (227ms)
+  ok 83 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:467:5 › UI controls sweep › model picker opens, shows provider groups, search filters, and selects a model (2.7s)
+  ok 84 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:504:5 › UI controls sweep › calendar popover opens, shows Deadlines tab, add and remove a deadline (5.4s)
+  ok 85 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:536:5 › UI controls sweep › calendar popover Open In tab shows external calendar links (1.5s)
+  ok 86 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:564:5 › UI controls sweep › More menu Panels tab opens panels (12.3s)
+  ok 87 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:587:5 › UI controls sweep › More menu Tools tab items are present and clickable (4.5s)
+  ok 88 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:609:5 › UI controls sweep › More menu View tab: all clock and calendar settings toggle correctly (31.7s)
+  ok 89 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:710:5 › UI controls sweep › More menu Boss tab: runtime roles and toggles respond (10.8s)
+  ok 90 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:738:5 › UI controls sweep › study coach card subject pills are clickable and change card state (121ms)
+  ok 91 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:770:5 › UI controls sweep › quick-start welcome cards are visible (113ms)
+  ok 92 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:784:5 › UI controls sweep › settings drawer opens and closes (1.0s)
+  ok 93 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:797:5 › UI controls sweep › full button sweep passes with no failures (26.6s)
+  x  94 ..\..\..\Projects\Active\NeuralShell\e2e\upgradePrompt.spec.js:37:3 › Upgrade prompt › opens upgrade modal when paid agent install is attempted on free tier (0ms)
+(node:17440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 95 ..\..\..\Projects\Active\NeuralShell\e2e\voiceRoom.spec.js:5:1 › Voice room panel renders and join control is available (4.1s)
+  x  96 ..\..\..\Projects\Active\NeuralShell\e2e\watchdogAlerts.spec.js:45:3 › Watchdog Alerts › opens watchdog drawer and exposes alert state (15.0s)
+(node:11300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  97 ..\..\..\Projects\Active\NeuralShell\e2e\whiteLabelBuild.spec.js:51:3 › White-Label Build Flow › signed white-label profile imports and can reset defaults (15.0s)
+
+
+  1) ..\..\..\Projects\Active\NeuralShell\e2e\agentInstall.spec.js:5:1 › Agent store installs verified core agent 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('settings-drawer')
+    Expected: visible
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 10000ms[22m
+    [2m  - waiting for getByTestId('settings-drawer')[22m
+
+
+      22 |     }
+      23 |     await page.getByTestId("settings-open-btn").click();
+    > 24 |     await expect(page.getByTestId("settings-drawer")).toBeVisible();
+         |                                                       ^
+      25 |     await expect(page.getByTestId("agent-store")).toBeVisible();
+      26 |     const installBtn = page.getByTestId("agent-store-install-proof_guard");
+      27 |     await expect(installBtn).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\agentInstall.spec.js:24:55
+
+    Error Context: test-results\agentInstall-Agent-store-installs-verified-core-agent\error-context.md
+
+  2) ..\..\..\Projects\Active\NeuralShell\e2e\airgapOperations.spec.js:60:3 › Air-Gapped Operations › quarantines invalid imports and toggles lock posture 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      59 |
+      60 |   test('quarantines invalid imports and toggles lock posture', async () => {
+    > 61 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      62 |
+      63 |     await page.getByTestId('mission-control-open-btn').click();
+      64 |     await page.getByTestId('mission-control-open-airgap-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\airgapOperations.spec.js:61:54
+
+    Error Context: test-results\airgapOperations-Air-Gappe-ea259-ts-and-toggles-lock-posture\error-context.md
+
+    Error Context: test-results\airgapOperations-Air-Gappe-ea259-ts-and-toggles-lock-posture\error-context.md
+
+  3) ..\..\..\Projects\Active\NeuralShell\e2e\applianceMode.spec.js:46:3 › Appliance Mode › opens appliance console and toggles mode 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test('opens appliance console and toggles mode', async () => {
+    > 47 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId('appliance-mode-badge').click();
+      50 |     await expect(page.getByTestId('appliance-console')).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\applianceMode.spec.js:47:54
+
+    Error Context: test-results\applianceMode-Appliance-Mo-27ed6-ce-console-and-toggles-mode\error-context.md
+
+    Error Context: test-results\applianceMode-Appliance-Mo-27ed6-ce-console-and-toggles-mode\error-context.md
+
+  4) ..\..\..\Projects\Active\NeuralShell\e2e\billingActivation.spec.js:65:3 › Billing activation › activates valid offline license and surfaces active status 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      50 |     });
+      51 |     page = await app.firstWindow();
+    > 52 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      53 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      54 |     if (await onboardingClose.count()) {
+      55 |       await onboardingClose.first().click().catch(() => {});
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\billingActivation.spec.js:52:54
+
+    Error Context: test-results\billingActivation-Billing--76cd1--and-surfaces-active-status\error-context.md
+
+    Error Context: test-results\billingActivation-Billing--76cd1--and-surfaces-active-status\error-context.md
+
+  5) ..\..\..\Projects\Active\NeuralShell\e2e\boardOperatingPack.spec.js:42:3 › Board Operating Pack Console › adds risk section and exports board pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("adds risk section and exports board pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-board-operating-pack-btn").click();
+      46 |     await expect(page.getByTestId("board-operating-pack-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\boardOperatingPack.spec.js:43:54
+
+    Error Context: test-results\boardOperatingPack-Board-O-160fa-tion-and-exports-board-pack\error-context.md
+
+    Error Context: test-results\boardOperatingPack-Board-O-160fa-tion-and-exports-board-pack\error-context.md
+
+  6) ..\..\..\Projects\Active\NeuralShell\e2e\buyerJourney.spec.js:45:3 › Buyer Evaluation Journey › opens evaluator journey summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test("opens evaluator journey summary", async () => {
+    > 46 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-buyer-journey-btn").click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\buyerJourney.spec.js:46:54
+
+    Error Context: test-results\buyerJourney-Buyer-Evaluat-90d2e-s-evaluator-journey-summary\error-context.md
+
+    Error Context: test-results\buyerJourney-Buyer-Evaluat-90d2e-s-evaluator-journey-summary\error-context.md
+
+  7) ..\..\..\Projects\Active\NeuralShell\e2e\courierTransfer.spec.js:56:3 › Offline Evidence Courier › blocks release until receipt verification then allows release 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      55 |
+      56 |   test('blocks release until receipt verification then allows release', async () => {
+    > 57 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      58 |
+      59 |     await page.getByTestId('mission-control-open-btn').click();
+      60 |     await page.getByTestId('mission-control-open-courier-transfer-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\courierTransfer.spec.js:57:54
+
+    Error Context: test-results\courierTransfer-Offline-Ev-a6b97-ication-then-allows-release\error-context.md
+
+    Error Context: test-results\courierTransfer-Offline-Ev-a6b97-ication-then-allows-release\error-context.md
+
+  8) ..\..\..\Projects\Active\NeuralShell\e2e\crossAccountRenewal.spec.js:42:3 › Cross-Account Renewal Matrix › escalates account and exports renewal pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("escalates account and exports renewal pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-cross-account-renewal-btn").click();
+      46 |     await expect(page.getByTestId("cross-account-renewal-matrix")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\crossAccountRenewal.spec.js:43:54
+
+    Error Context: test-results\crossAccountRenewal-Cross--0b3ad-nt-and-exports-renewal-pack\error-context.md
+
+    Error Context: test-results\crossAccountRenewal-Cross--0b3ad-nt-and-exports-renewal-pack\error-context.md
+
+  9) ..\..\..\Projects\Active\NeuralShell\e2e\demoMode.spec.js:46:3 › Institutional Demo Mode › opens demo flow and toggles deterministic demo mode 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("opens demo flow and toggles deterministic demo mode", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId("demo-flow-open-btn").click();
+      50 |     await expect(page.getByTestId("demo-flow-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\demoMode.spec.js:47:54
+
+    Error Context: test-results\demoMode-Institutional-Dem-be7be-les-deterministic-demo-mode\error-context.md
+
+    Error Context: test-results\demoMode-Institutional-Dem-be7be-les-deterministic-demo-mode\error-context.md
+
+  10) ..\..\..\Projects\Active\NeuralShell\e2e\demoToPilot.spec.js:46:3 › Demo-to-Pilot Conversion Engine › scores pilot fit and generates pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("scores pilot fit and generates pack", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-demo-to-pilot-btn").click();
+      50 |     await expect(page.getByTestId("demo-to-pilot-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\demoToPilot.spec.js:47:54
+
+    Error Context: test-results\demoToPilot-Demo-to-Pilot--80864-ilot-fit-and-generates-pack\error-context.md
+
+    Error Context: test-results\demoToPilot-Demo-to-Pilot--80864-ilot-fit-and-generates-pack\error-context.md
+
+  11) ..\..\..\Projects\Active\NeuralShell\e2e\deploymentProgram.spec.js:45:3 › Deployment Program Pack › runs deployment preflight from mission control 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test("runs deployment preflight from mission control", async () => {
+    > 46 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-deployment-program-btn").click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\deploymentProgram.spec.js:46:54
+
+    Error Context: test-results\deploymentProgram-Deployme-a96f0-flight-from-mission-control\error-context.md
+
+    Error Context: test-results\deploymentProgram-Deployme-a96f0-flight-from-mission-control\error-context.md
+
+  12) ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemCommand.spec.js:41:3 › Ecosystem Command Center › shows summary cards and opens portfolio drilldown 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      40 |
+      41 |   test("shows summary cards and opens portfolio drilldown", async () => {
+    > 42 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      43 |     await page.getByTestId("mission-control-open-btn").click();
+      44 |     await page.getByTestId("mission-control-open-ecosystem-command-btn").click();
+      45 |     await expect(page.getByTestId("ecosystem-command-center")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\ecosystemCommand.spec.js:42:54
+
+    Error Context: test-results\ecosystemCommand-Ecosystem-a65de-d-opens-portfolio-drilldown\error-context.md
+
+    Error Context: test-results\ecosystemCommand-Ecosystem-a65de-d-opens-portfolio-drilldown\error-context.md
+
+  13) ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemLauncher.spec.js:49:3 › Ecosystem Launcher Access › free tier shows launcher and locks enterprise/pro modules 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 60000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 60000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      11 |
+      12 |   async function ensureShellReady() {
+    > 13 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 60000 });
+         |                                                      ^
+      14 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      15 |     if (await onboardingClose.count()) {
+      16 |       await onboardingClose.first().click().catch(() => {});
+        at ensureShellReady (C:\Users\KickA\Projects\Active\NeuralShell\e2e\ecosystemLauncher.spec.js:13:54)
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\ecosystemLauncher.spec.js:50:11
+
+    Error Context: test-results\ecosystemLauncher-Ecosyste-0198d-ocks-enterprise-pro-modules\error-context.md
+
+    Error Context: test-results\ecosystemLauncher-Ecosyste-0198d-ocks-enterprise-pro-modules\error-context.md
+
+  14) ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemRevenue.spec.js:42:3 › Ecosystem Revenue Planner › adjusts mix and exports revenue pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("adjusts mix and exports revenue pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-ecosystem-revenue-btn").click();
+      46 |     await expect(page.getByTestId("ecosystem-revenue-planner")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\ecosystemRevenue.spec.js:43:54
+
+    Error Context: test-results\ecosystemRevenue-Ecosystem-b1bc3-ix-and-exports-revenue-pack\error-context.md
+
+    Error Context: test-results\ecosystemRevenue-Ecosystem-b1bc3-ix-and-exports-revenue-pack\error-context.md
+
+  15) ..\..\..\Projects\Active\NeuralShell\e2e\executiveScale.spec.js:41:3 › Executive Scale Dashboard › shows scale cards and supports drilldown 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      40 |
+      41 |   test("shows scale cards and supports drilldown", async () => {
+    > 42 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      43 |     await page.getByTestId("mission-control-open-btn").click();
+      44 |     await page.getByTestId("mission-control-open-executive-scale-btn").click();
+      45 |     await expect(page.getByTestId("executive-scale-dashboard")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\executiveScale.spec.js:42:54
+
+    Error Context: test-results\executiveScale-Executive-S-6b37a-ards-and-supports-drilldown\error-context.md
+
+    Error Context: test-results\executiveScale-Executive-S-6b37a-ards-and-supports-drilldown\error-context.md
+
+  16) ..\..\..\Projects\Active\NeuralShell\e2e\fieldFeedback.spec.js:46:3 › Field Feedback Intake + Routing › captures feedback note and exports weekly summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("captures feedback note and exports weekly summary", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-field-feedback-btn").click();
+      50 |     await expect(page.getByTestId("field-feedback-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\fieldFeedback.spec.js:47:54
+
+    Error Context: test-results\fieldFeedback-Field-Feedba-8837e--and-exports-weekly-summary\error-context.md
+
+    Error Context: test-results\fieldFeedback-Field-Feedba-8837e--and-exports-weekly-summary\error-context.md
+
+  17) ..\..\..\Projects\Active\NeuralShell\e2e\fieldLaunch.spec.js:46:3 › Field Launch Command Center › shows launch readiness and drills down to demo flow 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("shows launch readiness and drills down to demo flow", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId("field-launch-open-btn").click();
+      50 |     await expect(page.getByTestId("field-launch-command-center")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\fieldLaunch.spec.js:47:54
+
+    Error Context: test-results\fieldLaunch-Field-Launch-C-f0ca5-nd-drills-down-to-demo-flow\error-context.md
+
+    Error Context: test-results\fieldLaunch-Field-Launch-C-f0ca5-nd-drills-down-to-demo-flow\error-context.md
+
+  18) ..\..\..\Projects\Active\NeuralShell\e2e\firstBootAuthority.spec.js:46:3 › First-Boot Authority Funnel › runs and reopens first-boot authority flow 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('firstboot-progress-rail')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('firstboot-progress-rail')[22m
+
+
+      45 |
+      46 |   test('runs and reopens first-boot authority flow', async () => {
+    > 47 |     await expect(page.getByTestId('firstboot-progress-rail')).toBeVisible({ timeout: 20000 });
+         |                                                               ^
+      48 |     await page.getByTestId('firstboot-reopen-btn').click();
+      49 |     await expect(page.getByTestId('firstboot-authority-wizard')).toBeVisible({ timeout: 10000 });
+      50 |
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\firstBootAuthority.spec.js:47:63
+
+    Error Context: test-results\firstBootAuthority-First-B-408e6-s-first-boot-authority-flow\error-context.md
+
+    Error Context: test-results\firstBootAuthority-First-B-408e6-s-first-boot-authority-flow\error-context.md
+
+  19) ..\..\..\Projects\Active\NeuralShell\e2e\fleetControl.spec.js:47:3 › Fleet Control Panel › opens fleet panel and imports local runtime node 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      46 |
+      47 |   test('opens fleet panel and imports local runtime node', async () => {
+    > 48 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      49 |
+      50 |     await page.getByTestId('fleet-control-open-btn').click();
+      51 |     await expect(page.getByTestId('fleet-control-panel')).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\fleetControl.spec.js:48:54
+
+    Error Context: test-results\fleetControl-Fleet-Control-64897--imports-local-runtime-node\error-context.md
+
+    Error Context: test-results\fleetControl-Fleet-Control-64897--imports-local-runtime-node\error-context.md
+
+  20) ..\..\..\Projects\Active\NeuralShell\e2e\followupGenerator.spec.js:46:3 › Proof-Backed Follow-Up Generator › generates evidence-backed follow-up draft 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("generates evidence-backed follow-up draft", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-followup-generator-btn").click();
+      50 |     await expect(page.getByTestId("followup-generator")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\followupGenerator.spec.js:47:54
+
+    Error Context: test-results\followupGenerator-Proof-Ba-89715-ence-backed-follow-up-draft\error-context.md
+
+    Error Context: test-results\followupGenerator-Proof-Ba-89715-ence-backed-follow-up-draft\error-context.md
+
+  21) ..\..\..\Projects\Active\NeuralShell\e2e\globalPlanning.spec.js:42:3 › Global Planning Console › tunes region capacity and exports planning pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("tunes region capacity and exports planning pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-global-planning-btn").click();
+      46 |     await expect(page.getByTestId("global-planning-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\globalPlanning.spec.js:43:54
+
+    Error Context: test-results\globalPlanning-Global-Plan-7c3e0-y-and-exports-planning-pack\error-context.md
+
+    Error Context: test-results\globalPlanning-Global-Plan-7c3e0-y-and-exports-planning-pack\error-context.md
+
+  22) ..\..\..\Projects\Active\NeuralShell\e2e\hardwareAppliance.spec.js:47:3 › Hardware Appliance Program › provisions hardware profile with role-aware wizard 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      46 |
+      47 |   test('provisions hardware profile with role-aware wizard', async () => {
+    > 48 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      49 |
+      50 |     await page.getByTestId('mission-control-open-btn').click();
+      51 |     await page.getByTestId('mission-control-open-hardware-appliance-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\hardwareAppliance.spec.js:48:54
+
+    Error Context: test-results\hardwareAppliance-Hardware-60bf2-file-with-role-aware-wizard\error-context.md
+
+    Error Context: test-results\hardwareAppliance-Hardware-60bf2-file-with-role-aware-wizard\error-context.md
+
+  23) ..\..\..\Projects\Active\NeuralShell\e2e\institutionalCommand.spec.js:45:3 › Institutional Command Console › shows one-screen summary and drills into modules 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('shows one-screen summary and drills into modules', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('institutional-command-open-btn').click();
+      49 |     await expect(page.getByTestId('institutional-command-console')).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\institutionalCommand.spec.js:46:54
+
+    Error Context: test-results\institutionalCommand-Insti-74fba-ary-and-drills-into-modules\error-context.md
+
+    Error Context: test-results\institutionalCommand-Insti-74fba-ary-and-drills-into-modules\error-context.md
+
+  24) ..\..\..\Projects\Active\NeuralShell\e2e\launchWeek.spec.js:46:3 › Launch Week Command Discipline › adds launch issue and exports end-of-day summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("adds launch issue and exports end-of-day summary", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-launch-week-btn").click();
+      50 |     await expect(page.getByTestId("launch-week-command-center")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\launchWeek.spec.js:47:54
+
+    Error Context: test-results\launchWeek-Launch-Week-Com-7b9e0--exports-end-of-day-summary\error-context.md
+
+    Error Context: test-results\launchWeek-Launch-Week-Com-7b9e0--exports-end-of-day-summary\error-context.md
+
+  25) ..\..\..\Projects\Active\NeuralShell\e2e\licensedOperator.spec.js:42:3 › Licensed Operator Framework › completes prerequisite and exports launch pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("completes prerequisite and exports launch pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-licensed-operator-btn").click();
+      46 |     await expect(page.getByTestId("licensed-operator-framework")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\licensedOperator.spec.js:43:54
+
+    Error Context: test-results\licensedOperator-Licensed--ad0a4-ite-and-exports-launch-pack\error-context.md
+
+    Error Context: test-results\licensedOperator-Licensed--ad0a4-ite-and-exports-launch-pack\error-context.md
+
+  26) ..\..\..\Projects\Active\NeuralShell\e2e\managedServices.spec.js:42:3 › Managed Services Console › raises account risk and exports weekly summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("raises account risk and exports weekly summary", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-managed-services-btn").click();
+      46 |     await expect(page.getByTestId("managed-services-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\managedServices.spec.js:43:54
+
+    Error Context: test-results\managedServices-Managed-Se-69023--and-exports-weekly-summary\error-context.md
+
+    Error Context: test-results\managedServices-Managed-Se-69023--and-exports-weekly-summary\error-context.md
+
+  27) ..\..\..\Projects\Active\NeuralShell\e2e\marketplacePaidInstall.spec.js:66:3 › Marketplace paid install › requires receipt for paid agent install and succeeds with receipt 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      51 |     });
+      52 |     page = await app.firstWindow();
+    > 53 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      54 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      55 |     if (await onboardingClose.count()) {
+      56 |       await onboardingClose.first().click().catch(() => {});
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\marketplacePaidInstall.spec.js:53:54
+
+    Error Context: test-results\marketplacePaidInstall-Mar-382d0-l-and-succeeds-with-receipt\error-context.md
+
+    Error Context: test-results\marketplacePaidInstall-Mar-382d0-l-and-succeeds-with-receipt\error-context.md
+
+  28) ..\..\..\Projects\Active\NeuralShell\e2e\missionControl.spec.js:45:3 › Mission Control Cockpit › opens cockpit and renders core runtime cards 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('opens cockpit and renders core runtime cards', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('mission-control-open-btn').click();
+      49 |     await expect(page.getByTestId('mission-control')).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\missionControl.spec.js:46:54
+
+    Error Context: test-results\missionControl-Mission-Con-579a0--renders-core-runtime-cards\error-context.md
+
+    Error Context: test-results\missionControl-Mission-Con-579a0--renders-core-runtime-cards\error-context.md
+
+  29) ..\..\..\Projects\Active\NeuralShell\e2e\missionScheduler.spec.js:46:3 › Mission Scheduler › runs mission template and records history 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test('runs mission template and records history', async () => {
+    > 47 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId('mission-control-open-btn').click();
+      50 |     await page.getByTestId('mission-control-open-mission-scheduler-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\missionScheduler.spec.js:47:54
+
+    Error Context: test-results\missionScheduler-Mission-S-90313-emplate-and-records-history\error-context.md
+
+    Error Context: test-results\missionScheduler-Mission-S-90313-emplate-and-records-history\error-context.md
+
+  30) ..\..\..\Projects\Active\NeuralShell\e2e\nodeChainRules.spec.js:45:3 › NodeChain Runtime Rules › dispatches manual events and records execution logs 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('dispatches manual events and records execution logs', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('mission-control-open-btn').click();
+      49 |     await page.getByTestId('mission-control-open-nodechain-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\nodeChainRules.spec.js:46:54
+
+    Error Context: test-results\nodeChainRules-NodeChain-R-7ba55--and-records-execution-logs\error-context.md
+
+    Error Context: test-results\nodeChainRules-NodeChain-R-7ba55--and-records-execution-logs\error-context.md
+
+  31) ..\..\..\Projects\Active\NeuralShell\e2e\offlineUpdatePacks.spec.js:53:3 › Offline Update Packs › rejects unverified update pack import 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      52 |
+      53 |   test('rejects unverified update pack import', async () => {
+    > 54 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      55 |
+      56 |     await page.getByTestId('mission-control-open-btn').click();
+      57 |     await page.getByTestId('mission-control-open-offline-updates-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\offlineUpdatePacks.spec.js:54:54
+
+    Error Context: test-results\offlineUpdatePacks-Offline-e43b5-verified-update-pack-import\error-context.md
+
+    Error Context: test-results\offlineUpdatePacks-Offline-e43b5-verified-update-pack-import\error-context.md
+
+  32) ..\..\..\Projects\Active\NeuralShell\e2e\partnerCertification.spec.js:42:3 › Partner Certification Hub › updates certification progress and exports enablement pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("updates certification progress and exports enablement pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-partner-certification-btn").click();
+      46 |     await expect(page.getByTestId("partner-certification-hub")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\partnerCertification.spec.js:43:54
+
+    Error Context: test-results\partnerCertification-Partn-8024f-and-exports-enablement-pack\error-context.md
+
+    Error Context: test-results\partnerCertification-Partn-8024f-and-exports-enablement-pack\error-context.md
+
+  33) ..\..\..\Projects\Active\NeuralShell\e2e\partnerConsole.spec.js:50:3 › Partner Console Flow › partner registration works and role gating locks non-allowed access 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      11 |
+      12 |   async function ensureShellReady() {
+    > 13 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      14 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      15 |     if (await onboardingClose.count()) {
+      16 |       await onboardingClose.first().click().catch(() => {});
+        at ensureShellReady (C:\Users\KickA\Projects\Active\NeuralShell\e2e\partnerConsole.spec.js:13:54)
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\partnerConsole.spec.js:51:11
+
+    Error Context: test-results\partnerConsole-Partner-Con-fbca7-ng-locks-non-allowed-access\error-context.md
+
+    Error Context: test-results\partnerConsole-Partner-Con-fbca7-ng-locks-non-allowed-access\error-context.md
+
+  34) ..\..\..\Projects\Active\NeuralShell\e2e\partnerNetworkGovernance.spec.js:42:3 › Partner Network Governance › suspends partner and exports governance report 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("suspends partner and exports governance report", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-partner-network-governance-btn").click();
+      46 |     await expect(page.getByTestId("partner-network-governance")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\partnerNetworkGovernance.spec.js:43:54
+
+    Error Context: test-results\partnerNetworkGovernance-P-6c1db-d-exports-governance-report\error-context.md
+
+    Error Context: test-results\partnerNetworkGovernance-P-6c1db-d-exports-governance-report\error-context.md
+
+  35) ..\..\..\Projects\Active\NeuralShell\e2e\partnerRollout.spec.js:45:3 › Partner Rollout Console › captures blocker and exports handoff summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test("captures blocker and exports handoff summary", async () => {
+    > 46 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      47 |     await page.getByTestId("mission-control-open-btn").click();
+      48 |     await page.getByTestId("mission-control-open-partner-rollout-btn").click();
+      49 |     await expect(page.getByTestId("partner-rollout-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\partnerRollout.spec.js:46:54
+
+    Error Context: test-results\partnerRollout-Partner-Rol-7a5ca-and-exports-handoff-summary\error-context.md
+
+    Error Context: test-results\partnerRollout-Partner-Rol-7a5ca-and-exports-handoff-summary\error-context.md
+
+  36) ..\..\..\Projects\Active\NeuralShell\e2e\pilotConversion.spec.js:46:3 › Pilot Conversion Pack › generates pilot conversion pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("generates pilot conversion pack", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId("mission-control-open-btn").click();
+      50 |     await page.getByTestId("mission-control-open-pilot-conversion-btn").click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\pilotConversion.spec.js:47:54
+
+    Error Context: test-results\pilotConversion-Pilot-Conv-f0034-rates-pilot-conversion-pack\error-context.md
+
+    Error Context: test-results\pilotConversion-Pilot-Conv-f0034-rates-pilot-conversion-pack\error-context.md
+
+  37) ..\..\..\Projects\Active\NeuralShell\e2e\pilotExpansion.spec.js:46:3 › Pilot Expansion Command › creates expansion summary from selected paths 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("creates expansion summary from selected paths", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-pilot-expansion-btn").click();
+      50 |     await expect(page.getByTestId("pilot-expansion-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\pilotExpansion.spec.js:47:54
+
+    Error Context: test-results\pilotExpansion-Pilot-Expan-e0bd3-summary-from-selected-paths\error-context.md
+
+    Error Context: test-results\pilotExpansion-Pilot-Expan-e0bd3-summary-from-selected-paths\error-context.md
+
+  38) ..\..\..\Projects\Active\NeuralShell\e2e\policyRollout.spec.js:55:3 › Policy Rollout Console › rejects unsigned/invalid policy bundle 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      54 |
+      55 |   test('rejects unsigned/invalid policy bundle', async () => {
+    > 56 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      57 |
+      58 |     await page.getByTestId('fleet-control-open-btn').click();
+      59 |     await page.getByTestId('fleet-import-runtime-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\policyRollout.spec.js:56:54
+
+    Error Context: test-results\policyRollout-Policy-Rollo-f1c0a-igned-invalid-policy-bundle\error-context.md
+
+    Error Context: test-results\policyRollout-Policy-Rollo-f1c0a-igned-invalid-policy-bundle\error-context.md
+
+  39) ..\..\..\Projects\Active\NeuralShell\e2e\portfolioRollout.spec.js:42:3 › Portfolio Rollout Planner › increments blocker and exports portfolio summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("increments blocker and exports portfolio summary", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-portfolio-rollout-btn").click();
+      46 |     await expect(page.getByTestId("portfolio-rollout-planner")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\portfolioRollout.spec.js:43:54
+
+    Error Context: test-results\portfolioRollout-Portfolio-78f58-d-exports-portfolio-summary\error-context.md
+
+    Error Context: test-results\portfolioRollout-Portfolio-78f58-d-exports-portfolio-summary\error-context.md
+
+  40) ..\..\..\Projects\Active\NeuralShell\e2e\procurementPack.spec.js:46:3 › Procurement Command Center › generates buyer-ready review pack snapshot 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test('generates buyer-ready review pack snapshot', async () => {
+    > 47 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId('mission-control-open-btn').click();
+      50 |     await page.getByTestId('mission-control-open-procurement-command-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\procurementPack.spec.js:47:54
+
+    Error Context: test-results\procurementPack-Procuremen-33b96--ready-review-pack-snapshot\error-context.md
+
+    Error Context: test-results\procurementPack-Procuremen-33b96--ready-review-pack-snapshot\error-context.md
+
+  41) ..\..\..\Projects\Active\NeuralShell\e2e\provGraph.spec.js:5:1 › Provenance graph opens from workspace header 
+
+    TimeoutError: locator.click: Timeout 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByTestId('open-prov-graph-btn')[22m
+
+
+      16 |     const page = await app.firstWindow();
+      17 |     await expect(page.getByTestId("workspace-panel")).toBeVisible({ timeout: 15000 });
+    > 18 |     await page.getByTestId("open-prov-graph-btn").click();
+         |                                                   ^
+      19 |     await expect(page.getByTestId("prov-graph-canvas")).toBeVisible();
+      20 |     await page.getByTestId("prov-graph-close-btn").click();
+      21 |   } finally {
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\provGraph.spec.js:18:51
+
+    Error Context: test-results\provGraph-Provenance-graph-opens-from-workspace-header\error-context.md
+
+  42) ..\..\..\Projects\Active\NeuralShell\e2e\recoveryCenter.spec.js:45:3 › Recovery Center › opens recovery center and exports bundle 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('opens recovery center and exports bundle', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('mission-control-open-btn').click();
+      49 |     await page.getByTestId('mission-control-open-recovery-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\recoveryCenter.spec.js:46:54
+
+    Error Context: test-results\recoveryCenter-Recovery-Ce-5b03d-y-center-and-exports-bundle\error-context.md
+
+    Error Context: test-results\recoveryCenter-Recovery-Ce-5b03d-y-center-and-exports-bundle\error-context.md
+
+  43) ..\..\..\Projects\Active\NeuralShell\e2e\referralFlow.spec.js:37:3 › Referral flow › creates and exports referral attribution report 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      22 |     });
+      23 |     page = await app.firstWindow();
+    > 24 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      25 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      26 |     if (await onboardingClose.count()) {
+      27 |       await onboardingClose.first().click().catch(() => {});
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\referralFlow.spec.js:24:54
+
+    Error Context: test-results\referralFlow-Referral-flow-2770e-referral-attribution-report\error-context.md
+
+    Error Context: test-results\referralFlow-Referral-flow-2770e-referral-attribution-report\error-context.md
+
+  44) ..\..\..\Projects\Active\NeuralShell\e2e\renewalRisk.spec.js:46:3 › Renewal Risk Console › computes and exports renewal risk summary 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("computes and exports renewal risk summary", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |     await page.getByTestId("mission-control-open-btn").click();
+      49 |     await page.getByTestId("mission-control-open-renewal-risk-btn").click();
+      50 |     await expect(page.getByTestId("renewal-risk-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\renewalRisk.spec.js:47:54
+
+    Error Context: test-results\renewalRisk-Renewal-Risk-C-ac390-xports-renewal-risk-summary\error-context.md
+
+    Error Context: test-results\renewalRisk-Renewal-Risk-C-ac390-xports-renewal-risk-summary\error-context.md
+
+  45) ..\..\..\Projects\Active\NeuralShell\e2e\revenueOps.spec.js:42:3 › Revenue Ops Console › adjusts pipeline value and exports monthly pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("adjusts pipeline value and exports monthly pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-revenue-ops-btn").click();
+      46 |     await expect(page.getByTestId("revenue-ops-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\revenueOps.spec.js:43:54
+
+    Error Context: test-results\revenueOps-Revenue-Ops-Con-844ff-ue-and-exports-monthly-pack\error-context.md
+
+    Error Context: test-results\revenueOps-Revenue-Ops-Con-844ff-ue-and-exports-monthly-pack\error-context.md
+
+  46) ..\..\..\Projects\Active\NeuralShell\e2e\serviceLine.spec.js:42:3 › Service Line Console › bumps utilization and exports service ops pack 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("bumps utilization and exports service ops pack", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-service-line-btn").click();
+      46 |     await expect(page.getByTestId("service-line-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\serviceLine.spec.js:43:54
+
+    Error Context: test-results\serviceLine-Service-Line-C-bf723-nd-exports-service-ops-pack\error-context.md
+
+    Error Context: test-results\serviceLine-Service-Line-C-bf723-nd-exports-service-ops-pack\error-context.md
+
+  47) ..\..\..\Projects\Active\NeuralShell\e2e\shiftConsole.spec.js:46:3 › Shift Console › opens shift console and updates role/notes 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test('opens shift console and updates role/notes', async () => {
+    > 47 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId('mission-control-open-btn').click();
+      50 |     await page.getByTestId('mission-control-open-shift-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\shiftConsole.spec.js:47:54
+
+    Error Context: test-results\shiftConsole-Shift-Console-cadab-sole-and-updates-role-notes\error-context.md
+
+    Error Context: test-results\shiftConsole-Shift-Console-cadab-sole-and-updates-role-notes\error-context.md
+
+  48) ..\..\..\Projects\Active\NeuralShell\e2e\splitWorkspace.spec.js:45:3 › Split Workspace › opens split workspace and routes right pane context 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('opens split workspace and routes right pane context', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('mission-control-open-btn').click();
+      49 |     await page.getByTestId('mission-control-open-splitworkspace-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\splitWorkspace.spec.js:46:54
+
+    Error Context: test-results\splitWorkspace-Split-Works-7d376-d-routes-right-pane-context\error-context.md
+
+    Error Context: test-results\splitWorkspace-Split-Works-7d376-d-routes-right-pane-context\error-context.md
+
+  49) ..\..\..\Projects\Active\NeuralShell\e2e\stateSnapshots.spec.js:46:3 › Runtime State Snapshots › captures, compares, and restores snapshots 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test('captures, compares, and restores snapshots', async () => {
+    > 47 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId('mission-control-open-btn').click();
+      50 |     await page.getByTestId('mission-control-open-splitworkspace-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\stateSnapshots.spec.js:47:54
+
+    Error Context: test-results\stateSnapshots-Runtime-Sta-b3d96-ares-and-restores-snapshots\error-context.md
+
+    Error Context: test-results\stateSnapshots-Runtime-Sta-b3d96-ares-and-restores-snapshots\error-context.md
+
+  50) ..\..\..\Projects\Active\NeuralShell\e2e\strategicAccount.spec.js:42:3 › Strategic Account Console › adds risk and exports executive brief 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      41 |
+      42 |   test("adds risk and exports executive brief", async () => {
+    > 43 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      44 |     await page.getByTestId("mission-control-open-btn").click();
+      45 |     await page.getByTestId("mission-control-open-strategic-account-btn").click();
+      46 |     await expect(page.getByTestId("strategic-account-console")).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\strategicAccount.spec.js:43:54
+
+    Error Context: test-results\strategicAccount-Strategic-5bc0a-and-exports-executive-brief\error-context.md
+
+    Error Context: test-results\strategicAccount-Strategic-5bc0a-and-exports-executive-brief\error-context.md
+
+  51) ..\..\..\Projects\Active\NeuralShell\e2e\supportOps.spec.js:46:3 › Support Operations Pack › captures support intake and updates triage queue 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("captures support intake and updates triage queue", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId("mission-control-open-btn").click();
+      50 |     await page.getByTestId("mission-control-open-support-ops-btn").click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\supportOps.spec.js:47:54
+
+    Error Context: test-results\supportOps-Support-Operati-501cd-ke-and-updates-triage-queue\error-context.md
+
+    Error Context: test-results\supportOps-Support-Operati-501cd-ke-and-updates-triage-queue\error-context.md
+
+  52) ..\..\..\Projects\Active\NeuralShell\e2e\trainingDelivery.spec.js:46:3 › Training Delivery Pack › generates offline training bundle 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      45 |
+      46 |   test("generates offline training bundle", async () => {
+    > 47 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      48 |
+      49 |     await page.getByTestId("mission-control-open-btn").click();
+      50 |     await page.getByTestId("mission-control-open-training-delivery-btn").click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\trainingDelivery.spec.js:47:54
+
+    Error Context: test-results\trainingDelivery-Training--10c54-tes-offline-training-bundle\error-context.md
+
+    Error Context: test-results\trainingDelivery-Training--10c54-tes-offline-training-bundle\error-context.md
+
+  53) ..\..\..\Projects\Active\NeuralShell\e2e\trustFabric.spec.js:48:3 › PKI Trust Fabric › issues and revokes local certificates 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 20000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      47 |
+      48 |   test('issues and revokes local certificates', async () => {
+    > 49 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 20000 });
+         |                                                      ^
+      50 |
+      51 |     await page.getByTestId('mission-control-open-btn').click();
+      52 |     await page.getByTestId('mission-control-open-trust-fabric-btn').click();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\trustFabric.spec.js:49:54
+
+    Error Context: test-results\trustFabric-PKI-Trust-Fabr-63fd2--revokes-local-certificates\error-context.md
+
+    Error Context: test-results\trustFabric-PKI-Trust-Fabr-63fd2--revokes-local-certificates\error-context.md
+
+  54) ..\..\..\Projects\Active\NeuralShell\e2e\upgradePrompt.spec.js:37:3 › Upgrade prompt › opens upgrade modal when paid agent install is attempted on free tier 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      22 |     });
+      23 |     page = await app.firstWindow();
+    > 24 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      25 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      26 |     if (await onboardingClose.count()) {
+      27 |       await onboardingClose.first().click().catch(() => {});
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\upgradePrompt.spec.js:24:54
+
+    Error Context: test-results\upgradePrompt-Upgrade-prom-32996-l-is-attempted-on-free-tier\error-context.md
+
+    Error Context: test-results\upgradePrompt-Upgrade-prom-32996-l-is-attempted-on-free-tier\error-context.md
+
+  55) ..\..\..\Projects\Active\NeuralShell\e2e\watchdogAlerts.spec.js:45:3 › Watchdog Alerts › opens watchdog drawer and exposes alert state 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      44 |
+      45 |   test('opens watchdog drawer and exposes alert state', async () => {
+    > 46 |     await expect(page.getByTestId('top-status-bar')).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      47 |
+      48 |     await page.getByTestId('watchdog-status-badge').click();
+      49 |     await expect(page.getByTestId('runtime-alerts-drawer')).toBeVisible();
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\watchdogAlerts.spec.js:46:54
+
+    Error Context: test-results\watchdogAlerts-Watchdog-Al-c2354-wer-and-exposes-alert-state\error-context.md
+
+    Error Context: test-results\watchdogAlerts-Watchdog-Al-c2354-wer-and-exposes-alert-state\error-context.md
+
+  56) ..\..\..\Projects\Active\NeuralShell\e2e\whiteLabelBuild.spec.js:51:3 › White-Label Build Flow › signed white-label profile imports and can reset defaults 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: getByTestId('top-status-bar')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 15000ms[22m
+    [2m  - waiting for getByTestId('top-status-bar')[22m
+
+
+      12 |
+      13 |   async function ensureShellReady() {
+    > 14 |     await expect(page.getByTestId("top-status-bar")).toBeVisible({ timeout: 15000 });
+         |                                                      ^
+      15 |     const onboardingClose = page.getByTestId("onboarding-close-btn");
+      16 |     if (await onboardingClose.count()) {
+      17 |       await onboardingClose.first().click().catch(() => {});
+        at ensureShellReady (C:\Users\KickA\Projects\Active\NeuralShell\e2e\whiteLabelBuild.spec.js:14:54)
+        at C:\Users\KickA\Projects\Active\NeuralShell\e2e\whiteLabelBuild.spec.js:52:11
+
+    Error Context: test-results\whiteLabelBuild-White-Labe-8b640-orts-and-can-reset-defaults\error-context.md
+
+    Error Context: test-results\whiteLabelBuild-White-Labe-8b640-orts-and-can-reset-defaults\error-context.md
+
+  56 failed
+    ..\..\..\Projects\Active\NeuralShell\e2e\agentInstall.spec.js:5:1 › Agent store installs verified core agent 
+    ..\..\..\Projects\Active\NeuralShell\e2e\airgapOperations.spec.js:60:3 › Air-Gapped Operations › quarantines invalid imports and toggles lock posture 
+    ..\..\..\Projects\Active\NeuralShell\e2e\applianceMode.spec.js:46:3 › Appliance Mode › opens appliance console and toggles mode 
+    ..\..\..\Projects\Active\NeuralShell\e2e\billingActivation.spec.js:65:3 › Billing activation › activates valid offline license and surfaces active status 
+    ..\..\..\Projects\Active\NeuralShell\e2e\boardOperatingPack.spec.js:42:3 › Board Operating Pack Console › adds risk section and exports board pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\buyerJourney.spec.js:45:3 › Buyer Evaluation Journey › opens evaluator journey summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\courierTransfer.spec.js:56:3 › Offline Evidence Courier › blocks release until receipt verification then allows release 
+    ..\..\..\Projects\Active\NeuralShell\e2e\crossAccountRenewal.spec.js:42:3 › Cross-Account Renewal Matrix › escalates account and exports renewal pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\demoMode.spec.js:46:3 › Institutional Demo Mode › opens demo flow and toggles deterministic demo mode 
+    ..\..\..\Projects\Active\NeuralShell\e2e\demoToPilot.spec.js:46:3 › Demo-to-Pilot Conversion Engine › scores pilot fit and generates pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\deploymentProgram.spec.js:45:3 › Deployment Program Pack › runs deployment preflight from mission control 
+    ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemCommand.spec.js:41:3 › Ecosystem Command Center › shows summary cards and opens portfolio drilldown 
+    ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemLauncher.spec.js:49:3 › Ecosystem Launcher Access › free tier shows launcher and locks enterprise/pro modules 
+    ..\..\..\Projects\Active\NeuralShell\e2e\ecosystemRevenue.spec.js:42:3 › Ecosystem Revenue Planner › adjusts mix and exports revenue pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\executiveScale.spec.js:41:3 › Executive Scale Dashboard › shows scale cards and supports drilldown 
+    ..\..\..\Projects\Active\NeuralShell\e2e\fieldFeedback.spec.js:46:3 › Field Feedback Intake + Routing › captures feedback note and exports weekly summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\fieldLaunch.spec.js:46:3 › Field Launch Command Center › shows launch readiness and drills down to demo flow 
+    ..\..\..\Projects\Active\NeuralShell\e2e\firstBootAuthority.spec.js:46:3 › First-Boot Authority Funnel › runs and reopens first-boot authority flow 
+    ..\..\..\Projects\Active\NeuralShell\e2e\fleetControl.spec.js:47:3 › Fleet Control Panel › opens fleet panel and imports local runtime node 
+    ..\..\..\Projects\Active\NeuralShell\e2e\followupGenerator.spec.js:46:3 › Proof-Backed Follow-Up Generator › generates evidence-backed follow-up draft 
+    ..\..\..\Projects\Active\NeuralShell\e2e\globalPlanning.spec.js:42:3 › Global Planning Console › tunes region capacity and exports planning pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\hardwareAppliance.spec.js:47:3 › Hardware Appliance Program › provisions hardware profile with role-aware wizard 
+    ..\..\..\Projects\Active\NeuralShell\e2e\institutionalCommand.spec.js:45:3 › Institutional Command Console › shows one-screen summary and drills into modules 
+    ..\..\..\Projects\Active\NeuralShell\e2e\launchWeek.spec.js:46:3 › Launch Week Command Discipline › adds launch issue and exports end-of-day summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\licensedOperator.spec.js:42:3 › Licensed Operator Framework › completes prerequisite and exports launch pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\managedServices.spec.js:42:3 › Managed Services Console › raises account risk and exports weekly summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\marketplacePaidInstall.spec.js:66:3 › Marketplace paid install › requires receipt for paid agent install and succeeds with receipt 
+    ..\..\..\Projects\Active\NeuralShell\e2e\missionControl.spec.js:45:3 › Mission Control Cockpit › opens cockpit and renders core runtime cards 
+    ..\..\..\Projects\Active\NeuralShell\e2e\missionScheduler.spec.js:46:3 › Mission Scheduler › runs mission template and records history 
+    ..\..\..\Projects\Active\NeuralShell\e2e\nodeChainRules.spec.js:45:3 › NodeChain Runtime Rules › dispatches manual events and records execution logs 
+    ..\..\..\Projects\Active\NeuralShell\e2e\offlineUpdatePacks.spec.js:53:3 › Offline Update Packs › rejects unverified update pack import 
+    ..\..\..\Projects\Active\NeuralShell\e2e\partnerCertification.spec.js:42:3 › Partner Certification Hub › updates certification progress and exports enablement pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\partnerConsole.spec.js:50:3 › Partner Console Flow › partner registration works and role gating locks non-allowed access 
+    ..\..\..\Projects\Active\NeuralShell\e2e\partnerNetworkGovernance.spec.js:42:3 › Partner Network Governance › suspends partner and exports governance report 
+    ..\..\..\Projects\Active\NeuralShell\e2e\partnerRollout.spec.js:45:3 › Partner Rollout Console › captures blocker and exports handoff summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\pilotConversion.spec.js:46:3 › Pilot Conversion Pack › generates pilot conversion pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\pilotExpansion.spec.js:46:3 › Pilot Expansion Command › creates expansion summary from selected paths 
+    ..\..\..\Projects\Active\NeuralShell\e2e\policyRollout.spec.js:55:3 › Policy Rollout Console › rejects unsigned/invalid policy bundle 
+    ..\..\..\Projects\Active\NeuralShell\e2e\portfolioRollout.spec.js:42:3 › Portfolio Rollout Planner › increments blocker and exports portfolio summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\procurementPack.spec.js:46:3 › Procurement Command Center › generates buyer-ready review pack snapshot 
+    ..\..\..\Projects\Active\NeuralShell\e2e\provGraph.spec.js:5:1 › Provenance graph opens from workspace header 
+    ..\..\..\Projects\Active\NeuralShell\e2e\recoveryCenter.spec.js:45:3 › Recovery Center › opens recovery center and exports bundle 
+    ..\..\..\Projects\Active\NeuralShell\e2e\referralFlow.spec.js:37:3 › Referral flow › creates and exports referral attribution report 
+    ..\..\..\Projects\Active\NeuralShell\e2e\renewalRisk.spec.js:46:3 › Renewal Risk Console › computes and exports renewal risk summary 
+    ..\..\..\Projects\Active\NeuralShell\e2e\revenueOps.spec.js:42:3 › Revenue Ops Console › adjusts pipeline value and exports monthly pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\serviceLine.spec.js:42:3 › Service Line Console › bumps utilization and exports service ops pack 
+    ..\..\..\Projects\Active\NeuralShell\e2e\shiftConsole.spec.js:46:3 › Shift Console › opens shift console and updates role/notes 
+    ..\..\..\Projects\Active\NeuralShell\e2e\splitWorkspace.spec.js:45:3 › Split Workspace › opens split workspace and routes right pane context 
+    ..\..\..\Projects\Active\NeuralShell\e2e\stateSnapshots.spec.js:46:3 › Runtime State Snapshots › captures, compares, and restores snapshots 
+    ..\..\..\Projects\Active\NeuralShell\e2e\strategicAccount.spec.js:42:3 › Strategic Account Console › adds risk and exports executive brief 
+    ..\..\..\Projects\Active\NeuralShell\e2e\supportOps.spec.js:46:3 › Support Operations Pack › captures support intake and updates triage queue 
+    ..\..\..\Projects\Active\NeuralShell\e2e\trainingDelivery.spec.js:46:3 › Training Delivery Pack › generates offline training bundle 
+    ..\..\..\Projects\Active\NeuralShell\e2e\trustFabric.spec.js:48:3 › PKI Trust Fabric › issues and revokes local certificates 
+    ..\..\..\Projects\Active\NeuralShell\e2e\upgradePrompt.spec.js:37:3 › Upgrade prompt › opens upgrade modal when paid agent install is attempted on free tier 
+    ..\..\..\Projects\Active\NeuralShell\e2e\watchdogAlerts.spec.js:45:3 › Watchdog Alerts › opens watchdog drawer and exposes alert state 
+    ..\..\..\Projects\Active\NeuralShell\e2e\whiteLabelBuild.spec.js:51:3 › White-Label Build Flow › signed white-label profile imports and can reset defaults 
+  41 passed (25.0m)

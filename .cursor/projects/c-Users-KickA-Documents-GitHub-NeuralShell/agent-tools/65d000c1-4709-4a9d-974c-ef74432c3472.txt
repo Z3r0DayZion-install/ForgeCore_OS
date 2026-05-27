@@ -1,0 +1,271 @@
+NeuralLink? Tactical Suite Loaded.
+43190
+verify_ui_serial        Set up job      ∩╗┐2026-05-07T21:39:41.1657024Z Current runner version: '2.334.0'
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1732483Z ##[group]Runner Image Provisioner
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1733820Z Hosted Compute Agent
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1734764Z Version: 20260422.526
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1735748Z Commit: e1a9e573f4d0838b3a7c1b07401aeb29ed3635a9
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1736891Z Build Date: 2026-04-22T09:31:31Z
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1738100Z Worker ID: {a1905ffb-9d02-4b76-819e-f768c77c4d7d}
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1739512Z Azure Region: northcentralus
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1740366Z ##[endgroup]
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1742635Z ##[group]Operating System
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1743545Z Microsoft Windows Server 2025
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1744310Z 10.0.26100
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1744992Z Datacenter
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1745663Z ##[endgroup]
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1746393Z ##[group]Runner Image
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1747205Z Image: windows-2025
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1747945Z Version: 20260428.110.2
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1749605Z Included Software: https://github.com/actions/runner-images/blob/win25/20260428.110/images/windows/Windows2025-Readme.md
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1752636Z Image Release: https://github.com/actions/runner-images/releases/tag/win25%2F20260428.110
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1754594Z ##[endgroup]
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1756265Z ##[group]GITHUB_TOKEN Permissions
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1759158Z Actions: write
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1759945Z Contents: read
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1760524Z Metadata: read
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1760985Z ##[endgroup]
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1763135Z Secret source: Actions
+verify_ui_serial        Set up job      2026-05-07T21:39:41.1763850Z Prepare workflow directory
+verify_ui_serial        Set up job      2026-05-07T21:39:41.2215160Z Prepare all required actions
+verify_ui_serial        Set up job      2026-05-07T21:39:41.2261546Z Getting action download info
+verify_ui_serial        Set up job      2026-05-07T21:39:41.4944649Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+verify_ui_serial        Set up job      2026-05-07T21:39:41.6309591Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+verify_ui_serial        Set up job      2026-05-07T21:39:41.7967098Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+verify_ui_serial        Set up job      2026-05-07T21:39:42.1531272Z Complete job name: verify_ui_serial
+verify_ui_serial        Checkout        ∩╗┐2026-05-07T21:39:42.3182505Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3183917Z with:
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3184338Z   repository: Z3r0DayZion-install/NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3185117Z   token: ***
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3185467Z   ssh-strict: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3185840Z   ssh-user: git
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3186212Z   persist-credentials: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3186637Z   clean: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3187010Z   sparse-checkout-cone-mode: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3187455Z   fetch-depth: 1
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3187824Z   fetch-tags: false
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3188189Z   show-progress: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3188562Z   lfs: false
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3188899Z   submodules: false
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3189278Z   set-safe-directory: true
+verify_ui_serial        Checkout        2026-05-07T21:39:42.3189928Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:42.4976574Z Syncing repository: Z3r0DayZion-install/NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:42.4978472Z ##[group]Getting Git version info
+verify_ui_serial        Checkout        2026-05-07T21:39:42.4979075Z Working directory is 'D:\a\NeuralShell\NeuralShell'
+verify_ui_serial        Checkout        2026-05-07T21:39:42.6107343Z [command]"C:\Program Files\Git\bin\git.exe" version
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6121255Z git version 2.54.0.windows.1
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6184556Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6208818Z Temporarily overriding HOME='D:\a\_temp\d90e2bce-ee34-44aa-a3c2-43b23803c5d5' before making global git config changes
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6210172Z Adding repository directory to the temporary git global config as a safe directory
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6222086Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\NeuralShell\NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6926662Z Deleting the contents of 'D:\a\NeuralShell\NeuralShell'
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6934475Z ##[group]Initializing the repository
+verify_ui_serial        Checkout        2026-05-07T21:39:43.6946714Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\NeuralShell\NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:44.1267242Z Initialized empty Git repository in D:/a/NeuralShell/NeuralShell/.git/
+verify_ui_serial        Checkout        2026-05-07T21:39:44.1349477Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/Z3r0DayZion-install/NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:44.2358761Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:44.2363276Z ##[group]Disabling automatic garbage collection
+verify_ui_serial        Checkout        2026-05-07T21:39:44.2385187Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+verify_ui_serial        Checkout        2026-05-07T21:39:44.3005461Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:44.3009186Z ##[group]Setting up auth
+verify_ui_serial        Checkout        2026-05-07T21:39:44.3014349Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+verify_ui_serial        Checkout        2026-05-07T21:39:44.3469309Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+verify_ui_serial        Checkout        2026-05-07T21:39:46.1503245Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify_ui_serial        Checkout        2026-05-07T21:39:46.1836972Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+verify_ui_serial        Checkout        2026-05-07T21:39:46.8315669Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify_ui_serial        Checkout        2026-05-07T21:39:46.8860936Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+verify_ui_serial        Checkout        2026-05-07T21:39:47.6203881Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+verify_ui_serial        Checkout        2026-05-07T21:39:47.6542981Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:47.6543748Z ##[group]Fetching the repository
+verify_ui_serial        Checkout        2026-05-07T21:39:47.6558913Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4dfe9828829fcf28d3e5e0ba7a3be52217d0fb27:refs/remotes/pull/60/merge
+verify_ui_serial        Checkout        2026-05-07T21:39:50.0697478Z From https://github.com/Z3r0DayZion-install/NeuralShell
+verify_ui_serial        Checkout        2026-05-07T21:39:50.0698188Z  * [new ref]         4dfe9828829fcf28d3e5e0ba7a3be52217d0fb27 -> pull/60/merge
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1048479Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1049198Z ##[group]Determining the checkout info
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1051494Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1063870Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1548836Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1867614Z ##[group]Checking out the ref
+verify_ui_serial        Checkout        2026-05-07T21:39:50.1878418Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/60/merge
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2402984Z Note: switching to 'refs/remotes/pull/60/merge'.
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2403307Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2403540Z You are in 'detached HEAD' state. You can look around, make experimental
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2403979Z changes and commit them, and you can discard any commits you make in this
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2404975Z state without impacting any branches by switching back to a branch.
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2405393Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2405662Z If you want to create a new branch to retain commits you create, you may
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2406336Z do so (now or later) by using -c with the switch command. Example:
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2406743Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2406893Z   git switch -c <new-branch-name>
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2407159Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2407297Z Or undo this operation with:
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2407545Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2407655Z   git switch -
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2407820Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2408136Z Turn off this advice by setting config variable advice.detachedHead to false
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2409845Z 
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2410505Z HEAD is now at 4dfe982 Merge eb389caa039f632a53299bfba067810436462bcf into 4e41cbcbf973ca95ec29f9b5ef11fb22b8a7e3bf
+verify_ui_serial        Checkout        2026-05-07T21:39:51.2613685Z ##[endgroup]
+verify_ui_serial        Checkout        2026-05-07T21:39:51.3003650Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+verify_ui_serial        Checkout        2026-05-07T21:39:51.3335041Z 4dfe9828829fcf28d3e5e0ba7a3be52217d0fb27
+verify_ui_serial        Setup Node      ∩╗┐2026-05-07T21:39:51.3947820Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3948295Z with:
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3948462Z   node-version: 22.12.0
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3948647Z   cache: npm
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3948814Z   always-auth: false
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3949010Z   check-latest: false
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3949343Z   token: ***
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.3949507Z ##[endgroup]
+verify_ui_serial        Setup Node      2026-05-07T21:39:51.6483374Z Attempting to download 22.12.0...
+verify_ui_serial        Setup Node      2026-05-07T21:39:52.2995278Z Acquiring 22.12.0 - x64 from https://github.com/actions/node-versions/releases/download/22.12.0-12152383658/node-22.12.0-win32-x64.7z
+verify_ui_serial        Setup Node      2026-05-07T21:39:52.6807122Z Extracting ...
+verify_ui_serial        Setup Node      2026-05-07T21:39:55.3724562Z Adding to the cache ...
+verify_ui_serial        Setup Node      2026-05-07T21:40:00.8788412Z ##[group]Environment details
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.0699240Z node: v22.12.0
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.0699611Z npm: 10.9.0
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.0699878Z yarn: 1.22.22
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.0700840Z ##[endgroup]
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.1541801Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\hostedtoolcache\windows\node\22.12.0\x64\npm.cmd config get cache"
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.4531323Z C:\npm\cache
+verify_ui_serial        Setup Node      2026-05-07T21:40:02.6839351Z npm cache is not found
+verify_ui_serial        Install dependencies    ∩╗┐2026-05-07T21:40:02.7158576Z ##[group]Run npm ci
+verify_ui_serial        Install dependencies    2026-05-07T21:40:02.7158915Z [36;1mnpm ci[0m
+verify_ui_serial        Install dependencies    2026-05-07T21:40:02.8010513Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Install dependencies    2026-05-07T21:40:02.8011049Z ##[endgroup]
+verify_ui_serial        Install dependencies    2026-05-07T21:40:15.3377413Z npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+verify_ui_serial        Install dependencies    2026-05-07T21:40:15.5415646Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+verify_ui_serial        Install dependencies    2026-05-07T21:40:15.5481533Z npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+verify_ui_serial        Install dependencies    2026-05-07T21:40:15.8941970Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+verify_ui_serial        Install dependencies    2026-05-07T21:40:16.8966941Z npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9510806Z 
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9511689Z added 408 packages, and audited 410 packages in 18s
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9512622Z 
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9512923Z 69 packages are looking for funding
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9513528Z   run `npm fund` for details
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9524570Z 
+verify_ui_serial        Install dependencies    2026-05-07T21:40:26.9524800Z found 0 vulnerabilities
+verify_ui_serial        Install renderer dependencies   ∩╗┐2026-05-07T21:40:27.2326731Z ##[group]Run npm ci --prefix src/renderer
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:27.2327137Z [36;1mnpm ci --prefix src/renderer[0m
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:27.2390098Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:27.2390438Z ##[endgroup]
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4162886Z 
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4163954Z added 63 packages, and audited 64 packages in 6s
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4167873Z 
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4168215Z 14 packages are looking for funding
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4168697Z   run `npm fund` for details
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4176803Z 
+verify_ui_serial        Install renderer dependencies   2026-05-07T21:40:33.4177057Z found 0 vulnerabilities
+verify_ui_serial        Docs link check ∩╗┐2026-05-07T21:40:33.5076137Z ##[group]Run npm run docs:link-check
+verify_ui_serial        Docs link check 2026-05-07T21:40:33.5076513Z [36;1mnpm run docs:link-check[0m
+verify_ui_serial        Docs link check 2026-05-07T21:40:33.5137969Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Docs link check 2026-05-07T21:40:33.5138309Z ##[endgroup]
+verify_ui_serial        Docs link check 2026-05-07T21:40:34.1528017Z 
+verify_ui_serial        Docs link check 2026-05-07T21:40:34.1528811Z > neuralshell-v5@2.1.32 docs:link-check
+verify_ui_serial        Docs link check 2026-05-07T21:40:34.1529321Z > node scripts/docs-link-check.cjs
+verify_ui_serial        Docs link check 2026-05-07T21:40:34.1529576Z 
+verify_ui_serial        Docs link check 2026-05-07T21:40:34.2893460Z docs-link-check: OK (325 docs/, 8 installer|plugins|beta, 21 root *.md; anchors on)
+verify_ui_serial        Milestone roadmap status        ∩╗┐2026-05-07T21:40:34.3909181Z ##[group]Run npm run roadmap:status
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:34.3909554Z [36;1mnpm run roadmap:status[0m
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:34.3974137Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:34.3974519Z ##[endgroup]
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0226504Z 
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0227361Z > neuralshell-v5@2.1.32 roadmap:status
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0228082Z > node scripts/roadmap-status.cjs
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0228456Z 
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0833053Z roadmap-status: docs\MILESTONE_ROADMAP_TODO.md
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0837626Z   Milestone A ΓÇö **v2.1.32 ship closed** (publish + proof): 0 done, 0 open
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0839252Z   Milestone B ΓÇö **v2.1.33 reliability** (connection + updates + air gap): 0 done, 0 open
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0840509Z   Milestone C ΓÇö **v2.1.33 quality bar** (UI + a11y): 0 done, 0 open
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0841622Z   Milestone D ΓÇö **Evidence & ops** (optional but high leverage): 0 done, 0 open
+verify_ui_serial        Milestone roadmap status        2026-05-07T21:40:35.0842388Z   TOTAL: 0 done, 0 open
+verify_ui_serial        Install Playwright Chromium     ∩╗┐2026-05-07T21:40:35.1771582Z ##[group]Run npx playwright install --with-deps chromium
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:40:35.1772066Z [36;1mnpx playwright install --with-deps chromium[0m
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:40:35.1835776Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:40:35.1836117Z ##[endgroup]
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6899361Z 
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6911448Z Success Restart Needed Exit Code      Feature Result                               
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6916580Z ------- -------------- ---------      --------------                               
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6920306Z True    No             Success        {Media Foundation}                           
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6922246Z 
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.6923385Z 
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:37.7601394Z Downloading Chrome for Testing 147.0.7727.15 (playwright chromium v1217)[2m from https://cdn.playwright.dev/builds/cft/147.0.7727.15/win64/chrome-win64.zip[22m
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:38.0445027Z |                                                                                |   0% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:38.3091233Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                        |  10% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:38.5104585Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                |  20% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:38.7167449Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                        |  30% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:38.8808086Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                |  40% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.1742665Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                        |  50% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.3487103Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                |  60% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.4988408Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                        |  70% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.6448906Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                |  80% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.7950962Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá        |  90% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:39.9383358Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá| 100% of 179.4 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.5583763Z Chrome for Testing 147.0.7727.15 (playwright chromium v1217) downloaded to C:\Users\runneradmin\AppData\Local\ms-playwright\chromium-1217
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.5591207Z Downloading FFmpeg (playwright ffmpeg v1011)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-win64.zip[22m
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.7884956Z |                                                                                |   0% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.7939604Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                        |  10% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.7961237Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                |  20% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.7978395Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                        |  30% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.7996950Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                |  40% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8016842Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                        |  50% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8034593Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                |  60% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8057321Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                        |  70% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8079340Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                |  80% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8096325Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá        |  90% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:46.8115329Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá| 100% of 1.3 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.1223228Z FFmpeg (playwright ffmpeg v1011) downloaded to C:\Users\runneradmin\AppData\Local\ms-playwright\ffmpeg-1011
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.1230752Z Downloading Chrome Headless Shell 147.0.7727.15 (playwright chromium-headless-shell v1217)[2m from https://cdn.playwright.dev/builds/cft/147.0.7727.15/win64/chrome-headless-shell-win64.zip[22m
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.3857493Z |                                                                                |   0% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.5706910Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                        |  10% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.6879275Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                |  20% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.8014385Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                        |  30% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:47.9193203Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                |  40% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.0434758Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                        |  50% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.1801054Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                |  60% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.2874751Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                        |  70% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.3921279Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                |  80% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.4844523Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá        |  90% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:48.6100075Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá| 100% of 111.5 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:52.9668113Z Chrome Headless Shell 147.0.7727.15 (playwright chromium-headless-shell v1217) downloaded to C:\Users\runneradmin\AppData\Local\ms-playwright\chromium_headless_shell-1217
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:52.9675850Z Downloading Winldd (playwright winldd v1007)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/winldd/1007/winldd-win64.zip[22m
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1712934Z |                                                                                |   1% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1728939Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                        |  10% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1734737Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                                |  24% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1750739Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                                        |  37% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1754300Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                        |  50% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1758513Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                                |  63% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1761467Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                        |  75% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1765686Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá                |  88% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.1767941Z |ΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûáΓûá| 100% of 0.1 MiB
+verify_ui_serial        Install Playwright Chromium     2026-05-07T21:43:53.2008855Z Winldd (playwright winldd v1007) downloaded to C:\Users\runneradmin\AppData\Local\ms-playwright\winldd-1007
+verify_ui_serial        Prepare Playwright artifact directories ∩╗┐2026-05-07T21:43:53.2847429Z ##[group]Run New-Item -ItemType Directory -Force -Path playwright-report | Out-Null
+verify_ui_serial        Prepare Playwright artifact directories 2026-05-07T21:43:53.2848201Z [36;1mNew-Item -ItemType Directory -Force -Path playwright-report | Out-Null[0m
+verify_ui_serial        Prepare Playwright artifact directories 2026-05-07T21:43:53.2848973Z [36;1mNew-Item -ItemType Directory -Force -Path test-results | Out-Null[0m
+verify_ui_serial        Prepare Playwright artifact directories 2026-05-07T21:43:53.2914033Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Prepare Playwright artifact directories 2026-05-07T21:43:53.2914409Z ##[endgroup]
+verify_ui_serial        Write Verify UI artifact marker ∩╗┐2026-05-07T21:43:53.6536060Z ##[group]Run "verify-ui started at $(Get-Date -Format o)" | Out-File -Encoding utf8 test-results/verify-ui-marker.txt
+verify_ui_serial        Write Verify UI artifact marker 2026-05-07T21:43:53.6537028Z [36;1m"verify-ui started at $(Get-Date -Format o)" | Out-File -Encoding utf8 test-results/verify-ui-marker.txt[0m
+verify_ui_serial        Write Verify UI artifact marker 2026-05-07T21:43:53.6598642Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial        Write Verify UI artifact marker 2026-05-07T21:43:53.6599042Z ##[endgroup]
+verify_ui_serial        Post Checkout   ∩╗┐2026-05-07T21:50:03.9280309Z Post job cleanup.
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.3001993Z [command]"C:\Program Files\Git\bin\git.exe" version
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.3671032Z git version 2.54.0.windows.1
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.3952415Z Temporarily overriding HOME='D:\a\_temp\9039199e-000d-4891-bf75-6308d33c1d47' before making global git config changes
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.3956923Z Adding repository directory to the temporary git global config as a safe directory
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.3958694Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\NeuralShell\NeuralShell
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.5052058Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+verify_ui_serial        Post Checkout   2026-05-07T21:50:05.6052116Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+verify_ui_serial        Post Checkout   2026-05-07T21:50:07.6928607Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify_ui_serial        Post Checkout   2026-05-07T21:50:07.7336162Z http.https://github.com/.extraheader
+verify_ui_serial        Post Checkout   2026-05-07T21:50:07.7546045Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+verify_ui_serial        Post Checkout   2026-05-07T21:50:07.8367107Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+verify_ui_serial        Post Checkout   2026-05-07T21:50:09.2603492Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify_ui_serial        Post Checkout   2026-05-07T21:50:09.3511638Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+verify_ui_serial        Complete job    ∩╗┐2026-05-07T21:50:10.5777034Z Cleaning up orphan processes
+verify_ui_serial        Complete job    2026-05-07T21:50:10.6818820Z Terminate orphan process: pid (8644) (node)
+verify_ui_serial        Complete job    2026-05-07T21:50:10.7176184Z Terminate orphan process: pid (9352) (node)
+verify_ui_serial        Complete job    2026-05-07T21:50:10.7502619Z Terminate orphan process: pid (9012) (electron)
+verify_ui_serial        Complete job    2026-05-07T21:50:10.7778948Z Terminate orphan process: pid (4956) (electron)
+verify_ui_serial        Complete job    2026-05-07T21:50:10.7920463Z Terminate orphan process: pid (3464) (electron)
+verify_ui_serial        Complete job    2026-05-07T21:50:10.8854149Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

@@ -1,0 +1,1022 @@
+electron builder.Interface.Configuration - electron-builder
+
+Skip to content
+
+# electron builder.Interface.Configuration
+
+[Electron-Builder](https://www.electron.build/packages)/ [electron-builder](https://www.electron.build/electron-builder/)/ Configuration
+
+Configuration Options
+
+## Extends¶
+
+## Properties¶
+
+### afterAllArtifactBuild?¶
+
+`readonly``optional` afterAllArtifactBuild:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [BuildResult](https://www.electron.build/electron-builder.interface.buildresult),`string` []>
+
+The function (or path to file or module id) to be run after all artifacts are built.
+
+```
+(buildResult: BuildResult): Promise<Array<string>> | Array<string>
+
+```
+
+Configuration in the same way as`afterPack`(see above).
+
+myAfterAllArtifactBuild.js
+
+```
+exports.default = function () {
+  // you can return additional files to publish
+  return ["/path/to/additional/result/file"]
+}
+
+```
+
+#### Inherited from¶
+
+---
+
+### afterExtract?¶
+
+`readonly``optional` afterExtract:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [PackContext](https://www.electron.build/app-builder-lib.interface.packcontext),`void`>
+
+The function (or path to file or module id) to be run after the prebuilt Electron binary has been extracted to the output directory Same setup as [beforePack](https://www.electron.build/app-builder-lib.interface.hooks#beforePack)
+
+#### Inherited from¶
+
+---
+
+### afterPack?¶
+
+`readonly``optional` afterPack:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [PackContext](https://www.electron.build/app-builder-lib.interface.packcontext),`void`>
+
+The function (or path to file or module id) to be run after pack (but before pack into distributable format and sign). Same setup as [beforePack](https://www.electron.build/app-builder-lib.interface.hooks#beforePack)
+
+#### Inherited from¶
+
+---
+
+### afterSign?¶
+
+`readonly``optional` afterSign:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [PackContext](https://www.electron.build/app-builder-lib.interface.packcontext),`void`>
+
+The function (or path to file or module id) to be run after pack and sign (but before pack into distributable format). Same setup as [beforePack](https://www.electron.build/app-builder-lib.interface.hooks#beforePack)
+
+#### Inherited from¶
+
+---
+
+### apk?¶
+
+`readonly``optional` apk:`null`| [LinuxTargetSpecificOptions](https://www.electron.build/electron-builder.interface.linuxtargetspecificoptions)
+
+#### Inherited from¶
+
+---
+
+### appId?¶
+
+`readonly``optional` appId:`null`|`string`
+
+The application id. Used as [CFBundleIdentifier](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/20001431-102070) for MacOS and as [Application User Model ID](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378459(v=vs.85).aspx) for Windows (NSIS target only, Squirrel.Windows not supported). It is strongly recommended that an explicit ID is set.
+
+#### Default¶
+
+```
+com.electron.${name}
+
+```
+
+#### Inherited from¶
+
+---
+
+### appImage?¶
+
+`readonly``optional` appImage:`null`| [AppImageOptions](https://www.electron.build/electron-builder.interface.appimageoptions)
+
+AppImage options.
+
+#### Inherited from¶
+
+---
+
+### appx?¶
+
+`readonly``optional` appx:`null`| [AppXOptions](https://www.electron.build/electron-builder.interface.appxoptions)
+
+#### Inherited from¶
+
+---
+
+### appxManifestCreated?¶
+
+`readonly``optional` appxManifestCreated:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)<`string`,`void`>
+
+The function (or path to file or module id) to be run after Appx manifest created on disk - not packed into .appx package yet.
+
+#### Inherited from¶
+
+---
+
+### artifactBuildCompleted?¶
+
+`readonly``optional` artifactBuildCompleted:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [ArtifactCreated](https://www.electron.build/electron-builder.interface.artifactcreated),`void`>
+
+The function (or path to file or module id) to be run on artifact build completed. Same setup as [beforePack](https://www.electron.build/app-builder-lib.interface.hooks#beforePack)
+
+#### Inherited from¶
+
+---
+
+### artifactBuildStarted?¶
+
+`readonly``optional` artifactBuildStarted:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [ArtifactBuildStarted](https://www.electron.build/electron-builder.interface.artifactbuildstarted),`void`>
+
+The function (or path to file or module id) to be run on artifact build start. Same setup as [beforePack](https://www.electron.build/app-builder-lib.interface.hooks#beforePack)
+
+#### Inherited from¶
+
+---
+
+### artifactName?¶
+
+`readonly``optional` artifactName:`null`|`string`
+
+The [artifact file name template](https://www.electron.build/configuration#artifact-file-name-template). Defaults to`${productName}-${version}.${ext}`(some target can have other defaults, see corresponding options).
+
+#### Inherited from¶
+
+---
+
+### asar?¶
+
+`readonly``optional` asar:`null`|`boolean`| [AsarOptions](https://www.electron.build/electron-builder.interface.asaroptions)
+
+Whether to package the application’s source code into an archive, using [Electron’s archive format](http://electron.atom.io/docs/tutorial/application-packaging/).
+
+Node modules, that must be unpacked, will be detected automatically, you don’t need to explicitly set asarUnpack - please file an issue if this doesn’t work.
+
+#### Default¶
+
+```
+true
+
+```
+
+#### Inherited from¶
+
+---
+
+### asarUnpack?¶
+
+`readonly``optional` asarUnpack:`null`|`string`|`string` []
+
+A [glob patterns](https://www.electron.build/file-patterns) relative to the app directory, which specifies which files to unpack when creating the [asar](http://electron.atom.io/docs/tutorial/application-packaging/) archive.
+
+#### Inherited from¶
+
+---
+
+### beforeBuild?¶
+
+`readonly``optional` beforeBuild:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [BeforeBuildContext](https://www.electron.build/electron-builder.interface.beforebuildcontext),`boolean`|`void`>
+
+The function (or path to file or module id) to be run before dependencies are installed or rebuilt. Works when`npmRebuild` is set to`true`. Resolving to`false` will skip dependencies install or rebuild.
+
+If provided and`node_modules` are missing, it will not invoke production dependencies check.
+
+#### Inherited from¶
+
+---
+
+### beforePack?¶
+
+`readonly``optional` beforePack:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [PackContext](https://www.electron.build/app-builder-lib.interface.packcontext),`void`>
+
+The function (or path to file or module id) to be run before pack.
+
+```
+(context: BeforePackContext): Promise<any> | any
+
+```
+
+As function
+
+```
+beforePack: async (context) => {
+  // your code
+}
+
+```
+
+Because in a configuration file you cannot use JavaScript, can be specified as a path to file or module id. Function must be exported as default export.
+
+```
+"build": {
+  "beforePack": "./myBeforePackHook.js"
+}
+
+```
+
+File`myBeforePackHook.js` in the project root directory:
+
+myBeforePackHook.js
+
+```
+exports.default = async function(context) {
+  // your custom code
+}
+
+```
+
+#### Inherited from¶
+
+---
+
+### buildDependenciesFromSource?¶
+
+`optional` buildDependenciesFromSource:`boolean`
+
+Whether to build the application native dependencies from source.
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### buildNumber?¶
+
+`readonly``optional` buildNumber:`null`|`string`
+
+The build number. Maps to the`--iteration` flag for builds using FPM on Linux. If not defined, then it will fallback to`BUILD_NUMBER` or`TRAVIS_BUILD_NUMBER` or`APPVEYOR_BUILD_NUMBER` or`CIRCLE_BUILD_NUM` or`BUILD_BUILDNUMBER` or`CI_PIPELINE_IID` env.
+
+#### Inherited from¶
+
+---
+
+### buildVersion?¶
+
+`readonly``optional` buildVersion:`null`|`string`
+
+The build version. Maps to the`CFBundleVersion` on macOS, and`FileVersion` metadata property on Windows. Defaults to the`version`. If`buildVersion` is not defined and`buildNumber`(or one of the`buildNumber` envs) is defined, it will be used as a build version (`version.buildNumber`).
+
+#### Inherited from¶
+
+---
+
+### compression?¶
+
+`readonly``optional` compression:`null`| [CompressionLevel](https://www.electron.build/electron-builder.typealias.compressionlevel)
+
+The compression level. If you want to rapidly test build,`store` can reduce build time significantly.`maximum` doesn’t lead to noticeable size difference, but increase build time.
+
+#### Default¶
+
+```
+normal
+
+```
+
+#### Inherited from¶
+
+---
+
+### concurrency?¶
+
+`readonly``optional` concurrency:`null`|`Concurrency`
+
+[Experimental] Configuration for concurrent builds.
+
+#### Inherited from¶
+
+---
+
+`readonly``optional` copyright:`null`|`string`
+
+The human-readable copyright line for the app.
+
+#### Default¶
+
+```
+Copyright © year ${author}
+
+```
+
+#### Inherited from¶
+
+---
+
+### cscKeyPassword?¶
+
+`optional` cscKeyPassword:`null`|`string`
+
+#### Inherited from¶
+
+---
+
+### cscLink?¶
+
+`optional` cscLink:`null`|`string`
+
+#### Inherited from¶
+
+---
+
+### deb?¶
+
+`readonly``optional` deb:`null`| [DebOptions](https://www.electron.build/electron-builder.interface.deboptions)
+
+Debian package options.
+
+#### Inherited from¶
+
+---
+
+### defaultArch?¶
+
+`readonly``optional` defaultArch:`string`
+
+#### Inherited from¶
+
+---
+
+### detectUpdateChannel?¶
+
+`readonly``optional` detectUpdateChannel:`boolean`
+
+Whether to infer update channel from application version pre-release components. e.g. if version`0.12.1-alpha.1`, channel will be set to`alpha`. Otherwise to`latest`. This does not apply to github publishing, which will [never auto-detect the update channel](https://github.com/electron-userland/electron-builder/issues/8589).
+
+#### Default¶
+
+```
+true
+
+```
+
+#### Inherited from¶
+
+---
+
+### directories?¶
+
+`readonly``optional` directories:`null`| [MetadataDirectories](https://www.electron.build/electron-builder.interface.metadatadirectories)
+
+Directories for build resources
+
+#### Inherited from¶
+
+---
+
+### disableDefaultIgnoredFiles?¶
+
+`optional` disableDefaultIgnoredFiles:`null`|`boolean`
+
+Whether to exclude all default ignored files(https://www.electron.build/contents#files) and options. Defaults to`false`.
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### disableSanityCheckAsar?¶
+
+`readonly``optional` disableSanityCheckAsar:`boolean`
+
+Whether to disable sanity check asar package (useful for custom electron forks that implement their own encrypted integrity validation)
+
+#### Default¶
+
+```
+false
+
+```
+
+---
+
+### dmg?¶
+
+`readonly``optional` dmg:`null`| [DmgOptions](https://www.electron.build/electron-builder.interface.dmgoptions)
+
+macOS DMG options.
+
+#### Inherited from¶
+
+---
+
+### downloadAlternateFFmpeg?¶
+
+`readonly``optional` downloadAlternateFFmpeg:`boolean`
+
+Whether to download the alternate FFmpeg library from Electron’s release assets and replace the default FFmpeg library prior to signing
+
+#### Inherited from¶
+
+---
+
+### electronBranding?¶
+
+`readonly``optional` electronBranding: [ElectronBrandingOptions](https://www.electron.build/electron-builder.interface.electronbrandingoptions)
+
+The branding used by Electron’s distributables. This is needed if a fork has modified Electron’s BRANDING.json file.
+
+---
+
+### electronCompile?¶
+
+`readonly``optional` electronCompile:`boolean`
+
+Whether to use [electron-compile](http://github.com/electron/electron-compile) to compile app. Defaults to`true` if`electron-compile` in the dependencies. And`false` if in the`devDependencies` or doesn’t specified.
+
+---
+
+### electronDist?¶
+
+`readonly``optional` electronDist:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)< [PrepareApplicationStageDirectoryOptions](https://www.electron.build/app-builder-lib.interface.prepareapplicationstagedirectoryoptions),`string`>
+
+The function (or path to file or module id) to be run when staging the electron artifact environment. Returns the path to custom Electron build (e.g.`~/electron/out/R`) or folder of electron zips.
+
+Zip files must follow the pattern`electron-v${version}-${platformName}-${arch}.zip`, otherwise it will be assumed to be an unpacked Electron app directory
+
+#### Inherited from¶
+
+---
+
+### electronDownload?¶
+
+`readonly``optional` electronDownload: [ElectronDownloadOptions](https://www.electron.build/electron-builder.interface.electrondownloadoptions)
+
+---
+
+### electronFuses?¶
+
+`readonly``optional` electronFuses:`null`| [FuseOptionsV1](https://www.electron.build/app-builder-lib.interface.fuseoptionsv1)
+
+Options to pass to`@electron/fuses` Ref: https://github.com/electron/fuses
+
+#### Inherited from¶
+
+---
+
+### electronLanguages?¶
+
+`readonly``optional` electronLanguages:`string`|`string` []
+
+The electron locales to keep. By default, all Electron locales used as-is.
+
+#### Inherited from¶
+
+---
+
+### electronUpdaterCompatibility?¶
+
+`readonly``optional` electronUpdaterCompatibility:`null`|`string`
+
+The [electron-updater compatibility](https://www.electron.build/auto-update#compatibility) semver range.
+
+#### Inherited from¶
+
+---
+
+### electronVersion?¶
+
+`optional` electronVersion:`null`|`string`
+
+The version of electron you are packaging for. Defaults to version of`electron`,`electron-prebuilt` or`electron-prebuilt-compile` dependency.
+
+---
+
+### executableName?¶
+
+`readonly``optional` executableName:`null`|`string`
+
+The executable name. Defaults to`productName` Note: Except for Linux, where this would constitute a breaking change in previous behavior and lead to both invalid executable names and Desktop files. Ref comments in: https://github.com/electron-userland/electron-builder/pull/9068
+
+#### Inherited from¶
+
+---
+
+### extends?¶
+
+`optional` extends:`null`|`string`|`string` []
+
+The name of a built-in configuration preset (currently, only`react-cra` is supported) or any number of paths to config files (relative to project dir).
+
+The latter allows to mixin a config from multiple other configs, as if you`Object.assign` them, but properly combine`files` glob patterns.
+
+If`react-scripts` in the app dependencies,`react-cra` will be set automatically. Set to`null` to disable automatic detection.
+
+---
+
+### extraFiles?¶
+
+`optional` extraFiles:`null`|`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset)| (`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset))[]
+
+The same as extraResources but copy into the app’s content directory (`Contents` for MacOS, root directory for Linux and Windows).
+
+#### Inherited from¶
+
+---
+
+### extraMetadata?¶
+
+`readonly``optional` extraMetadata:`any`
+
+Inject properties to`package.json`.
+
+#### Inherited from¶
+
+---
+
+### extraResources?¶
+
+`optional` extraResources:`null`|`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset)| (`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset))[]
+
+A [glob patterns](https://www.electron.build/file-patterns) relative to the project directory, when specified, copy the file or directory with matching names directly into the app’s resources directory (`Contents/Resources` for MacOS,`resources` for Linux and Windows).
+
+File patterns (and support for`from` and`to` fields) the same as for files.
+
+#### Inherited from¶
+
+---
+
+### fileAssociations?¶
+
+`readonly``optional` fileAssociations: [FileAssociation](https://www.electron.build/electron-builder.interface.fileassociation)| [FileAssociation](https://www.electron.build/electron-builder.interface.fileassociation) []
+
+The file associations.
+
+#### Inherited from¶
+
+---
+
+### files?¶
+
+`optional` files:`null`|`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset)| (`string`| [FileSet](https://www.electron.build/electron-builder.interface.fileset))[]
+
+A [glob patterns](https://www.electron.build/file-patterns) relative to the [app directory](https://www.electron.build/configuration#directories), which specifies which files to include when copying files to create the package.
+
+Defaults to:
+
+```
+[
+"**/*",
+"!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+"!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+"!**/node_modules/*.d.ts",
+"!**/node_modules/.bin",
+"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+"!.editorconfig",
+"!**/._*",
+"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+"!**/{appveyor.yml,.travis.yml,circle.yml}",
+"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+]
+
+```
+
+Development dependencies are never copied in any case. You don’t need to ignore it explicitly. Hidden files are not ignored by default, but all files that should be ignored, are ignored by default.
+
+Default pattern`**/*` is not added to your custom if some of your patterns is not ignore (i.e. not starts with`!`).`package.json` and`**/node_modules/**/*`(only production dependencies will be copied) is added to your custom in any case. All default ignores are added in any case — you don’t need to repeat it if you configure own patterns.
+
+May be specified in the platform options (e.g. in the [mac](https://www.electron.build/mac)).
+
+You may also specify custom source and destination directories by using`FileSet` objects instead of simple glob patterns.
+
+```
+[
+{
+ "from": "path/to/source",
+ "to": "path/to/destination",
+ "filter": ["**/*", "!foo/*.js"]
+}
+]
+
+```
+
+You can use [file macros](https://www.electron.build/file-patterns#file-macros) in the`from` and`to` fields as well.`from` and`to` can be files and you can use this to [rename](https://github.com/electron-userland/electron-builder/issues/1119) a file while packaging.
+
+#### Inherited from¶
+
+---
+
+### flatpak?¶
+
+`readonly``optional` flatpak:`null`| [FlatpakOptions](https://www.electron.build/app-builder-lib.interface.flatpakoptions)
+
+Flatpak options.
+
+#### Inherited from¶
+
+---
+
+### forceCodeSigning?¶
+
+`readonly``optional` forceCodeSigning:`boolean`
+
+Whether to fail if the application is not signed (to prevent unsigned app if code signing configuration is not correct).
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### framework?¶
+
+`readonly``optional` framework:`null`|`string`
+
+The framework name. One of`electron`,`proton`,`libui`. Defaults to`electron`.
+
+---
+
+### freebsd?¶
+
+`readonly``optional` freebsd:`null`| [LinuxTargetSpecificOptions](https://www.electron.build/electron-builder.interface.linuxtargetspecificoptions)
+
+#### Inherited from¶
+
+---
+
+### generateUpdatesFilesForAllChannels?¶
+
+`readonly``optional` generateUpdatesFilesForAllChannels:`boolean`
+
+Please see [Building and Releasing using Channels](https://github.com/electron-userland/electron-builder/issues/1182#issuecomment-324947139).
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### icon?¶
+
+`readonly``optional` icon:`null`|`string`
+
+#### Inherited from¶
+
+---
+
+### includePdb?¶
+
+`readonly``optional` includePdb:`boolean`
+
+Whether to include PDB files.
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### launchUiVersion?¶
+
+`readonly``optional` launchUiVersion:`null`|`string`|`boolean`
+
+libui-based frameworks only The version of LaunchUI you are packaging for. Applicable for Windows only. Defaults to version suitable for used framework version.
+
+---
+
+### linux?¶
+
+`readonly``optional` linux:`null`| [LinuxConfiguration](https://www.electron.build/electron-builder.interface.linuxconfiguration)
+
+Options related to how build Linux targets.
+
+#### Inherited from¶
+
+---
+
+### mac?¶
+
+`readonly``optional` mac:`null`| [MacConfiguration](https://www.electron.build/electron-builder.interface.macconfiguration)
+
+Options related to how build macOS targets.
+
+#### Inherited from¶
+
+---
+
+### mas?¶
+
+`readonly``optional` mas:`null`| [MasConfiguration](https://www.electron.build/electron-builder.interface.masconfiguration)
+
+MAS (Mac Application Store) options.
+
+#### Inherited from¶
+
+---
+
+### masDev?¶
+
+`readonly``optional` masDev:`null`| [MasConfiguration](https://www.electron.build/electron-builder.interface.masconfiguration)
+
+MAS (Mac Application Store) development options (`mas-dev` target).
+
+#### Inherited from¶
+
+---
+
+### msiProjectCreated?¶
+
+`readonly``optional` msiProjectCreated:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)<`string`,`void`>
+
+The function (or path to file or module id) to be run after MSI project created on disk - not packed into .msi package yet.
+
+#### Inherited from¶
+
+---
+
+### nativeRebuilder?¶
+
+`readonly``optional` nativeRebuilder:`null`|`"legacy"`|`"sequential"`|`"parallel"`
+
+Use`legacy` app-builder binary for installing native dependencies, or`@electron/rebuild` in`sequential` or`parallel` compilation modes.
+
+#### Default¶
+
+```
+sequential
+
+```
+
+#### Inherited from¶
+
+---
+
+### nodeGypRebuild?¶
+
+`readonly``optional` nodeGypRebuild:`boolean`
+
+Whether to execute`node-gyp rebuild` before starting to package the app.
+
+Don’t [use](https://github.com/electron-userland/electron-builder/issues/683#issuecomment-241214075) [npm](http://electron.atom.io/docs/tutorial/using-native-node-modules/#using-npm)(neither`.npmrc`) for configuring electron headers. Use`electron-builder node-gyp-rebuild` instead.
+
+#### Default¶
+
+```
+false
+
+```
+
+#### Inherited from¶
+
+---
+
+### nodeVersion?¶
+
+`readonly``optional` nodeVersion:`null`|`string`
+
+libui-based frameworks only The version of NodeJS you are packaging for. You can set it to`current` to set the Node.js version that you use to run.
+
+---
+
+### npmArgs?¶
+
+`readonly``optional` npmArgs:`null`|`string`|`string` []
+
+Additional command line arguments to use when installing app native deps.
+
+#### Inherited from¶
+
+---
+
+### npmRebuild?¶
+
+`readonly``optional` npmRebuild:`boolean`
+
+Whether to [rebuild](https://docs.npmjs.com/cli/rebuild) native dependencies before starting to package the app.
+
+#### Default¶
+
+```
+true
+
+```
+
+#### Inherited from¶
+
+---
+
+### nsis?¶
+
+`readonly``optional` nsis:`null`| [NsisOptions](https://www.electron.build/electron-builder.interface.nsisoptions)
+
+#### Inherited from¶
+
+---
+
+### nsisWeb?¶
+
+`readonly``optional` nsisWeb:`null`| [NsisWebOptions](https://www.electron.build/electron-builder.interface.nsisweboptions)
+
+#### Inherited from¶
+
+---
+
+### onNodeModuleFile?¶
+
+`readonly``optional` onNodeModuleFile:`null`|`string`| [Hook](https://www.electron.build/app-builder-lib.typealias.hook)<`string`,`boolean`|`void`>
+
+The function (or path to file or module id) to be run on each node module file. Returning`true`/`false` will determine whether to force include or to use the default copier logic
+
+#### Inherited from¶
+
+---
+
+### p5p?¶
+
+`readonly``optional` p5p:`null`| [LinuxTargetSpecificOptions](https://www.electron.build/electron-builder.interface.linuxtargetspecificoptions)
+
+#### Inherited from¶
+
+---
+
+### pacman?¶
+
+`readonly``optional` pacman:`null`| [LinuxTargetSpecificOptions](https://www.electron.build/electron-builder.interface.linuxtargetspecificoptions)
+
+#### Inherited from¶
+
+---
+
+### pkg?¶
+
+`readonly``optional` pkg:`null`| [PkgOptions](https://www.electron.build/electron-builder.interface.pkgoptions)
+
+macOS PKG options.
+
+#### Inherited from¶
+
+---
+
+### portable?¶
+
+`readonly``optional` portable:`null`| [PortableOptions](https://www.electron.build/electron-builder.interface.portableoptions)
+
+#### Inherited from¶
+
+---
+
+### productName?¶
+
+`readonly``optional` productName:`null`|`string`
+
+As name, but allows you to specify a product name for your executable which contains spaces and other special characters not allowed in the [name property](https://docs.npmjs.com/files/package.json#name). If not specified inside of the`build` configuration,`productName` property defined at the top level of`package.json` is used. If not specified at the top level of`package.json`, [name property](https://docs.npmjs.com/files/package.json#name) is used.
+
+#### Inherited from¶
+
+---
+
+### protocols?¶
+
+`readonly``optional` protocols: [Protocol](https://www.electron.build/electron-builder.interface.protocol)| [Protocol](https://www.electron.build/electron-builder.interface.protocol) []
+
+The URL protocol schemes.
+
+#### Inherited from¶
+
+---
+
+### publish?¶
+
+`optional` publish:`Publish`
+
+Publisher configuration. See [Auto Update](https://www.electron.build/publish) for more information.
+
+#### Inherited from¶
+
+---
+
+### releaseInfo?¶
+
+`readonly``optional` releaseInfo: [ReleaseInfo](https://www.electron.build/electron-builder.interface.releaseinfo)
+
+The release info. Intended for command line usage:
+
+```
+-c.releaseInfo.releaseNotes="new features"
+
+```
+
+#### Inherited from¶
+
+---
+
+### removePackageKeywords?¶
+
+`readonly``optional` removePackageKeywords:`boolean`
+
+Whether to remove`keywords` field from`package.json` files.
+
+#### Default¶
+
+```
+true
+
+```
+
+#### Inherited from¶
+
+---
+
+### removePackageScripts?¶
+
+`readonly``optional` removePackageScripts:`boolean`
+
+Whether to remove`scripts` field from`package.json` files.
+
+#### Default¶
+
+```
+true
+
+```
+
+#### Inherited from¶
+
+---
+
+### rpm?¶
+
+`readonly``optional` rpm:`null`| [LinuxTargetSpecificOptions](https://www.electron.build/electron-builder.interface.linuxtargetspecificoptions)
+
+#### Inherited from¶
+
+---
+
+### snap?¶
+
+`readonly``optional` snap:`null`| [SnapOptions](https://www.electron.build/electron-builder.interface.snapoptions)
+
+Snap options.
+
+#### Inherited from¶
+
+---
+
+### squirrelWindows?¶
+
+`readonly``optional` squirrelWindows:`null`| [SquirrelWindowsOptions](https://www.electron.build/electron-builder.interface.squirrelwindowsoptions)
+
+#### Inherited from¶
+
+---
+
+### target?¶
+
+`readonly``optional` target:`null`|`string`| [TargetConfiguration](https://www.electron.build/electron-builder.interface.targetconfiguration)| (`string`| [TargetConfiguration](https://www.electron.build/electron-builder.interface.targetconfiguration))[]
+
+#### Inherited from¶
+
+---
+
+### toolsets?¶
+
+`readonly``optional` toolsets:`null`| [ToolsetConfig](https://www.electron.build/app-builder-lib.interface.toolsetconfig)
+
+Configuration of toolsets utilized by electron-builder
+
+#### Inherited from¶
+
+---
+
+### win?¶
+
+`readonly``optional` win:`null`| [WindowsConfiguration](https://www.electron.build/electron-builder.interface.windowsconfiguration)
+
+Options related to how build Windows targets.
+
+#### Inherited from¶

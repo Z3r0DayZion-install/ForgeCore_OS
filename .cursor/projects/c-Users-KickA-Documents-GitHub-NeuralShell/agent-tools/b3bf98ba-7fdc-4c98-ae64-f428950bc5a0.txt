@@ -1,0 +1,749 @@
+NeuralLink? Tactical Suite Loaded.
+Run Merge Gate (26072325731) has already completed with 'success'
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  * Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  ✓ Analyze
+  * Post Analyze
+  * Post Initialize CodeQL
+  * Post Checkout
+- dependency_review in 0s (ID 76656171338)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* codeql (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  ✓ Analyze
+  ✓ Post Analyze
+  ✓ Post Initialize CodeQL
+  ✓ Post Checkout
+  ✓ Complete job
+- dependency_review in 0s (ID 76656171338)
+* security_pass (ID 76656300571)
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ codeql in 1m30s (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  ✓ Analyze
+  ✓ Post Analyze
+  ✓ Post Initialize CodeQL
+  ✓ Post Checkout
+  ✓ Complete job
+- dependency_review in 0s (ID 76656171338)
+* security_pass (ID 76656300571)
+  ✓ Set up job
+  ✓ Consolidate security gate results
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+
+✓ fix/2134-kernel-role-and-ollama Security Gate Z3r0DayZion-install/NeuralShell#70 · 26072325724
+Triggered via pull_request about 1 minute ago
+
+JOBS
+✓ npm_audit in 19s (ID 76656161390)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ npm audit (high+, production deps)
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ dependency_review_support in 4s (ID 76656161393)
+  ✓ Set up job
+  ✓ Probe dependency review support
+  ✓ Complete job
+✓ secret_scan in 13s (ID 76656161395)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Gitleaks
+  ✓ Post Checkout
+  ✓ Complete job
+✓ security_local in 29s (ID 76656161404)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run local security pass
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ omega_verification in 27s (ID 76656161411)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Run OMEGA Verification
+  ✓ Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+✓ codeql in 1m30s (ID 76656161419)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Initialize CodeQL
+  ✓ Autobuild
+  ✓ Analyze
+  ✓ Post Analyze
+  ✓ Post Initialize CodeQL
+  ✓ Post Checkout
+  ✓ Complete job
+- dependency_review in 0s (ID 76656171338)
+✓ security_pass in 2s (ID 76656300571)
+  ✓ Set up job
+  ✓ Consolidate security gate results
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+npm_audit: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+secret_scan: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+security_local: .github#2
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+omega_verification: .github#2
+

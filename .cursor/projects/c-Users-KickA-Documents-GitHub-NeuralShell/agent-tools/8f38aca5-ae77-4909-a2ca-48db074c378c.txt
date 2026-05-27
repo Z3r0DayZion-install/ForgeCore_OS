@@ -1,0 +1,1509 @@
+NeuralLink? Tactical Suite Loaded.
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+ship_readiness	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Refreshing checks status every 10 seconds. Press Ctrl+C to quit.
+
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+build_windows	pending	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+build_windows	fail	16m21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	
+Devin Review	fail	0	https://app.devin.ai/review/z3r0dayzion-install/neuralshell/pull/60	Devin Review has completed analysis
+build_windows	fail	13m57s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334210575	
+build_windows	fail	16m21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334220340	
+ship_readiness	fail	13m29s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334220117	
+GPU bench (macos-latest)	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157397	
+GPU bench (ubuntu-latest)	pass	24s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232415/job/74334157393	
+audit	pass	16s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232432/job/74334157355	
+codeql	pass	2m19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157354	
+dependency_review_support	pass	4s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157346	
+gate	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232412/job/74334157344	
+lighthouse_mobile_gate	pass	48s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232413/job/74334157350	
+npm_audit	pass	21s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157356	
+omega_verification	pass	27s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157339	
+release_contract	pass	19s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232411/job/74334157400	
+secret_scan	pass	14s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157342	
+security_local	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334157337	
+security_pass	pass	2s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334366238	
+soc2_prep	pass	22s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232486/job/74334157417	
+test	pass	38s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232434/job/74334157333	
+verify_ui_serial	fail	12m13s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232408/job/74334157367	
+test	pass	34s	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352231135/job/74334153380	
+dependency_review	skipping	0	https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25352232414/job/74334167450	

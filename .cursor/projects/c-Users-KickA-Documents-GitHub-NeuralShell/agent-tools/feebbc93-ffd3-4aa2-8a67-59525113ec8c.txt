@@ -1,0 +1,346 @@
+NeuralLink? Tactical Suite Loaded.
+verify_ui_serial	Verify UI (serial worker)	﻿2026-05-12T21:06:34.3051003Z ##[group]Run npx playwright test e2e/react-core.spec.js e2e/agentInstall.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c playwright.e2e.config.js --workers=1
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:34.3053132Z [36;1mnpx playwright test e2e/react-core.spec.js e2e/agentInstall.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c playwright.e2e.config.js --workers=1[0m
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:34.3155304Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:34.3155863Z ##[endgroup]
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:37.8767960Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:37.8768959Z Running 19 tests using 1 worker
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:37.8770254Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:06:42.8988766Z   ok  1 e2e\agentInstall.spec.js:8:1 › Agent store installs verified core agent (4.2s)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:00.1076150Z   ok  2 e2e\provGraph.spec.js:15:1 › Provenance graph opens from workspace header (17.2s)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:04.0617757Z   ok  3 e2e\react-core.spec.js:9147:5 › NeuralShell React Core UI › App boots and critical React shells render (126ms)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:04.1519718Z   ok  4 e2e\react-core.spec.js:9154:5 › NeuralShell React Core UI › Trust indicators are present (72ms)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:07.1570851Z   ok  5 e2e\react-core.spec.js:9161:5 › NeuralShell React Core UI › Settings drawer opens, changes state, and preserves values (2.9s)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:07.9492317Z early-open-settings-stage-entered
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:07.9494045Z early-open-settings-stage-normalize-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:13.8561708Z early-open-settings-stage-normalize-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:13.8565410Z early-open-settings-stage-shell-settle-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:18.6827526Z offline-kill-shell-settle=ok iterations=1 elapsedMs=4824 activeFp=BODY|
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:18.6829340Z early-open-settings-stage-shell-settle-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:18.6832758Z early-open-settings-stage-reset-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.4377130Z early-open-settings-stage-reset-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.4641988Z early-open-settings-stage-open-settings-drawer-helper-entered
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.4766109Z early-open-settings-stage-locator-resolve-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.5089647Z early-open-settings-stage-locator-resolve-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.5271935Z early-open-settings-stage-opener-visible-wait-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.5493287Z early-open-settings-stage-opener-visible-wait-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:21.9592621Z early-open-settings-stage-first-click-target-setup-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.0497504Z early-open-settings-stage-first-click-target-setup-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.0502816Z early-open-settings-stage-binding-setup-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.1759717Z early-open-settings-stage-binding-setup-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2018742Z early-open-settings-stage-preclick-snapshot-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2020317Z early-open-settings-stage-preclick-snapshot-evaluate-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2255935Z early-open-settings-stage-preclick-snapshot-evaluate-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2257597Z early-open-settings-stage-preclick-snapshot-candidates-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2258694Z early-open-settings-stage-preclick-snapshot-candidates-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2259736Z early-open-settings-stage-preclick-snapshot-artifact-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2262122Z early-open-settings-stage-preclick-snapshot-artifact-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2263134Z early-open-settings-stage-preclick-snapshot-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2263994Z early-open-settings-stage-event-phase-install-start
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2422129Z early-open-settings-stage-event-phase-install-done
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.2520657Z early-open-settings-stage-click-about-to-attempt
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:22.3706790Z early-open-settings-stage-click-attempted
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0710581Z offline-kill-settings-opener-clicked-node-exists=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0712185Z offline-kill-settings-opener-react-bound-node-exists=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0713334Z offline-kill-settings-opener-clicked-equals-react-bound=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0714589Z offline-kill-settings-opener-multiple-candidates=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0715496Z offline-kill-settings-opener-likely-cause=unknown
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0720006Z offline-kill-settings-opener-event-phase-classification=unknown
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0721175Z offline-kill-settings-opener-window-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0722065Z offline-kill-settings-opener-document-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0722997Z offline-kill-settings-opener-react-root-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0723942Z offline-kill-settings-opener-opener-click-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0724811Z offline-kill-settings-opener-react-synthetic-seen=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0725688Z offline-kill-settings-opener-event-cancelled=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0727043Z offline-kill-settings-opener-drawer-mounted-within-250ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0728118Z offline-kill-settings-opener-drawer-mounted-within-1000ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:07:33.0729270Z offline-kill-settings-opener-drawer-mounted-within-4500ms=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:05.8390262Z offline-kill-force-posture-stage name=offline-kill-force-posture-entered stepElapsedMs=1 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:05.8392836Z offline-kill-force-posture-stage name=offline-kill-force-posture-open-settings-start stepElapsedMs=1 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:05.8396499Z offline-kill-force-posture-stage name=offline-kill-force-posture-open-settings-done stepElapsedMs=1 priorStageMs=0
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5470343Z   x   6 e2e\react-core.spec.js:9199:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture (1.6m)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5475093Z   -   7 e2e\react-core.spec.js:10072:5 › NeuralShell React Core UI › Command palette opens and closes
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5478268Z   -   8 e2e\react-core.spec.js:10105:5 › NeuralShell React Core UI › Layout presets adjust rail widths and reset panels
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5480614Z   -   9 e2e\react-core.spec.js:10176:5 › NeuralShell React Core UI › Inline rail collapse toggles expose mini-rail expand controls
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5482965Z   -  10 e2e\react-core.spec.js:10229:5 › NeuralShell React Core UI › Keyboard shortcuts nudge rail widths
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5484868Z   -  11 e2e\react-core.spec.js:10268:5 › NeuralShell React Core UI › Focused layout overlays expose resize handles
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5486649Z   -  12 e2e\react-core.spec.js:10288:5 › NeuralShell React Core UI › Composer accepts input
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5488289Z   -  13 e2e\react-core.spec.js:10297:5 › NeuralShell React Core UI › Thread creation mutates active workspace state
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5490020Z   -  14 e2e\react-core.spec.js:10318:5 › NeuralShell React Core UI › Quick-Start cards trigger real kernel responses
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5491719Z   -  15 e2e\react-core.spec.js:10330:5 › NeuralShell React Core UI › Proof and ROI commands execute narratives
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5493308Z   -  16 e2e\react-core.spec.js:10353:5 › NeuralShell React Core UI › /clear command wipes the local chat history
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5495026Z   -  17 e2e\react-core.spec.js:10365:5 › NeuralShell React Core UI › Session modal exposes dialog semantics and dismisses with Escape
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:48.5496867Z   -  18 e2e\react-core.spec.js:10378:5 › NeuralShell React Core UI › Settings drawer close control has an accessible name
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6145643Z   ok 19 e2e\voiceRoom.spec.js:15:1 › Voice room panel renders and join control is available (6.2s)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6353849Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6360054Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6382320Z   1) e2e\react-core.spec.js:9199:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6382983Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6383428Z     Error: [offline-kill-prep] provider-visible-enabled exceeded 20000ms
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6383864Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6384166Z       2116 |             timerId = setTimeout(() => {
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6384591Z       2117 |                 timedOut = true;
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6385151Z     > 2118 |                 reject(new Error(`[offline-kill-prep] ${prepName} exceeded ${timeoutMs}ms`));
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6385635Z            |                        ^
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6385956Z       2119 |             }, timeoutMs);
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6387342Z       2120 |         });
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6387588Z       2121 |
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6388102Z         at Timeout.<anonymous> (D:\a\NeuralShell\NeuralShell\e2e\react-core.spec.js:2118:24)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6388457Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6389034Z     attachment #1: offline-kill-compact-test-entry.json (application/json) ─────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6390940Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-test-entry-json-f3f8f2d295f3525127a2f0ad2fd00dfeba4294da.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6393025Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6393495Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6393978Z     attachment #2: offline-kill-compact-before-open-settings.json (application/json) ───────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6395208Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-before-open-settings-json-1a3c0e80f16c78f07c454489452211696f40de87.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6396342Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6396660Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6397084Z     attachment #3: offline-kill-early-open-settings-entered.json (application/json) ────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6398277Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-entered-json-5d323b5c177d3dcc84654e1c332183bdb2ae002e.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6399414Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6399691Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6400105Z     attachment #4: offline-kill-early-open-settings-before.json (application/json) ─────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6401264Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-before-json-10af7b897fd46b8143eafad194dc49943dd1a105.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6402387Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6402668Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6403065Z     attachment #5: offline-kill-open-settings-precondition-before.json (application/json) ──────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6404223Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-before-json-261fb721e16081d8dba0a5e7580fb4cc95b2e54a.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6405312Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6405570Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6405971Z     attachment #6: offline-kill-open-settings-precondition-after.json (application/json) ───────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6407112Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-after-json-5c819998a914b8e477646979797395e19b19dd39.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6408362Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6408627Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6409024Z     attachment #7: offline-kill-open-settings-shell-settle-before.json (application/json) ──────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6410588Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-before-json-70bab38ed5ca7a9ed77bed9eaf11c3ef1c1ad641.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6412486Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6412769Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6413186Z     attachment #8: offline-kill-open-settings-shell-settle-after.json (application/json) ───────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6414433Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-after-json-a9ccef26a1da98d4b4b22fe875b180514fded2d7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6415568Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6415826Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6416228Z     attachment #9: offline-kill-open-settings-app-reset-before.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6417373Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-before-json-0dc2130bb1db8bb7ea7f0a20458a8af572c284d0.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6418451Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6418705Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6419103Z     attachment #10: offline-kill-open-settings-app-reset-after.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6420214Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-after-json-a265a290421a57baf7d10a9ff4b038064648e28b.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6421295Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6421557Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6421949Z     attachment #11: offline-kill-open-settings-offline-kill-entered.json (application/json) ────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6423110Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-entered-json-c8a2385a1d7a9adbad91b9c537dbe1e106f3bc97.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6424202Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6424466Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6424862Z     attachment #12: offline-kill-open-settings-offline-kill-before-click.json (application/json) ───
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6426059Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-before-click-json-f539ad80b975f69f86e4f3726f8f114c1a595864.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6427306Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6427572Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6427989Z     attachment #13: offline-kill-open-settings-offline-kill-runtime-state-before-click.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6429376Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-runtime-state-before-click-json-7ea67705903194044ed4edc39f0d7af186e9a685.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6431434Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6431714Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6432281Z     attachment #14: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6434207Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-64f6f4e848fab4913c1ab3538512e1bc802c69e5.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6435627Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6435894Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6436299Z     attachment #15: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6437621Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-64f6f4e848fab4913c1ab3538512e1bc802c69e5.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6438823Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6439090Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6439441Z     attachment #16: offline-kill-open-settings-offline-kill-first-click-state.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6440698Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-state-json-0fcbe5bb249ebccd046be442e07bbc7ec993a3c2.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6441857Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6442119Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6442534Z     attachment #17: offline-kill-open-settings-offline-kill-opener-binding-before-click.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6443901Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-opener-binding-before-click-json-3e10350c4a8799eebe42797e4e7f9358d634df02.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6445114Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6445368Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6445760Z     attachment #18: offline-kill-open-settings-preclick-state.json (application/json) ──────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6446898Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-preclick-state-json-34a1f980b5ca8eaaae8a24b4df210de7873f04b6.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6448629Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6448890Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6449352Z     attachment #19: offline-kill-open-settings-postclick-state.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6450493Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-postclick-state-json-ca752f00fc83fe9671e867a12320fb9ff41900d9.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6452127Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6452409Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6452825Z     attachment #20: offline-kill-settings-opener-react-bound-comparison.json (application/json) ────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6454079Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-react-bound-comparison-json-22047f7f59e8dc48345245e47f30542be90d15b0.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6455207Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6455464Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6455871Z     attachment #21: offline-kill-settings-opener-event-phase-trace.json (application/json) ─────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6457036Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-event-phase-trace-json-f57fdbeb96e87198cb750cfdcb9b216162b241e7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6458139Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6458395Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6458804Z     attachment #22: offline-kill-open-settings-offline-kill-after-click.json (application/json) ────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6460005Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-after-click-json-afba3517e8feb56afa3c4df4d3a3ff6c4d050b5b.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6461124Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6461385Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6461783Z     attachment #23: offline-kill-open-settings-offline-kill-after-open.json (application/json) ─────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6462967Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-after-open-json-346c2216c1c90bcc9261aa1e0cbac44b1e6081c7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6464067Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6464326Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6464710Z     attachment #24: offline-kill-early-open-settings-after.json (application/json) ─────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6465808Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-after-json-ef31c9c3eb12e0934ab162412553dc9e01f19786.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6467481Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6467751Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6468160Z     attachment #25: offline-kill-early-settings-drawer-ready-entered.json (application/json) ───────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6469351Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-entered-json-f070c65b45d8c3343b5bf4159d8ec18983c93902.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6470562Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6471223Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6471664Z     attachment #26: offline-kill-early-settings-drawer-ready-before.json (application/json) ────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6472838Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-before-json-0159535da6c2864b6e4de9f1e6d2f60ee6ef16dc.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6473955Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6474216Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6474627Z     attachment #27: offline-kill-early-settings-drawer-ready-after.json (application/json) ─────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6475796Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-after-json-83e1aa73e4b01a65fc98befd27faa01ea9ddf2f7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6476891Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6477154Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6477544Z     attachment #28: offline-kill-compact-after-open-settings.json (application/json) ───────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6478670Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-after-open-settings-json-63d1605a8e154388dfbbbccc5c2af15de399dc1d.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6479722Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6479982Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6480371Z     attachment #29: offline-kill-compact-before-connection-tab.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6481496Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-before-connection-tab-json-f35e83aa809401a5f58e144f952e769db99dbb45.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6482703Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6482960Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6483366Z     attachment #30: offline-kill-compact-before-connection-tab-diagnostic.json (application/json) ──
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6484564Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-before-connection-tab-diagnostic-json-e82dda46fd0541e87d0c667191369f7846c20521.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6485774Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6486040Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6486437Z     attachment #31: offline-kill-early-connection-tab-activate-entered.json (application/json) ─────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6487615Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-entered-json-25310c8f717334836a939954c676689050d26560.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6488703Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6488964Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6489356Z     attachment #32: offline-kill-early-connection-tab-activate-before.json (application/json) ──────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6490531Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-before-json-823d9eae1f88fc9fc8605c6e3f27ae75c67f0a0d.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6492070Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6492339Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6492748Z     attachment #33: offline-kill-compact-after-connection-tab-diagnostic.json (application/json) ───
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6493971Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-after-connection-tab-diagnostic-json-a028920a79dc2b2eab713e9dcc6a31b5a7d2c912.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6495108Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6495367Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6495801Z     attachment #34: offline-kill-early-connection-tab-activate-after.json (application/json) ───────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6496968Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-after-json-cf3a7804c8a1d86f241c42a489728f0ba8bd93b7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6498074Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6498329Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6498734Z     attachment #35: offline-kill-early-connection-panel-open-entered.json (application/json) ───────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6499899Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-entered-json-85e9f505b84b3820a9589ca0fd6e91a1988e2c55.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6501132Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6501405Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6501807Z     attachment #36: offline-kill-early-connection-panel-open-before.json (application/json) ────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6502984Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-before-json-1780addc27ee538c7951f958885aecf0fc676194.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6504161Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6504430Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6504822Z     attachment #37: settings-before-kill-visible.json (application/json) ───────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6505878Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\settings-before-kill-visible-json-c228354628f7c1a69133dafd6657de3e8ab89993.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6506884Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6507146Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6507535Z     attachment #38: offline-kill-compact-before-kill-visible.json (application/json) ───────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6509053Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-before-kill-visible-json-be3dc577b85adb7f905b783f71f9321c4b2d2232.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6511126Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6511418Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6511836Z     attachment #39: offline-kill-compact-after-connection-tab.json (application/json) ──────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6512976Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-after-connection-tab-json-932dbda7b928248e8eb3fb3f46015d7062229ed6.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6514263Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6514536Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6514957Z     attachment #40: offline-kill-compact-after-open-connection-panel.json (application/json) ───────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6516135Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-after-open-connection-panel-json-0fdccd712b666017f4e67eb269284f9e475c320b.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6517444Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6517710Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6518108Z     attachment #41: offline-kill-early-connection-panel-open-after.json (application/json) ─────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6519268Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-after-json-97bc8f21e237d6dd4451a0d651764b82058170b4.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6520448Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6520716Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6521113Z     attachment #42: offline-kill-early-force-start-entry-entered.json (application/json) ───────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6522270Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-entered-json-a3e7dcde6c22dbfaaff78dd8e876c29013e3c295.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6523392Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6523653Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6524049Z     attachment #43: offline-kill-early-force-start-entry-before.json (application/json) ────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6525189Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-before-json-4caf1d270747a7a12639aa5e8dcefe47fc6526c9.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6526276Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6526531Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6526916Z     attachment #44: offline-kill-compact-force-start.json (application/json) ───────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6527969Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-force-start-json-bd782e52ba85ecd53a8db787a22f9e022747c988.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6529218Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6529478Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6529879Z     attachment #45: offline-kill-early-force-start-entry-after.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6531004Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-after-json-802d3afcc399ac007046681944afece46fc8ded7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6532075Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6532340Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6532725Z     attachment #46: offline-kill-early-prep-entry-entered.json (application/json) ──────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6533841Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-entered-json-8d9f1fe3eb6ca6f9bd0c61e00c190f18c0c65eba.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6535309Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6535581Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6535993Z     attachment #47: offline-kill-early-prep-entry-before.json (application/json) ───────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6537104Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-before-json-2fa97c740d102e48b35e8c8ac10f731c69a3f37f.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6538267Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6538523Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6538904Z     attachment #48: offline-kill-early-prep-entry-marker.json (application/json) ───────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6539989Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-marker-json-239589aeccd10953c0fb83d071ec53eaee02dd30.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6541129Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6541403Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6541817Z     attachment #49: offline-kill-early-prep-entry-after.json (application/json) ────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6542940Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-after-json-994ad01480d61994e9b7488592d85a10bf7d69bf.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6544040Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6544326Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6544779Z     attachment #50: offline-kill-prep-active-settings-drawer-entering.json (application/json) ──────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6546006Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-entering-json-aa0902ef4482e22dfb80d35c8f838a0da4f60412.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6547184Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6547490Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6547905Z     attachment #51: offline-kill-prep-active-settings-drawer-before.json (application/json) ────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6549374Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-before-json-d7984fac0ac51f5c4c6fd60bea531ed0455f0edb.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6550535Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6550824Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6551241Z     attachment #52: offline-kill-prep-active-settings-drawer-after.json (application/json) ─────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6552470Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-after-json-8d191f97fc35441c4fee38fc9c9e99204eff0fe8.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6553731Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6554015Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6554649Z     attachment #53: offline-kill-prep-provider-controls-entering.json (application/json) ───────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6556205Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-entering-json-dfa81502f1f162f630d1df1a41b38de72dca64b5.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6558102Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6558399Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6558863Z     attachment #54: offline-kill-prep-provider-controls-before.json (application/json) ─────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6560050Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-before-json-8c6bf2f2719341887e150f82b993e41b7b481326.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6561194Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6561464Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6561864Z     attachment #55: offline-kill-prep-provider-controls-after.json (application/json) ──────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6563032Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-after-json-8665283ddf9dab278a717247fc99f131cae80ad5.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6564137Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6564443Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6564868Z     attachment #56: offline-kill-prep-provider-visible-enabled-entering.json (application/json) ────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6566138Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-entering-json-8bd2713f91ecac82366b9a2625fe618d7cd19eca.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6567296Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6567599Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6568018Z     attachment #57: offline-kill-prep-provider-visible-enabled-before.json (application/json) ──────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6569519Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-before-json-510ea906c83acf975de7ac7f1c544c0a51029037.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6570684Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6570945Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6571346Z     attachment #58: offline-kill-prep-provider-visible-enabled-failed.json (application/json) ──────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6572553Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-failed-json-c810b6a8ddc46c61df7b8b3d846678ad11ad0b45.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6573797Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6574053Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6574595Z     attachment #59: offline-kill-compact-finally.json (application/json) ───────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6575763Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-finally-json-b65ba377ac952b60389879a7d3b5fdf12884fc7a.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6576947Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6577207Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6577597Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6578040Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6578455Z     attachment #61: settings-readiness-snapshot.json (application/json) ────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6579543Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\settings-readiness-snapshot-json-31bb3285dd6146914ecab256ea33baf84816610a.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6580594Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6580875Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6581291Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6581758Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6582148Z     attachment #63: trace (application/zip) ────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6582803Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6583300Z     Usage:
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6583418Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6583893Z         npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6584390Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6584702Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6585015Z 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6585102Z   1 failed
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6585705Z     e2e\react-core.spec.js:9199:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6586235Z   12 did not run
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.6586481Z   6 passed (2.3m)
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T21:08:55.8904002Z ##[error]Process completed with exit code 1.

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "agents": {
+    "refactor_pro": {
+      "installAttempts": 4,
+      "installSuccess": 2
+    },
+    "proof_guard": {
+      "installAttempts": 100,
+      "installSuccess": 100
+    }
+  }
+}

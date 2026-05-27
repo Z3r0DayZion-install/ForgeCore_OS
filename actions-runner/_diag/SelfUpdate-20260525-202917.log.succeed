@@ -1,0 +1,20 @@
+[Mon 05/25/2026 13:29:17.43] --------whoami-------- 
+vip-shadow-node\kicka
+[Mon 05/25/2026 13:29:17.44] --------whoami-------- 
+[Mon 05/25/2026 13:29:17.44] Waiting for Runner.Listener.exe (17796) to complete 
+Runner.Listener.exe          17796 Console                    1     77,452 K
+[Mon 05/25/2026 13:29:17.51] Process 17796 still running, check again after 1 second. 
+[Mon 05/25/2026 13:29:18.59] Process 17796 finished running 
+[Mon 05/25/2026 13:29:18.59] Sleep 1 more second to make sure process exited 
+[Mon 05/25/2026 13:29:19.61] Re-organize folders 
+[Mon 05/25/2026 13:29:19.62] move "C:\Users\KickA\actions-runner\bin" "C:\Users\KickA\actions-runner\bin.2.323.0" 
+        1 dir(s) moved.
+[Mon 05/25/2026 13:29:19.64] move "C:\Users\KickA\actions-runner\externals" "C:\Users\KickA\actions-runner\externals.2.323.0" 
+        1 dir(s) moved.
+[Mon 05/25/2026 13:29:19.64] Create junction bin folder 
+Junction created for C:\Users\KickA\actions-runner\bin <<===>> C:\Users\KickA\actions-runner\bin.2.334.0
+[Mon 05/25/2026 13:29:19.64] Create junction externals folder 
+Junction created for C:\Users\KickA\actions-runner\externals <<===>> C:\Users\KickA\actions-runner\externals.2.334.0
+[Mon 05/25/2026 13:29:19.64] Update succeed 
+[Mon 05/25/2026 13:29:19.64] update.finished file creation succeed 
+[Mon 05/25/2026 13:29:19.64] Rename "C:\Users\KickA\actions-runner\_diag\SelfUpdate-20260525-202917.log" to be "C:\Users\KickA\actions-runner\_diag\SelfUpdate-20260525-202917.log.succeed" 

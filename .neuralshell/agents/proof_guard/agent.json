@@ -1,0 +1,10 @@
+{
+  "id": "proof_guard",
+  "name": "Proof Guard",
+  "version": "0.1.0",
+  "description": "Checks outbound proof narratives before distribution.",
+  "entry": "index.js",
+  "sha256": "0a02e36335db6040f4b7efe3e6ad89c683e431369dbb7c0811fa19732ccdce13",
+  "signature": "sha256:0a02e36335db6040f4b7efe3e6ad89c683e431369dbb7c0811fa19732ccdce13"
+}
+

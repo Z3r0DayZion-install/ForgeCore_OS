@@ -1,0 +1,1999 @@
+NeuralLink? Tactical Suite Loaded.
+
+> neuralshell-v5@2.1.32 verify:ship
+> npm run icons:generate && npm run release:worktree:strict && npm run lint && node tear/architecture-enforcement.test.js && npm run test:flaky && npm run coverage:check && npm run security:pass:local && npm run test:e2e && npm run ui:runtime:gate && npm run build && npm run release:gate:strict && npm run canary:gate && npm run diagnose:packaged && npm run release:manifest && npm run release:sign && npm run release:verify:signature && npm run release:status && npm run release:upgrade:validate && npm run release:checksums && npm run release:verify:fresh:strict && npm run kpi:operator && npm run slo:gate && npm run perf:gate
+
+
+> neuralshell-v5@2.1.32 icons:generate
+> node tear/generate-icons.js
+
+Generating icons from: C:\Users\KickA\Projects\Active\NeuralShell\assets\logo-mark.svg
+Icon generator from SVG:
+  src: C:\Users\KickA\Projects\Active\NeuralShell\assets\logo-mark.svg
+  dir: C:\Users\KickA\Projects\Active\NeuralShell\assets
+SVG to PNG:
+  Create: icon-gen-WvYn5c\16.png
+  Create: icon-gen-WvYn5c\24.png
+  Create: icon-gen-WvYn5c\32.png
+  Create: icon-gen-WvYn5c\48.png
+  Create: icon-gen-WvYn5c\64.png
+  Create: icon-gen-WvYn5c\128.png
+  Create: icon-gen-WvYn5c\256.png
+  Create: icon-gen-WvYn5c\512.png
+  Create: icon-gen-WvYn5c\1024.png
+ICNS:
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon.icns
+ICO:
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon.ico
+Favicon:
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-16.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-32.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-64.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-128.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-256.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-512.png
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\icon-1024.png
+ICO:
+  Create: C:\Users\KickA\Projects\Active\NeuralShell\assets\favicon.ico
+Icon generation completed.
+
+> neuralshell-v5@2.1.32 release:worktree:strict
+> node scripts/verify-clean-worktree.js --strict
+
+Worktree is clean.
+
+> neuralshell-v5@2.1.32 lint
+> eslint src/ scripts/ tear/ tests/ --max-warnings=0
+
+TAP version 13
+# Subtest: Architecture Contract: No arbitrary HEX color tokens in UI components
+ok 1 - Architecture Contract: No arbitrary HEX color tokens in UI components
+  ---
+  duration_ms: 26.9587
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: Module Registry commands must have strict schema binding
+ok 2 - Architecture Contract: Module Registry commands must have strict schema binding
+  ---
+  duration_ms: 0.3524
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: State schemas must enforce versioning and persistence bounds
+ok 3 - Architecture Contract: State schemas must enforce versioning and persistence bounds
+  ---
+  duration_ms: 0.3208
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: Verified UI zone constraints
+ok 4 - Architecture Contract: Verified UI zone constraints
+  ---
+  duration_ms: 1.4368
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: Critical components must retain E2E data-testid hooks
+ok 5 - Architecture Contract: Critical components must retain E2E data-testid hooks
+  ---
+  duration_ms: 2.0655
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: No Stubbed Registry Actions
+ok 6 - Architecture Contract: No Stubbed Registry Actions
+  ---
+  duration_ms: 0.2578
+  type: 'test'
+  ...
+# Subtest: Architecture Contract: Command Routing Integrity in App.jsx
+ok 7 - Architecture Contract: Command Routing Integrity in App.jsx
+  ---
+  duration_ms: 1.6008
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42.1708
+
+> neuralshell-v5@2.1.32 test:flaky
+> node scripts/flaky-test-gate.js npm test
+
+
+[flaky-gate] attempt #1: npm test
+
+> neuralshell-v5@2.1.32 test
+> node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js && node tear/llm-connections.test.js
+
+Smoke test passed (React Architecture).
+IPC surface test passed.
+Renderer bindings test passed.
+Linkage regression test passed.
+PASS ipcValidators
+PASS workspace action guards
+PASS workflow state validators
+PASS validator default branches
+PASS catalog helpers
+PASS patch plan helpers
+PASS bridge profile model
+PASS bridge settings feature module
+PASS bridge settings model
+PASS airgap policy
+PASS voice rtt badge thresholds
+PASS llmService retry
+PASS llmService offline
+PASS llmService cancel
+PASS llmService persona/config
+PASS llmService autodetect
+PASS llmService stream
+PASS llmService failure modes
+All unit tests passed.
+✓ Real key configured: sign/verify works
+✓ No key + no dev override: fails closed
+✓ No key + explicit dev override: dev path works
+✓ Mismatched key: verification fails
+✓ Dev key cannot be exploited without explicit override
+✓ Dev override requires explicit '1' value
+
+License engine test passed.
+Policy firewall test passed.
+Audit chain test passed.
+Security guards test passed.
+Security abuse test passed.
+Branch protection policy test passed.
+Cleanup guard test passed.
+Release manifest test passed.
+Release checksums test passed.
+Release upgrade validation test passed.
+Release workflow contract test passed.
+Ship entrypoint test passed.
+Performance gate contract test passed.
+Release freshness test passed.
+Release status contract test passed.
+Worktree cleanliness test passed.
+TAP version 13
+# Subtest: IdentityKernel persists rotated keypairs across reloads
+ok 1 - IdentityKernel persists rotated keypairs across reloads
+  ---
+  duration_ms: 19.646
+  type: 'test'
+  ...
+# Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+  ---
+  duration_ms: 3.0119
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+  ---
+  duration_ms: 4.6794
+  type: 'test'
+  ...
+# Subtest: IdentityKernel persists trusted peers across reloads and revocations
+ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+  ---
+  duration_ms: 5.4286
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+  ---
+  duration_ms: 3.8786
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 45.1995
+TAP version 13
+# Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+  ---
+  duration_ms: 2.9107
+  type: 'test'
+  ...
+# Subtest: XP Manager still blocks when the hardware binding changes
+ok 2 - XP Manager still blocks when the hardware binding changes
+  ---
+  duration_ms: 1.1938
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+  ---
+  duration_ms: 5.913
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution still blocks on hardware mismatch
+ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+  ---
+  duration_ms: 2.5112
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 20.8588
+TAP version 13
+# Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+  ---
+  duration_ms: 39.9814
+  type: 'test'
+  ...
+# Subtest: SessionManager stores workflow and release metadata in the index
+ok 2 - SessionManager stores workflow and release metadata in the index
+  ---
+  duration_ms: 17.4513
+  type: 'test'
+  ...
+# Subtest: SessionManager stores preview text and searches across preview metadata
+ok 3 - SessionManager stores preview text and searches across preview metadata
+  ---
+  duration_ms: 17.2037
+  type: 'test'
+  ...
+# Subtest: SessionManager rejects invalid names and wrong passphrase
+ok 4 - SessionManager rejects invalid names and wrong passphrase
+  ---
+  duration_ms: 34.7933
+  type: 'test'
+  ...
+# Subtest: SessionManager rename and delete keep index in sync
+ok 5 - SessionManager rename and delete keep index in sync
+  ---
+  duration_ms: 19.0236
+  type: 'test'
+  ...
+# Subtest: SessionManager detects envelope checksum tampering
+ok 6 - SessionManager detects envelope checksum tampering
+  ---
+  duration_ms: 18.1614
+  type: 'test'
+  ...
+# Subtest: SessionManager search returns all metadata and filtered matches
+ok 7 - SessionManager search returns all metadata and filtered matches
+  ---
+  duration_ms: 41.5036
+  type: 'test'
+  ...
+# Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+  ---
+  duration_ms: 17.7781
+  type: 'test'
+  ...
+# Subtest: SessionManager handles missing sessions and rename collisions
+ok 9 - SessionManager handles missing sessions and rename collisions
+  ---
+  duration_ms: 33.1393
+  type: 'test'
+  ...
+# Subtest: SessionManager exportToPeer is blocked in local test mode
+ok 10 - SessionManager exportToPeer is blocked in local test mode
+  ---
+  duration_ms: 1.1182
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 251.2513
+TAP version 13
+# Subtest: StateManager setState merges nested settings instead of replacing
+ok 1 - StateManager setState merges nested settings instead of replacing
+  ---
+  duration_ms: 8.6933
+  type: 'test'
+  ...
+# Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+  ---
+  duration_ms: 2.4386
+  type: 'test'
+  ...
+# Subtest: StateManager migrates v1 state to v5 bridge profile settings
+ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+  ---
+  duration_ms: 3.1383
+  type: 'test'
+  ...
+# Subtest: StateManager set updates keys and writes encrypted state
+ok 4 - StateManager set updates keys and writes encrypted state
+  ---
+  duration_ms: 2.5242
+  type: 'test'
+  ...
+# Subtest: StateManager setState ignores non-object updates and recovers null settings
+ok 5 - StateManager setState ignores non-object updates and recovers null settings
+  ---
+  duration_ms: 3.1292
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines corrupted state and regenerates defaults
+ok 6 - StateManager quarantines corrupted state and regenerates defaults
+  ---
+  duration_ms: 2.9284
+  type: 'test'
+  ...
+# Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+  ---
+  duration_ms: 1.9336
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+  ---
+  duration_ms: 2.228
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+  ---
+  duration_ms: 3.6749
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+  ---
+  duration_ms: 2.2562
+  type: 'test'
+  ...
+# Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+  ---
+  duration_ms: 2.6583
+  type: 'test'
+  ...
+# Subtest: StateManager handles deeply nested status updates and edge cases
+ok 12 - StateManager handles deeply nested status updates and edge cases
+  ---
+  duration_ms: 2.2202
+  type: 'test'
+  ...
+# Subtest: StateManager rejects prototype-polluting keys and updates nested settings paths
+ok 13 - StateManager rejects prototype-polluting keys and updates nested settings paths
+  ---
+  duration_ms: 2.0246
+  type: 'test'
+  ...
+# Subtest: StateManager custody helpers and trust reports preserve profile evidence
+ok 14 - StateManager custody helpers and trust reports preserve profile evidence
+  ---
+  duration_ms: 6.7367
+  type: 'test'
+  ...
+# Subtest: StateManager uses safeStorage when available and fails closed on custody loss
+ok 15 - StateManager uses safeStorage when available and fails closed on custody loss
+  ---
+  duration_ms: 2.5067
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 60.2242
+TAP version 13
+# Subtest: signed artifact utility supports sign and verify round-trip
+ok 1 - signed artifact utility supports sign and verify round-trip
+  ---
+  duration_ms: 6.057
+  type: 'test'
+  ...
+# Subtest: trusted signer verification passes for checked-in white-label config
+ok 2 - trusted signer verification passes for checked-in white-label config
+  ---
+  duration_ms: 1.9764
+  type: 'test'
+  ...
+# Subtest: fingerprint in trusted publishers matches demo public key
+ok 3 - fingerprint in trusted publishers matches demo public key
+  ---
+  duration_ms: 0.4699
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16.7772
+TAP version 13
+# Subtest: pilot pack generator creates complete non-placeholder bundle
+ok 1 - pilot pack generator creates complete non-placeholder bundle
+  ---
+  duration_ms: 46.988
+  type: 'test'
+  ...
+# Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+  ---
+  duration_ms: 1113.8069
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1167.7749
+TAP version 13
+# Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+  ---
+  duration_ms: 753.5618
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 760.6603
+TAP version 13
+# Subtest: courier package verify passes for valid and fails for tampered payload
+ok 1 - courier package verify passes for valid and fails for tampered payload
+  ---
+  duration_ms: 117.3424
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 123.7487
+TAP version 13
+# Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+  ---
+  duration_ms: 48.6778
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 55.0526
+TAP version 13
+# Subtest: demo bundle and reset plan generate deterministic-ready outputs
+ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+  ---
+  duration_ms: 78.5915
+  type: 'test'
+  ...
+# Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+  ---
+  duration_ms: 114.3908
+  type: 'test'
+  ...
+# Subtest: deployment preflight and field-launch health checks pass
+ok 3 - deployment preflight and field-launch health checks pass
+  ---
+  duration_ms: 64.4576
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 264.7705
+TAP version 13
+# Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+  ---
+  duration_ms: 74.0336
+  type: 'test'
+  ...
+# Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+  ---
+  duration_ms: 73.1558
+  type: 'test'
+  ...
+# Subtest: renewal and feedback summaries are generated and complete
+ok 3 - renewal and feedback summaries are generated and complete
+  ---
+  duration_ms: 72.8554
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 227.9121
+TAP version 13
+# Subtest: partner and managed-service packs are generated and complete
+ok 1 - partner and managed-service packs are generated and complete
+  ---
+  duration_ms: 78.6482
+  type: 'test'
+  ...
+# Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+  ---
+  duration_ms: 108.1293
+  type: 'test'
+  ...
+# Subtest: channel, renewal, and scale status packs are generated and internally consistent
+ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+  ---
+  duration_ms: 107.4332
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 301.7874
+TAP version 13
+# Subtest: ecosystem portfolio/service/network/global packs are generated
+ok 1 - ecosystem portfolio/service/network/global packs are generated
+  ---
+  duration_ms: 148.2809
+  type: 'test'
+  ...
+# Subtest: revenue/board/operator packs are generated and defensible
+ok 2 - revenue/board/operator packs are generated and defensible
+  ---
+  duration_ms: 106.0088
+  type: 'test'
+  ...
+# Subtest: ecosystem command pack is generated and links drilldowns
+ok 3 - ecosystem command pack is generated and links drilldowns
+  ---
+  duration_ms: 35.5656
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 297.4187
+PASS ollama health — online
+PASS ollama health — offline
+PASS openai model list
+PASS openai — rejects without API key
+PASS openrouter model list + headers
+PASS groq chat non-stream
+PASS ollama chat — non-stream
+PASS ollama chat — stream
+PASS openai chat — SSE stream
+PASS status event sequence — reconnecting → online
+PASS status event sequence — error emitted
+PASS request timeout
+PASS retry exhausted — throws after maxRetries + 1 attempts
+PASS autoDetect — non-ollama returns unsupported
+PASS configure — overrides all fields in-place
+PASS setModel — validation
+PASS persona — injects system prompt
+PASS persona — always enforces NeuralShell identity even when system message present
+PASS _classifyError — all branches
+
+All LLM connection tests passed.
+[flaky-gate] PASS: first attempt succeeded.
+
+> neuralshell-v5@2.1.32 coverage:check
+> npm run coverage:test && node scripts/check-coverage-thresholds.js
+
+
+> neuralshell-v5@2.1.32 coverage:test
+> c8 --clean --allowExternal --include **/src/core/ipcValidators.js --include **/src/core/policyFirewall.js --include **/src/core/llmService.js --include **/src/core/stateManager.js --include **/src/core/sessionManager.js --reporter=text-summary --reporter=json-summary npm test
+
+
+> neuralshell-v5@2.1.32 test
+> node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js && node tear/llm-connections.test.js
+
+Smoke test passed (React Architecture).
+IPC surface test passed.
+Renderer bindings test passed.
+Linkage regression test passed.
+PASS ipcValidators
+PASS workspace action guards
+PASS workflow state validators
+PASS validator default branches
+PASS catalog helpers
+PASS patch plan helpers
+PASS bridge profile model
+PASS bridge settings feature module
+PASS bridge settings model
+PASS airgap policy
+PASS voice rtt badge thresholds
+PASS llmService retry
+PASS llmService offline
+PASS llmService cancel
+PASS llmService persona/config
+PASS llmService autodetect
+PASS llmService stream
+PASS llmService failure modes
+All unit tests passed.
+✓ Real key configured: sign/verify works
+✓ No key + no dev override: fails closed
+✓ No key + explicit dev override: dev path works
+✓ Mismatched key: verification fails
+✓ Dev key cannot be exploited without explicit override
+✓ Dev override requires explicit '1' value
+
+License engine test passed.
+Policy firewall test passed.
+Audit chain test passed.
+Security guards test passed.
+Security abuse test passed.
+Branch protection policy test passed.
+Cleanup guard test passed.
+Release manifest test passed.
+Release checksums test passed.
+Release upgrade validation test passed.
+Release workflow contract test passed.
+Ship entrypoint test passed.
+Performance gate contract test passed.
+Release freshness test passed.
+Release status contract test passed.
+Worktree cleanliness test passed.
+TAP version 13
+# Subtest: IdentityKernel persists rotated keypairs across reloads
+ok 1 - IdentityKernel persists rotated keypairs across reloads
+  ---
+  duration_ms: 10.983
+  type: 'test'
+  ...
+# Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+  ---
+  duration_ms: 3.2056
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+  ---
+  duration_ms: 4.1516
+  type: 'test'
+  ...
+# Subtest: IdentityKernel persists trusted peers across reloads and revocations
+ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+  ---
+  duration_ms: 5.796
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+  ---
+  duration_ms: 4.3912
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 37.3466
+TAP version 13
+# Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+  ---
+  duration_ms: 2.9091
+  type: 'test'
+  ...
+# Subtest: XP Manager still blocks when the hardware binding changes
+ok 2 - XP Manager still blocks when the hardware binding changes
+  ---
+  duration_ms: 1.7514
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+  ---
+  duration_ms: 5.1813
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution still blocks on hardware mismatch
+ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+  ---
+  duration_ms: 2.2462
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 21.4597
+TAP version 13
+# Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+  ---
+  duration_ms: 41.4506
+  type: 'test'
+  ...
+# Subtest: SessionManager stores workflow and release metadata in the index
+ok 2 - SessionManager stores workflow and release metadata in the index
+  ---
+  duration_ms: 18.5996
+  type: 'test'
+  ...
+# Subtest: SessionManager stores preview text and searches across preview metadata
+ok 3 - SessionManager stores preview text and searches across preview metadata
+  ---
+  duration_ms: 18.6986
+  type: 'test'
+  ...
+# Subtest: SessionManager rejects invalid names and wrong passphrase
+ok 4 - SessionManager rejects invalid names and wrong passphrase
+  ---
+  duration_ms: 36.7183
+  type: 'test'
+  ...
+# Subtest: SessionManager rename and delete keep index in sync
+ok 5 - SessionManager rename and delete keep index in sync
+  ---
+  duration_ms: 17.9279
+  type: 'test'
+  ...
+# Subtest: SessionManager detects envelope checksum tampering
+ok 6 - SessionManager detects envelope checksum tampering
+  ---
+  duration_ms: 17.9408
+  type: 'test'
+  ...
+# Subtest: SessionManager search returns all metadata and filtered matches
+ok 7 - SessionManager search returns all metadata and filtered matches
+  ---
+  duration_ms: 40.9829
+  type: 'test'
+  ...
+# Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+  ---
+  duration_ms: 18.1533
+  type: 'test'
+  ...
+# Subtest: SessionManager handles missing sessions and rename collisions
+ok 9 - SessionManager handles missing sessions and rename collisions
+  ---
+  duration_ms: 33.8351
+  type: 'test'
+  ...
+# Subtest: SessionManager exportToPeer is blocked in local test mode
+ok 10 - SessionManager exportToPeer is blocked in local test mode
+  ---
+  duration_ms: 1.5075
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 256.2284
+TAP version 13
+# Subtest: StateManager setState merges nested settings instead of replacing
+ok 1 - StateManager setState merges nested settings instead of replacing
+  ---
+  duration_ms: 8.8348
+  type: 'test'
+  ...
+# Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+  ---
+  duration_ms: 3.0051
+  type: 'test'
+  ...
+# Subtest: StateManager migrates v1 state to v5 bridge profile settings
+ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+  ---
+  duration_ms: 2.1208
+  type: 'test'
+  ...
+# Subtest: StateManager set updates keys and writes encrypted state
+ok 4 - StateManager set updates keys and writes encrypted state
+  ---
+  duration_ms: 2.4273
+  type: 'test'
+  ...
+# Subtest: StateManager setState ignores non-object updates and recovers null settings
+ok 5 - StateManager setState ignores non-object updates and recovers null settings
+  ---
+  duration_ms: 2.6123
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines corrupted state and regenerates defaults
+ok 6 - StateManager quarantines corrupted state and regenerates defaults
+  ---
+  duration_ms: 2.7824
+  type: 'test'
+  ...
+# Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+  ---
+  duration_ms: 1.9146
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+  ---
+  duration_ms: 2.6928
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+  ---
+  duration_ms: 3.1142
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+  ---
+  duration_ms: 2.1527
+  type: 'test'
+  ...
+# Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+  ---
+  duration_ms: 2.7522
+  type: 'test'
+  ...
+# Subtest: StateManager handles deeply nested status updates and edge cases
+ok 12 - StateManager handles deeply nested status updates and edge cases
+  ---
+  duration_ms: 2.3299
+  type: 'test'
+  ...
+# Subtest: StateManager rejects prototype-polluting keys and updates nested settings paths
+ok 13 - StateManager rejects prototype-polluting keys and updates nested settings paths
+  ---
+  duration_ms: 2.2013
+  type: 'test'
+  ...
+# Subtest: StateManager custody helpers and trust reports preserve profile evidence
+ok 14 - StateManager custody helpers and trust reports preserve profile evidence
+  ---
+  duration_ms: 6.7702
+  type: 'test'
+  ...
+# Subtest: StateManager uses safeStorage when available and fails closed on custody loss
+ok 15 - StateManager uses safeStorage when available and fails closed on custody loss
+  ---
+  duration_ms: 2.7832
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 61.0374
+TAP version 13
+# Subtest: signed artifact utility supports sign and verify round-trip
+ok 1 - signed artifact utility supports sign and verify round-trip
+  ---
+  duration_ms: 3.5702
+  type: 'test'
+  ...
+# Subtest: trusted signer verification passes for checked-in white-label config
+ok 2 - trusted signer verification passes for checked-in white-label config
+  ---
+  duration_ms: 1.9357
+  type: 'test'
+  ...
+# Subtest: fingerprint in trusted publishers matches demo public key
+ok 3 - fingerprint in trusted publishers matches demo public key
+  ---
+  duration_ms: 0.4087
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14.821
+TAP version 13
+# Subtest: pilot pack generator creates complete non-placeholder bundle
+ok 1 - pilot pack generator creates complete non-placeholder bundle
+  ---
+  duration_ms: 52.3629
+  type: 'test'
+  ...
+# Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+  ---
+  duration_ms: 828.5534
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 888.8352
+TAP version 13
+# Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+  ---
+  duration_ms: 620.8768
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 628.728
+TAP version 13
+# Subtest: courier package verify passes for valid and fails for tampered payload
+ok 1 - courier package verify passes for valid and fails for tampered payload
+  ---
+  duration_ms: 136.3966
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 143.9886
+TAP version 13
+# Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+  ---
+  duration_ms: 53.615
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 60.5979
+TAP version 13
+# Subtest: demo bundle and reset plan generate deterministic-ready outputs
+ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+  ---
+  duration_ms: 88.9506
+  type: 'test'
+  ...
+# Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+  ---
+  duration_ms: 135.8377
+  type: 'test'
+  ...
+# Subtest: deployment preflight and field-launch health checks pass
+ok 3 - deployment preflight and field-launch health checks pass
+  ---
+  duration_ms: 77.1082
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 309.8373
+TAP version 13
+# Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+  ---
+  duration_ms: 87.5996
+  type: 'test'
+  ...
+# Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+  ---
+  duration_ms: 86.3512
+  type: 'test'
+  ...
+# Subtest: renewal and feedback summaries are generated and complete
+ok 3 - renewal and feedback summaries are generated and complete
+  ---
+  duration_ms: 85.3516
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 267.6368
+TAP version 13
+# Subtest: partner and managed-service packs are generated and complete
+ok 1 - partner and managed-service packs are generated and complete
+  ---
+  duration_ms: 91.4253
+  type: 'test'
+  ...
+# Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+  ---
+  duration_ms: 129.0841
+  type: 'test'
+  ...
+# Subtest: channel, renewal, and scale status packs are generated and internally consistent
+ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+  ---
+  duration_ms: 127.8157
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 356.1517
+TAP version 13
+# Subtest: ecosystem portfolio/service/network/global packs are generated
+ok 1 - ecosystem portfolio/service/network/global packs are generated
+  ---
+  duration_ms: 175.0829
+  type: 'test'
+  ...
+# Subtest: revenue/board/operator packs are generated and defensible
+ok 2 - revenue/board/operator packs are generated and defensible
+  ---
+  duration_ms: 127.9534
+  type: 'test'
+  ...
+# Subtest: ecosystem command pack is generated and links drilldowns
+ok 3 - ecosystem command pack is generated and links drilldowns
+  ---
+  duration_ms: 41.9582
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 353.5156
+PASS ollama health — online
+PASS ollama health — offline
+PASS openai model list
+PASS openai — rejects without API key
+PASS openrouter model list + headers
+PASS groq chat non-stream
+PASS ollama chat — non-stream
+PASS ollama chat — stream
+PASS openai chat — SSE stream
+PASS status event sequence — reconnecting → online
+PASS status event sequence — error emitted
+PASS request timeout
+PASS retry exhausted — throws after maxRetries + 1 attempts
+PASS autoDetect — non-ollama returns unsupported
+PASS configure — overrides all fields in-place
+PASS setModel — validation
+PASS persona — injects system prompt
+PASS persona — always enforces NeuralShell identity even when system message present
+PASS _classifyError — all branches
+
+All LLM connection tests passed.
+
+=============================== Coverage summary ===============================
+Statements   : 84.29% ( 2185/2592 )
+Branches     : 80.53% ( 604/750 )
+Functions    : 89.14% ( 115/129 )
+Lines        : 84.29% ( 2185/2592 )
+================================================================================
+[global]: statements 84.29% >= 78.00%
+[global]: branches 80.53% >= 70.00%
+[global]: functions 89.14% >= 80.00%
+[global]: lines 84.29% >= 78.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\ipcValidators.js: statements 68.69% >= 65.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\ipcValidators.js: branches 89.17% >= 60.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\ipcValidators.js: functions 65.85% >= 65.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\ipcValidators.js: lines 68.69% >= 65.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\policyFirewall.js: statements 100.00% >= 95.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\policyFirewall.js: branches 71.42% >= 70.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\policyFirewall.js: functions 100.00% >= 95.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\policyFirewall.js: lines 100.00% >= 95.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\llmService.js: statements 92.26% >= 70.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\llmService.js: branches 76.92% >= 60.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\llmService.js: functions 100.00% >= 90.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\llmService.js: lines 92.26% >= 70.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\stateManager.js: statements 96.77% >= 88.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\stateManager.js: branches 74.04% >= 65.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\stateManager.js: functions 100.00% >= 90.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\stateManager.js: lines 96.77% >= 88.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\sessionManager.js: statements 94.50% >= 80.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\sessionManager.js: branches 69.66% >= 68.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\sessionManager.js: functions 100.00% >= 90.00%
+[critical] C:\Users\KickA\Projects\Active\NeuralShell\src\core\sessionManager.js: lines 94.50% >= 80.00%
+
+[coverage-gate] PASS: all coverage thresholds satisfied.
+
+> neuralshell-v5@2.1.32 security:pass:local
+> node scripts/security-pass.js --skip-audit
+
+[security-pass] Skipping source integrity stage (CI=false).
+
+[security-pass] node tests/omega_security.test.js
+--- NEURALSHELL OMEGA SECURITY TEST SUITE ---
+[ASSERT 1] Verifying no raw network primitives in src/core...
+PASS: Core is primitive-clean.
+[ASSERT 2] Verifying Header Allowlist...
+PASS: Headers sanitized by broker.
+[ASSERT 3] Verifying Proxy Env scrubbing...
+PASS: Proxy env variables neutralized.
+[ASSERT 4] Verifying Redirect Denial...
+PASS: Redirects restricted to 'error' mode.
+[ASSERT 5] Verifying 5MB Response Cap...
+PASS: 5MB Cap active.
+[ASSERT 6] Verifying Binary Integrity Gate...
+PASS: Integrity gate active.
+[ASSERT 7] Verifying Process Env Isolation...
+PASS: Child env scrubbed to { PATH }.
+[ASSERT 8] Verifying Agent Sandbox restricted pathing...
+PASS: Agent confined to dynamic sandbox.
+--- ALL OMEGA SECURITY ASSERTIONS PASSED ---
+
+[security-pass] node tear/security-guards.test.js
+Security guards test passed.
+
+[security-pass] node tear/security-abuse.test.js
+Security abuse test passed.
+[security-pass] Report written: C:\Users\KickA\Projects\Active\NeuralShell\release\security-pass.json
+[security-pass] PASS
+
+> neuralshell-v5@2.1.32 pretest:e2e
+> npm run renderer:ensure-build
+
+
+> neuralshell-v5@2.1.32 renderer:ensure-build
+> node scripts/ensure_renderer_built.cjs
+
+[renderer:ensure-build] Renderer dist is fresh.
+
+> neuralshell-v5@2.1.32 test:e2e
+> playwright test e2e/react-core.spec.js e2e/ui-controls-sweep.spec.js -c playwright.e2e.config.js
+
+
+Running 30 tests using 1 worker
+
+(node:11292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:280:5 › NeuralShell React Core UI › App boots and critical React shells render (697ms)
+  ok  2 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:287:5 › NeuralShell React Core UI › Trust indicators are present (45ms)
+  ok  3 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:294:5 › NeuralShell React Core UI › Settings drawer opens, changes state, and preserves values (8.2s)
+  ok  4 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:332:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture (622ms)
+  ok  5 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:356:5 › NeuralShell React Core UI › Command palette opens and closes (5.5s)
+  ok  6 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:380:5 › NeuralShell React Core UI › Layout presets adjust rail widths and reset panels (1.3s)
+  ok  7 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:415:5 › NeuralShell React Core UI › Inline rail collapse toggles expose mini-rail expand controls (515ms)
+  ok  8 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:434:5 › NeuralShell React Core UI › Keyboard shortcuts nudge rail widths (725ms)
+  ok  9 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:453:5 › NeuralShell React Core UI › Focused layout overlays expose resize handles (687ms)
+  ok 10 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:470:5 › NeuralShell React Core UI › Composer accepts input (70ms)
+  ok 11 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:479:5 › NeuralShell React Core UI › Thread creation mutates active workspace state (1.3s)
+  ok 12 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:500:5 › NeuralShell React Core UI › Quick-Start cards trigger real kernel responses (1.4s)
+  ok 13 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:512:5 › NeuralShell React Core UI › Proof and ROI commands execute narratives (361ms)
+  ok 14 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:532:5 › NeuralShell React Core UI › /clear command wipes the local chat history (255ms)
+  ok 15 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:316:5 › UI controls sweep › top-bar core elements are visible (108ms)
+  ok 16 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:328:5 › UI controls sweep › primary top-bar buttons open and close (2.9s)
+  ok 17 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:351:5 › UI controls sweep › trust indicator is present (42ms)
+  ok 18 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:359:5 › UI controls sweep › presence pill is present (38ms)
+  ok 19 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:367:5 › UI controls sweep › binary clock toggle opens and closes popup (36ms)
+  ok 20 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:388:5 › UI controls sweep › model picker opens, shows provider groups, search filters, and selects a model (962ms)
+  ok 21 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:425:5 › UI controls sweep › calendar popover opens, shows Deadlines tab, add and remove a deadline (800ms)
+  ok 22 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:456:5 › UI controls sweep › calendar popover Open In tab shows external calendar links (647ms)
+  ok 23 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:485:5 › UI controls sweep › More menu Panels tab opens panels (2.8s)
+  ok 24 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:508:5 › UI controls sweep › More menu Tools tab items are present and clickable (1.9s)
+  ok 25 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:530:5 › UI controls sweep › More menu View tab: all clock and calendar settings toggle correctly (12.5s)
+  ok 26 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:631:5 › UI controls sweep › More menu Boss tab: runtime roles and toggles respond (3.7s)
+  ok 27 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:659:5 › UI controls sweep › homework card subject pills are clickable and change card state (85ms)
+  ok 28 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:691:5 › UI controls sweep › quick-start welcome cards are visible (72ms)
+  ok 29 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:705:5 › UI controls sweep › settings drawer opens and closes (830ms)
+  ok 30 ..\..\..\Projects\Active\NeuralShell\e2e\ui-controls-sweep.spec.js:718:5 › UI controls sweep › full button sweep passes with no failures (15.2s)
+
+  30 passed (1.2m)
+
+> neuralshell-v5@2.1.32 ui:runtime:gate
+> node scripts/ui-runtime-gate.js
+
+[ui-runtime-gate] report=C:\Users\KickA\Projects\Active\NeuralShell\release\ui-runtime-gate.json
+[ui-runtime-gate] PASS
+
+> neuralshell-v5@2.1.32 build
+> electron-builder
+
+  • electron-builder  version=26.8.1 os=10.0.19045
+  • loaded configuration  file=package.json ("build" field)
+  • executing @electron/rebuild  electronVersion=41.2.2 arch=x64 buildFromSource=false workspaceRoot=C:\Users\KickA\Documents\GitHub\NeuralShell projectDir=./ appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=41.2.2 appOutDir=dist\win-unpacked
+  • searching for node modules  pm=npm searchDir=C:\Users\KickA\Documents\GitHub\NeuralShell
+  • updating asar integrity executable resource  executablePath=dist\win-unpacked\NeuralShell.exe
+  • signing with signtool.exe  path=dist\win-unpacked\resources\bin\neural-linkd.exe
+  • signing with signtool.exe  path=dist\win-unpacked\NeuralShell.exe
+  • building        target=nsis file=dist\NeuralShell Setup 2.1.32.exe archs=x64 oneClick=false perMachine=false
+  • signing with signtool.exe  path=dist\win-unpacked\resources\elevate.exe
+  • signing with signtool.exe  path=dist\NeuralShell Setup 2.1.32.__uninstaller.exe
+  • signing with signtool.exe  path=dist\NeuralShell Setup 2.1.32.exe
+  • building block map  blockMapFile=dist\NeuralShell Setup 2.1.32.exe.blockmap
+
+> neuralshell-v5@2.1.32 release:gate:strict
+> node tear/release-gate.js --strict-packaged
+
+
+> npm test
+
+> neuralshell-v5@2.1.32 test
+> node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js && node tear/llm-connections.test.js
+
+Smoke test passed (React Architecture).
+IPC surface test passed.
+Renderer bindings test passed.
+Linkage regression test passed.
+PASS ipcValidators
+PASS workspace action guards
+PASS workflow state validators
+PASS validator default branches
+PASS catalog helpers
+PASS patch plan helpers
+PASS bridge profile model
+PASS bridge settings feature module
+PASS bridge settings model
+PASS airgap policy
+PASS voice rtt badge thresholds
+PASS llmService retry
+PASS llmService offline
+PASS llmService cancel
+PASS llmService persona/config
+PASS llmService autodetect
+PASS llmService stream
+PASS llmService failure modes
+All unit tests passed.
+✓ Real key configured: sign/verify works
+✓ No key + no dev override: fails closed
+✓ No key + explicit dev override: dev path works
+✓ Mismatched key: verification fails
+✓ Dev key cannot be exploited without explicit override
+✓ Dev override requires explicit '1' value
+
+License engine test passed.
+Policy firewall test passed.
+Audit chain test passed.
+Security guards test passed.
+Security abuse test passed.
+Branch protection policy test passed.
+Cleanup guard test passed.
+Release manifest test passed.
+Release checksums test passed.
+Release upgrade validation test passed.
+Release workflow contract test passed.
+Ship entrypoint test passed.
+Performance gate contract test passed.
+Release freshness test passed.
+Release status contract test passed.
+Worktree cleanliness test passed.
+TAP version 13
+# Subtest: IdentityKernel persists rotated keypairs across reloads
+ok 1 - IdentityKernel persists rotated keypairs across reloads
+  ---
+  duration_ms: 19.8388
+  type: 'test'
+  ...
+# Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+  ---
+  duration_ms: 3.0768
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+  ---
+  duration_ms: 5.3175
+  type: 'test'
+  ...
+# Subtest: IdentityKernel persists trusted peers across reloads and revocations
+ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+  ---
+  duration_ms: 5.436
+  type: 'test'
+  ...
+# Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+  ---
+  duration_ms: 4.4532
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 47.8318
+TAP version 13
+# Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+  ---
+  duration_ms: 3.0083
+  type: 'test'
+  ...
+# Subtest: XP Manager still blocks when the hardware binding changes
+ok 2 - XP Manager still blocks when the hardware binding changes
+  ---
+  duration_ms: 1.1815
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+  ---
+  duration_ms: 6.0838
+  type: 'test'
+  ...
+# Subtest: AgentController sandbox execution still blocks on hardware mismatch
+ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+  ---
+  duration_ms: 2.644
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 23.6159
+TAP version 13
+# Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+  ---
+  duration_ms: 41.2481
+  type: 'test'
+  ...
+# Subtest: SessionManager stores workflow and release metadata in the index
+ok 2 - SessionManager stores workflow and release metadata in the index
+  ---
+  duration_ms: 17.4576
+  type: 'test'
+  ...
+# Subtest: SessionManager stores preview text and searches across preview metadata
+ok 3 - SessionManager stores preview text and searches across preview metadata
+  ---
+  duration_ms: 17.7887
+  type: 'test'
+  ...
+# Subtest: SessionManager rejects invalid names and wrong passphrase
+ok 4 - SessionManager rejects invalid names and wrong passphrase
+  ---
+  duration_ms: 34.2987
+  type: 'test'
+  ...
+# Subtest: SessionManager rename and delete keep index in sync
+ok 5 - SessionManager rename and delete keep index in sync
+  ---
+  duration_ms: 18.1396
+  type: 'test'
+  ...
+# Subtest: SessionManager detects envelope checksum tampering
+ok 6 - SessionManager detects envelope checksum tampering
+  ---
+  duration_ms: 17.1891
+  type: 'test'
+  ...
+# Subtest: SessionManager search returns all metadata and filtered matches
+ok 7 - SessionManager search returns all metadata and filtered matches
+  ---
+  duration_ms: 40.466
+  type: 'test'
+  ...
+# Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+  ---
+  duration_ms: 18.1085
+  type: 'test'
+  ...
+# Subtest: SessionManager handles missing sessions and rename collisions
+ok 9 - SessionManager handles missing sessions and rename collisions
+  ---
+  duration_ms: 33.9829
+  type: 'test'
+  ...
+# Subtest: SessionManager exportToPeer is blocked in local test mode
+ok 10 - SessionManager exportToPeer is blocked in local test mode
+  ---
+  duration_ms: 1.1304
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 250.4803
+TAP version 13
+# Subtest: StateManager setState merges nested settings instead of replacing
+ok 1 - StateManager setState merges nested settings instead of replacing
+  ---
+  duration_ms: 9.3838
+  type: 'test'
+  ...
+# Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+  ---
+  duration_ms: 2.5442
+  type: 'test'
+  ...
+# Subtest: StateManager migrates v1 state to v5 bridge profile settings
+ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+  ---
+  duration_ms: 2.9542
+  type: 'test'
+  ...
+# Subtest: StateManager set updates keys and writes encrypted state
+ok 4 - StateManager set updates keys and writes encrypted state
+  ---
+  duration_ms: 2.5119
+  type: 'test'
+  ...
+# Subtest: StateManager setState ignores non-object updates and recovers null settings
+ok 5 - StateManager setState ignores non-object updates and recovers null settings
+  ---
+  duration_ms: 3.1678
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines corrupted state and regenerates defaults
+ok 6 - StateManager quarantines corrupted state and regenerates defaults
+  ---
+  duration_ms: 2.9332
+  type: 'test'
+  ...
+# Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+  ---
+  duration_ms: 1.9568
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+  ---
+  duration_ms: 2.2269
+  type: 'test'
+  ...
+# Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+  ---
+  duration_ms: 3.7961
+  type: 'test'
+  ...
+# Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+  ---
+  duration_ms: 2.3438
+  type: 'test'
+  ...
+# Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+  ---
+  duration_ms: 2.6665
+  type: 'test'
+  ...
+# Subtest: StateManager handles deeply nested status updates and edge cases
+ok 12 - StateManager handles deeply nested status updates and edge cases
+  ---
+  duration_ms: 2.2503
+  type: 'test'
+  ...
+# Subtest: StateManager rejects prototype-polluting keys and updates nested settings paths
+ok 13 - StateManager rejects prototype-polluting keys and updates nested settings paths
+  ---
+  duration_ms: 2.0362
+  type: 'test'
+  ...
+# Subtest: StateManager custody helpers and trust reports preserve profile evidence
+ok 14 - StateManager custody helpers and trust reports preserve profile evidence
+  ---
+  duration_ms: 6.8662
+  type: 'test'
+  ...
+# Subtest: StateManager uses safeStorage when available and fails closed on custody loss
+ok 15 - StateManager uses safeStorage when available and fails closed on custody loss
+  ---
+  duration_ms: 2.728
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 62.8526
+TAP version 13
+# Subtest: signed artifact utility supports sign and verify round-trip
+ok 1 - signed artifact utility supports sign and verify round-trip
+  ---
+  duration_ms: 6.1493
+  type: 'test'
+  ...
+# Subtest: trusted signer verification passes for checked-in white-label config
+ok 2 - trusted signer verification passes for checked-in white-label config
+  ---
+  duration_ms: 1.9432
+  type: 'test'
+  ...
+# Subtest: fingerprint in trusted publishers matches demo public key
+ok 3 - fingerprint in trusted publishers matches demo public key
+  ---
+  duration_ms: 0.4626
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16.6289
+TAP version 13
+# Subtest: pilot pack generator creates complete non-placeholder bundle
+ok 1 - pilot pack generator creates complete non-placeholder bundle
+  ---
+  duration_ms: 47.1736
+  type: 'test'
+  ...
+# Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+  ---
+  duration_ms: 1124.2245
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1178.2603
+TAP version 13
+# Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+  ---
+  duration_ms: 647.0006
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 653.2056
+TAP version 13
+# Subtest: courier package verify passes for valid and fails for tampered payload
+ok 1 - courier package verify passes for valid and fails for tampered payload
+  ---
+  duration_ms: 114.5116
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 120.7083
+TAP version 13
+# Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+  ---
+  duration_ms: 47.7002
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 53.9697
+TAP version 13
+# Subtest: demo bundle and reset plan generate deterministic-ready outputs
+ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+  ---
+  duration_ms: 73.2765
+  type: 'test'
+  ...
+# Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+  ---
+  duration_ms: 114.0436
+  type: 'test'
+  ...
+# Subtest: deployment preflight and field-launch health checks pass
+ok 3 - deployment preflight and field-launch health checks pass
+  ---
+  duration_ms: 64.4457
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 259.0805
+TAP version 13
+# Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+  ---
+  duration_ms: 74.8584
+  type: 'test'
+  ...
+# Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+  ---
+  duration_ms: 72.5431
+  type: 'test'
+  ...
+# Subtest: renewal and feedback summaries are generated and complete
+ok 3 - renewal and feedback summaries are generated and complete
+  ---
+  duration_ms: 72.9085
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 228.1961
+TAP version 13
+# Subtest: partner and managed-service packs are generated and complete
+ok 1 - partner and managed-service packs are generated and complete
+  ---
+  duration_ms: 79.1291
+  type: 'test'
+  ...
+# Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+  ---
+  duration_ms: 111.0275
+  type: 'test'
+  ...
+# Subtest: channel, renewal, and scale status packs are generated and internally consistent
+ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+  ---
+  duration_ms: 110.8555
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 308.7595
+TAP version 13
+# Subtest: ecosystem portfolio/service/network/global packs are generated
+ok 1 - ecosystem portfolio/service/network/global packs are generated
+  ---
+  duration_ms: 151.3129
+  type: 'test'
+  ...
+# Subtest: revenue/board/operator packs are generated and defensible
+ok 2 - revenue/board/operator packs are generated and defensible
+  ---
+  duration_ms: 107.4179
+  type: 'test'
+  ...
+# Subtest: ecosystem command pack is generated and links drilldowns
+ok 3 - ecosystem command pack is generated and links drilldowns
+  ---
+  duration_ms: 36.0214
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 302.4607
+PASS ollama health — online
+PASS ollama health — offline
+PASS openai model list
+PASS openai — rejects without API key
+PASS openrouter model list + headers
+PASS groq chat non-stream
+PASS ollama chat — non-stream
+PASS ollama chat — stream
+PASS openai chat — SSE stream
+PASS status event sequence — reconnecting → online
+PASS status event sequence — error emitted
+PASS request timeout
+PASS retry exhausted — throws after maxRetries + 1 attempts
+PASS autoDetect — non-ollama returns unsupported
+PASS configure — overrides all fields in-place
+PASS setModel — validation
+PASS persona — injects system prompt
+PASS persona — always enforces NeuralShell identity even when system message present
+PASS _classifyError — all branches
+
+All LLM connection tests passed.
+
+> npm run benchmark:autonomy
+
+> neuralshell-v5@2.1.32 benchmark:autonomy
+> node tear/benchmark-autonomy.js
+
+Autonomy benchmark: 182/182 (100%) -> elite
+Report: C:\Users\KickA\Projects\Active\NeuralShell\release\autonomy-benchmark.json
+
+> node tear/smoke-packaged.js --strict-launch --isolated-user-data --timeout-ms=45000
+Packaged smoke report validated. exit=0 passed=true uptimeMs=3527
+Packaged smoke test passed.
+
+> node tear/smoke-installer.js --strict-install --timeout-ms=45000 --smoke-timeout-ms=30000
+[installer-smoke] installer.launch.start {"installerPath":"C:\\Users\\KickA\\Projects\\Active\\NeuralShell\\dist\\NeuralShell Setup 2.1.32.exe","installTimeoutMs":45000,"installDir":"C:\\Users\\KickA\\AppData\\Local\\Temp\\neuralshell-installer-smoke\\install-1777498931860-def5b8e47317"}
+[installer-smoke] installer.launch.done {"code":0,"signal":null,"durationMs":5750}
+[installer-smoke] installer.payload.checked {"exePath":"C:\\Users\\KickA\\AppData\\Local\\Temp\\neuralshell-installer-smoke\\install-1777498931860-def5b8e47317\\NeuralShell.exe","exeExists":true,"appAsarExists":true,"updateYmlExists":true}
+[installer-smoke] smoke.ready.wait.start {"exePath":"C:\\Users\\KickA\\AppData\\Local\\Temp\\neuralshell-installer-smoke\\install-1777498931860-def5b8e47317\\NeuralShell.exe","smokeReportPath":"C:\\Users\\KickA\\AppData\\Local\\Temp\\neuralshell-installer-smoke-1777498931860.json","smokeTimeoutMs":30000,"ignoreIntegrity":"1"}
+[installer-smoke] smoke.ready.wait.done {"code":0,"signal":null,"resolvedByReport":false,"durationMs":4365,"smokePassed":true,"checks":{"rendererLoad":true,"rendererDom":true,"ipcHandshake":true}}
+Installer smoke report written: C:\Users\KickA\Projects\Active\NeuralShell\release\installer-smoke-report.json
+Installer smoke passed.
+
+> node tear/smoke-native-trust.js
+Native trust smoke passed. Report: C:\Users\KickA\Projects\Active\NeuralShell\tmp\native-trust-proof-report.json
+Release gate report written: C:\Users\KickA\Projects\Active\NeuralShell\release\release-gate.json
+
+Release gate passed.
+
+> neuralshell-v5@2.1.32 canary:gate
+> node scripts/canary-gate.js --cycles=3 --min-uptime-ms=750
+
+Packaged smoke report validated. exit=0 passed=true uptimeMs=3168
+Packaged smoke test passed.
+Packaged smoke report validated. exit=0 passed=true uptimeMs=3275
+Packaged smoke test passed.
+Packaged smoke report validated. exit=0 passed=true uptimeMs=3348
+Packaged smoke test passed.
+[canary-gate] report=C:\Users\KickA\Projects\Active\NeuralShell\release\canary-gate.json
+[canary-gate] PASS
+
+> neuralshell-v5@2.1.32 diagnose:packaged
+> node tear/diagnose-packaged-launch.js --require-uptime-ms=4500
+
+Wrote packaged diagnostics: C:\Users\KickA\Projects\Active\NeuralShell\release\packaged-launch-diagnostic.json
+strictPass=true uptimeMs=6007 exitCode=null
+
+> neuralshell-v5@2.1.32 release:manifest
+> node scripts/release-manifest.js
+
+Release manifest written: C:\Users\KickA\Projects\Active\NeuralShell\release\manifest.json
+Entries: 85
+
+> neuralshell-v5@2.1.32 release:sign
+> node scripts/sign-release.js
+
+[SIGNER] Initiating Release Signature...
+[SIGNER] Signature generated: C:\Users\KickA\Projects\Active\NeuralShell\release\manifest.sig
+[SIGNER] Node Fingerprint: d061f700232deff7fb41d30e320d49a78c79e5c1c6b40758b3bf1b93661233c9
+
+> neuralshell-v5@2.1.32 release:verify:signature
+> node scripts/verify-release-signature.js
+
+Release signature verification passed. report=C:\Users\KickA\Projects\Active\NeuralShell\release\signature-verification.json
+
+> neuralshell-v5@2.1.32 release:status
+> node tear/release-status.js
+
+Release status written: C:\Users\KickA\Projects\Active\NeuralShell\release\status.json
+Release provenance written: C:\Users\KickA\Projects\Active\NeuralShell\release\provenance.json
+{
+  "generatedAt": "2026-04-29T21:43:06.638Z",
+  "profile": "installer+unpacked",
+  "artifacts": {
+    "installerExe": true,
+    "unpackedExe": true,
+    "appAsar": true,
+    "updateYml": true,
+    "manifestSig": true,
+    "manifestPub": true
+  },
+  "manifest": {
+    "fileCount": 85,
+    "generatedAt": "2026-04-29T21:43:05.572Z",
+    "version": "2.1.32"
+  },
+  "benchmark": {
+    "percent": 100,
+    "verdict": "elite",
+    "generatedAt": "2026-04-29T21:42:07.320Z"
+  },
+  "signature": {
+    "verified": true,
+    "generatedAt": "2026-04-29T21:43:06.354Z"
+  },
+  "provenance": {
+    "git": {
+      "commit": "c6cb931fd69093a0bb84807c0dec2e1ae3e86eba",
+      "branch": "synced/master-2026-04-03",
+      "tag": null
+    },
+    "github": {
+      "repository": null,
+      "workflow": null,
+      "runId": null,
+      "runAttempt": null,
+      "ref": null,
+      "sha": null
+    }
+  },
+  "packagedDiagnostics": {
+    "strictPass": true,
+    "uptimeMs": 6007,
+    "exitCode": null,
+    "generatedAt": "2026-04-29T21:43:03.434Z"
+  },
+  "installerSmoke": {
+    "passed": true,
+    "strictInstall": true,
+    "generatedAt": "2026-04-29T21:42:11.860Z"
+  },
+  "upgradeValidation": {
+    "passed": true,
+    "strict": true,
+    "generatedAt": "2026-04-29T18:43:48.141Z"
+  }
+}
+
+> neuralshell-v5@2.1.32 release:upgrade:validate
+> node scripts/release-upgrade-validation.js --strict
+
+Upgrade validation written: C:\Users\KickA\Projects\Active\NeuralShell\release\upgrade-validation.json
+Upgrade validation passed=true strict=true
+
+> neuralshell-v5@2.1.32 release:checksums
+> node scripts/release-checksums.js
+
+Release checksums written: C:\Users\KickA\Projects\Active\NeuralShell\release\checksums.txt
+Release checksums metadata written: C:\Users\KickA\Projects\Active\NeuralShell\release\checksums.json
+Entries: 19
+
+> neuralshell-v5@2.1.32 release:verify:fresh:strict
+> node tear/verify-release-freshness.js --strict-installer
+
+Release freshness verification passed.
+Mode=strict-installer Ages(min): status=0.0 manifest=0.0 benchmark=1.0 upgrade=0.0 checksums=0.0
+
+> neuralshell-v5@2.1.32 kpi:operator
+> node tear/operator-kpi.js
+
+Operator KPI gate passed. report=C:\Users\KickA\Projects\Active\NeuralShell\release\operator-kpi.json
+
+> neuralshell-v5@2.1.32 slo:gate
+> node tear/slo-gate.js
+
+SLO gate passed. report=C:\Users\KickA\Projects\Active\NeuralShell\release\slo-gate.json
+
+> neuralshell-v5@2.1.32 perf:gate
+> node scripts/performance-gate.js
+
+[performance-gate] report=C:\Users\KickA\Projects\Active\NeuralShell\release\performance-gate.json
+[performance-gate] PASS

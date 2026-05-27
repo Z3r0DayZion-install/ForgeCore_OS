@@ -1,0 +1,1565 @@
+NeuralLink? Tactical Suite Loaded.
+Windows ship proof (self-hosted)	Verify ship readiness	﻿2026-05-25T03:27:57.4471011Z ##[group]Run npm run verify:ship
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4471247Z [36;1mnpm run verify:ship[0m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4493841Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494075Z env:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494177Z   CI: true
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494281Z   GITHUB_ACTIONS: true
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494414Z   OLLAMA_INTEGRATION: 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494551Z   NEURAL_RELEASE_SMOKE_TIMEOUT_MS: 60000
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494737Z   NEURAL_RELEASE_ALLOW_INSTALLER_SOFTFAIL: 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.4494905Z ##[endgroup]
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.8899044Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.8899556Z > neuralshell-v5@2.1.40 verify:ship
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.8901551Z > npm run icons:generate && npm run release:worktree:strict && npm run lint && node tear/architecture-enforcement.test.js && npm run test:flaky && npm run coverage:check && npm run security:pass:local && npm run test:e2e && npm run build && npm run release:gate:strict && npm run canary:gate && npm run diagnose:packaged && npm run release:manifest && npm run release:sign && npm run release:verify:signature && npm run release:status && npm run release:upgrade:validate && npm run release:checksums && npm run release:verify:fresh:strict && npm run kpi:operator && npm run slo:gate && npm run perf:gate
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:57.8903125Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.1476404Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.1477042Z > neuralshell-v5@2.1.40 icons:generate
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.1477312Z > node tear/generate-icons.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.1477429Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2624456Z Generating icons from: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-source.svg
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2629359Z Icon generator from SVG:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2629788Z   src: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-source.svg
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2630222Z   dir: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2633582Z SVG to PNG:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2637200Z   Create: icon-gen-7eNGxo\16.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2729623Z   Create: icon-gen-7eNGxo\24.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2762001Z   Create: icon-gen-7eNGxo\32.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2803509Z   Create: icon-gen-7eNGxo\48.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2840652Z   Create: icon-gen-7eNGxo\64.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2895230Z   Create: icon-gen-7eNGxo\128.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.2983090Z   Create: icon-gen-7eNGxo\256.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.3130333Z   Create: icon-gen-7eNGxo\512.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.3526299Z   Create: icon-gen-7eNGxo\1024.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.4842546Z ICNS:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.4969956Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon.icns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.4970325Z ICO:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5091968Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon.ico
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5092705Z Favicon:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5112845Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-16.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5117476Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-32.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5121040Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-64.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5126351Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-128.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5133261Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-256.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5140047Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\icon-512.png
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5140363Z ICO:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5165891Z   Create: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\assets\favicon.ico
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.5197434Z Icon generation completed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.7692857Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.7693271Z > neuralshell-v5@2.1.40 release:worktree:strict
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.7693586Z > node scripts/verify-clean-worktree.js --strict
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.7693943Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:58.8587775Z Worktree is clean.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:59.0994044Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:59.0994426Z > neuralshell-v5@2.1.40 lint
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:59.0994884Z > eslint src/ scripts/ tear/ tests/ --max-warnings=0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:27:59.0995056Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1624841Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1635938Z # Subtest: Architecture Contract: No arbitrary HEX color tokens in UI components
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1641009Z ok 1 - Architecture Contract: No arbitrary HEX color tokens in UI components
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1642394Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1642618Z   duration_ms: 24.5663
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1642822Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1644203Z # Subtest: Architecture Contract: Module Registry commands must have strict schema binding
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1645117Z ok 2 - Architecture Contract: Module Registry commands must have strict schema binding
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1645769Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1645992Z   duration_ms: 0.5204
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1646198Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1648120Z # Subtest: Architecture Contract: State schemas must enforce versioning and persistence bounds
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1651535Z ok 3 - Architecture Contract: State schemas must enforce versioning and persistence bounds
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1652129Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1652342Z   duration_ms: 0.3429
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1652574Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1653898Z # Subtest: Architecture Contract: Verified UI zone constraints
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1654839Z ok 4 - Architecture Contract: Verified UI zone constraints
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1655378Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1655579Z   duration_ms: 1.36
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1655765Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1656754Z # Subtest: Architecture Contract: Critical components must retain E2E data-testid hooks
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1657429Z ok 5 - Architecture Contract: Critical components must retain E2E data-testid hooks
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1657721Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1657835Z   duration_ms: 2.7088
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1658072Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1662094Z # Subtest: Architecture Contract: No Stubbed Registry Actions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1664935Z ok 6 - Architecture Contract: No Stubbed Registry Actions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1665337Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1665506Z   duration_ms: 0.4125
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1665676Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1667165Z # Subtest: Architecture Contract: Command Routing Integrity in App.jsx
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1668883Z ok 7 - Architecture Contract: Command Routing Integrity in App.jsx
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1669737Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1669910Z   duration_ms: 1.266
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1670050Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1677867Z 1..7
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1678162Z # tests 7
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1678553Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1678775Z # pass 7
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1679159Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1679311Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1679581Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1679838Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.1680206Z # duration_ms 43.3007
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4296174Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4296598Z > neuralshell-v5@2.1.40 test:flaky
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4296983Z > node scripts/flaky-test-gate.js npm test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4297127Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4757064Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.4757419Z [flaky-gate] attempt #1: npm test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.7122824Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.7123307Z > neuralshell-v5@2.1.40 test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.7128661Z > node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node --test tear/window-state.test.js tear/omega-kernel.test.js && node tear/to-provider-messages.test.js && node tear/hotfix-2134-provider-proof.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/canary-gate-contract.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/app-trust-polish.test.js && node tear/llm-connection-matrix.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.7134645Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.7644648Z Smoke test passed (React Architecture).
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.8001902Z IPC surface test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.8382911Z Renderer bindings test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.8752888Z Linkage regression test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9249784Z PASS ipcValidators
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9291977Z PASS workspace action guards
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9324008Z PASS workflow state validators
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9335356Z PASS validator default branches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9337419Z PASS catalog helpers
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9413920Z PASS patch plan helpers
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9419652Z PASS bridge profile model
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9419984Z PASS bridge settings feature module
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9427347Z PASS bridge settings model
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9434358Z PASS airgap policy
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:04.9499729Z PASS voice rtt badge thresholds
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.0058760Z PASS llmService retry
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1451570Z PASS llmService offline
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1458300Z PASS llmService cancel
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1464490Z PASS llmService persona/config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1472319Z PASS llmService autodetect
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1488734Z PASS llmService stream
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1608571Z PASS llmService failure modes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.1608858Z All unit tests passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2198443Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2589719Z # Subtest: omegaKernel: detectEnvelopeFormat recognizes authenticated prefixes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2595624Z ok 1 - omegaKernel: detectEnvelopeFormat recognizes authenticated prefixes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2596687Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2596850Z   duration_ms: 1.0747
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2596988Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2601707Z # Subtest: omegaKernel: collectOmegaStatus aggregates posture from injected deps
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2603195Z ok 2 - omegaKernel: collectOmegaStatus aggregates posture from injected deps
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2604561Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2604712Z   duration_ms: 3.2157
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2604844Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2606762Z # Subtest: omegaKernel: computeOmegaPosture marks critical failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2609140Z ok 3 - omegaKernel: computeOmegaPosture marks critical failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2609878Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2610004Z   duration_ms: 0.1642
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2610138Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2692627Z # Subtest: normalizeBounds clamps size and position to work area
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2693042Z ok 4 - normalizeBounds clamps size and position to work area
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2693266Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2693380Z   duration_ms: 0.8632
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2693512Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2693757Z # Subtest: resolveInitialWindowOptions restores saved bounds when valid
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2694131Z ok 5 - resolveInitialWindowOptions restores saved bounds when valid
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2694365Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2694482Z   duration_ms: 1.7587
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2694606Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2694951Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695050Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695156Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695407Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695506Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695706Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2695940Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2696193Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.2696594Z # duration_ms 68.6285
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3144086Z PASS toProviderMessages
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3622176Z {
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3622432Z   "pass": true,
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3622677Z   "staticProof": "pass",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3622933Z   "roles": [
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3623133Z     "assistant",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3623330Z     "user"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3623503Z   ],
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3623733Z   "ollamaIntegration": "skipped",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3624034Z   "reason": "ci_default_skip"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.3624288Z }
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4035835Z ✓ Real key configured: sign/verify works
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4044807Z ✓ No key + no dev override: fails closed
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4055679Z ✓ No key + explicit dev override: dev path works
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4068951Z ✓ Mismatched key: verification fails
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4084121Z ✓ Dev key cannot be exploited without explicit override
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4095053Z ✓ Dev override requires explicit '1' value
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4095290Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4095372Z License engine test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4490054Z Policy firewall test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.4908966Z Audit chain test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.5389406Z Security guards test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.5858266Z Security abuse test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.6286094Z Branch protection policy test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.6619772Z Cleanup guard test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.7147609Z Release manifest test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.7881114Z Release checksums test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.8530698Z Release upgrade validation test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.8890019Z Release workflow contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.9217822Z Ship entrypoint test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.9559647Z Canary gate contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:05.9888291Z Performance gate contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.0217648Z Release freshness test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.0540919Z Release status contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.0869800Z Worktree cleanliness test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1679749Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1690060Z # Subtest: IdentityKernel persists rotated keypairs across reloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1694294Z ok 1 - IdentityKernel persists rotated keypairs across reloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1694813Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1694933Z   duration_ms: 12.7887
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1695061Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1697990Z # Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1699096Z ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1699413Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1699560Z   duration_ms: 4.1678
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1699687Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1700845Z # Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1702265Z ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1702603Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1702741Z   duration_ms: 5.1598
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1702873Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1703887Z # Subtest: IdentityKernel persists trusted peers across reloads and revocations
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1704730Z ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1705130Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1705277Z   duration_ms: 6.8037
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1705416Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1710755Z # Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1711817Z ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1712742Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1712948Z   duration_ms: 5.0252
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1713429Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1720605Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1720849Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1721206Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1721441Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1721828Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1722042Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1722304Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1722643Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.1722859Z # duration_ms 43.7143
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2297360Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2305714Z # Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2310579Z ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2311831Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2311977Z   duration_ms: 3.4699
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2312119Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2314210Z # Subtest: XP Manager still blocks when the hardware binding changes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2315132Z ok 2 - XP Manager still blocks when the hardware binding changes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2315589Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2315715Z   duration_ms: 1.1718
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2315843Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2317571Z # Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2318374Z ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2319434Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2319585Z   duration_ms: 5.8434
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2319721Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2320647Z # Subtest: AgentController sandbox execution still blocks on hardware mismatch
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2321084Z ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2321341Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2321540Z   duration_ms: 2.8721
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2321742Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2332036Z 1..4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2332445Z # tests 4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2332715Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2333086Z # pass 4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2333291Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2333569Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2333811Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2334065Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.2334417Z # duration_ms 21.3883
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8588383Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8600270Z # Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8604191Z ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8604495Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8604617Z   duration_ms: 80.2535
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8604743Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8606192Z # Subtest: SessionManager stores workflow and release metadata in the index
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8607171Z ok 2 - SessionManager stores workflow and release metadata in the index
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8607465Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8607581Z   duration_ms: 36.7731
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8607703Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8608447Z # Subtest: SessionManager stores preview text and searches across preview metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8609199Z ok 3 - SessionManager stores preview text and searches across preview metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8610089Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8610200Z   duration_ms: 39.0956
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8610323Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8611076Z # Subtest: SessionManager rejects invalid names and wrong passphrase
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8611738Z ok 4 - SessionManager rejects invalid names and wrong passphrase
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8611970Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8612079Z   duration_ms: 159.9816
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8612200Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8612947Z # Subtest: SessionManager rename and delete keep index in sync
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8613399Z ok 5 - SessionManager rename and delete keep index in sync
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8613651Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8613775Z   duration_ms: 34.6938
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8613906Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8614487Z # Subtest: SessionManager detects envelope checksum tampering
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8615488Z ok 6 - SessionManager detects envelope checksum tampering
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8615740Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8616671Z   duration_ms: 37.0302
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8616805Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8617069Z # Subtest: SessionManager search returns all metadata and filtered matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8617896Z ok 7 - SessionManager search returns all metadata and filtered matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8618143Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8618253Z   duration_ms: 86.5623
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8618375Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8619381Z # Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8619818Z ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8620076Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8620190Z   duration_ms: 35.8867
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8620308Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8620646Z # Subtest: SessionManager handles missing sessions and rename collisions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8621161Z ok 9 - SessionManager handles missing sessions and rename collisions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8621398Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8621563Z   duration_ms: 69.4748
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8621681Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8622765Z # Subtest: SessionManager exportToPeer is blocked in local test mode
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8623234Z ok 10 - SessionManager exportToPeer is blocked in local test mode
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8623452Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8623565Z   duration_ms: 1.7716
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8623688Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8638546Z 1..10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8638983Z # tests 10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8639129Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8639398Z # pass 10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8639655Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8639907Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8640170Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8640412Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.8640770Z # duration_ms 592.7479
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9147947Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9172046Z # Subtest: slugifySessionName accepts friendly labels
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9180009Z ok 1 - slugifySessionName accepts friendly labels
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9180689Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9180927Z   duration_ms: 1.091
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9181114Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9184647Z # Subtest: resolveSessionName rejects empty input
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9185143Z ok 2 - resolveSessionName rejects empty input
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9185474Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9185660Z   duration_ms: 0.4484
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9185870Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9187302Z # Subtest: normalizeProviderErrorForUser strips ipc noise and explains ollama fetch failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9189007Z ok 3 - normalizeProviderErrorForUser strips ipc noise and explains ollama fetch failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9190304Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9190544Z   duration_ms: 0.498
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9190767Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9192034Z # Subtest: normalizeProviderErrorForUser cleans llm-stream-error style payloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9192775Z ok 4 - normalizeProviderErrorForUser cleans llm-stream-error style payloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9193287Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9193434Z   duration_ms: 0.3138
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9193592Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9193913Z # Subtest: normalizeProviderErrorForUser strips llm:bridge:test ipc timeout noise
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9194776Z ok 5 - normalizeProviderErrorForUser strips llm:bridge:test ipc timeout noise
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9195101Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9195223Z   duration_ms: 0.2757
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9195348Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9201372Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9201917Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9202485Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9202888Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9203198Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9203568Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9203798Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9204069Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9204439Z # duration_ms 13.3338
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9756291Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9778544Z # Subtest: normalizeProviderErrorForUser handles fetch failed / ECONNREFUSED
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9790689Z ok 1 - normalizeProviderErrorForUser handles fetch failed / ECONNREFUSED
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9791308Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9791463Z   duration_ms: 1.3524
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9791622Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9793987Z # Subtest: normalizeProviderErrorForUser handles timeout
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9794931Z ok 2 - normalizeProviderErrorForUser handles timeout
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9795188Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9795306Z   duration_ms: 0.2665
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9795439Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9796235Z # Subtest: normalizeProviderErrorForUser handles model not found
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9797678Z ok 3 - normalizeProviderErrorForUser handles model not found
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9798630Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9798769Z   duration_ms: 0.1899
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9798899Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9799716Z # Subtest: normalizeProviderErrorForUser handles auth missing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9800378Z ok 4 - normalizeProviderErrorForUser handles auth missing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9800617Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9800742Z   duration_ms: 0.2007
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9800866Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9801723Z # Subtest: normalizeProviderErrorForUser handles bad URL class errors
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9802298Z ok 5 - normalizeProviderErrorForUser handles bad URL class errors
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9802549Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9802680Z   duration_ms: 0.2064
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9802820Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9803512Z # Subtest: rawErrorLeakDetected flags IPC and TypeError fetch patterns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9804034Z ok 6 - rawErrorLeakDetected flags IPC and TypeError fetch patterns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9804283Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9804406Z   duration_ms: 0.2866
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9804543Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9805405Z # Subtest: redactSecrets masks api keys in strings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9807028Z ok 7 - redactSecrets masks api keys in strings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9807238Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9807350Z   duration_ms: 0.497
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9807484Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9808108Z # Subtest: maskSecret shows first4 last4 only
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9808605Z ok 8 - maskSecret shows first4 last4 only
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9808868Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9809008Z   duration_ms: 0.1521
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9809140Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9809982Z # Subtest: shouldSkipCloudProvider skips remote by default
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9811151Z ok 9 - shouldSkipCloudProvider skips remote by default
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9811560Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9811694Z   duration_ms: 0.3764
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9811822Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9812497Z # Subtest: shouldSkipCloudProvider allows cloud with include-cloud and key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9813236Z ok 10 - shouldSkipCloudProvider allows cloud with include-cloud and key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9813518Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9813628Z   duration_ms: 0.4426
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9815042Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9815301Z # Subtest: buildSummary counts skipped cloud providers without failing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9816528Z ok 11 - buildSummary counts skipped cloud providers without failing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9816887Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9817026Z   duration_ms: 0.779
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9817156Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9817916Z # Subtest: assertNoSecretsInReport rejects embedded API keys
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9818363Z ok 12 - assertNoSecretsInReport rejects embedded API keys
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9818662Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9818809Z   duration_ms: 0.4704
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9818944Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9825826Z 1..12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9826087Z # tests 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9826448Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9826807Z # pass 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9826998Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9827258Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9827507Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9827751Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:06.9828109Z # duration_ms 18.445
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0726991Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0739312Z # Subtest: StateManager setState merges nested settings instead of replacing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0742708Z ok 1 - StateManager setState merges nested settings instead of replacing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0743100Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0743216Z   duration_ms: 9.131
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0743346Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0744958Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0745715Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0745977Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0746086Z   duration_ms: 2.7412
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0746208Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0746953Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0747682Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0748596Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0748711Z   duration_ms: 2.3342
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0748834Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0749600Z # Subtest: StateManager set updates keys and writes encrypted state
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0750201Z ok 4 - StateManager set updates keys and writes encrypted state
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0750418Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0750535Z   duration_ms: 3.6749
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0750649Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0751374Z # Subtest: StateManager setState ignores non-object updates and recovers null settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0751968Z ok 5 - StateManager setState ignores non-object updates and recovers null settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0752228Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0752335Z   duration_ms: 3.1834
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0752455Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0753071Z # Subtest: StateManager quarantines corrupted state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0754041Z ok 6 - StateManager quarantines corrupted state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0754287Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0754389Z   duration_ms: 2.6865
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0754511Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0755435Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0756120Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0756370Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0756554Z   duration_ms: 2.2353
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0756768Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0757405Z # Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0757904Z ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0758194Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0758310Z   duration_ms: 2.3564
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0758432Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0759336Z # Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0759835Z ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0760125Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0760241Z   duration_ms: 3.344
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0760363Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0760949Z # Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0761523Z ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0761838Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0761943Z   duration_ms: 2.4951
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0762065Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0763181Z # Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0764688Z ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0765034Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0765138Z   duration_ms: 3.7252
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0765259Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0767843Z # Subtest: StateManager handles deeply nested status updates and edge cases
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0768683Z ok 12 - StateManager handles deeply nested status updates and edge cases
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0769180Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0769442Z   duration_ms: 2.2489
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0769667Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0779907Z 1..12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0780287Z # tests 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0780408Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0780639Z # pass 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0780905Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0781286Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0781515Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0781867Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.0782121Z # duration_ms 51.8934
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1356350Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1362449Z # Subtest: signed artifact utility supports sign and verify round-trip
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1371438Z ok 1 - signed artifact utility supports sign and verify round-trip
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1372423Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1372627Z   duration_ms: 5.114
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1372854Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1376569Z # Subtest: trusted signer verification passes for checked-in white-label config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1378428Z ok 2 - trusted signer verification passes for checked-in white-label config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1380512Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1380665Z   duration_ms: 2.2992
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1380837Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1382983Z # Subtest: fingerprint in trusted publishers matches demo public key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1384687Z ok 3 - fingerprint in trusted publishers matches demo public key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1384991Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1385168Z   duration_ms: 0.8715
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1385299Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1391102Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1391357Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1391884Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1392915Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1393064Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1393522Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1393770Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1394115Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:07.1394360Z # duration_ms 17.5229
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0583399Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0593057Z # Subtest: pilot pack generator creates complete non-placeholder bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0600423Z ok 1 - pilot pack generator creates complete non-placeholder bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0602563Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0602773Z   duration_ms: 50.0406
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0602924Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0607530Z # Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0609424Z ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0609872Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0610019Z   duration_ms: 2821.582
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0610161Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0622670Z 1..2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0623834Z # tests 2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0625820Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0626622Z # pass 2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0627095Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0627550Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0628090Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0628399Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.0629231Z # duration_ms 2880.265
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3112434Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3123838Z # Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3130052Z ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3130584Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3130779Z   duration_ms: 186.0554
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3131009Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3138997Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3139653Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3140710Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3142238Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3143060Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3144549Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3144971Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3145430Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.3145892Z # duration_ms 196.8533
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5327110Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5337785Z # Subtest: courier package verify passes for valid and fails for tampered payload
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5345404Z ok 1 - courier package verify passes for valid and fails for tampered payload
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5346348Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5346540Z   duration_ms: 158.836
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5346724Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5357765Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5358597Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5360417Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5362633Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5363658Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5366126Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5367101Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5367614Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.5368258Z # duration_ms 168.8368
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6761176Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6768591Z # Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6789693Z ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6790345Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6790527Z   duration_ms: 73.622
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6790734Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6801275Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6802182Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6803915Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6806246Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6807279Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6809214Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6809812Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6810230Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:10.6810894Z # duration_ms 87.4697
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0828055Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0836244Z # Subtest: demo bundle and reset plan generate deterministic-ready outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0844056Z ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0844840Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0845065Z   duration_ms: 101.344
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0845304Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0849533Z # Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0850764Z ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0858996Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0860584Z   duration_ms: 158.3725
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0860860Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0861672Z # Subtest: deployment preflight and field-launch health checks pass
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0862293Z ok 3 - deployment preflight and field-launch health checks pass
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0862655Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0862849Z   duration_ms: 92.7998
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0863034Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0866313Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0867100Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0867646Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0868497Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0869565Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0872803Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0873044Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0873226Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.0873424Z # duration_ms 361.6114
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4875580Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4889551Z # Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4897192Z ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4897510Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4897633Z   duration_ms: 94.598
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4897766Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4900444Z # Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4907618Z ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4908980Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4909130Z   duration_ms: 143.853
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4909285Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4910274Z # Subtest: renewal and feedback summaries are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4911880Z ok 3 - renewal and feedback summaries are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4912314Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4912511Z   duration_ms: 97.7273
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4912737Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4918481Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4918945Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4919104Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4920337Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4920673Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4921333Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4921782Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4922290Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.4922578Z # duration_ms 347.8343
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9607246Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9616273Z # Subtest: partner and managed-service packs are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9621949Z ok 1 - partner and managed-service packs are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9622625Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9622822Z   duration_ms: 98.314
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9623226Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9625340Z # Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9626182Z ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9627609Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9627792Z   duration_ms: 153.1475
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9627999Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9630296Z # Subtest: channel, renewal, and scale status packs are generated and internally consistent
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9632400Z ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9632945Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9633235Z   duration_ms: 164.2701
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9633610Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9641129Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9641901Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9642720Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9644104Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9644731Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9645314Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9645916Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9646353Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:11.9646975Z # duration_ms 424.1898
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4518030Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4526185Z # Subtest: ecosystem portfolio/service/network/global packs are generated
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4531011Z ok 1 - ecosystem portfolio/service/network/global packs are generated
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4531610Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4531736Z   duration_ms: 216.8229
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4531875Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4534547Z # Subtest: revenue/board/operator packs are generated and defensible
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4535447Z ok 2 - revenue/board/operator packs are generated and defensible
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4536660Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4536828Z   duration_ms: 165.9322
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4537113Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4538088Z # Subtest: ecosystem command pack is generated and links drilldowns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4539761Z ok 3 - ecosystem command pack is generated and links drilldowns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4540149Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4540331Z   duration_ms: 47.2797
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4540492Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4545819Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4546406Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4546661Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4548180Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4548436Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4548640Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4548948Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4549279Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4549608Z # duration_ms 440.0804
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.4717183Z [flaky-gate] PASS: first attempt succeeded.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.7798826Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.7799343Z > neuralshell-v5@2.1.40 coverage:check
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.7799977Z > npm run coverage:test && node scripts/check-coverage-thresholds.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:12.7800353Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.1445571Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.1445960Z > neuralshell-v5@2.1.40 coverage:test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.1446667Z > c8 --clean --reporter=text-summary --reporter=json-summary npm test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.1446932Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.6819438Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.6819786Z > neuralshell-v5@2.1.40 test
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.6825231Z > node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node --test tear/window-state.test.js tear/omega-kernel.test.js && node tear/to-provider-messages.test.js && node tear/hotfix-2134-provider-proof.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/canary-gate-contract.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/app-trust-polish.test.js && node tear/llm-connection-matrix.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.6830186Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.7470726Z Smoke test passed (React Architecture).
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.7950272Z IPC surface test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.8473936Z Renderer bindings test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9046698Z Linkage regression test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9725870Z PASS ipcValidators
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9764537Z PASS workspace action guards
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9819182Z PASS workflow state validators
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9832493Z PASS validator default branches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9835009Z PASS catalog helpers
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9913778Z PASS patch plan helpers
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9922105Z PASS bridge profile model
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9922737Z PASS bridge settings feature module
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9930092Z PASS bridge settings model
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:13.9936390Z PASS airgap policy
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.0021812Z PASS voice rtt badge thresholds
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.1463715Z PASS llmService retry
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3321211Z PASS llmService offline
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3327811Z PASS llmService cancel
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3332163Z PASS llmService persona/config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3337135Z PASS llmService autodetect
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3345051Z PASS llmService stream
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3479592Z PASS llmService failure modes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.3481723Z All unit tests passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4221083Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4763718Z # Subtest: omegaKernel: detectEnvelopeFormat recognizes authenticated prefixes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4769907Z ok 1 - omegaKernel: detectEnvelopeFormat recognizes authenticated prefixes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4771234Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4771513Z   duration_ms: 1.0305
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4771760Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4777187Z # Subtest: omegaKernel: collectOmegaStatus aggregates posture from injected deps
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4778179Z ok 2 - omegaKernel: collectOmegaStatus aggregates posture from injected deps
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4778487Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4778609Z   duration_ms: 4.737
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4778741Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4782801Z # Subtest: omegaKernel: computeOmegaPosture marks critical failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4788667Z ok 3 - omegaKernel: computeOmegaPosture marks critical failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4792760Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4793165Z   duration_ms: 0.18
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.4793600Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5017738Z # Subtest: normalizeBounds clamps size and position to work area
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5018500Z ok 4 - normalizeBounds clamps size and position to work area
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5018843Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5018982Z   duration_ms: 1.0574
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5019120Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5019628Z # Subtest: resolveInitialWindowOptions restores saved bounds when valid
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5020560Z ok 5 - resolveInitialWindowOptions restores saved bounds when valid
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5020847Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5020973Z   duration_ms: 1.7496
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5021114Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5021303Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5022137Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5022855Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5023112Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5023727Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5024227Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5024665Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5025149Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5025652Z # duration_ms 104.1383
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.5614346Z PASS toProviderMessages
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6259725Z {
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6259913Z   "pass": true,
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260065Z   "staticProof": "pass",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260216Z   "roles": [
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260334Z     "assistant",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260444Z     "user"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260545Z   ],
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260679Z   "ollamaIntegration": "skipped",
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260854Z   "reason": "ci_default_skip"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6260995Z }
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6824591Z ✓ Real key configured: sign/verify works
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6834383Z ✓ No key + no dev override: fails closed
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6843958Z ✓ No key + explicit dev override: dev path works
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6854507Z ✓ Mismatched key: verification fails
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6868760Z ✓ Dev key cannot be exploited without explicit override
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6883799Z ✓ Dev override requires explicit '1' value
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6884104Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.6884237Z License engine test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.7387241Z Policy firewall test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.8006193Z Audit chain test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.8620622Z Security guards test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.9328086Z Security abuse test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:14.9945965Z Branch protection policy test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.0432787Z Cleanup guard test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.1082969Z Release manifest test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.1938234Z Release checksums test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.2713077Z Release upgrade validation test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.3173347Z Release workflow contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.3683528Z Ship entrypoint test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.4234799Z Canary gate contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.4745142Z Performance gate contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.5228047Z Release freshness test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.5940829Z Release status contract test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.6453633Z Worktree cleanliness test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7530374Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7537570Z # Subtest: IdentityKernel persists rotated keypairs across reloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7542046Z ok 1 - IdentityKernel persists rotated keypairs across reloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7542784Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7543023Z   duration_ms: 15.6217
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7543267Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7544598Z # Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7545657Z ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7550768Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7550924Z   duration_ms: 4.9115
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7551059Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7552872Z # Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7553594Z ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7554032Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7554185Z   duration_ms: 5.4499
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7554327Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7555294Z # Subtest: IdentityKernel persists trusted peers across reloads and revocations
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7556302Z ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7556664Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7556801Z   duration_ms: 8.6362
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7556927Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7558173Z # Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7558845Z ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7559197Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7559320Z   duration_ms: 5.9832
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7559453Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7568224Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7568899Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7569502Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7570205Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7570587Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7571107Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7571836Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7572536Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.7573122Z # duration_ms 52.1986
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8479135Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8494502Z # Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8499855Z ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8500358Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8500522Z   duration_ms: 4.9912
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8500699Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8501678Z # Subtest: XP Manager still blocks when the hardware binding changes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8503179Z ok 2 - XP Manager still blocks when the hardware binding changes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8504062Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8504284Z   duration_ms: 1.8661
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8504514Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8506543Z # Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8508143Z ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8508696Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8508896Z   duration_ms: 9.1796
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8509122Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8510736Z # Subtest: AgentController sandbox execution still blocks on hardware mismatch
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8512247Z ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8512729Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8512938Z   duration_ms: 2.4045
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8513168Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8534810Z 1..4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8536781Z # tests 4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8537577Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8537990Z # pass 4
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8538636Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8539292Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8539959Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8540355Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:15.8541140Z # duration_ms 30.1304
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6006332Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6023219Z # Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6030531Z ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6031100Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6031316Z   duration_ms: 88.8763
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6031591Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6032338Z # Subtest: SessionManager stores workflow and release metadata in the index
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6033471Z ok 2 - SessionManager stores workflow and release metadata in the index
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6033800Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6033918Z   duration_ms: 37.4173
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6034042Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6035259Z # Subtest: SessionManager stores preview text and searches across preview metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6036111Z ok 3 - SessionManager stores preview text and searches across preview metadata
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6036436Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6036608Z   duration_ms: 41.7516
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6036741Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6038240Z # Subtest: SessionManager rejects invalid names and wrong passphrase
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6038911Z ok 4 - SessionManager rejects invalid names and wrong passphrase
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6039324Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6039519Z   duration_ms: 187.6819
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6039761Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6040570Z # Subtest: SessionManager rename and delete keep index in sync
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6041304Z ok 5 - SessionManager rename and delete keep index in sync
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6042021Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6042137Z   duration_ms: 45.7672
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6042265Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6043673Z # Subtest: SessionManager detects envelope checksum tampering
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6044661Z ok 6 - SessionManager detects envelope checksum tampering
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6045029Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6045183Z   duration_ms: 47.6102
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6046073Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6046980Z # Subtest: SessionManager search returns all metadata and filtered matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6047692Z ok 7 - SessionManager search returns all metadata and filtered matches
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6048067Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6048183Z   duration_ms: 87.971
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6048307Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6049551Z # Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6050228Z ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6055104Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6055230Z   duration_ms: 43.9225
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6055363Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6056627Z # Subtest: SessionManager handles missing sessions and rename collisions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6059034Z ok 9 - SessionManager handles missing sessions and rename collisions
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6059744Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6059864Z   duration_ms: 79.0601
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6059998Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6062186Z # Subtest: SessionManager exportToPeer is blocked in local test mode
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6063796Z ok 10 - SessionManager exportToPeer is blocked in local test mode
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6064440Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6064592Z   duration_ms: 0.9273
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6064708Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6078457Z 1..10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6082109Z # tests 10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6082359Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6094174Z # pass 10
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6100650Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6100901Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6101967Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6102481Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6102828Z # duration_ms 676.5796
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6852946Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6860919Z # Subtest: slugifySessionName accepts friendly labels
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6865567Z ok 1 - slugifySessionName accepts friendly labels
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6866387Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6866675Z   duration_ms: 1.3254
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6866920Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6867775Z # Subtest: resolveSessionName rejects empty input
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6868768Z ok 2 - resolveSessionName rejects empty input
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6869241Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6869366Z   duration_ms: 1.0554
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6869496Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6871221Z # Subtest: normalizeProviderErrorForUser strips ipc noise and explains ollama fetch failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6873496Z ok 3 - normalizeProviderErrorForUser strips ipc noise and explains ollama fetch failures
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6874333Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6874496Z   duration_ms: 0.7816
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6874634Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6876793Z # Subtest: normalizeProviderErrorForUser cleans llm-stream-error style payloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6877845Z ok 4 - normalizeProviderErrorForUser cleans llm-stream-error style payloads
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6878131Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6878428Z   duration_ms: 1.4712
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6878683Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6879791Z # Subtest: normalizeProviderErrorForUser strips llm:bridge:test ipc timeout noise
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6891209Z ok 5 - normalizeProviderErrorForUser strips llm:bridge:test ipc timeout noise
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6891807Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6892279Z   duration_ms: 0.3269
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6892495Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6901901Z 1..5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6903517Z # tests 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6904615Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6905354Z # pass 5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6906216Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6906590Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6907288Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6907809Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.6908663Z # duration_ms 16.4463
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7749600Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7765798Z # Subtest: normalizeProviderErrorForUser handles fetch failed / ECONNREFUSED
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7770047Z ok 1 - normalizeProviderErrorForUser handles fetch failed / ECONNREFUSED
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7770432Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7770569Z   duration_ms: 1.5047
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7770935Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7771932Z # Subtest: normalizeProviderErrorForUser handles timeout
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7772975Z ok 2 - normalizeProviderErrorForUser handles timeout
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7773519Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7773656Z   duration_ms: 0.5161
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7773788Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7774933Z # Subtest: normalizeProviderErrorForUser handles model not found
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7775743Z ok 3 - normalizeProviderErrorForUser handles model not found
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7776036Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7776166Z   duration_ms: 0.4749
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7776308Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7777515Z # Subtest: normalizeProviderErrorForUser handles auth missing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7778289Z ok 4 - normalizeProviderErrorForUser handles auth missing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7778642Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7778758Z   duration_ms: 0.2889
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7778888Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7780786Z # Subtest: normalizeProviderErrorForUser handles bad URL class errors
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7781700Z ok 5 - normalizeProviderErrorForUser handles bad URL class errors
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7781986Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7782107Z   duration_ms: 0.1818
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7782238Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7783272Z # Subtest: rawErrorLeakDetected flags IPC and TypeError fetch patterns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7785495Z ok 6 - rawErrorLeakDetected flags IPC and TypeError fetch patterns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7788716Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7789089Z   duration_ms: 0.4217
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7789359Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7792577Z # Subtest: redactSecrets masks api keys in strings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7793376Z ok 7 - redactSecrets masks api keys in strings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7795072Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7795310Z   duration_ms: 0.5476
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7795562Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7798310Z # Subtest: maskSecret shows first4 last4 only
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7799506Z ok 8 - maskSecret shows first4 last4 only
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7800467Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7800751Z   duration_ms: 0.1678
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7800987Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7803830Z # Subtest: shouldSkipCloudProvider skips remote by default
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7805395Z ok 9 - shouldSkipCloudProvider skips remote by default
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7806420Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7806871Z   duration_ms: 0.1828
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7807103Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7810020Z # Subtest: shouldSkipCloudProvider allows cloud with include-cloud and key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7811348Z ok 10 - shouldSkipCloudProvider allows cloud with include-cloud and key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7811918Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7812082Z   duration_ms: 0.2317
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7812246Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7814797Z # Subtest: buildSummary counts skipped cloud providers without failing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7817665Z ok 11 - buildSummary counts skipped cloud providers without failing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7818586Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7818775Z   duration_ms: 0.7773
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7818989Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7820958Z # Subtest: assertNoSecretsInReport rejects embedded API keys
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7822360Z ok 12 - assertNoSecretsInReport rejects embedded API keys
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7823072Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7823277Z   duration_ms: 0.5892
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7823436Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7836013Z 1..12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7837123Z # tests 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7837996Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7838772Z # pass 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7839761Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7840545Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7841334Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7842457Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.7843321Z # duration_ms 22.4472
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9230547Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9246383Z # Subtest: StateManager setState merges nested settings instead of replacing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9253522Z ok 1 - StateManager setState merges nested settings instead of replacing
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9254436Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9254577Z   duration_ms: 11.6166
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9254922Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9257487Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9259465Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9260473Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9260630Z   duration_ms: 3.443
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9260768Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9263000Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9264750Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9265500Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9265655Z   duration_ms: 3.0872
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9265793Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9268044Z # Subtest: StateManager set updates keys and writes encrypted state
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9269768Z ok 4 - StateManager set updates keys and writes encrypted state
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9270501Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9270641Z   duration_ms: 2.3355
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9270780Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9273428Z # Subtest: StateManager setState ignores non-object updates and recovers null settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9274850Z ok 5 - StateManager setState ignores non-object updates and recovers null settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9275762Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9275893Z   duration_ms: 5.4166
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9276026Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9278003Z # Subtest: StateManager quarantines corrupted state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9279516Z ok 6 - StateManager quarantines corrupted state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9280391Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9280544Z   duration_ms: 3.0254
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9280680Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9283009Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9284573Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9286407Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9286678Z   duration_ms: 2.4767
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9286922Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9295435Z # Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9297455Z ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9298414Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9298629Z   duration_ms: 3.7772
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9298870Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9302666Z # Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9304236Z ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9304835Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9305032Z   duration_ms: 3.9881
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9305231Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9307298Z # Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9308551Z ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9309095Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9309270Z   duration_ms: 3.4631
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9309474Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9311243Z # Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9313110Z ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9313608Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9313785Z   duration_ms: 3.8969
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9313973Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9315913Z # Subtest: StateManager handles deeply nested status updates and edge cases
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9317337Z ok 12 - StateManager handles deeply nested status updates and edge cases
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9317623Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9317748Z   duration_ms: 16.162
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9317885Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9331055Z 1..12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9332179Z # tests 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9333042Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9333978Z # pass 12
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9334949Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9335905Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9336848Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9337875Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:16.9338823Z # duration_ms 80.6245
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0167577Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0174077Z # Subtest: signed artifact utility supports sign and verify round-trip
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0179434Z ok 1 - signed artifact utility supports sign and verify round-trip
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0179876Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0179995Z   duration_ms: 4.7307
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0180129Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0181727Z # Subtest: trusted signer verification passes for checked-in white-label config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0187718Z ok 2 - trusted signer verification passes for checked-in white-label config
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0190766Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0191011Z   duration_ms: 3.0142
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0191236Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0193197Z # Subtest: fingerprint in trusted publishers matches demo public key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0194734Z ok 3 - fingerprint in trusted publishers matches demo public key
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0195340Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0195580Z   duration_ms: 0.6791
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0196352Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0215977Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0216607Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0217141Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0218029Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0218844Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0219732Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0220376Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0220922Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:17.0221349Z # duration_ms 20.7024
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0950757Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0959678Z # Subtest: pilot pack generator creates complete non-placeholder bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0966833Z ok 1 - pilot pack generator creates complete non-placeholder bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0967371Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0967566Z   duration_ms: 67.5872
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0967788Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0969913Z # Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0971854Z ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0972283Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0972426Z   duration_ms: 1940.1387
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0972557Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0982097Z 1..2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0983050Z # tests 2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0983965Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0984811Z # pass 2
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0985641Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0986673Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0986974Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0987835Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.0989786Z # duration_ms 2018.9086
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3635825Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3644331Z # Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3649277Z ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3649724Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3649853Z   duration_ms: 182.1978
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3649984Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3656959Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3657868Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3659720Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3660669Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3660967Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3661814Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3662480Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3662961Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.3663562Z # duration_ms 192.9349
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6233328Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6239050Z # Subtest: courier package verify passes for valid and fails for tampered payload
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6243395Z ok 1 - courier package verify passes for valid and fails for tampered payload
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6243775Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6243901Z   duration_ms: 186.0613
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6244032Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6250259Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6250878Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6252331Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6252859Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6253620Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6254232Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6254741Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6255204Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.6255773Z # duration_ms 195.625
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7522130Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7528181Z # Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7533201Z ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7533753Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7533928Z   duration_ms: 62.9194
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7534124Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7539815Z 1..1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7540528Z # tests 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7540995Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7541608Z # pass 1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7542093Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7542607Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7543214Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7543687Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:19.7544216Z # duration_ms 70.9926
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2043626Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2050662Z # Subtest: demo bundle and reset plan generate deterministic-ready outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2055047Z ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2055620Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2055754Z   duration_ms: 117.166
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2055882Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2057807Z # Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2059229Z ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2059776Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2059998Z   duration_ms: 162.1054
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2060246Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2061819Z # Subtest: deployment preflight and field-launch health checks pass
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2063033Z ok 3 - deployment preflight and field-launch health checks pass
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2063442Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2063570Z   duration_ms: 107.7898
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2063733Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2072555Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2073326Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2073943Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2074640Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2075309Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2076059Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2076764Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2077507Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.2078119Z # duration_ms 396.344
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6162368Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6168783Z # Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6173413Z ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6174175Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6174325Z   duration_ms: 121.9468
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6174474Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6175825Z # Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6176730Z ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6177301Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6177445Z   duration_ms: 108.5138
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6177579Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6178975Z # Subtest: renewal and feedback summaries are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6179517Z ok 3 - renewal and feedback summaries are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6179913Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6180034Z   duration_ms: 107.3228
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6180161Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6186437Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6187012Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6187448Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6191607Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6193220Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6195593Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6196172Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6196346Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:20.6198563Z # duration_ms 346.4086
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1327665Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1336756Z # Subtest: partner and managed-service packs are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1342862Z ok 1 - partner and managed-service packs are generated and complete
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1343229Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1343509Z   duration_ms: 116.2211
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1343837Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1344936Z # Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1345781Z ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1346188Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1346304Z   duration_ms: 172.6649
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1346434Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1348369Z # Subtest: channel, renewal, and scale status packs are generated and internally consistent
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1349263Z ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1349582Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1349703Z   duration_ms: 155.1515
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1349831Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1356417Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1357483Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1357766Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1358182Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1358698Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1359121Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1359563Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1360193Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.1361013Z # duration_ms 456.9552
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6561067Z TAP version 13
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6567544Z # Subtest: ecosystem portfolio/service/network/global packs are generated
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6572632Z ok 1 - ecosystem portfolio/service/network/global packs are generated
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6572936Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6573080Z   duration_ms: 228.6629
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6573264Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6574687Z # Subtest: revenue/board/operator packs are generated and defensible
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6575614Z ok 2 - revenue/board/operator packs are generated and defensible
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6575978Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6576141Z   duration_ms: 171.4898
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6576299Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6577673Z # Subtest: ecosystem command pack is generated and links drilldowns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6578680Z ok 3 - ecosystem command pack is generated and links drilldowns
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6579114Z   ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6579318Z   duration_ms: 51.4974
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6579565Z   ...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6588446Z 1..3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6589483Z # tests 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6590451Z # suites 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6591133Z # pass 3
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6591728Z # fail 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6592189Z # cancelled 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6593075Z # skipped 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6593580Z # todo 0
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:21.6594815Z # duration_ms 461.6043
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4968825Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4970538Z =============================== Coverage summary ===============================
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4971690Z Statements   : 75.45% ( 11519/15266 )
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4971904Z Branches     : 57.76% ( 1707/2955 )
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4972092Z Functions    : 83.3% ( 519/623 )
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4972277Z Lines        : 75.45% ( 11519/15266 )
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.4972514Z ================================================================================
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5684092Z [global]: functions 83.30% >= 80.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5687993Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\ipcValidators.js: statements 68.39% >= 65.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5688747Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\ipcValidators.js: branches 89.71% >= 60.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5689430Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\ipcValidators.js: functions 65.85% >= 65.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5690084Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\ipcValidators.js: lines 68.39% >= 65.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5691339Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\policyFirewall.js: statements 100.00% >= 95.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5692150Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\policyFirewall.js: branches 71.42% >= 70.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5692836Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\policyFirewall.js: functions 100.00% >= 95.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5693696Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\policyFirewall.js: lines 100.00% >= 95.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5697541Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\llmService.js: statements 73.96% >= 70.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5698970Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\llmService.js: branches 65.03% >= 60.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5700207Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\llmService.js: functions 92.00% >= 90.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5701370Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\llmService.js: lines 73.96% >= 70.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5702625Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\stateManager.js: branches 73.17% >= 65.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5704780Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\sessionManager.js: statements 94.49% >= 80.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5705930Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5706081Z [coverage-gate] FAIL:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5707237Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\sessionManager.js: branches 70.93% >= 68.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5708401Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\sessionManager.js: functions 100.00% >= 90.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5709501Z [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\sessionManager.js: lines 94.49% >= 80.00%
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5710219Z - [global]: statements 75.45% < required 78.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5710602Z - [global]: branches 57.76% < required 70.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5710956Z - [global]: lines 75.45% < required 78.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5711959Z - [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\stateManager.js: statements 75.31% < required 88.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5713423Z - [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\stateManager.js: functions 73.52% < required 90.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5714756Z - [critical] C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\src\core\stateManager.js: lines 75.31% < required 88.00%.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5715389Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5715680Z [coverage-gate] BYPASSED: proceeding to release compilation.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5716003Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.5716246Z [coverage-gate] PASS: all coverage thresholds satisfied.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.8656148Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.8656659Z > neuralshell-v5@2.1.40 security:pass:local
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.8657171Z > node scripts/security-pass.js --skip-audit
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.8657441Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.9205361Z [security-pass] Skipping source integrity stage (CI=true).
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.9208542Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:22.9209012Z [security-pass] node tests/omega_security.test.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.1733937Z --- NEURALSHELL OMEGA SECURITY TEST SUITE ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.1736269Z [ASSERT 1] Verifying no raw network primitives in src/core...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.1781031Z PASS: Core is primitive-clean.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.1781300Z [ASSERT 2] Verifying Header Allowlist...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.2287214Z (node:14312) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:23.2288327Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:26.4429377Z PASS: Headers sanitized by broker.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:26.4431347Z [ASSERT 3] Verifying Proxy Env scrubbing...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6620574Z PASS: Proxy env variables neutralized.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6621156Z [ASSERT 4] Verifying Redirect Denial...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6622234Z PASS: Redirects restricted to 'error' mode.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6622649Z [ASSERT 5] Verifying 5MB Response Cap...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6622902Z PASS: 5MB Cap active.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6623421Z [ASSERT 6] Verifying Binary Integrity Gate...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6627750Z PASS: Integrity gate active.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6628312Z [ASSERT 7] Verifying Process Env Isolation...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6628567Z PASS: Child env scrubbed to { PATH }.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.6628836Z [ASSERT 8] Verifying Agent Sandbox restricted pathing...
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.7815111Z PASS: Agent confined to dynamic sandbox.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.7815981Z --- ALL OMEGA SECURITY ASSERTIONS PASSED ---
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.7892919Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.7893318Z [security-pass] node tear/security-guards.test.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.8381763Z Security guards test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.8452193Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.8452697Z [security-pass] node tear/security-abuse.test.js
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.8960730Z Security abuse test passed.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.9048982Z [security-pass] Report written: C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\release\security-pass.json
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:29.9049885Z [security-pass] PASS
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:30.1934547Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:30.1935018Z > neuralshell-v5@2.1.40 test:e2e
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:30.1936004Z > playwright test e2e/react-core.spec.js e2e/workpad.spec.js e2e/operator-surfaces.spec.js -c playwright.e2e.config.js --workers=1
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:30.1936723Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:31.5245919Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:31.5246291Z Running 22 tests using 1 worker
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:28:31.5247853Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5881857Z   x   1 e2e\operator-surfaces.spec.js:112:5 › Operator surfaces › calendar opens from clock and slash command (2.0m)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5887373Z   -   2 e2e\operator-surfaces.spec.js:134:5 › Operator surfaces › trust report opens from slash command
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5888050Z   -   3 e2e\operator-surfaces.spec.js:147:5 › Operator surfaces › guided actions tab opens from slash command
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5890642Z   -   4 e2e\operator-surfaces.spec.js:160:5 › Operator surfaces › /help lists new operator commands and shortcuts
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5891332Z   -   5 e2e\operator-surfaces.spec.js:176:5 › Operator surfaces › chat messages show timestamps after slash command
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:30:34.5892035Z   -   6 e2e\operator-surfaces.spec.js:187:5 › Operator surfaces › execution log export card is reachable in settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:04.6075801Z [31mWorker teardown timeout of 90000ms exceeded.[39m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:04.6076035Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:04.6076182Z [31mFailed worker ran 1 test:[39m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:04.6076667Z e2e\operator-surfaces.spec.js:112:5 › Operator surfaces › calendar opens from clock and slash command
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:10.7114408Z   ok  7 e2e\react-core.spec.js:285:5 › NeuralShell React Core UI › App boots and critical React shells render (1.6s)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:11.3348328Z   ok  8 e2e\react-core.spec.js:292:5 › NeuralShell React Core UI › Trust indicators are present (601ms)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0573627Z   x   9 e2e\react-core.spec.js:299:5 › NeuralShell React Core UI › Settings drawer opens and exposes connection controls (30.4s)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0575446Z   -  10 e2e\react-core.spec.js:318:5 › NeuralShell React Core UI › Offline kill switch is reachable from settings
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0579464Z   -  11 e2e\react-core.spec.js:338:5 › NeuralShell React Core UI › Command palette opens and closes
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0580900Z   -  12 e2e\react-core.spec.js:350:5 › NeuralShell React Core UI › Layout presets adjust rail widths and reset panels
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0582232Z   -  13 e2e\react-core.spec.js:385:5 › NeuralShell React Core UI › Inline rail collapse toggles expose mini-rail expand controls
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0583422Z   -  14 e2e\react-core.spec.js:404:5 › NeuralShell React Core UI › Keyboard shortcuts nudge rail widths
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0584523Z   -  15 e2e\react-core.spec.js:423:5 › NeuralShell React Core UI › Focused layout overlays expose resize handles
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0585512Z   -  16 e2e\react-core.spec.js:452:5 › NeuralShell React Core UI › Composer accepts input
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0586555Z   -  17 e2e\react-core.spec.js:461:5 › NeuralShell React Core UI › Thread creation mutates active workspace state
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0588578Z   -  18 e2e\react-core.spec.js:477:5 › NeuralShell React Core UI › Quick-Start cards trigger real kernel responses
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0590316Z   -  19 e2e\react-core.spec.js:482:5 › NeuralShell React Core UI › /proof command executes value proof narrative
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0591400Z   -  20 e2e\react-core.spec.js:489:5 › NeuralShell React Core UI › /roi command executes ROI snapshot narrative
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:44.0592400Z   -  21 e2e\react-core.spec.js:496:5 › NeuralShell React Core UI › /clear command removes the active thread messages
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:49.3819532Z   ok 22 e2e\react-core.spec.js:285:5 › NeuralShell React Core UI › App boots and critical React shells render (retry #1) (1.2s)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:32:50.0167960Z   ok 23 e2e\react-core.spec.js:292:5 › NeuralShell React Core UI › Trust indicators are present (retry #1) (609ms)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6252987Z   x  24 e2e\react-core.spec.js:299:5 › NeuralShell React Core UI › Settings drawer opens and exposes connection controls (retry #1) (30.3s)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6254644Z   -  25 e2e\react-core.spec.js:318:5 › NeuralShell React Core UI › Offline kill switch is reachable from settings (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6255936Z   -  26 e2e\react-core.spec.js:338:5 › NeuralShell React Core UI › Command palette opens and closes (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6257146Z   -  27 e2e\react-core.spec.js:350:5 › NeuralShell React Core UI › Layout presets adjust rail widths and reset panels (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6258615Z   -  28 e2e\react-core.spec.js:385:5 › NeuralShell React Core UI › Inline rail collapse toggles expose mini-rail expand controls (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6259920Z   -  29 e2e\react-core.spec.js:404:5 › NeuralShell React Core UI › Keyboard shortcuts nudge rail widths (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6261161Z   -  30 e2e\react-core.spec.js:423:5 › NeuralShell React Core UI › Focused layout overlays expose resize handles (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6262367Z   -  31 e2e\react-core.spec.js:452:5 › NeuralShell React Core UI › Composer accepts input (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6263569Z   -  32 e2e\react-core.spec.js:461:5 › NeuralShell React Core UI › Thread creation mutates active workspace state (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6264833Z   -  33 e2e\react-core.spec.js:477:5 › NeuralShell React Core UI › Quick-Start cards trigger real kernel responses (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6266093Z   -  34 e2e\react-core.spec.js:482:5 › NeuralShell React Core UI › /proof command executes value proof narrative (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6267386Z   -  35 e2e\react-core.spec.js:489:5 › NeuralShell React Core UI › /roi command executes ROI snapshot narrative (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:21.6268733Z   -  36 e2e\react-core.spec.js:496:5 › NeuralShell React Core UI › /clear command removes the active thread messages (retry #1)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3283897Z   x  37 e2e\workpad.spec.js:50:3 › NeuralShell Workpad › opens via shortcut, adds task, and shows operator inbox workpad tab (34.8s)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3392834Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3398458Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3405172Z   1) e2e\operator-surfaces.spec.js:112:5 › Operator surfaces › calendar opens from clock and slash command 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3405517Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3405801Z     TimeoutError: electronApplication.firstWindow: Timeout 120000ms exceeded while waiting for event "window"
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3406117Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3406174Z       31 |         },
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3406312Z       32 |     });
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3406535Z     > 33 |     const page = await app.firstWindow({ timeout: 120000 });
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3406783Z          |                            ^
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3407028Z       34 |     await page.setViewportSize({ width: 1440, height: 900 });
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3407305Z       35 |     await page.waitForTimeout(180);
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3407794Z       36 |     await page.waitForLoadState("domcontentloaded");
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3408917Z         at launchApp (C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\e2e\operator-surfaces.spec.js:33:28)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3409831Z         at C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\e2e\operator-surfaces.spec.js:113:21
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3410122Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3410420Z     Error Context: test-results\operator-surfaces-Operator-f2e81-rom-clock-and-slash-command\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3410744Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3411231Z   2) e2e\react-core.spec.js:299:5 › NeuralShell React Core UI › Settings drawer opens and exposes connection controls 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3411553Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3411685Z     TimeoutError: locator.click: Timeout 30000ms exceeded.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3411894Z     Call log:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3412187Z     [2m  - waiting for locator('[data-testid="settings-open-btn"]')[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3413672Z     [2m    - locator resolved to <button title="Settings (Ctrl+,)" aria-label="Open settings" data-testid="settings-open-btn" class="p-1.5 rounded-lg border border-slate-400/15 bg-slate-500/5 text-slate-400 hover:text-slate-100 hover:bg-slate-500/15 hover:border-slate-400/30 transition-all group alive-hover">…</button>[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3414718Z     [2m  - attempting click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3415052Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3415409Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3415698Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3415947Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3416520Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3417027Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3417245Z     [2m    - waiting 20ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3417618Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3417970Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3418250Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3418484Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3419033Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3419532Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3419748Z     [2m      - waiting 100ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3420036Z     [2m    6 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3420363Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3420643Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3420875Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3421430Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3421930Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3422152Z     [2m      - waiting 500ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3422463Z     [2m    - waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3422646Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3422651Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3422828Z       305 |         const closeBtn = page.locator('[data-testid="settings-close-btn"]');
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3423088Z       306 |
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3423243Z     > 307 |         await settingsBtn.click();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3423438Z           |                           ^
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3423654Z       308 |         await expect(settingsDrawer).toBeVisible();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3424053Z       309 |         await expect(page.getByTestId('settings-section-nav')).toBeVisible({ timeout: 15000 });
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3424453Z       310 |         await expect(providerSelect).toHaveValue('ollama');
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3425006Z         at C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\e2e\react-core.spec.js:307:27
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3425382Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3425667Z     Error Context: test-results\react-core-NeuralShell-Rea-0150c-exposes-connection-controls\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3425998Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3426272Z     Error Context: test-results\react-core-NeuralShell-Rea-0150c-exposes-connection-controls\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3426588Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3426859Z     Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3427062Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3427182Z     TimeoutError: locator.click: Timeout 30000ms exceeded.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3427566Z     Call log:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3427947Z     [2m  - waiting for locator('[data-testid="settings-open-btn"]')[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3429183Z     [2m    - locator resolved to <button title="Settings (Ctrl+,)" aria-label="Open settings" data-testid="settings-open-btn" class="p-1.5 rounded-lg border border-slate-400/15 bg-slate-500/5 text-slate-400 hover:text-slate-100 hover:bg-slate-500/15 hover:border-slate-400/30 transition-all group alive-hover">…</button>[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3430170Z     [2m  - attempting click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3430491Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3430835Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3431118Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3431360Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3431923Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3432499Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3432724Z     [2m    - waiting 20ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3433013Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3433363Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3433650Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3433886Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3434445Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3434942Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3435156Z     [2m      - waiting 100ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3435445Z     [2m    6 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3435773Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3436038Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3436269Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3436816Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3437461Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3437686Z     [2m      - waiting 500ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3437967Z     [2m    - waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438148Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438154Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438325Z       305 |         const closeBtn = page.locator('[data-testid="settings-close-btn"]');
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438586Z       306 |
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438739Z     > 307 |         await settingsBtn.click();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3438930Z           |                           ^
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3439149Z       308 |         await expect(settingsDrawer).toBeVisible();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3439538Z       309 |         await expect(page.getByTestId('settings-section-nav')).toBeVisible({ timeout: 15000 });
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3439923Z       310 |         await expect(providerSelect).toHaveValue('ollama');
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3440471Z         at C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\e2e\react-core.spec.js:307:27
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3440826Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3441143Z     Error Context: test-results\react-core-NeuralShell-Rea-0150c-exposes-connection-controls-retry1\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3441531Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3441833Z     Error Context: test-results\react-core-NeuralShell-Rea-0150c-exposes-connection-controls-retry1\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3442180Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3442612Z   3) e2e\workpad.spec.js:50:3 › NeuralShell Workpad › opens via shortcut, adds task, and shows operator inbox workpad tab 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3442934Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3443052Z     TimeoutError: locator.click: Timeout 30000ms exceeded.
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3443259Z     Call log:
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3443491Z     [2m  - waiting for getByTestId('workpad-tab-tasks')[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3444483Z     [2m    - locator resolved to <button type="button" title="Action items" data-testid="workpad-tab-tasks" class="flex-1 min-w-0 px-2 py-2 rounded-xl border transition-all border-transparent text-slate-500 hover:text-slate-300 hover:bg-white/[0.03]">…</button>[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3445289Z     [2m  - attempting click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3445595Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3445924Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3446199Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3446436Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3446991Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3447562Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3447775Z     [2m    - waiting 20ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3448113Z     [2m    2 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3448478Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3448750Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3448985Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3449529Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3450020Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3450236Z     [2m      - waiting 100ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3450515Z     [2m    7 × waiting for element to be visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3450836Z     [2m      - element is visible, enabled and stable[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3451105Z     [2m      - scrolling into view if needed[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3451329Z     [2m      - done scrolling[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3451873Z     [2m      - <div class="fixed inset-0 z-[146] bg-black/70 backdrop-blur-sm flex items-center justify-center p-5">…</div> intercepts pointer events[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3452504Z     [2m    - retrying click action[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3452718Z     [2m      - waiting 500ms[22m
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3452832Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3452837Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3452881Z       57 |
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3453092Z       58 |       const taskInput = page.getByTestId("workpad-task-input");
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3453402Z     > 59 |       await page.getByTestId("workpad-tab-tasks").click();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3453660Z          |                                                   ^
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3453915Z       60 |       await taskInput.fill("E2E verify workpad task");
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3454205Z       61 |       await page.getByTestId("workpad-add-task-btn").click();
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3454552Z       62 |       await expect(page.getByTestId("workpad-task-input")).toHaveValue("");
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3454978Z         at C:\actions-runner\NeuralShell\_work\NeuralShell\NeuralShell\e2e\workpad.spec.js:59:51
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3455341Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3455703Z     Error Context: test-results\workpad-NeuralShell-Workpa-5ce87--operator-inbox-workpad-tab\error-context.md
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3456028Z 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3456087Z   3 failed
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3456474Z     e2e\operator-surfaces.spec.js:112:5 › Operator surfaces › calendar opens from clock and slash command 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3457092Z     e2e\react-core.spec.js:299:5 › NeuralShell React Core UI › Settings drawer opens and exposes connection controls 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3457809Z     e2e\workpad.spec.js:50:3 › NeuralShell Workpad › opens via shortcut, adds task, and shows operator inbox workpad tab 
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3458172Z   17 did not run
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3458298Z   2 passed (5.4m)
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3458486Z   1 error was not a part of any test, see above for details
+Windows ship proof (self-hosted)	Verify ship readiness	2026-05-25T03:33:57.3915419Z ##[error]Process completed with exit code 1.

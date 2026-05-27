@@ -1,0 +1,2 @@
+conversation_id,title,create_time,update_time,month_bucket,message_count,primary_project,project_names_raw,project_names_canonical,is_real_project_work,confidence_0_1,classification_reason,summary
+68bcba43-9fd0-800f-a0c2-d5ab6f8d72eb,XXXplorer development progress,,,unknown_date,0,neuralos,neuralos,neuralos,True,0.6,matched canonical project aliases: neuralos,XXXplorer development progress classified as neuralos (project work). Reason: matched canonical project aliases: neuralos.

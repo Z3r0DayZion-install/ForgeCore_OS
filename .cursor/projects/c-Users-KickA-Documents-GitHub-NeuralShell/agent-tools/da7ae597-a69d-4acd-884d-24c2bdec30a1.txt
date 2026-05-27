@@ -1,0 +1,651 @@
+NeuralLink? Tactical Suite Loaded.
+gate	Milestone roadmap status	2026-05-08T01:42:20.9294231Z   Milestone A ΓÇö **v2.1.32 ship closed** (publish + proof): 0 done, 7 open
+gate	Run flaky test gate	2026-05-08T01:42:21.3353339Z Γ£ô IPC inventory files match src/main.js
+gate	Run flaky test gate	2026-05-08T01:42:21.4677309Z PASS bridge profile model
+gate	Run flaky test gate	2026-05-08T01:42:22.2131518Z [test 24/47] node tear/ship-entrypoints.test.js
+gate	Run flaky test gate	2026-05-08T01:42:22.2353733Z Ship entrypoint test passed.
+gate	Run flaky test gate	2026-05-08T01:42:23.0800993Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-08T01:42:23.0802107Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-08T01:42:23.0804974Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-08T01:42:23.0806242Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-08T01:42:23.0822778Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-08T01:42:23.0824041Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-08T01:42:23.0886570Z # Subtest: StateManager custody helpers and trust reports preserve profile evidence
+gate	Run flaky test gate	2026-05-08T01:42:23.0887220Z ok 14 - StateManager custody helpers and trust reports preserve profile evidence
+gate	Run flaky test gate	2026-05-08T01:42:23.8861708Z # Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Run flaky test gate	2026-05-08T01:42:23.8868962Z ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Run coverage gate	2026-05-08T01:42:26.0436415Z Γ£ô IPC inventory files match src/main.js
+gate	Run coverage gate	2026-05-08T01:42:26.1967638Z PASS bridge profile model
+gate	Run coverage gate	2026-05-08T01:42:27.0402919Z [test 24/47] node tear/ship-entrypoints.test.js
+gate	Run coverage gate	2026-05-08T01:42:27.0646343Z Ship entrypoint test passed.
+gate	Run coverage gate	2026-05-08T01:42:28.0081394Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run coverage gate	2026-05-08T01:42:28.0083136Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run coverage gate	2026-05-08T01:42:28.0086844Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+gate	Run coverage gate	2026-05-08T01:42:28.0088116Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+gate	Run coverage gate	2026-05-08T01:42:28.0108826Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run coverage gate	2026-05-08T01:42:28.0110054Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run coverage gate	2026-05-08T01:42:28.0140993Z # Subtest: StateManager custody helpers and trust reports preserve profile evidence
+gate	Run coverage gate	2026-05-08T01:42:28.0142222Z ok 14 - StateManager custody helpers and trust reports preserve profile evidence
+gate	Run coverage gate	2026-05-08T01:42:28.9892654Z # Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Run coverage gate	2026-05-08T01:42:28.9898415Z ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Complete job	2026-05-08T01:42:31.5939457Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+ship_readiness	Set up job	∩╗┐2026-05-08T01:42:35.9191822Z Current runner version: '2.334.0'
+ship_readiness	Set up job	2026-05-08T01:42:35.9247341Z ##[group]Runner Image Provisioner
+ship_readiness	Set up job	2026-05-08T01:42:35.9248138Z Hosted Compute Agent
+ship_readiness	Set up job	2026-05-08T01:42:35.9248690Z Version: 20260422.526
+ship_readiness	Set up job	2026-05-08T01:42:35.9249557Z Commit: e1a9e573f4d0838b3a7c1b07401aeb29ed3635a9
+ship_readiness	Set up job	2026-05-08T01:42:35.9250246Z Build Date: 2026-04-22T09:31:31Z
+ship_readiness	Set up job	2026-05-08T01:42:35.9250880Z Worker ID: {8bb2b6d1-bce2-44b7-9174-c5f1e797a312}
+ship_readiness	Set up job	2026-05-08T01:42:35.9251554Z Azure Region: eastus
+ship_readiness	Set up job	2026-05-08T01:42:35.9252118Z ##[endgroup]
+ship_readiness	Set up job	2026-05-08T01:42:35.9253428Z ##[group]Operating System
+ship_readiness	Set up job	2026-05-08T01:42:35.9254031Z Microsoft Windows Server 2025
+ship_readiness	Set up job	2026-05-08T01:42:35.9254572Z 10.0.26100
+ship_readiness	Set up job	2026-05-08T01:42:35.9254983Z Datacenter
+ship_readiness	Set up job	2026-05-08T01:42:35.9255534Z ##[endgroup]
+ship_readiness	Set up job	2026-05-08T01:42:35.9255969Z ##[group]Runner Image
+ship_readiness	Set up job	2026-05-08T01:42:35.9256468Z Image: windows-2025
+ship_readiness	Set up job	2026-05-08T01:42:35.9257337Z Version: 20260428.110.2
+ship_readiness	Set up job	2026-05-08T01:42:35.9258358Z Included Software: https://github.com/actions/runner-images/blob/win25/20260428.110/images/windows/Windows2025-Readme.md
+ship_readiness	Set up job	2026-05-08T01:42:35.9260317Z Image Release: https://github.com/actions/runner-images/releases/tag/win25%2F20260428.110
+ship_readiness	Set up job	2026-05-08T01:42:35.9261225Z ##[endgroup]
+ship_readiness	Set up job	2026-05-08T01:42:35.9262211Z ##[group]GITHUB_TOKEN Permissions
+ship_readiness	Set up job	2026-05-08T01:42:35.9264400Z Actions: write
+ship_readiness	Set up job	2026-05-08T01:42:35.9264961Z Contents: read
+ship_readiness	Set up job	2026-05-08T01:42:35.9265450Z Metadata: read
+ship_readiness	Set up job	2026-05-08T01:42:35.9266105Z ##[endgroup]
+ship_readiness	Set up job	2026-05-08T01:42:35.9268458Z Secret source: Actions
+ship_readiness	Set up job	2026-05-08T01:42:35.9269086Z Prepare workflow directory
+ship_readiness	Set up job	2026-05-08T01:42:35.9639450Z Prepare all required actions
+ship_readiness	Set up job	2026-05-08T01:42:35.9676674Z Getting action download info
+ship_readiness	Set up job	2026-05-08T01:42:36.1828785Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+ship_readiness	Set up job	2026-05-08T01:42:36.3038030Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+ship_readiness	Set up job	2026-05-08T01:42:36.5233745Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+ship_readiness	Set up job	2026-05-08T01:42:36.8558364Z Complete job name: ship_readiness
+ship_readiness	Checkout	∩╗┐2026-05-08T01:42:37.0213657Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+ship_readiness	Checkout	2026-05-08T01:42:37.0215040Z with:
+ship_readiness	Checkout	2026-05-08T01:42:37.0215492Z   repository: Z3r0DayZion-install/NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:37.0216261Z   token: ***
+ship_readiness	Checkout	2026-05-08T01:42:37.0216656Z   ssh-strict: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0217069Z   ssh-user: git
+ship_readiness	Checkout	2026-05-08T01:42:37.0217483Z   persist-credentials: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0217951Z   clean: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0218479Z   sparse-checkout-cone-mode: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0219045Z   fetch-depth: 1
+ship_readiness	Checkout	2026-05-08T01:42:37.0219442Z   fetch-tags: false
+ship_readiness	Checkout	2026-05-08T01:42:37.0219856Z   show-progress: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0220264Z   lfs: false
+ship_readiness	Checkout	2026-05-08T01:42:37.0220634Z   submodules: false
+ship_readiness	Checkout	2026-05-08T01:42:37.0221041Z   set-safe-directory: true
+ship_readiness	Checkout	2026-05-08T01:42:37.0221764Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:37.1889550Z Syncing repository: Z3r0DayZion-install/NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:37.1893326Z ##[group]Getting Git version info
+ship_readiness	Checkout	2026-05-08T01:42:37.1894027Z Working directory is 'D:\a\NeuralShell\NeuralShell'
+ship_readiness	Checkout	2026-05-08T01:42:37.2836531Z [command]"C:\Program Files\Git\bin\git.exe" version
+ship_readiness	Checkout	2026-05-08T01:42:37.6607006Z git version 2.54.0.windows.1
+ship_readiness	Checkout	2026-05-08T01:42:37.6660601Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:37.6680621Z Temporarily overriding HOME='D:\a\_temp\dbaa983b-b571-49d6-a515-82e3e4405b32' before making global git config changes
+ship_readiness	Checkout	2026-05-08T01:42:37.6692472Z Adding repository directory to the temporary git global config as a safe directory
+ship_readiness	Checkout	2026-05-08T01:42:37.6694480Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\NeuralShell\NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:37.7322194Z Deleting the contents of 'D:\a\NeuralShell\NeuralShell'
+ship_readiness	Checkout	2026-05-08T01:42:37.7328903Z ##[group]Initializing the repository
+ship_readiness	Checkout	2026-05-08T01:42:37.7339420Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\NeuralShell\NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:37.8083833Z Initialized empty Git repository in D:/a/NeuralShell/NeuralShell/.git/
+ship_readiness	Checkout	2026-05-08T01:42:37.8131881Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/Z3r0DayZion-install/NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:37.8694357Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:37.8695602Z ##[group]Disabling automatic garbage collection
+ship_readiness	Checkout	2026-05-08T01:42:37.8704247Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+ship_readiness	Checkout	2026-05-08T01:42:37.8992028Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:37.8993154Z ##[group]Setting up auth
+ship_readiness	Checkout	2026-05-08T01:42:37.9019513Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+ship_readiness	Checkout	2026-05-08T01:42:37.9347346Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+ship_readiness	Checkout	2026-05-08T01:42:39.3233172Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+ship_readiness	Checkout	2026-05-08T01:42:39.3540867Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+ship_readiness	Checkout	2026-05-08T01:42:39.8829865Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+ship_readiness	Checkout	2026-05-08T01:42:39.9120329Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+ship_readiness	Checkout	2026-05-08T01:42:40.4239801Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+ship_readiness	Checkout	2026-05-08T01:42:40.4546301Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:40.4547655Z ##[group]Fetching the repository
+ship_readiness	Checkout	2026-05-08T01:42:40.4565493Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4698c11779d13fecde40433110e0995a1908dbf9:refs/remotes/pull/60/merge
+ship_readiness	Checkout	2026-05-08T01:42:42.1551148Z From https://github.com/Z3r0DayZion-install/NeuralShell
+ship_readiness	Checkout	2026-05-08T01:42:42.1551802Z  * [new ref]         4698c11779d13fecde40433110e0995a1908dbf9 -> pull/60/merge
+ship_readiness	Checkout	2026-05-08T01:42:42.1867941Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:42.1868370Z ##[group]Determining the checkout info
+ship_readiness	Checkout	2026-05-08T01:42:42.1870659Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:42.1882092Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+ship_readiness	Checkout	2026-05-08T01:42:42.2285352Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+ship_readiness	Checkout	2026-05-08T01:42:42.2586902Z ##[group]Checking out the ref
+ship_readiness	Checkout	2026-05-08T01:42:42.2598925Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/60/merge
+ship_readiness	Checkout	2026-05-08T01:42:43.2410188Z Note: switching to 'refs/remotes/pull/60/merge'.
+ship_readiness	Checkout	2026-05-08T01:42:43.2410839Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2411068Z You are in 'detached HEAD' state. You can look around, make experimental
+ship_readiness	Checkout	2026-05-08T01:42:43.2411989Z changes and commit them, and you can discard any commits you make in this
+ship_readiness	Checkout	2026-05-08T01:42:43.2413144Z state without impacting any branches by switching back to a branch.
+ship_readiness	Checkout	2026-05-08T01:42:43.2413420Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2413596Z If you want to create a new branch to retain commits you create, you may
+ship_readiness	Checkout	2026-05-08T01:42:43.2414057Z do so (now or later) by using -c with the switch command. Example:
+ship_readiness	Checkout	2026-05-08T01:42:43.2414291Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2414395Z   git switch -c <new-branch-name>
+ship_readiness	Checkout	2026-05-08T01:42:43.2414701Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2414809Z Or undo this operation with:
+ship_readiness	Checkout	2026-05-08T01:42:43.2415015Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2415105Z   git switch -
+ship_readiness	Checkout	2026-05-08T01:42:43.2415224Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2415416Z Turn off this advice by setting config variable advice.detachedHead to false
+ship_readiness	Checkout	2026-05-08T01:42:43.2416859Z 
+ship_readiness	Checkout	2026-05-08T01:42:43.2417240Z HEAD is now at 4698c11 Merge d2b736c331977636113bdd098b8f81ed6e08b509 into 4e41cbcbf973ca95ec29f9b5ef11fb22b8a7e3bf
+ship_readiness	Checkout	2026-05-08T01:42:43.2568696Z ##[endgroup]
+ship_readiness	Checkout	2026-05-08T01:42:43.2977353Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+ship_readiness	Checkout	2026-05-08T01:42:43.3241771Z 4698c11779d13fecde40433110e0995a1908dbf9
+ship_readiness	Setup Node	∩╗┐2026-05-08T01:42:43.3789828Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+ship_readiness	Setup Node	2026-05-08T01:42:43.3790345Z with:
+ship_readiness	Setup Node	2026-05-08T01:42:43.3790546Z   node-version: 22.12.0
+ship_readiness	Setup Node	2026-05-08T01:42:43.3790750Z   cache: npm
+ship_readiness	Setup Node	2026-05-08T01:42:43.3790917Z   always-auth: false
+ship_readiness	Setup Node	2026-05-08T01:42:43.3791103Z   check-latest: false
+ship_readiness	Setup Node	2026-05-08T01:42:43.3792070Z   token: ***
+ship_readiness	Setup Node	2026-05-08T01:42:43.3792246Z ##[endgroup]
+ship_readiness	Setup Node	2026-05-08T01:42:43.6045140Z Attempting to download 22.12.0...
+ship_readiness	Setup Node	2026-05-08T01:42:43.9962532Z Acquiring 22.12.0 - x64 from https://github.com/actions/node-versions/releases/download/22.12.0-12152383658/node-22.12.0-win32-x64.7z
+ship_readiness	Setup Node	2026-05-08T01:42:44.4833654Z Extracting ...
+ship_readiness	Setup Node	2026-05-08T01:42:46.9640579Z Adding to the cache ...
+ship_readiness	Setup Node	2026-05-08T01:42:51.7045157Z ##[group]Environment details
+ship_readiness	Setup Node	2026-05-08T01:42:52.6639685Z node: v22.12.0
+ship_readiness	Setup Node	2026-05-08T01:42:52.6640039Z npm: 10.9.0
+ship_readiness	Setup Node	2026-05-08T01:42:52.6640213Z yarn: 1.22.22
+ship_readiness	Setup Node	2026-05-08T01:42:52.6640677Z ##[endgroup]
+ship_readiness	Setup Node	2026-05-08T01:42:52.7233028Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\hostedtoolcache\windows\node\22.12.0\x64\npm.cmd config get cache"
+ship_readiness	Setup Node	2026-05-08T01:42:53.0072342Z C:\npm\cache
+ship_readiness	Setup Node	2026-05-08T01:42:53.1648761Z npm cache is not found
+ship_readiness	Install deps	∩╗┐2026-05-08T01:42:53.1924998Z ##[group]Run npm ci
+ship_readiness	Install deps	2026-05-08T01:42:53.1925326Z [36;1mnpm ci[0m
+ship_readiness	Install deps	2026-05-08T01:42:53.2635489Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Install deps	2026-05-08T01:42:53.2635871Z ##[endgroup]
+ship_readiness	Install deps	2026-05-08T01:43:02.7216851Z npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+ship_readiness	Install deps	2026-05-08T01:43:04.1842021Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+ship_readiness	Install deps	2026-05-08T01:43:04.2515254Z npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+ship_readiness	Install deps	2026-05-08T01:43:04.6886221Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+ship_readiness	Install deps	2026-05-08T01:43:05.3777774Z npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ship_readiness	Install deps	2026-05-08T01:43:17.0885602Z 
+ship_readiness	Install deps	2026-05-08T01:43:17.0886456Z added 408 packages, and audited 410 packages in 18s
+ship_readiness	Install deps	2026-05-08T01:43:17.0888470Z 
+ship_readiness	Install deps	2026-05-08T01:43:17.0888928Z 69 packages are looking for funding
+ship_readiness	Install deps	2026-05-08T01:43:17.0889392Z   run `npm fund` for details
+ship_readiness	Install deps	2026-05-08T01:43:17.0900104Z 
+ship_readiness	Install deps	2026-05-08T01:43:17.0900389Z found 0 vulnerabilities
+ship_readiness	Install renderer deps	∩╗┐2026-05-08T01:43:17.3526270Z ##[group]Run npm ci --prefix src/renderer
+ship_readiness	Install renderer deps	2026-05-08T01:43:17.3526679Z [36;1mnpm ci --prefix src/renderer[0m
+ship_readiness	Install renderer deps	2026-05-08T01:43:17.3584247Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Install renderer deps	2026-05-08T01:43:17.3584582Z ##[endgroup]
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7679489Z 
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7680251Z added 63 packages, and audited 64 packages in 5s
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7680840Z 
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7681190Z 14 packages are looking for funding
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7681827Z   run `npm fund` for details
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7696177Z 
+ship_readiness	Install renderer deps	2026-05-08T01:43:22.7696392Z found 0 vulnerabilities
+ship_readiness	Prepare Playwright artifact directories	∩╗┐2026-05-08T01:43:22.8594285Z ##[group]Run New-Item -ItemType Directory -Force -Path playwright-report | Out-Null
+ship_readiness	Prepare Playwright artifact directories	2026-05-08T01:43:22.8595001Z [36;1mNew-Item -ItemType Directory -Force -Path playwright-report | Out-Null[0m
+ship_readiness	Prepare Playwright artifact directories	2026-05-08T01:43:22.8595524Z [36;1mNew-Item -ItemType Directory -Force -Path test-results | Out-Null[0m
+ship_readiness	Prepare Playwright artifact directories	2026-05-08T01:43:22.8656333Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Prepare Playwright artifact directories	2026-05-08T01:43:22.8656667Z ##[endgroup]
+ship_readiness	Write ship readiness E2E artifact marker	∩╗┐2026-05-08T01:43:23.2316847Z ##[group]Run "ship-readiness-e2e started at $(Get-Date -Format o)" | Out-File -Encoding utf8 test-results/ship-readiness-e2e-marker.txt
+ship_readiness	Write ship readiness E2E artifact marker	2026-05-08T01:43:23.2317858Z [36;1m"ship-readiness-e2e started at $(Get-Date -Format o)" | Out-File -Encoding utf8 test-results/ship-readiness-e2e-marker.txt[0m
+ship_readiness	Write ship readiness E2E artifact marker	2026-05-08T01:43:23.2376091Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Write ship readiness E2E artifact marker	2026-05-08T01:43:23.2376438Z ##[endgroup]
+ship_readiness	Run e2e founder flows	∩╗┐2026-05-08T01:43:23.8265101Z ##[group]Run npm run test:e2e
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:23.8265453Z [36;1mnpm run test:e2e[0m
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:23.8321960Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:23.8322296Z ##[endgroup]
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.4021091Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.4021714Z > neuralshell-v5@2.1.32 pretest:e2e
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.4022352Z > npm run renderer:ensure-build
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.4022574Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.7142335Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.7142815Z > neuralshell-v5@2.1.32 renderer:ensure-build
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.7143390Z > node scripts/ensure_renderer_built.cjs
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.7143714Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:24.7846161Z [renderer:ensure-build] Renderer dist is stale; rebuilding...
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.0689792Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.0690435Z > neuralshell-renderer@2.0.0 build
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.0690778Z > vite build
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.0690892Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.5557778Z [36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:25.5728113Z [2K
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:26.7798743Z transforming...Γ£ô 2053 modules transformed.
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:27.3498667Z rendering chunks...
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6436260Z ../../dist-renderer/index.html                                    0.95 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6437380Z ../../dist-renderer/assets/index-CidDSky-.css                   313.54 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6438461Z ../../dist-renderer/js/rolldown-runtime-E2wbm5IW.js               0.69 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6439743Z ../../dist-renderer/js/OnboardingProgressRail-DtHMNd7z.js         1.23 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6441237Z ../../dist-renderer/js/RoleSwitcher-DurgV7zm.js                   1.37 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6442208Z ../../dist-renderer/js/runtimeEventBus-CCiW6qjq.js                1.39 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6443094Z ../../dist-renderer/js/recordIO-DWzXnVa3.js                       1.67 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6443942Z ../../dist-renderer/js/DrillTemplateEditor-nI9FEC_P.js            1.77 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6444531Z ../../dist-renderer/js/SupportBundleCard-CgHPBYnC.js              2.08 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6445041Z ../../dist-renderer/js/MessageDensityBar-CqNRRYuZ.js              2.38 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6445524Z ../../dist-renderer/js/ScratchpadTab-CyzJe98O.js                  2.49 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6445998Z ../../dist-renderer/js/UpdateRingConsole-CXFO-zQt.js              2.51 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6446478Z ../../dist-renderer/js/vendor-state-D-fEEIv3.js                   2.54 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6471023Z ../../dist-renderer/js/ReleaseHealthConsole-DfrTRdwQ.js           2.65 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6471921Z ../../dist-renderer/js/BuyerEvaluationCenter-HD2PJv7n.js          2.69 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6472754Z ../../dist-renderer/js/CommercialPackageConsole-C8wOYUDF.js       3.08 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6473572Z ../../dist-renderer/js/UpgradeModal-C8TqbzRs.js                   3.10 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6474182Z ../../dist-renderer/js/ProviderSweep-D0GflgJL.js                  3.20 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6474672Z ../../dist-renderer/js/ReferralCard-DBdiJWle.js                   3.22 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6475178Z ../../dist-renderer/js/RuntimeAlertsDrawer-Ch3sjSBl.js            3.24 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6475666Z ../../dist-renderer/js/signedArtifacts-bFkVFdnG.js                3.42 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6476132Z ../../dist-renderer/js/vendor-misc-CedZIPer.js                    3.43 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6476886Z ../../dist-renderer/js/PilotKitConsole-DLfBHT7Z.js                3.48 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6477363Z ../../dist-renderer/js/ProvisioningWizard-DqE3VtqW.js             3.48 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6477832Z ../../dist-renderer/js/ThreadDrawer-BfrVgvFB.js                   3.72 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6478311Z ../../dist-renderer/js/BoardOperatingPackConsole-CRTq0Rw0.js      3.76 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6478799Z ../../dist-renderer/js/LicensedOperatorFramework-BApIzWK7.js      3.78 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6479308Z ../../dist-renderer/js/PartnerNetworkGovernance-D6WggTnK.js       3.90 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6479797Z ../../dist-renderer/js/IssueAssistModal-DYvz_44r.js               3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6482735Z ../../dist-renderer/js/BranchDiffView-CjdKV7o1.js                 3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6483261Z ../../dist-renderer/js/SupportOpsConsole-ClZgqEDB.js              3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6483750Z ../../dist-renderer/js/VoiceMode-lxiOBBpC.js                      3.93 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6484241Z ../../dist-renderer/js/PilotConversionConsole-DCOwNui5.js         3.95 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6484822Z ../../dist-renderer/js/EcosystemPortfolioConsole-d27a7mGX.js      4.02 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6485335Z ../../dist-renderer/js/SmartContextWindow-C0P7v-jA.js             4.07 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6485810Z ../../dist-renderer/js/SuccessCaptureModal-DK25VAfc.js            4.15 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6486281Z ../../dist-renderer/js/pricingTiers-BBqgecfY.js                   4.18 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6486739Z ../../dist-renderer/js/ServiceLineConsole-BX9PzNU3.js             4.22 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6487205Z ../../dist-renderer/js/ProofVisualizer-BTjt2iQV.js                4.24 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6487876Z ../../dist-renderer/js/GhostReplay-DlN2rT9X.js                    4.28 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6488381Z ../../dist-renderer/js/OfflineUpdateConsole-DtZW9cfW.js           4.29 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6489072Z ../../dist-renderer/js/GlobalPlanningConsole-Dz7t7AVY.js          4.34 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6489562Z ../../dist-renderer/js/EcosystemRevenuePlanner-BlWK6xw_.js        4.36 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6490045Z ../../dist-renderer/js/PortfolioRolloutPlanner-u4OWysJC.js        4.41 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6490531Z ../../dist-renderer/js/DeploymentProgramCenter-BrN-d4Iv.js        4.48 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6491007Z ../../dist-renderer/js/EcosystemCommandCenter-siQqEO6A.js         4.67 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6491486Z ../../dist-renderer/js/RevenueOpsConsole-Byx-m8bc.js              4.71 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6491968Z ../../dist-renderer/js/ChannelExpansionPlanner-CPFQ2PK1.js        4.74 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6492467Z ../../dist-renderer/js/OperatorDashboard-Dcl6hZT6.js              4.74 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6492941Z ../../dist-renderer/js/OnboardingWizard-CHpZ8O41.js               4.75 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6493408Z ../../dist-renderer/js/FunnelDashboard-9zgMFLBO.js                4.93 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6493868Z ../../dist-renderer/js/RevenueConsole-DHMDaKNM.js                 4.96 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6494347Z ../../dist-renderer/js/CrossAccountRenewalMatrix-BYp4x6S_.js      5.01 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6494832Z ../../dist-renderer/js/ApplianceConsole-E0P4z2bo.js               5.04 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6495299Z ../../dist-renderer/js/ExecutiveScaleDashboard-0U50dJ4-.js        5.08 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6495770Z ../../dist-renderer/js/SmartClipboard-TaVsXc_7.js                 5.08 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6496231Z ../../dist-renderer/js/TrainingDeliveryCenter-KGKPsFKI.js         5.13 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6496705Z ../../dist-renderer/js/QuickSearchWidget-B_HNk-wJ.js              5.16 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6497178Z ../../dist-renderer/js/ShortcutCheatSheet-Bk-RTeOM.js             5.23 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6497655Z ../../dist-renderer/js/PilotExpansionConsole-mj-uKYsZ.js          5.26 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6498128Z ../../dist-renderer/js/BillingCenter-CLurPRKw.js                  5.37 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6499157Z ../../dist-renderer/js/ManagedServicesConsole-tX03PdYE.js         5.47 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6499638Z ../../dist-renderer/js/StrategicAccountConsole-CvDXGIIa.js        5.47 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6500168Z ../../dist-renderer/js/PolicyProfileCard-Bi2mKK88.js              5.67 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6500665Z ../../dist-renderer/js/AgentOrchestrator-CwFs27kZ.js              5.67 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6501320Z ../../dist-renderer/js/MultiModelSplit-CspjlZQS.js                5.79 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6502487Z ../../dist-renderer/js/RenewalRiskConsole-DAjdme7M.js             5.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6503333Z ../../dist-renderer/js/AgentStore-Cj9yY152.js                     5.97 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6504851Z ../../dist-renderer/js/BoardConsole-eRtCR276.js                   6.02 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6505681Z ../../dist-renderer/js/LaunchWeekCommandCenter-BEdAH3ns.js        6.02 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6522080Z ../../dist-renderer/js/FollowupGenerator-DNxwiznx.js              6.08 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6522616Z ../../dist-renderer/js/BuyerOpsConsole-cicmLJue.js                6.23 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6523092Z ../../dist-renderer/js/ShareProofModal-COxnCBnd.js                6.31 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6523561Z ../../dist-renderer/js/PartnerCertificationHub-DnFxOsSa.js        6.39 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6524044Z ../../dist-renderer/js/ShiftConsole-CszZSx9d.js                   6.40 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6524556Z ../../dist-renderer/js/CustomerSuccessConsole-CBlAuErd.js         6.42 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6525099Z ../../dist-renderer/js/FieldLaunchCommandCenter-DG1hLf1C.js       6.45 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6525587Z ../../dist-renderer/js/PartnerRolloutConsole-BlfgrFkG.js          6.45 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6526075Z ../../dist-renderer/js/ExpansionPlanner-DcU4fOnP.js               6.57 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6526542Z ../../dist-renderer/js/FocusMode-BT3pGgUH.js                      6.58 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6527017Z ../../dist-renderer/js/BrandingOverrides-CufkShY2.js              6.76 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6527499Z ../../dist-renderer/js/FieldFeedbackConsole-Rm52rtVs.js           6.77 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6527965Z ../../dist-renderer/js/DemoToPilotConsole-DnkJyI-T.js             6.80 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6528448Z ../../dist-renderer/js/HardwareApplianceManager-4MuwxowK.js       7.17 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6528952Z ../../dist-renderer/js/TamperSimulationCenter-CqhW3Ww2.js         7.18 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6529457Z ../../dist-renderer/js/PomodoroTimer-Dykn_8mH.js                  7.24 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6529935Z ../../dist-renderer/js/ProcurementCommandCenter-BdAiVF0R.js       7.27 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6530419Z ../../dist-renderer/js/InstitutionalCommandConsole-Cl1bnRDV.js    7.56 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6531131Z ../../dist-renderer/js/DemoFlowConsole-DQfqHWYT.js                7.59 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6531704Z ../../dist-renderer/js/KeyboardShortcutsModal-D86cEZ-o.js         7.68 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6532171Z ../../dist-renderer/js/AICostEstimator-DW2ZGoiD.js                7.76 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6532657Z ../../dist-renderer/js/SessionSnapshotPanel-q8rp4kAm.js           7.82 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6533129Z ../../dist-renderer/js/AnalyticsDrawer-KTashSAt.js                7.83 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6533581Z ../../dist-renderer/js/SystemPulse-DMRLcoO0.js                    7.89 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6534042Z ../../dist-renderer/js/SignalLabPanel-CAa6WEGT.js                 8.06 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6534513Z ../../dist-renderer/js/PolicyRolloutConsole-DxTNZDtf.js           8.24 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6534976Z ../../dist-renderer/js/ContextualHotswap-DBLcFjD4.js              8.39 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6535476Z ../../dist-renderer/js/CourierTransferCenter-D79Zduhq.js          8.40 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6536226Z ../../dist-renderer/js/RealTimeMonitor-KruB4cuS.js                8.44 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6536752Z ../../dist-renderer/js/RuntimeEventFeed-DFvxk1A7.js               8.46 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6537220Z ../../dist-renderer/js/NeuralPulseMap--h7WWDkz.js                 8.69 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6537875Z ../../dist-renderer/js/SalesConsole-DtyPAslA.js                   8.78 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6538331Z ../../dist-renderer/js/PartnerConsole-CR6hOAUj.js                 8.80 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6538799Z ../../dist-renderer/js/GuidedDemoMode-By4c1dYi.js                 8.83 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6539295Z ../../dist-renderer/js/CertificationCenter-CEoU5GZW.js            8.83 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6539774Z ../../dist-renderer/js/IncidentModePanel-BT58y-9-.js              8.93 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6540245Z ../../dist-renderer/js/CommandCenter-BQZqL7FS.js                  9.10 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6540834Z ../../dist-renderer/js/EnterprisePolicySuite-C-JxV064.js          9.18 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6541308Z ../../dist-renderer/js/ChatThemeCustomizer-DLg7YLXq.js            9.45 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6541791Z ../../dist-renderer/js/CollabRoomPanel-B2xTeAxF.js                9.47 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6542258Z ../../dist-renderer/js/NeuralGraph-Be-sW4lV.js                    9.53 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6542713Z ../../dist-renderer/js/PromptDiffModal-BWSKFv-5.js                9.75 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6543191Z ../../dist-renderer/js/CommandPalette-DfqhfrRj.js                 9.89 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6543649Z ../../dist-renderer/js/ProofStreakCounter-D3ldSfdK.js             9.89 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6544118Z ../../dist-renderer/js/SessionNotesPanel-DAM1_uqR.js              9.99 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6544583Z ../../dist-renderer/js/SessionHealthScore-Cukhhehk.js            10.03 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6545049Z ../../dist-renderer/js/NeuralRuntimeDrivers-Cp8Bm0s6.js          10.11 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6545520Z ../../dist-renderer/js/DeadlinesPanel-D2yR3STL.js                10.15 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6546398Z ../../dist-renderer/js/ConversationInsights-qrFR1Q8z.js          10.30 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6546944Z ../../dist-renderer/js/NodeChainPanel-tasvXT4U.js                10.39 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6548003Z [33m[plugin builtin:vite-reporter] 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6548424Z (!) Some chunks are larger than 500 kB after minification. Consider:
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6548860Z - Using dynamic import() to code-split the application
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6549610Z - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6550457Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6551519Z [33m[33m[PLUGIN_TIMINGS] Warning:[0m Your build spent significant time in plugin `vite:terser`. See https://rolldown.rs/options/checks#plugintimings for more details.
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6552221Z [39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6552579Z ../../dist-renderer/js/SpotlightBar-CdKBJwO7.js                  10.42 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6553075Z ../../dist-renderer/js/SessionCompareView-Djs_Jzm7.js            10.61 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6553558Z ../../dist-renderer/js/operatorProgress-TBRoZZlC.js              11.02 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6554041Z ../../dist-renderer/js/ContinuityDrillCenter-QLy6n59k.js         11.16 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6554517Z ../../dist-renderer/js/AuditChainView-Dlpbd7-m.js                11.46 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6554983Z ../../dist-renderer/js/MissionScheduler-DHW28v0f.js              11.47 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6555441Z ../../dist-renderer/js/FirstBootWizard-BY2mISX0.js               11.54 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6556085Z ../../dist-renderer/js/AirGapOperationsCenter-CcGgYDho.js        11.59 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6556570Z ../../dist-renderer/js/SessionRewind-IrPqmvoW.js                 11.59 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6557040Z ../../dist-renderer/js/OperatorProfilePanel-lQbwQxry.js          11.78 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6557548Z ../../dist-renderer/js/AdvancedOptimizationEngine-xiO2AN0Q.js    11.84 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6558042Z ../../dist-renderer/js/ThoughtChainVisualizer-D10mw3Eq.js        12.03 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6558505Z ../../dist-renderer/js/RecoveryCenter-Cdle53Ie.js                12.29 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6559142Z ../../dist-renderer/js/PricingTierModal-B1KCCZm6.js              12.31 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6559617Z ../../dist-renderer/js/ProofBadgePanel-DNK9HYkP.js               12.46 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6560072Z ../../dist-renderer/js/FleetControlPanel-Bulw2RZL.js             12.48 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6560536Z ../../dist-renderer/js/AdaptiveLayoutEngine-JvRIyQEA.js          12.54 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6561008Z ../../dist-renderer/js/AmbientMorph-BMi72pG8.js                  12.57 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6561469Z ../../dist-renderer/js/OperatorCommandBridge-BUpu0-en.js         12.59 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6562075Z ../../dist-renderer/js/OperatorXPPanel-DA-szhbs.js               12.61 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6562551Z ../../dist-renderer/js/OperatorProgressPanel-Bp9-x_pm.js         12.67 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6563020Z ../../dist-renderer/js/ContextWindowRadar-Dzp4RiHt.js            12.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6563488Z ../../dist-renderer/js/TaskManagerDrawer-BmygMijf.js             13.47 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6563955Z ../../dist-renderer/js/Phase24MutantDNA-L7vJjawm.js              13.58 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6564418Z ../../dist-renderer/js/SplitWorkspace-BaAITE85.js                13.64 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6564886Z ../../dist-renderer/js/ChainLearningPanel-BDusGeSQ.js            13.66 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6565349Z ../../dist-renderer/js/AIResponseAuditor-SjbDYoMi.js             14.31 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6565817Z ../../dist-renderer/js/TrustFabricConsole-CdCwxska.js            15.05 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6566592Z ../../dist-renderer/js/SwarmNodePanel-B8iwrlE9.js                15.19 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6567093Z ../../dist-renderer/js/FleetDashboard-BGBdIAPg.js                15.44 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6567568Z ../../dist-renderer/js/SessionTemplatesModal-C36XU_dx.js         15.92 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6568029Z ../../dist-renderer/js/CanvasMode-say6B7qb.js                    16.01 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6568489Z ../../dist-renderer/js/AppConnectPanel-DkDB-pdB.js               16.18 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6568958Z ../../dist-renderer/js/OperatorHomeOverlay-XfmWFVCj.js           17.56 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6569428Z ../../dist-renderer/js/CommunityShowcasePanel-BQTED49K.js        17.82 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6569907Z ../../dist-renderer/js/SecurityLockPanel-DIUMK9Nv.js             18.84 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6570368Z ../../dist-renderer/js/MarkdownExport-DAqeWept.js                20.26 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6570835Z ../../dist-renderer/js/RuntimePerformancePanel-CMX07q6G.js       22.22 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6571305Z ../../dist-renderer/js/MissionControl-e842M7PN.js                28.51 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6571769Z ../../dist-renderer/js/ProjectsMode-1bne6XVf.js                  57.95 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6572223Z ../../dist-renderer/js/EcosystemLauncher-BGk8sTLG.js             63.78 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6572681Z ../../dist-renderer/js/SettingsDrawer-C1fHjWP7.js                74.84 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6573145Z ../../dist-renderer/js/ConversationDNA-CgrTdWCC.js              103.34 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6573600Z ../../dist-renderer/js/vendor-react-BDUijfFW.js                 208.38 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6574052Z ../../dist-renderer/js/index-DynYphoV.js                        676.93 kB
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6574292Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:34.6574508Z [32mΓ£ô built in 9.09s[39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:35.7916525Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:35.7917188Z > neuralshell-v5@2.1.32 test:e2e
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:35.7918143Z > playwright test e2e/react-core.spec.js e2e/ui-controls-sweep.spec.js e2e/operatorHomeCanvas.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c playwright.e2e.config.js
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:35.7918842Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:38.3703679Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:38.3704278Z Running 39 tests using 1 worker
+ship_readiness	Run e2e founder flows	2026-05-08T01:43:38.3705076Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:02.8708859Z   ok  1 e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors (19.1s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:03.3383422Z   ok  2 e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON (473ms)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:10.6044727Z   ok  3 e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation (7.2s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:20.8071813Z   ok  4 e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file (10.2s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:48.5210838Z   ok  5 e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension trust shows Shipped on bundled tiles and Imported after user install (24.6s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:54.4989145Z   ok  6 e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header (6.0s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:58.2476617Z   ok  7 e2e\react-core.spec.js:631:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render (188ms)
+ship_readiness	Run e2e founder flows	2026-05-08T01:44:58.4330759Z   ok  8 e2e\react-core.spec.js:638:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present (137ms)
+ship_readiness	Run e2e founder flows	2026-05-08T01:45:28.7137278Z   ok  9 e2e\react-core.spec.js:645:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values (30.2s)
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:11.7568975Z   x  10 e2e\react-core.spec.js:687:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture (5.0m)
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.0956659Z   -  11 e2e\react-core.spec.js:978:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Command palette opens and closes
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.3779270Z   -  12 e2e\react-core.spec.js:1011:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Layout presets adjust rail widths and reset panels
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.4148623Z   -  13 e2e\react-core.spec.js:1082:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Inline rail collapse toggles expose mini-rail expand controls
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.4674017Z   -  14 e2e\react-core.spec.js:1135:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Keyboard shortcuts nudge rail widths
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.4853401Z   -  15 e2e\react-core.spec.js:1174:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Focused layout overlays expose resize handles
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.5959924Z   -  16 e2e\react-core.spec.js:1194:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Composer accepts input
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.6212575Z   -  17 e2e\react-core.spec.js:1203:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Thread creation mutates active workspace state
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.6669504Z   -  18 e2e\react-core.spec.js:1224:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Quick-Start cards trigger real kernel responses
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.6895008Z   -  19 e2e\react-core.spec.js:1236:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Proof and ROI commands execute narratives
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.7179863Z   -  20 e2e\react-core.spec.js:1259:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ /clear command wipes the local chat history
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.7545846Z   -  21 e2e\react-core.spec.js:1271:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Session modal exposes dialog semantics and dismisses with Escape
+ship_readiness	Run e2e founder flows	2026-05-08T01:51:12.8249485Z   -  22 e2e\react-core.spec.js:1284:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer close control has an accessible name
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2231044Z [31mWorker teardown timeout of 240000ms exceeded.[39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2362410Z 
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2363317Z [31mFailed worker ran 10 tests:[39m
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2364959Z e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2367696Z e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2371388Z e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2374986Z e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2397168Z e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension trust shows Shipped on bundled tiles and Imported after user install
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2417929Z e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2419291Z e2e\react-core.spec.js:631:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2421943Z e2e\react-core.spec.js:638:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2423874Z e2e\react-core.spec.js:645:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values
+ship_readiness	Run e2e founder flows	2026-05-08T01:55:12.2425945Z e2e\react-core.spec.js:687:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1751357Z   x  23 e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible (0ms)
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1814248Z   -  24 e2e\ui-controls-sweep.spec.js:502:5 ΓÇ║ UI controls sweep ΓÇ║ primary top-bar buttons open and close
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1880929Z   -  25 e2e\ui-controls-sweep.spec.js:529:5 ΓÇ║ UI controls sweep ΓÇ║ trust indicator is present
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1922111Z   -  26 e2e\ui-controls-sweep.spec.js:537:5 ΓÇ║ UI controls sweep ΓÇ║ presence pill is present
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1930395Z   -  27 e2e\ui-controls-sweep.spec.js:545:5 ΓÇ║ UI controls sweep ΓÇ║ binary clock toggle opens and closes popup
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.1938162Z   -  28 e2e\ui-controls-sweep.spec.js:566:5 ΓÇ║ UI controls sweep ΓÇ║ model picker opens, shows provider groups, search filters, and selects a model
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2107013Z   -  29 e2e\ui-controls-sweep.spec.js:603:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover opens, shows Deadlines tab, add and remove a deadline
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2171007Z   -  30 e2e\ui-controls-sweep.spec.js:655:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover Open In tab shows external calendar links
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2327012Z   -  31 e2e\ui-controls-sweep.spec.js:703:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Panels tab opens panels
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2369172Z   -  32 e2e\ui-controls-sweep.spec.js:732:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Tools tab items are present and clickable
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2613654Z   -  33 e2e\ui-controls-sweep.spec.js:754:5 ΓÇ║ UI controls sweep ΓÇ║ More menu View tab: all clock and calendar settings toggle correctly
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2656796Z   -  34 e2e\ui-controls-sweep.spec.js:855:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Boss tab: runtime roles and toggles respond
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2722209Z   -  35 e2e\ui-controls-sweep.spec.js:883:5 ΓÇ║ UI controls sweep ΓÇ║ study coach card subject pills are clickable and change card state
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2727942Z   -  36 e2e\ui-controls-sweep.spec.js:915:5 ΓÇ║ UI controls sweep ΓÇ║ quick-start welcome cards are visible
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2729878Z   -  37 e2e\ui-controls-sweep.spec.js:929:5 ΓÇ║ UI controls sweep ΓÇ║ settings drawer opens and closes
+ship_readiness	Run e2e founder flows	2026-05-08T01:57:19.2735650Z   -  38 e2e\ui-controls-sweep.spec.js:942:5 ΓÇ║ UI controls sweep ΓÇ║ full button sweep passes with no failures
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7362858Z   x  39 e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available (3.0m)
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7558412Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7567380Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7578999Z   1) e2e\react-core.spec.js:687:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7579866Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7580180Z     [31mTest timeout of 300000ms exceeded.[39m
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7580492Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7581158Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7581849Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7582267Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7582861Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7583458Z     attachment #3: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7584366Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7584902Z     Usage:
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7585502Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7586265Z         npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7586923Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7587380Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7587683Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7588141Z   2) e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7588510Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7588658Z     TimeoutError: Timeout 120000ms exceeded.
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7588864Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7589315Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7590498Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7591089Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7591797Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7593461Z     attachment #3: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7594627Z     test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7595762Z     Usage:
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7596067Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7596840Z         npx playwright show-trace test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7597500Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7597928Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7598231Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7598701Z   3) e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7599091Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7599249Z     TimeoutError: Timeout 180000ms exceeded.
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7599504Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7599933Z     Error Context: test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7600433Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7600857Z     attachment #2: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ��ÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7601576Z     test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7602058Z     Usage:
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7602214Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7602641Z         npx playwright show-trace test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7603098Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7603433Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7603723Z 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7603832Z   3 failed
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7604435Z     e2e\react-core.spec.js:687:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7605487Z     e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7606446Z     e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7607138Z   27 did not run
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7607415Z   9 passed (16.8m)
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.7607739Z   1 error was not a part of any test, see above for details
+ship_readiness	Run e2e founder flows	2026-05-08T02:00:23.9294420Z ##[error]Process completed with exit code 1.
+ship_readiness	Print ship readiness Playwright diagnostics to log	∩╗┐2026-05-08T02:00:23.9493948Z ##[group]Run Write-Host "=== Ship readiness diagnostic file listing ==="
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9494693Z [36;1mWrite-Host "=== Ship readiness diagnostic file listing ==="[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9495076Z [36;1m[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9495348Z [36;1mif (Test-Path test-results) {[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9495867Z [36;1m  Get-ChildItem test-results -Recurse -File -Include *.md,*.json,*.txt | ForEach-Object {[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9496341Z [36;1m    Write-Host ""[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9496698Z [36;1m    Write-Host "===== DIAGNOSTIC FILE: $($_.FullName) ====="[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9497043Z [36;1m    try {[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9497370Z [36;1m      Get-Content $_.FullName -TotalCount 200[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9497695Z [36;1m    } catch {[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9498075Z [36;1m      Write-Host "Could not read diagnostic file: $($_.Exception.Message)"[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9498493Z [36;1m    }[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9498740Z [36;1m    Write-Host "===== END FILE ====="[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9499170Z [36;1m  }[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9499415Z [36;1m} else {[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9499709Z [36;1m  Write-Host "test-results directory does not exist"[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9500482Z [36;1m}[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9500687Z [36;1m[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9501014Z [36;1mWrite-Host "=== Ship readiness diagnostics complete ==="[0m
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9567427Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:23.9567872Z ##[endgroup]
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.2969638Z === Ship readiness diagnostic file listing ===
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3400802Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3431238Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3501106Z # Instructions
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3552491Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3554268Z - Following Playwright test failed.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3555943Z - Explain why, be concise, respect Playwright best practices.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3556792Z - Provide a snippet of code with the fix, if possible.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3558315Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3559937Z # Test info
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3560826Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3562878Z - Name: react-core.spec.js >> NeuralShell React Core UI >> Offline kill switch forces local-only bridge posture
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3564026Z - Location: e2e\react-core.spec.js:687:5
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3564597Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3566137Z # Error details
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3566988Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3568369Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3569118Z Test timeout of 300000ms exceeded.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3570676Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3578018Z ===== END FILE =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3593504Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3599902Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3607589Z # Instructions
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3608396Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3609620Z - Following Playwright test failed.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3610357Z - Explain why, be concise, respect Playwright best practices.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3611619Z - Provide a snippet of code with the fix, if possible.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3612261Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3613475Z # Test info
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3614256Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3615675Z - Name: ui-controls-sweep.spec.js >> UI controls sweep >> top-bar core elements are visible
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3616774Z - Location: e2e\ui-controls-sweep.spec.js:489:5
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3617910Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3619521Z # Error details
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3620335Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3621884Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3623310Z TimeoutError: Timeout 120000ms exceeded.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3624759Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3629075Z ===== END FILE =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3643507Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3649322Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\error-context.md =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3655880Z # Instructions
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3656998Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3658298Z - Following Playwright test failed.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3659051Z - Explain why, be concise, respect Playwright best practices.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3660181Z - Provide a snippet of code with the fix, if possible.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3660940Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3662324Z # Test info
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3663592Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3665245Z - Name: voiceRoom.spec.js >> Voice room panel renders and join control is available
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3665958Z - Location: e2e\voiceRoom.spec.js:15:1
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3667262Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3669144Z # Error details
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3670373Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3671925Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3672798Z TimeoutError: Timeout 180000ms exceeded.
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3673870Z ```
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3677769Z ===== END FILE =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3685221Z 
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3690755Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\.last-run.json =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3697551Z {
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3698775Z   "status": "failed",
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3699843Z   "failedTests": [
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3701406Z     "2880cc1b470dd1e3d2aa-993ecef4b0c7ab70478d",
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3702546Z     "32dee01cd6f13b2ab5a6-bfa418dfee2a88caea6b",
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3703558Z     "1fc65dfe58a69a7293f4-778c57540aa47820f1b7"
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3704482Z   ]
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3705921Z }
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3709759Z ===== END FILE =====
+ship_readiness	Print ship readiness Playwright diagnostics to log	2026-05-08T02:00:24.3715510Z === Ship readiness diagnostics complete ===
+ship_readiness	Bundle minimal ship readiness diagnostics	∩╗┐2026-05-08T02:00:24.4452027Z ##[group]Run New-Item -ItemType Directory -Force -Path ship-readiness-minimal | Out-Null
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4452886Z [36;1mNew-Item -ItemType Directory -Force -Path ship-readiness-minimal | Out-Null[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4453750Z [36;1m"ship-readiness minimal bundle created at $(Get-Date -Format o)" | Out-File -Encoding utf8 ship-readiness-minimal/ship-readiness-minimal-marker.txt[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4454392Z [36;1m[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4454686Z [36;1mif (Test-Path -LiteralPath test-results) {[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4455126Z [36;1m  $base = (Resolve-Path -LiteralPath test-results).Path[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4455675Z [36;1m  Get-ChildItem -LiteralPath test-results -Recurse -File | Where-Object {[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4456176Z [36;1m    $ext = $_.Extension.ToLowerInvariant()[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4456516Z [36;1m    $ext -in @(".md", ".json", ".txt")[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4456854Z [36;1m  } | ForEach-Object {[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4457224Z [36;1m    $relative = [System.IO.Path]::GetRelativePath($base, $_.FullName)[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4457887Z [36;1m    $dest = Join-Path (Join-Path ship-readiness-minimal "test-results") $relative[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4458516Z [36;1m    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $dest) | Out-Null[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4459078Z [36;1m    Copy-Item -LiteralPath $_.FullName -Destination $dest -Force[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4459446Z [36;1m  }[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4459688Z [36;1m}[0m
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4519582Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Bundle minimal ship readiness diagnostics	2026-05-08T02:00:24.4520023Z ##[endgroup]
+ship_readiness	Upload minimal ship readiness diagnostics	∩╗┐2026-05-08T02:00:24.9319492Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9320049Z with:
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9320340Z   name: ship-readiness-minimal-25531848384-1
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9321046Z   path: ship-readiness-minimal/
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9321370Z   if-no-files-found: warn
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9321632Z   retention-days: 7
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9322092Z   compression-level: 6
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9322353Z   overwrite: false
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9322568Z   include-hidden-files: false
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:24.9322852Z ##[endgroup]
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.2296762Z With the provided path, there will be 4 files uploaded
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.2303810Z Artifact name is valid!
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.2308569Z Root directory input is valid!
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.3695831Z Beginning upload of artifact content to blob storage
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.4403903Z Uploaded bytes 1852
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.4594282Z Finished uploading artifact content to blob storage!
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.4599224Z SHA256 digest of uploaded artifact zip is 3d0d068930f1e7d6410b197b0be62bedc8a096b4813f6e452ce7940c8ba06d7a
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.4601305Z Finalizing artifact upload
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.5771269Z Artifact ship-readiness-minimal-25531848384-1.zip successfully finalized. Artifact ID 6870345715
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.5772435Z Artifact ship-readiness-minimal-25531848384-1 has been successfully uploaded! Final size is 1852 bytes. Artifact ID is 6870345715
+ship_readiness	Upload minimal ship readiness diagnostics	2026-05-08T02:00:25.5786220Z Artifact download URL: https://github.com/Z3r0DayZion-install/NeuralShell/actions/runs/25531848384/artifacts/6870345715
+ship_readiness	Post Checkout	∩╗┐2026-05-08T02:00:25.6097930Z Post job cleanup.
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8154294Z [command]"C:\Program Files\Git\bin\git.exe" version
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8452223Z git version 2.54.0.windows.1
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8527040Z Temporarily overriding HOME='D:\a\_temp\250f1e80-c0a0-4fa7-b663-3682e732828f' before making global git config changes
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8528239Z Adding repository directory to the temporary git global config as a safe directory
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8539217Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\NeuralShell\NeuralShell
+ship_readiness	Post Checkout	2026-05-08T02:00:25.8861808Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+ship_readiness	Post Checkout	2026-05-08T02:00:25.9174527Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+ship_readiness	Post Checkout	2026-05-08T02:00:26.4493434Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+ship_readiness	Post Checkout	2026-05-08T02:00:26.4748835Z http.https://github.com/.extraheader
+ship_readiness	Post Checkout	2026-05-08T02:00:26.4799579Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+ship_readiness	Post Checkout	2026-05-08T02:00:26.5100041Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+ship_readiness	Post Checkout	2026-05-08T02:00:27.0696468Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+ship_readiness	Post Checkout	2026-05-08T02:00:27.1013444Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+ship_readiness	Complete job	∩╗┐2026-05-08T02:00:27.6600517Z Cleaning up orphan processes
+ship_readiness	Complete job	2026-05-08T02:00:27.6982542Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

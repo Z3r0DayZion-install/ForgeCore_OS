@@ -1,0 +1,304 @@
+NeuralLink? Tactical Suite Loaded.
+ship_readiness	Run e2e founder flows	∩╗┐2026-05-07T20:05:21.9691382Z ##[group]Run npm run test:e2e
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:21.9691694Z [36;1mnpm run test:e2e[0m
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:21.9749093Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:21.9749660Z ##[endgroup]
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.5513566Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.5514299Z > neuralshell-v5@2.1.32 pretest:e2e
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.5514792Z > npm run renderer:ensure-build
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.5515313Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.8153027Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.8153590Z > neuralshell-v5@2.1.32 renderer:ensure-build
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.8153981Z > node scripts/ensure_renderer_built.cjs
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.8154173Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:22.8802717Z [renderer:ensure-build] Renderer dist is stale; rebuilding...
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.1512753Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.1513202Z > neuralshell-renderer@2.0.0 build
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.1513487Z > vite build
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.1513606Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.6638995Z [36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:23.6819292Z [2K
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:24.8595372Z transforming...Γ£ô 2053 modules transformed.
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:25.3650053Z rendering chunks...
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7202260Z ../../dist-renderer/index.html                                    0.95 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7203380Z ../../dist-renderer/assets/index-CidDSky-.css                   313.54 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7204225Z ../../dist-renderer/js/rolldown-runtime-E2wbm5IW.js               0.69 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7205066Z ../../dist-renderer/js/OnboardingProgressRail-DtHMNd7z.js         1.23 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7206675Z ../../dist-renderer/js/RoleSwitcher-DurgV7zm.js                   1.37 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7207448Z ../../dist-renderer/js/runtimeEventBus-CCiW6qjq.js                1.39 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7208163Z ../../dist-renderer/js/recordIO-DWzXnVa3.js                       1.67 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7208923Z ../../dist-renderer/js/DrillTemplateEditor-nI9FEC_P.js            1.77 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7209418Z ../../dist-renderer/js/SupportBundleCard-CgHPBYnC.js              2.08 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7209935Z ../../dist-renderer/js/MessageDensityBar-CqNRRYuZ.js              2.38 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7210406Z ../../dist-renderer/js/ScratchpadTab-CyzJe98O.js                  2.49 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7210848Z ../../dist-renderer/js/UpdateRingConsole-CXFO-zQt.js              2.51 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7211306Z ../../dist-renderer/js/vendor-state-D-fEEIv3.js                   2.54 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7211776Z ../../dist-renderer/js/ReleaseHealthConsole-DfrTRdwQ.js           2.65 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7212254Z ../../dist-renderer/js/BuyerEvaluationCenter-HD2PJv7n.js          2.69 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7212736Z ../../dist-renderer/js/CommercialPackageConsole-C8wOYUDF.js       3.08 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7213191Z ../../dist-renderer/js/UpgradeModal-C8TqbzRs.js                   3.10 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7213647Z ../../dist-renderer/js/ProviderSweep-D0GflgJL.js                  3.20 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7214097Z ../../dist-renderer/js/ReferralCard-DBdiJWle.js                   3.22 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7214556Z ../../dist-renderer/js/RuntimeAlertsDrawer-Ch3sjSBl.js            3.24 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7215037Z ../../dist-renderer/js/signedArtifacts-bFkVFdnG.js                3.42 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7215753Z ../../dist-renderer/js/vendor-misc-CedZIPer.js                    3.43 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7216498Z ../../dist-renderer/js/PilotKitConsole-DLfBHT7Z.js                3.48 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7217041Z ../../dist-renderer/js/ProvisioningWizard-DqE3VtqW.js             3.48 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7217736Z ../../dist-renderer/js/ThreadDrawer-BfrVgvFB.js                   3.72 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7218517Z ../../dist-renderer/js/BoardOperatingPackConsole-CRTq0Rw0.js      3.76 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7219293Z ../../dist-renderer/js/LicensedOperatorFramework-BApIzWK7.js      3.78 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7219761Z ../../dist-renderer/js/PartnerNetworkGovernance-D6WggTnK.js       3.90 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7220228Z ../../dist-renderer/js/IssueAssistModal-DYvz_44r.js               3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7222675Z ../../dist-renderer/js/BranchDiffView-CjdKV7o1.js                 3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7223135Z ../../dist-renderer/js/SupportOpsConsole-ClZgqEDB.js              3.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7223591Z ../../dist-renderer/js/VoiceMode-lxiOBBpC.js                      3.93 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7224513Z ../../dist-renderer/js/PilotConversionConsole-DCOwNui5.js         3.95 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7225422Z [33m[plugin builtin:vite-reporter] 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7225825Z (!) Some chunks are larger than 500 kB after minification. Consider:
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7226227Z - Using dynamic import() to code-split the application
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7226923Z - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7227707Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7228712Z [33m[33m[PLUGIN_TIMINGS] Warning:[0m Your build spent significant time in plugin `vite:terser`. See https://rolldown.rs/options/checks#plugintimings for more details.
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7229341Z [39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7229660Z ../../dist-renderer/js/EcosystemPortfolioConsole-d27a7mGX.js      4.02 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7230152Z ../../dist-renderer/js/SmartContextWindow-C0P7v-jA.js             4.07 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7230630Z ../../dist-renderer/js/SuccessCaptureModal-DK25VAfc.js            4.15 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7231082Z ../../dist-renderer/js/pricingTiers-BBqgecfY.js                   4.18 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7231540Z ../../dist-renderer/js/ServiceLineConsole-BX9PzNU3.js             4.22 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7231998Z ../../dist-renderer/js/ProofVisualizer-BTjt2iQV.js                4.24 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7232434Z ../../dist-renderer/js/GhostReplay-DlN2rT9X.js                    4.28 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7232922Z ../../dist-renderer/js/OfflineUpdateConsole-DtZW9cfW.js           4.29 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7233405Z ../../dist-renderer/js/GlobalPlanningConsole-Dz7t7AVY.js          4.34 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7233874Z ../../dist-renderer/js/EcosystemRevenuePlanner-BlWK6xw_.js        4.36 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7234350Z ../../dist-renderer/js/PortfolioRolloutPlanner-u4OWysJC.js        4.41 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7234819Z ../../dist-renderer/js/DeploymentProgramCenter-BrN-d4Iv.js        4.48 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7235292Z ../../dist-renderer/js/EcosystemCommandCenter-siQqEO6A.js         4.67 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7235752Z ../../dist-renderer/js/RevenueOpsConsole-Byx-m8bc.js              4.71 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7236210Z ../../dist-renderer/js/ChannelExpansionPlanner-CPFQ2PK1.js        4.74 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7236690Z ../../dist-renderer/js/OperatorDashboard-Dcl6hZT6.js              4.74 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7237166Z ../../dist-renderer/js/OnboardingWizard-CHpZ8O41.js               4.75 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7237617Z ../../dist-renderer/js/FunnelDashboard-9zgMFLBO.js                4.93 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7238081Z ../../dist-renderer/js/RevenueConsole-DHMDaKNM.js                 4.96 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7238552Z ../../dist-renderer/js/CrossAccountRenewalMatrix-BYp4x6S_.js      5.01 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7239013Z ../../dist-renderer/js/ApplianceConsole-E0P4z2bo.js               5.04 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7239473Z ../../dist-renderer/js/ExecutiveScaleDashboard-0U50dJ4-.js        5.08 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7239925Z ../../dist-renderer/js/SmartClipboard-TaVsXc_7.js                 5.08 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7240386Z ../../dist-renderer/js/TrainingDeliveryCenter-KGKPsFKI.js         5.13 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7240840Z ../../dist-renderer/js/QuickSearchWidget-B_HNk-wJ.js              5.16 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7241288Z ../../dist-renderer/js/ShortcutCheatSheet-Bk-RTeOM.js             5.23 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7241758Z ../../dist-renderer/js/PilotExpansionConsole-mj-uKYsZ.js          5.26 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7242230Z ../../dist-renderer/js/BillingCenter-CLurPRKw.js                  5.37 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7243345Z ../../dist-renderer/js/ManagedServicesConsole-tX03PdYE.js         5.47 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7243819Z ../../dist-renderer/js/StrategicAccountConsole-CvDXGIIa.js        5.47 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7244598Z ../../dist-renderer/js/PolicyProfileCard-Bi2mKK88.js              5.67 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7245100Z ../../dist-renderer/js/AgentOrchestrator-CwFs27kZ.js              5.67 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7246813Z ../../dist-renderer/js/MultiModelSplit-CspjlZQS.js                5.79 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7247299Z ../../dist-renderer/js/RenewalRiskConsole-DAjdme7M.js             5.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7247744Z ../../dist-renderer/js/AgentStore-Cj9yY152.js                     5.97 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7248190Z ../../dist-renderer/js/BoardConsole-eRtCR276.js                   6.02 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7248670Z ../../dist-renderer/js/LaunchWeekCommandCenter-BEdAH3ns.js        6.02 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7249343Z ../../dist-renderer/js/FollowupGenerator-DNxwiznx.js              6.08 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7249812Z ../../dist-renderer/js/BuyerOpsConsole-cicmLJue.js                6.23 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7250257Z ../../dist-renderer/js/ShareProofModal-COxnCBnd.js                6.31 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7250729Z ../../dist-renderer/js/PartnerCertificationHub-DnFxOsSa.js        6.39 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7251197Z ../../dist-renderer/js/ShiftConsole-CszZSx9d.js                   6.40 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7251646Z ../../dist-renderer/js/CustomerSuccessConsole-CBlAuErd.js         6.42 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7252123Z ../../dist-renderer/js/FieldLaunchCommandCenter-DG1hLf1C.js       6.45 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7252599Z ../../dist-renderer/js/PartnerRolloutConsole-BlfgrFkG.js          6.45 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7253058Z ../../dist-renderer/js/ExpansionPlanner-DcU4fOnP.js               6.57 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7253518Z ../../dist-renderer/js/FocusMode-BT3pGgUH.js                      6.58 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7253983Z ../../dist-renderer/js/BrandingOverrides-CufkShY2.js              6.76 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7254432Z ../../dist-renderer/js/FieldFeedbackConsole-Rm52rtVs.js           6.77 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7254907Z ../../dist-renderer/js/DemoToPilotConsole-DnkJyI-T.js             6.80 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7255368Z ../../dist-renderer/js/HardwareApplianceManager-4MuwxowK.js       7.17 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7255848Z ../../dist-renderer/js/TamperSimulationCenter-CqhW3Ww2.js         7.18 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7256308Z ../../dist-renderer/js/PomodoroTimer-Dykn_8mH.js                  7.24 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7256761Z ../../dist-renderer/js/ProcurementCommandCenter-BdAiVF0R.js       7.27 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7257245Z ../../dist-renderer/js/InstitutionalCommandConsole-Cl1bnRDV.js    7.56 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7257720Z ../../dist-renderer/js/DemoFlowConsole-DQfqHWYT.js                7.59 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7258172Z ../../dist-renderer/js/KeyboardShortcutsModal-D86cEZ-o.js         7.68 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7258664Z ../../dist-renderer/js/AICostEstimator-DW2ZGoiD.js                7.76 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7259122Z ../../dist-renderer/js/SessionSnapshotPanel-q8rp4kAm.js           7.82 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7259590Z ../../dist-renderer/js/AnalyticsDrawer-KTashSAt.js                7.83 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7260030Z ../../dist-renderer/js/SystemPulse-DMRLcoO0.js                    7.89 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7260484Z ../../dist-renderer/js/SignalLabPanel-CAa6WEGT.js                 8.06 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7260943Z ../../dist-renderer/js/PolicyRolloutConsole-DxTNZDtf.js           8.24 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7261394Z ../../dist-renderer/js/ContextualHotswap-DBLcFjD4.js              8.39 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7261863Z ../../dist-renderer/js/CourierTransferCenter-D79Zduhq.js          8.40 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7262313Z ../../dist-renderer/js/RealTimeMonitor-KruB4cuS.js                8.44 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7262770Z ../../dist-renderer/js/RuntimeEventFeed-DFvxk1A7.js               8.46 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7263409Z ../../dist-renderer/js/NeuralPulseMap--h7WWDkz.js                 8.69 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7264052Z ../../dist-renderer/js/SalesConsole-DtyPAslA.js                   8.78 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7264998Z ../../dist-renderer/js/PartnerConsole-CR6hOAUj.js                 8.80 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7265742Z ../../dist-renderer/js/GuidedDemoMode-By4c1dYi.js                 8.83 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7266677Z ../../dist-renderer/js/CertificationCenter-CEoU5GZW.js            8.83 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7267389Z ../../dist-renderer/js/IncidentModePanel-BT58y-9-.js              8.93 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7268114Z ../../dist-renderer/js/CommandCenter-BQZqL7FS.js                  9.10 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7268787Z ../../dist-renderer/js/EnterprisePolicySuite-C-JxV064.js          9.18 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7269549Z ../../dist-renderer/js/ChatThemeCustomizer-DLg7YLXq.js            9.45 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7270322Z ../../dist-renderer/js/CollabRoomPanel-B2xTeAxF.js                9.47 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7271108Z ../../dist-renderer/js/NeuralGraph-Be-sW4lV.js                    9.53 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7271892Z ../../dist-renderer/js/PromptDiffModal-BWSKFv-5.js                9.75 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7272642Z ../../dist-renderer/js/CommandPalette-DfqhfrRj.js                 9.89 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7273428Z ../../dist-renderer/js/ProofStreakCounter-D3ldSfdK.js             9.89 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7274216Z ../../dist-renderer/js/SessionNotesPanel-DAM1_uqR.js              9.99 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7274989Z ../../dist-renderer/js/SessionHealthScore-Cukhhehk.js            10.03 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7275770Z ../../dist-renderer/js/NeuralRuntimeDrivers-Cp8Bm0s6.js          10.11 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7276559Z ../../dist-renderer/js/DeadlinesPanel-D2yR3STL.js                10.15 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7277343Z ../../dist-renderer/js/ConversationInsights-qrFR1Q8z.js          10.30 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7278121Z ../../dist-renderer/js/NodeChainPanel-tasvXT4U.js                10.39 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7278903Z ../../dist-renderer/js/SpotlightBar-CdKBJwO7.js                  10.42 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7279664Z ../../dist-renderer/js/SessionCompareView-Djs_Jzm7.js            10.61 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7280441Z ../../dist-renderer/js/operatorProgress-TBRoZZlC.js              11.02 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7281242Z ../../dist-renderer/js/ContinuityDrillCenter-QLy6n59k.js         11.16 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7282018Z ../../dist-renderer/js/AuditChainView-Dlpbd7-m.js                11.46 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7282765Z ../../dist-renderer/js/MissionScheduler-DHW28v0f.js              11.47 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7283548Z ../../dist-renderer/js/FirstBootWizard-BY2mISX0.js               11.54 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7284342Z ../../dist-renderer/js/AirGapOperationsCenter-CcGgYDho.js        11.59 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7285398Z ../../dist-renderer/js/SessionRewind-IrPqmvoW.js                 11.59 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7286179Z ../../dist-renderer/js/OperatorProfilePanel-lQbwQxry.js          11.78 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7287025Z ../../dist-renderer/js/AdvancedOptimizationEngine-xiO2AN0Q.js    11.84 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7287849Z ../../dist-renderer/js/ThoughtChainVisualizer-D10mw3Eq.js        12.03 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7288637Z ../../dist-renderer/js/RecoveryCenter-Cdle53Ie.js                12.29 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7289417Z ../../dist-renderer/js/PricingTierModal-B1KCCZm6.js              12.31 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7290185Z ../../dist-renderer/js/ProofBadgePanel-DNK9HYkP.js               12.46 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7290952Z ../../dist-renderer/js/FleetControlPanel-Bulw2RZL.js             12.48 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7291756Z ../../dist-renderer/js/AdaptiveLayoutEngine-JvRIyQEA.js          12.54 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7292564Z ../../dist-renderer/js/AmbientMorph-BMi72pG8.js                  12.57 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7293344Z ../../dist-renderer/js/OperatorCommandBridge-BUpu0-en.js         12.59 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7294366Z ../../dist-renderer/js/OperatorXPPanel-DA-szhbs.js               12.61 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7295137Z ../../dist-renderer/js/OperatorProgressPanel-Bp9-x_pm.js         12.67 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7295937Z ../../dist-renderer/js/ContextWindowRadar-Dzp4RiHt.js            12.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7296748Z ../../dist-renderer/js/TaskManagerDrawer-BmygMijf.js             13.47 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7297633Z ../../dist-renderer/js/Phase24MutantDNA-L7vJjawm.js              13.58 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7298410Z ../../dist-renderer/js/SplitWorkspace-BaAITE85.js                13.64 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7299190Z ../../dist-renderer/js/ChainLearningPanel-BDusGeSQ.js            13.66 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7299963Z ../../dist-renderer/js/AIResponseAuditor-SjbDYoMi.js             14.31 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7300775Z ../../dist-renderer/js/TrustFabricConsole-CdCwxska.js            15.05 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7301548Z ../../dist-renderer/js/SwarmNodePanel-B8iwrlE9.js                15.19 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7302310Z ../../dist-renderer/js/FleetDashboard-BGBdIAPg.js                15.44 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7303097Z ../../dist-renderer/js/SessionTemplatesModal-C36XU_dx.js         15.92 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7303878Z ../../dist-renderer/js/CanvasMode-say6B7qb.js                    16.01 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7304654Z ../../dist-renderer/js/AppConnectPanel-DkDB-pdB.js               16.18 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7305744Z ../../dist-renderer/js/OperatorHomeOverlay-XfmWFVCj.js           17.56 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7306526Z ../../dist-renderer/js/CommunityShowcasePanel-BQTED49K.js        17.82 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7307326Z ../../dist-renderer/js/SecurityLockPanel-DIUMK9Nv.js             18.84 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7308095Z ../../dist-renderer/js/MarkdownExport-DAqeWept.js                20.26 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7308867Z ../../dist-renderer/js/RuntimePerformancePanel-CMX07q6G.js       22.22 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7309646Z ../../dist-renderer/js/MissionControl-e842M7PN.js                28.51 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7310420Z ../../dist-renderer/js/ProjectsMode-1bne6XVf.js                  57.95 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7311185Z ../../dist-renderer/js/EcosystemLauncher-BGk8sTLG.js             63.78 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7311951Z ../../dist-renderer/js/SettingsDrawer-C1fHjWP7.js                74.84 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7312737Z ../../dist-renderer/js/ConversationDNA-CgrTdWCC.js              103.34 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7313503Z ../../dist-renderer/js/vendor-react-BDUijfFW.js                 208.38 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7314263Z ../../dist-renderer/js/index-DynYphoV.js                        676.93 kB
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7314666Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:32.7315080Z [32mΓ£ô built in 9.06s[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:33.4905296Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:33.4905724Z > neuralshell-v5@2.1.32 test:e2e
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:33.4906615Z > playwright test e2e/react-core.spec.js e2e/ui-controls-sweep.spec.js e2e/operatorHomeCanvas.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c playwright.e2e.config.js
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:33.4907241Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:36.2627047Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:36.2627523Z Running 39 tests using 1 worker
+ship_readiness	Run e2e founder flows	2026-05-07T20:05:36.2628476Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:06:01.9048911Z   ok  1 e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors (19.9s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:06:08.2423397Z   ok  2 e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON (6.3s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:06:22.8531845Z   ok  3 e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation (14.6s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:06:29.5212818Z   ok  4 e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file (6.6s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:06:57.7417555Z   ok  5 e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension trust shows Shipped on bundled tiles and Imported after user install (26.6s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:07:03.9694006Z   ok  6 e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header (6.2s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:07:07.7810693Z   ok  7 e2e\react-core.spec.js:619:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render (97ms)
+ship_readiness	Run e2e founder flows	2026-05-07T20:07:07.8903482Z   ok  8 e2e\react-core.spec.js:626:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present (52ms)
+ship_readiness	Run e2e founder flows	2026-05-07T20:07:35.6247032Z   ok  9 e2e\react-core.spec.js:633:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values (27.7s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0131876Z   x  10 e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture (5.0m)
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0193234Z   -  11 e2e\react-core.spec.js:921:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Command palette opens and closes
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0195575Z   -  12 e2e\react-core.spec.js:954:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Layout presets adjust rail widths and reset panels
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0197629Z   -  13 e2e\react-core.spec.js:1025:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Inline rail collapse toggles expose mini-rail expand controls
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0199493Z   -  14 e2e\react-core.spec.js:1078:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Keyboard shortcuts nudge rail widths
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0201164Z   -  15 e2e\react-core.spec.js:1117:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Focused layout overlays expose resize handles
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0203598Z   -  16 e2e\react-core.spec.js:1137:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Composer accepts input
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0207835Z   -  17 e2e\react-core.spec.js:1146:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Thread creation mutates active workspace state
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0209930Z   -  18 e2e\react-core.spec.js:1167:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Quick-Start cards trigger real kernel responses
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0211851Z   -  19 e2e\react-core.spec.js:1179:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Proof and ROI commands execute narratives
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0213432Z   -  20 e2e\react-core.spec.js:1202:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ /clear command wipes the local chat history
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0215153Z   -  21 e2e\react-core.spec.js:1214:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Session modal exposes dialog semantics and dismisses with Escape
+ship_readiness	Run e2e founder flows	2026-05-07T20:13:11.0217633Z   -  22 e2e\react-core.spec.js:1227:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer close control has an accessible name
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0248941Z [31mWorker teardown timeout of 240000ms exceeded.[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0433703Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0737232Z [31mFailed worker ran 10 tests:[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0927794Z e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0944324Z e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.0964375Z e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1144726Z e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1207676Z e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ�� extension trust shows Shipped on bundled tiles and Imported after user install
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1311985Z e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1315020Z e2e\react-core.spec.js:619:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1316771Z e2e\react-core.spec.js:626:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1322239Z e2e\react-core.spec.js:633:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values
+ship_readiness	Run e2e founder flows	2026-05-07T20:17:11.1332064Z e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4046975Z   x  23 e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible (1ms)
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4050270Z   -  24 e2e\ui-controls-sweep.spec.js:502:5 ΓÇ║ UI controls sweep ΓÇ║ primary top-bar buttons open and close
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4052066Z   -  25 e2e\ui-controls-sweep.spec.js:529:5 ΓÇ║ UI controls sweep ΓÇ║ trust indicator is present
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4053335Z   -  26 e2e\ui-controls-sweep.spec.js:537:5 ΓÇ║ UI controls sweep ΓÇ║ presence pill is present
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4056531Z   -  27 e2e\ui-controls-sweep.spec.js:545:5 ΓÇ║ UI controls sweep ΓÇ║ binary clock toggle opens and closes popup
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4058056Z   -  28 e2e\ui-controls-sweep.spec.js:566:5 ΓÇ║ UI controls sweep ΓÇ║ model picker opens, shows provider groups, search filters, and selects a model
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4059735Z   -  29 e2e\ui-controls-sweep.spec.js:603:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover opens, shows Deadlines tab, add and remove a deadline
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4061117Z   -  30 e2e\ui-controls-sweep.spec.js:655:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover Open In tab shows external calendar links
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4061969Z   -  31 e2e\ui-controls-sweep.spec.js:703:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Panels tab opens panels
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4062728Z   -  32 e2e\ui-controls-sweep.spec.js:732:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Tools tab items are present and clickable
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4063620Z   -  33 e2e\ui-controls-sweep.spec.js:754:5 ΓÇ║ UI controls sweep ΓÇ║ More menu View tab: all clock and calendar settings toggle correctly
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4064503Z   -  34 e2e\ui-controls-sweep.spec.js:855:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Boss tab: runtime roles and toggles respond
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4065399Z   -  35 e2e\ui-controls-sweep.spec.js:883:5 ΓÇ║ UI controls sweep ΓÇ║ study coach card subject pills are clickable and change card state
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4066194Z   -  36 e2e\ui-controls-sweep.spec.js:915:5 ΓÇ║ UI controls sweep ΓÇ║ quick-start welcome cards are visible
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4066914Z   -  37 e2e\ui-controls-sweep.spec.js:929:5 ΓÇ║ UI controls sweep ΓÇ║ settings drawer opens and closes
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:14.4067992Z   -  38 e2e\ui-controls-sweep.spec.js:942:5 ΓÇ║ UI controls sweep ΓÇ║ full button sweep passes with no failures
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.5878480Z   ok 39 e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available (6.4s)
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6121649Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6129067Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6140255Z   1) e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6140974Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6141305Z     [31mTest timeout of 300000ms exceeded.[39m
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6141639Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6142322Z     attachment #1: settings-before-kill-visible.json (application/json) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6143637Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\settings-before-kill-visible-json-c228354628f7c1a69133dafd6657de3e8ab89993.json
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6145243Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6145561Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6145984Z     attachment #2: offline-kill-dom-after-provider.json (application/json) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6147257Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-dom-after-provider-json-79e313f6dd88523e058e09d0ddc586f425d279d2.json
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6148275Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6148570Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6148954Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6149472Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6150056Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6150490Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6151197Z     attachment #5: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö��ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6151810Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6152280Z     Usage:
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6152395Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6152823Z         npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6153787Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6154280Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6154729Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6155588Z   2) e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6156200Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6156405Z     TimeoutError: Timeout 120000ms exceeded.
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6156700Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6157328Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6158077Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6158673Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6159372Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6159954Z     attachment #3: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6160607Z     test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6161100Z     Usage:
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6161216Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6161609Z         npx playwright show-trace test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6162090Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6162394Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6162640Z 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6162758Z   2 failed
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6163302Z     e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6164095Z     e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇΓöÇ
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6164556Z   27 did not run
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6164773Z   10 passed (13.8m)
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.6165104Z   1 error was not a part of any test, see above for details
+ship_readiness	Run e2e founder flows	2026-05-07T20:19:21.8007767Z ##[error]Process completed with exit code 1.

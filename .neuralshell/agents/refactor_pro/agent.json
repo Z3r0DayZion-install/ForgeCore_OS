@@ -1,0 +1,9 @@
+{
+  "id": "refactor_pro",
+  "name": "Refactor Pro",
+  "version": "0.1.0",
+  "description": "Premium refactor planning agent with safe commit boundaries.",
+  "entry": "index.js",
+  "sha256": "7e87dcc91b2d4d96bd1761e575bf02c8d1402de210c6dd84d7fd63b8ca3a495d",
+  "signature": "sha256:7e87dcc91b2d4d96bd1761e575bf02c8d1402de210c6dd84d7fd63b8ca3a495d"
+}

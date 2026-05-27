@@ -1,0 +1,3247 @@
+NeuralLink? Tactical Suite Loaded.
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 9 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 10 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 11 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 12 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  * Run e2e founder flows
+  * Verify ship readiness
+  * Upload build artifacts
+  * Post Setup Node
+  * Post Checkout
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+* CI build windows (self-hosted) (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  X Run e2e founder flows
+  - Verify ship readiness
+  - Upload build artifacts
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+X master Windows Heavy Validation · 26322827836
+Triggered via workflow_dispatch about 13 minutes ago
+
+JOBS
+X Merge gate ship readiness (self-hosted) in 6m14s (ID 77494969482)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  ✓ Prepare Playwright artifact directories
+  ✓ Write ship readiness E2E artifact marker
+  X Run e2e founder flows
+  ✓ Print ship readiness Playwright diagnostics to log
+  ✓ Bundle minimal ship readiness diagnostics
+  ✓ Upload minimal ship readiness diagnostics
+  - Verify ship readiness
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+X CI build windows (self-hosted) in 6m24s (ID 77494969491)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Setup Node
+  ✓ Install deps
+  ✓ Install renderer deps
+  X Run e2e founder flows
+  - Verify ship readiness
+  - Upload build artifacts
+  - Post Setup Node
+  ✓ Post Checkout
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Merge gate ship readiness (self-hosted): .github#2
+
+X Failed to CreateArtifact: Artifact storage quota has been hit. Unable to upload any new artifacts. Usage is recalculated every 6-12 hours.
+More info on storage limits: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#calculating-minute-and-storage-spending
+Merge gate ship readiness (self-hosted): .github#14
+
+X Process completed with exit code 1.
+Merge gate ship readiness (self-hosted): .github#61
+
+! Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+CI build windows (self-hosted): .github#2
+
+X Process completed with exit code 1.
+CI build windows (self-hosted): .github#59
+

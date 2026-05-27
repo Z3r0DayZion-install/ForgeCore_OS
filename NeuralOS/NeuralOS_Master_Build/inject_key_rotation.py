@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+import re
+
+# Read the file
+with open('packages/shells/winshadow/src/App.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# 1. Add SignerKeyVersion interface after RegisteredWarpSigner
+interface_addition = '''
+interface SignerKeyVersion {
+  version: number;
+  publicKeyJwk: JsonWebKey;
+  createdAt: number;
+  revokedAt?: number;
+  status: 'active' | 'deprecated' | 'revoked';
+  rotationReason?: string;
+}
+'''
+
+pattern1 = r'(interface RegisteredWarpSigner \{[^}]+\})'
+replacement1 = r'\1' + interface_addition
+content = re.sub(pattern1, replacement1, content, count=1)
+
+# 2. Add storage keys and helper functions before loadWarpCapsules
+helpers = '''
+const WARP_SIGNER_VERSIONS_STORAGE_KEY = 'warp-signer-key-versions';
+const WARP_KEY_REVOCATION_LIST_STORAGE_KEY = 'warp-key-revocation-list';
+
+function loadSignerKeyVersions(signerId: string): SignerKeyVersion[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = window.localStorage.getItem(`${WARP_SIGNER_VERSIONS_STORAGE_KEY}:${signerId}`);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as unknown[];
+    return Array.isArray(parsed) ? parsed.slice(0, 20) : [];
+  } catch {
+    return [];
+  }
+}
+
+function persistSignerKeyVersions(signerId: string, versions: SignerKeyVersion[]): void {
+  if (typeof window === 'undefined' || isAutomationSession()) return;
+  try {
+    window.localStorage.setItem(`${WARP_SIGNER_VERSIONS_STORAGE_KEY}:${signerId}`, JSON.stringify(versions));
+  } catch {
+    // Ignore storage failures
+  }
+}
+
+async function rotateSignerKey(signerId: string, reason = 'Routine rotation'): Promise<boolean> {
+  if (!globalThis.crypto?.subtle) return false;
+  try {
+    const newKeyPair = await globalThis.crypto.subtle.generateKey(
+      { name: 'ECDSA', namedCurve: 'P-256' },
+      true,
+      ['sign', 'verify']
+    );
+    const publicKeyJwk = (await globalThis.crypto.subtle.exportKey('jwk', newKeyPair.publicKey)) as JsonWebKey;
+    const privateKeyJwk = (await globalThis.crypto.subtle.exportKey('jwk', newKeyPair.privateKey)) as JsonWebKey;
+    
+    const versions = loadSignerKeyVersions(signerId);
+    const newVersion: SignerKeyVersion = {
+      version: (versions[versions.length - 1]?.version || 0) + 1,
+      publicKeyJwk,
+      createdAt: Date.now(),
+      status: 'active',
+      rotationReason: reason
+    };
+    
+    if (versions.length > 0) {
+      versions[versions.length - 1].status = 'deprecated';
+    }
+    
+    versions.push(newVersion);
+    persistSignerKeyVersions(signerId, versions);
+    window.localStorage.setItem(`${WARP_KEYPAIR_STORAGE_KEY}:${signerId}:${newVersion.version}`, JSON.stringify({ publicKeyJwk, privateKeyJwk }));
+    
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function revokeSignerKey(signerId: string, version: number, reason = 'Security incident'): void {
+  if (typeof window === 'undefined' || isAutomationSession()) return;
+  try {
+    const versions = loadSignerKeyVersions(signerId);
+    const keyIndex = versions.findIndex(v => v.version === version);
+    if (keyIndex >= 0) {
+      versions[keyIndex].status = 'revoked';
+      versions[keyIndex].revokedAt = Date.now();
+      persistSignerKeyVersions(signerId, versions);
+    }
+  } catch {
+    // Ignore failures
+  }
+}
+
+async function verifyWarpCapsuleWithKeyVersion(
+  capsule: WarpCapsule,
+  signerVersions: SignerKeyVersion[]
+): Promise<{verified: boolean; warning?: string}> {
+  if (!capsule.signatureScheme || capsule.signatureScheme === 'hash-v1') {
+    const expectedSig = await signWarpCapsulePayload(capsule.moduleIds, capsule.createdAt, capsule.signerId);
+    return {verified: expectedSig === capsule.signature};
+  }
+
+  const activeVersion = signerVersions.find(v => v.status === 'active');
+  if (!activeVersion) return {verified: false};
+
+  if (activeVersion.status === 'revoked' && capsule.createdAt > (activeVersion.revokedAt || 0)) {
+    return {verified: false, warning: 'Capsule signed after key revocation'};
+  }
+
+  try {
+    const publicKeyJwk = activeVersion.publicKeyJwk;
+    const verified = await verifyWarpCapsulePayloadAsymmetric(
+      capsule.moduleIds,
+      capsule.createdAt,
+      capsule.signerId,
+      capsule.signature,
+      publicKeyJwk
+    );
+    if (activeVersion.status === 'revoked') {
+      return {verified, warning: 'Capsule signed with revoked key (but before revocation)'};
+    }
+    return {verified};
+  } catch {
+    return {verified: false};
+  }
+}
+
+'''
+
+pattern2 = r'(function loadWarpCapsules)'
+replacement2 = helpers + r'\1'
+content = re.sub(pattern2, replacement2, content, count=1)
+
+# Write the modified file
+with open('packages/shells/winshadow/src/App.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print("✓ Key rotation code successfully injected into App.tsx")

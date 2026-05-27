@@ -1,0 +1,722 @@
+NeuralLink? Tactical Suite Loaded.
+
+ship_readiness	UNKNOWN STEP	﻿2026-05-05T08:22:07.6529138Z Current runner version: '2.334.0'
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6555211Z ##[group]Runner Image Provisioner
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6556354Z Hosted Compute Agent
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6557172Z Version: 20260422.526
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6558134Z Commit: e1a9e573f4d0838b3a7c1b07401aeb29ed3635a9
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6559244Z Build Date: 2026-04-22T09:31:31Z
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6560281Z Worker ID: {7e07b7c0-211d-4723-9e55-4942cfa6ce14}
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6561695Z Azure Region: eastus2
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6562504Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6565084Z ##[group]Operating System
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6566205Z Microsoft Windows Server 2025
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6567266Z 10.0.26100
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6568067Z Datacenter
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6568794Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6569446Z ##[group]Runner Image
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6570347Z Image: windows-2025
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6571123Z Version: 20260428.110.2
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6573641Z Included Software: 
+https://github.com/actions/runner-images/blob/win25/20260428.110/images/windows/Windows2025-Readme.md
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6576158Z Image Release: 
+https://github.com/actions/runner-images/releases/tag/win25%2F20260428.110
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6577740Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6579567Z ##[group]GITHUB_TOKEN Permissions
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6582672Z Contents: read
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6583422Z Metadata: read
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6584652Z Packages: read
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6585469Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6588130Z Secret source: Actions
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6589297Z Prepare workflow directory
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.6968757Z Prepare all required actions
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.7006015Z Getting action download info
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:07.9461108Z Download action repository 
+'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.0719354Z Download action repository 
+'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.4542446Z Complete job name: ship_readiness
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5921130Z ##[group]Run 
+actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5922349Z with:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5922793Z   repository: Z3r0DayZion-install/NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5923559Z   token: ***
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5923936Z   ssh-strict: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5924332Z   ssh-user: git
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5924727Z   persist-credentials: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5925189Z   clean: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5925589Z   sparse-checkout-cone-mode: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5926081Z   fetch-depth: 1
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5926471Z   fetch-tags: false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5926872Z   show-progress: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5927274Z   lfs: false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5927655Z   submodules: false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5928074Z   set-safe-directory: true
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.5928716Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.7593688Z Syncing repository: Z3r0DayZion-install/NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.7595892Z ##[group]Getting Git version info
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.7596655Z Working directory is 'D:\a\NeuralShell\NeuralShell'
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.8525906Z [command]"C:\Program Files\Git\bin\git.exe" version
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.9842364Z git version 2.54.0.windows.1
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.9903988Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.9927011Z Temporarily overriding 
+HOME='D:\a\_temp\d1ed812b-b269-444d-9d36-d4d154cc2931' before making global git config changes
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.9929329Z Adding repository directory to the temporary git global 
+config as a safe directory
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:08.9939581Z [command]"C:\Program Files\Git\bin\git.exe" config --global 
+--add safe.directory D:\a\NeuralShell\NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.0239910Z Deleting the contents of 'D:\a\NeuralShell\NeuralShell'
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.0246404Z ##[group]Initializing the repository
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.0256505Z [command]"C:\Program Files\Git\bin\git.exe" init 
+D:\a\NeuralShell\NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.0675479Z Initialized empty Git repository in 
+D:/a/NeuralShell/NeuralShell/.git/
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.0722725Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin 
+https://github.com/Z3r0DayZion-install/NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1030425Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1031298Z ##[group]Disabling automatic garbage collection
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1040575Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+gc.auto 0
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1327122Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1327937Z ##[group]Setting up auth
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1347089Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp core\.sshCommand
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.1641071Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 
+'core.sshCommand' || :\""
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:09.9866817Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:10.0168774Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git 
+config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:10.5600979Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp ^includeIf\.gitdir:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:10.5893248Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:11.1197377Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:11.1507988Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:11.1508487Z ##[group]Fetching the repository
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:11.1532256Z [command]"C:\Program Files\Git\bin\git.exe" -c 
+protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin 
++7c5cd6ac7715a10460610cd8d7603fb5682b208b:refs/remotes/pull/60/merge
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.4840315Z From https://github.com/Z3r0DayZion-install/NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.4841218Z  * [new ref]         7c5cd6ac7715a10460610cd8d7603fb5682b208b 
+-> pull/60/merge
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5038238Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5038834Z ##[group]Determining the checkout info
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5041771Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5052657Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout 
+disable
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5389361Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--unset-all extensions.worktreeConfig
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5685489Z ##[group]Checking out the ref
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:12.5686013Z [command]"C:\Program Files\Git\bin\git.exe" checkout 
+--progress --force refs/remotes/pull/60/merge
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5287255Z Note: switching to 'refs/remotes/pull/60/merge'.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5287767Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5288073Z You are in 'detached HEAD' state. You can look around, make 
+experimental
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5288637Z changes and commit them, and you can discard any commits you 
+make in this
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5289070Z state without impacting any branches by switching back to a 
+branch.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5289358Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5289524Z If you want to create a new branch to retain commits you 
+create, you may
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290039Z do so (now or later) by using -c with the switch command. 
+Example:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290281Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290369Z   git switch -c <new-branch-name>
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290527Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290605Z Or undo this operation with:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290794Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290882Z   git switch -
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5290988Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5291175Z Turn off this advice by setting config variable 
+advice.detachedHead to false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5291470Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5291900Z HEAD is now at 7c5cd6a Merge 
+4d646d146b09099050cd708fba627d399e11942c into 4e41cbcbf973ca95ec29f9b5ef11fb22b8a7e3bf
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5455281Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.5784194Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6048233Z 7c5cd6ac7715a10460610cd8d7603fb5682b208b
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6482116Z ##[group]Run 
+actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6482523Z with:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6482691Z   node-version: 22.12.0
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6482869Z   cache: npm
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6483013Z   always-auth: false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6483184Z   check-latest: false
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6483487Z   token: ***
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.6483644Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:13.8783277Z Attempting to download 22.12.0...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:14.3535834Z Acquiring 22.12.0 - x64 from 
+https://github.com/actions/node-versions/releases/download/22.12.0-12152383658/node-22.12.0-win32-x64.7z
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:14.6861758Z Extracting ...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:17.4013602Z Adding to the cache ...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:22.5248792Z ##[group]Environment details
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.5382824Z node: v22.12.0
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.5385791Z npm: 10.9.0
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.5386603Z yarn: 1.22.22
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.5387337Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.6256371Z [command]C:\Windows\system32\cmd.exe /D /S /C 
+"C:\hostedtoolcache\windows\node\22.12.0\x64\npm.cmd config get cache"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:23.9242053Z C:\npm\cache
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:24.1233324Z npm cache is not found
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:24.1573423Z ##[group]Run npm ci
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:24.1573716Z npm ci
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:24.2250076Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". 
+'{0}'"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:24.2250524Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:34.1231817Z npm warn deprecated lodash.isequal@4.5.0: This package is 
+deprecated. Use require('node:util').isDeepStrictEqual instead.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:34.2680742Z npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 
+are no longer supported
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:34.4177360Z npm warn deprecated inflight@1.0.6: This module is not 
+supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async 
+requests by a key value, which is much more comprehensive and powerful.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:34.8074006Z npm warn deprecated glob@7.2.3: Old versions of glob are not 
+supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. 
+Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:35.8217394Z npm warn deprecated boolean@3.2.0: Package no longer 
+supported. Contact Support at https://www.npmjs.com/support for more info.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5141549Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5142259Z added 408 packages, and audited 410 packages in 17s
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5142745Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5143006Z 69 packages are looking for funding
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5143536Z   run `npm fund` for details
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5162040Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.5162291Z found 0 vulnerabilities
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.7596465Z ##[group]Run npm ci --prefix src/renderer
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.7596837Z npm ci --prefix src/renderer
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.7656384Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". 
+'{0}'"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:46.7656697Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7887998Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7888742Z added 63 packages, and audited 64 packages in 5s
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7890105Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7890645Z 14 packages are looking for funding
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7891095Z   run `npm fund` for details
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7902363Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.7902668Z found 0 vulnerabilities
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.8780873Z ##[group]Run npm run test:e2e
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.8781264Z npm run test:e2e
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.8843062Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". 
+'{0}'"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:52.8843400Z ##[endgroup]
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.4967685Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.4968172Z > neuralshell-v5@2.1.32 pretest:e2e
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.4968823Z > npm run renderer:ensure-build
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.4969425Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.7837039Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.7837616Z > neuralshell-v5@2.1.32 renderer:ensure-build
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.7838096Z > node scripts/ensure_renderer_built.cjs
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.7838347Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:53.8525273Z [renderer:ensure-build] Renderer dist is stale; rebuilding...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.1442701Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.1443224Z > neuralshell-renderer@2.0.0 build
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.1443561Z > vite build
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.1443691Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.6385127Z vite v8.0.10 building client environment for production...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:54.6569348Z [2K
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:55.9160136Z transforming...✓ 2053 modules transformed.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:22:56.4860163Z rendering chunks...
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1893654Z ../../dist-renderer/index.html                                
+    0.95 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1894575Z ../../dist-renderer/assets/index-CidDSky-.css                 
+  313.54 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1895727Z ../../dist-renderer/js/rolldown-runtime-E2wbm5IW.js           
+    0.69 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1897046Z ../../dist-renderer/js/OnboardingProgressRail-DtHMNd7z.js     
+    1.23 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1897859Z ../../dist-renderer/js/RoleSwitcher-DurgV7zm.js               
+    1.37 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1898765Z ../../dist-renderer/js/runtimeEventBus-CCiW6qjq.js            
+    1.39 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1899618Z ../../dist-renderer/js/recordIO-DWzXnVa3.js                   
+    1.67 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1900322Z ../../dist-renderer/js/DrillTemplateEditor-nI9FEC_P.js        
+    1.77 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1900961Z ../../dist-renderer/js/SupportBundleCard-CgHPBYnC.js          
+    2.08 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1901927Z ../../dist-renderer/js/MessageDensityBar-CqNRRYuZ.js          
+    2.38 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1902551Z ../../dist-renderer/js/ScratchpadTab-CyzJe98O.js              
+    2.49 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1903157Z ../../dist-renderer/js/UpdateRingConsole-CXFO-zQt.js          
+    2.51 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1903771Z ../../dist-renderer/js/vendor-state-D-fEEIv3.js               
+    2.54 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1904382Z ../../dist-renderer/js/ReleaseHealthConsole-DfrTRdwQ.js       
+    2.65 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1905003Z ../../dist-renderer/js/BuyerEvaluationCenter-HD2PJv7n.js      
+    2.69 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1905626Z ../../dist-renderer/js/CommercialPackageConsole-C8wOYUDF.js   
+    3.08 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1906234Z ../../dist-renderer/js/UpgradeModal-C8TqbzRs.js               
+    3.10 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1906832Z ../../dist-renderer/js/ProviderSweep-D0GflgJL.js              
+    3.20 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1907432Z ../../dist-renderer/js/ReferralCard-DBdiJWle.js               
+    3.22 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1908239Z ../../dist-renderer/js/RuntimeAlertsDrawer-Ch3sjSBl.js        
+    3.24 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1909265Z ../../dist-renderer/js/signedArtifacts-bFkVFdnG.js            
+    3.42 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1909891Z ../../dist-renderer/js/vendor-misc-CedZIPer.js                
+    3.43 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1910703Z ../../dist-renderer/js/PilotKitConsole-DLfBHT7Z.js            
+    3.48 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1911848Z ../../dist-renderer/js/ProvisioningWizard-DqE3VtqW.js         
+    3.48 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1912883Z ../../dist-renderer/js/ThreadDrawer-BfrVgvFB.js               
+    3.72 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1913815Z ../../dist-renderer/js/BoardOperatingPackConsole-CRTq0Rw0.js  
+    3.76 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1914762Z ../../dist-renderer/js/LicensedOperatorFramework-BApIzWK7.js  
+    3.78 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1915752Z ../../dist-renderer/js/PartnerNetworkGovernance-D6WggTnK.js   
+    3.90 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1919456Z ../../dist-renderer/js/IssueAssistModal-DYvz_44r.js           
+    3.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1920534Z ../../dist-renderer/js/BranchDiffView-CjdKV7o1.js             
+    3.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1921807Z ../../dist-renderer/js/SupportOpsConsole-ClZgqEDB.js          
+    3.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1923016Z [plugin builtin:vite-reporter] 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1923736Z (!) Some chunks are larger than 500 kB after minification. 
+Consider:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1924864Z - Using dynamic import() to code-split the application
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1926272Z - Use build.rolldownOptions.output.codeSplitting to improve 
+chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1927861Z - Adjust chunk size limit for this warning via 
+build.chunkSizeWarningLimit.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1929866Z [PLUGIN_TIMINGS] Warning: Your build spent significant time 
+in plugin `vite:terser`. See https://rolldown.rs/options/checks#plugintimings for more details.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1931148Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1931727Z ../../dist-renderer/js/VoiceMode-lxiOBBpC.js                  
+    3.93 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1932691Z ../../dist-renderer/js/PilotConversionConsole-DCOwNui5.js     
+    3.95 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1933651Z ../../dist-renderer/js/EcosystemPortfolioConsole-d27a7mGX.js  
+    4.02 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1934632Z ../../dist-renderer/js/SmartContextWindow-C0P7v-jA.js         
+    4.07 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1935577Z ../../dist-renderer/js/SuccessCaptureModal-DK25VAfc.js        
+    4.15 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1936510Z ../../dist-renderer/js/pricingTiers-BBqgecfY.js               
+    4.18 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1937437Z ../../dist-renderer/js/ServiceLineConsole-BX9PzNU3.js         
+    4.22 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1938357Z ../../dist-renderer/js/ProofVisualizer-BTjt2iQV.js            
+    4.24 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1939351Z ../../dist-renderer/js/GhostReplay-DlN2rT9X.js                
+    4.28 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1940294Z ../../dist-renderer/js/OfflineUpdateConsole-DtZW9cfW.js       
+    4.29 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1941244Z ../../dist-renderer/js/GlobalPlanningConsole-Dz7t7AVY.js      
+    4.34 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1942539Z ../../dist-renderer/js/EcosystemRevenuePlanner-BlWK6xw_.js    
+    4.36 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1943515Z ../../dist-renderer/js/PortfolioRolloutPlanner-u4OWysJC.js    
+    4.41 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1944488Z ../../dist-renderer/js/DeploymentProgramCenter-BrN-d4Iv.js    
+    4.48 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1945475Z ../../dist-renderer/js/EcosystemCommandCenter-siQqEO6A.js     
+    4.67 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1946458Z ../../dist-renderer/js/RevenueOpsConsole-Byx-m8bc.js          
+    4.71 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1947428Z ../../dist-renderer/js/ChannelExpansionPlanner-CPFQ2PK1.js    
+    4.74 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1948382Z ../../dist-renderer/js/OperatorDashboard-Dcl6hZT6.js          
+    4.74 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1949301Z ../../dist-renderer/js/OnboardingWizard-CHpZ8O41.js           
+    4.75 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1950230Z ../../dist-renderer/js/FunnelDashboard-9zgMFLBO.js            
+    4.93 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1951154Z ../../dist-renderer/js/RevenueConsole-DHMDaKNM.js             
+    4.96 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1952083Z ../../dist-renderer/js/CrossAccountRenewalMatrix-BYp4x6S_.js  
+    5.01 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1953052Z ../../dist-renderer/js/ApplianceConsole-E0P4z2bo.js           
+    5.04 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1954064Z ../../dist-renderer/js/ExecutiveScaleDashboard-0U50dJ4-.js    
+    5.08 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1955269Z ../../dist-renderer/js/SmartClipboard-TaVsXc_7.js             
+    5.08 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1955825Z ../../dist-renderer/js/TrainingDeliveryCenter-KGKPsFKI.js     
+    5.13 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1956385Z ../../dist-renderer/js/QuickSearchWidget-B_HNk-wJ.js          
+    5.16 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1956889Z ../../dist-renderer/js/ShortcutCheatSheet-Bk-RTeOM.js         
+    5.23 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1957725Z ../../dist-renderer/js/PilotExpansionConsole-mj-uKYsZ.js      
+    5.26 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1958878Z ../../dist-renderer/js/BillingCenter-CLurPRKw.js              
+    5.37 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1959446Z ../../dist-renderer/js/ManagedServicesConsole-tX03PdYE.js     
+    5.47 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1959969Z ../../dist-renderer/js/StrategicAccountConsole-CvDXGIIa.js    
+    5.47 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1960479Z ../../dist-renderer/js/PolicyProfileCard-Bi2mKK88.js          
+    5.67 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1960984Z ../../dist-renderer/js/AgentOrchestrator-CwFs27kZ.js          
+    5.67 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1962501Z ../../dist-renderer/js/MultiModelSplit-CspjlZQS.js            
+    5.79 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1963015Z ../../dist-renderer/js/RenewalRiskConsole-DAjdme7M.js         
+    5.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1963497Z ../../dist-renderer/js/AgentStore-Cj9yY152.js                 
+    5.97 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1963965Z ../../dist-renderer/js/BoardConsole-eRtCR276.js               
+    6.02 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1964449Z ../../dist-renderer/js/LaunchWeekCommandCenter-BEdAH3ns.js    
+    6.02 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1964942Z ../../dist-renderer/js/FollowupGenerator-DNxwiznx.js          
+    6.08 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1965414Z ../../dist-renderer/js/BuyerOpsConsole-cicmLJue.js            
+    6.23 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1965885Z ../../dist-renderer/js/ShareProofModal-COxnCBnd.js            
+    6.31 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1966377Z ../../dist-renderer/js/PartnerCertificationHub-DnFxOsSa.js    
+    6.39 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1966884Z ../../dist-renderer/js/ShiftConsole-CszZSx9d.js               
+    6.40 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1967389Z ../../dist-renderer/js/CustomerSuccessConsole-CBlAuErd.js     
+    6.42 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1967909Z ../../dist-renderer/js/FieldLaunchCommandCenter-DG1hLf1C.js   
+    6.45 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1968411Z ../../dist-renderer/js/PartnerRolloutConsole-BlfgrFkG.js      
+    6.45 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1968908Z ../../dist-renderer/js/ExpansionPlanner-DcU4fOnP.js           
+    6.57 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1969392Z ../../dist-renderer/js/FocusMode-BT3pGgUH.js                  
+    6.58 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1969864Z ../../dist-renderer/js/BrandingOverrides-CufkShY2.js          
+    6.76 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1970357Z ../../dist-renderer/js/FieldFeedbackConsole-Rm52rtVs.js       
+    6.77 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1970850Z ../../dist-renderer/js/DemoToPilotConsole-DnkJyI-T.js         
+    6.80 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1971337Z ../../dist-renderer/js/HardwareApplianceManager-4MuwxowK.js   
+    7.17 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1971843Z ../../dist-renderer/js/TamperSimulationCenter-CqhW3Ww2.js     
+    7.18 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1972319Z ../../dist-renderer/js/PomodoroTimer-Dykn_8mH.js              
+    7.24 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1972811Z ../../dist-renderer/js/ProcurementCommandCenter-BdAiVF0R.js   
+    7.27 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1973318Z 
+../../dist-renderer/js/InstitutionalCommandConsole-Cl1bnRDV.js    7.56 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1973807Z ../../dist-renderer/js/DemoFlowConsole-DQfqHWYT.js            
+    7.59 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1974297Z ../../dist-renderer/js/KeyboardShortcutsModal-D86cEZ-o.js     
+    7.68 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1974801Z ../../dist-renderer/js/AICostEstimator-DW2ZGoiD.js            
+    7.76 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1975290Z ../../dist-renderer/js/SessionSnapshotPanel-q8rp4kAm.js       
+    7.82 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1975768Z ../../dist-renderer/js/AnalyticsDrawer-KTashSAt.js            
+    7.83 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1976242Z ../../dist-renderer/js/SystemPulse-DMRLcoO0.js                
+    7.89 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1976721Z ../../dist-renderer/js/SignalLabPanel-CAa6WEGT.js             
+    8.06 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1977203Z ../../dist-renderer/js/PolicyRolloutConsole-DxTNZDtf.js       
+    8.24 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1977698Z ../../dist-renderer/js/ContextualHotswap-DBLcFjD4.js          
+    8.39 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1978183Z ../../dist-renderer/js/CourierTransferCenter-D79Zduhq.js      
+    8.40 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1978659Z ../../dist-renderer/js/RealTimeMonitor-KruB4cuS.js            
+    8.44 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1979521Z ../../dist-renderer/js/RuntimeEventFeed-DFvxk1A7.js           
+    8.46 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1980629Z ../../dist-renderer/js/NeuralPulseMap--h7WWDkz.js             
+    8.69 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1981135Z ../../dist-renderer/js/SalesConsole-DtyPAslA.js               
+    8.78 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1981621Z ../../dist-renderer/js/PartnerConsole-CR6hOAUj.js             
+    8.80 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1982086Z ../../dist-renderer/js/GuidedDemoMode-By4c1dYi.js             
+    8.83 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1982706Z ../../dist-renderer/js/CertificationCenter-CEoU5GZW.js        
+    8.83 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1983209Z ../../dist-renderer/js/IncidentModePanel-BT58y-9-.js          
+    8.93 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1983691Z ../../dist-renderer/js/CommandCenter-BQZqL7FS.js              
+    9.10 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1984180Z ../../dist-renderer/js/EnterprisePolicySuite-C-JxV064.js      
+    9.18 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1984667Z ../../dist-renderer/js/ChatThemeCustomizer-DLg7YLXq.js        
+    9.45 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1985142Z ../../dist-renderer/js/CollabRoomPanel-B2xTeAxF.js            
+    9.47 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1985613Z ../../dist-renderer/js/NeuralGraph-Be-sW4lV.js                
+    9.53 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1986083Z ../../dist-renderer/js/PromptDiffModal-BWSKFv-5.js            
+    9.75 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1986581Z ../../dist-renderer/js/CommandPalette-DfqhfrRj.js             
+    9.89 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1987069Z ../../dist-renderer/js/ProofStreakCounter-D3ldSfdK.js         
+    9.89 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1987551Z ../../dist-renderer/js/SessionNotesPanel-DAM1_uqR.js          
+    9.99 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1988034Z ../../dist-renderer/js/SessionHealthScore-Cukhhehk.js         
+   10.03 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1988518Z ../../dist-renderer/js/NeuralRuntimeDrivers-Cp8Bm0s6.js       
+   10.11 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1989003Z ../../dist-renderer/js/DeadlinesPanel-D2yR3STL.js             
+   10.15 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1989504Z ../../dist-renderer/js/ConversationInsights-qrFR1Q8z.js       
+   10.30 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1990017Z ../../dist-renderer/js/NodeChainPanel-tasvXT4U.js             
+   10.39 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1990496Z ../../dist-renderer/js/SpotlightBar-CdKBJwO7.js               
+   10.42 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1990986Z ../../dist-renderer/js/SessionCompareView-Djs_Jzm7.js         
+   10.61 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1991467Z ../../dist-renderer/js/operatorProgress-TBRoZZlC.js           
+   11.02 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1991953Z ../../dist-renderer/js/ContinuityDrillCenter-QLy6n59k.js      
+   11.16 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1992453Z ../../dist-renderer/js/AuditChainView-Dlpbd7-m.js             
+   11.46 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1992937Z ../../dist-renderer/js/MissionScheduler-DHW28v0f.js           
+   11.47 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1993413Z ../../dist-renderer/js/FirstBootWizard-BY2mISX0.js            
+   11.54 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1993903Z ../../dist-renderer/js/AirGapOperationsCenter-CcGgYDho.js     
+   11.59 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1994402Z ../../dist-renderer/js/SessionRewind-IrPqmvoW.js              
+   11.59 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1994896Z ../../dist-renderer/js/OperatorProfilePanel-lQbwQxry.js       
+   11.78 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1995424Z ../../dist-renderer/js/AdvancedOptimizationEngine-xiO2AN0Q.js 
+   11.84 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1995959Z ../../dist-renderer/js/ThoughtChainVisualizer-D10mw3Eq.js     
+   12.03 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1996469Z ../../dist-renderer/js/RecoveryCenter-Cdle53Ie.js             
+   12.29 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1996970Z ../../dist-renderer/js/PricingTierModal-B1KCCZm6.js           
+   12.31 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1997458Z ../../dist-renderer/js/ProofBadgePanel-DNK9HYkP.js            
+   12.46 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1997957Z ../../dist-renderer/js/FleetControlPanel-Bulw2RZL.js          
+   12.48 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1998465Z ../../dist-renderer/js/AdaptiveLayoutEngine-JvRIyQEA.js       
+   12.54 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.1998947Z ../../dist-renderer/js/AmbientMorph-BMi72pG8.js               
+   12.57 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2000099Z ../../dist-renderer/js/OperatorCommandBridge-BUpu0-en.js      
+   12.59 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2000765Z ../../dist-renderer/js/OperatorXPPanel-DA-szhbs.js            
+   12.61 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2001284Z ../../dist-renderer/js/OperatorProgressPanel-Bp9-x_pm.js      
+   12.67 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2001814Z ../../dist-renderer/js/ContextWindowRadar-Dzp4RiHt.js         
+   12.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2002311Z ../../dist-renderer/js/TaskManagerDrawer-BmygMijf.js          
+   13.47 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2002923Z ../../dist-renderer/js/Phase24MutantDNA-L7vJjawm.js           
+   13.58 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2003407Z ../../dist-renderer/js/SplitWorkspace-BaAITE85.js             
+   13.64 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2003887Z ../../dist-renderer/js/ChainLearningPanel-BDusGeSQ.js         
+   13.66 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2004388Z ../../dist-renderer/js/AIResponseAuditor-SjbDYoMi.js          
+   14.31 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2004878Z ../../dist-renderer/js/TrustFabricConsole-CdCwxska.js         
+   15.05 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2005353Z ../../dist-renderer/js/SwarmNodePanel-B8iwrlE9.js             
+   15.19 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2005828Z ../../dist-renderer/js/FleetDashboard-BGBdIAPg.js             
+   15.44 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2006308Z ../../dist-renderer/js/SessionTemplatesModal-C36XU_dx.js      
+   15.92 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2006777Z ../../dist-renderer/js/CanvasMode-say6B7qb.js                 
+   16.01 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2007257Z ../../dist-renderer/js/AppConnectPanel-DkDB-pdB.js            
+   16.18 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2007757Z ../../dist-renderer/js/OperatorHomeOverlay-XfmWFVCj.js        
+   17.56 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2008241Z ../../dist-renderer/js/CommunityShowcasePanel-BQTED49K.js     
+   17.82 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2008724Z ../../dist-renderer/js/SecurityLockPanel-DIUMK9Nv.js          
+   18.84 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2009197Z ../../dist-renderer/js/MarkdownExport-DAqeWept.js             
+   20.26 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2009689Z ../../dist-renderer/js/RuntimePerformancePanel-CMX07q6G.js    
+   22.22 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2010176Z ../../dist-renderer/js/MissionControl-e842M7PN.js             
+   28.51 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2010644Z ../../dist-renderer/js/ProjectsMode-1bne6XVf.js               
+   57.95 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2011121Z ../../dist-renderer/js/EcosystemLauncher-BGk8sTLG.js          
+   63.78 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2011596Z ../../dist-renderer/js/SettingsDrawer-C1fHjWP7.js             
+   74.84 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2012064Z ../../dist-renderer/js/ConversationDNA-CgrTdWCC.js            
+  103.34 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2012540Z ../../dist-renderer/js/vendor-react-BDUijfFW.js               
+  208.38 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2013009Z ../../dist-renderer/js/index-DynYphoV.js                      
+  676.93 kB
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2013256Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2013493Z ✓ built in 10.55s
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2899956Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2900591Z > neuralshell-v5@2.1.32 test:e2e
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2901570Z > playwright test e2e/react-core.spec.js 
+e2e/ui-controls-sweep.spec.js e2e/operatorHomeCanvas.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c 
+playwright.e2e.config.js
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:05.2902223Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:07.9131550Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:07.9132333Z Running 39 tests using 1 worker
+ship_readiness	UNKNOWN STEP	2026-05-05T08:23:07.9133314Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:24:13.5059704Z   ok  1 e2e\operatorHomeCanvas.spec.js:265:3 › Operator 
+Home + Canvas flow › opens operator home, launches scratchpad lab, and verifies canvas behaviors (58.1s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:24:35.3910596Z   ok  2 e2e\operatorHomeCanvas.spec.js:378:3 › Operator 
+Home + Canvas flow › extension import rejects invalid JSON (22.6s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:24:40.7666086Z   ok  3 e2e\operatorHomeCanvas.spec.js:391:3 › Operator 
+Home + Canvas flow › extension import rejects unsafe panel action after validation (5.4s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:24:48.7276128Z   ok  4 e2e\operatorHomeCanvas.spec.js:415:3 › Operator 
+Home + Canvas flow › extension import rejects oversized file (8.0s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:25:31.0049366Z   ok  5 e2e\operatorHomeCanvas.spec.js:428:3 › Operator 
+Home + Canvas flow › extension trust shows Shipped on bundled tiles and Imported after user install (39.6s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:25:36.9522353Z   ok  6 e2e\provGraph.spec.js:15:1 › Provenance graph opens 
+from workspace header (5.9s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:25:40.7295481Z   ok  7 e2e\react-core.spec.js:409:5 › NeuralShell React 
+Core UI › App boots and critical React shells render (208ms)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:25:40.8058715Z   ok  8 e2e\react-core.spec.js:416:5 › NeuralShell React 
+Core UI › Trust indicators are present (52ms)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:26:11.1045726Z   ok  9 e2e\react-core.spec.js:423:5 › NeuralShell React 
+Core UI › Settings drawer opens, changes state, and preserves values (30.3s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5059466Z   x  10 e2e\react-core.spec.js:465:5 › NeuralShell React 
+Core UI › Offline kill switch forces local-only bridge posture (2.0m)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5071223Z   -  11 e2e\react-core.spec.js:639:5 › NeuralShell React 
+Core UI › Command palette opens and closes
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5073467Z   -  12 e2e\react-core.spec.js:672:5 › NeuralShell React 
+Core UI › Layout presets adjust rail widths and reset panels
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5077134Z   -  13 e2e\react-core.spec.js:743:5 › NeuralShell React 
+Core UI › Inline rail collapse toggles expose mini-rail expand controls
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5080240Z   -  14 e2e\react-core.spec.js:796:5 › NeuralShell React 
+Core UI › Keyboard shortcuts nudge rail widths
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5084787Z   -  15 e2e\react-core.spec.js:835:5 › NeuralShell React 
+Core UI › Focused layout overlays expose resize handles
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5087801Z   -  16 e2e\react-core.spec.js:855:5 › NeuralShell React 
+Core UI › Composer accepts input
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5090343Z   -  17 e2e\react-core.spec.js:864:5 › NeuralShell React 
+Core UI › Thread creation mutates active workspace state
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5092039Z   -  18 e2e\react-core.spec.js:885:5 › NeuralShell React 
+Core UI › Quick-Start cards trigger real kernel responses
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5093679Z   -  19 e2e\react-core.spec.js:897:5 › NeuralShell React 
+Core UI › Proof and ROI commands execute narratives
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5095295Z   -  20 e2e\react-core.spec.js:920:5 › NeuralShell React 
+Core UI › /clear command wipes the local chat history
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5097052Z   -  21 e2e\react-core.spec.js:932:5 › NeuralShell React 
+Core UI › Session modal exposes dialog semantics and dismisses with Escape
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:42.5100647Z   -  22 e2e\react-core.spec.js:945:5 › NeuralShell React 
+Core UI › Settings drawer close control has an accessible name
+ship_readiness	UNKNOWN STEP	2026-05-05T08:28:56.1955242Z   ok 23 e2e\ui-controls-sweep.spec.js:489:5 › UI controls 
+sweep › top-bar core elements are visible (390ms)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.8562737Z   x  24 e2e\ui-controls-sweep.spec.js:502:5 › UI controls 
+sweep › primary top-bar buttons open and close (3.0m)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9436537Z   -  25 e2e\ui-controls-sweep.spec.js:529:5 › UI controls 
+sweep › trust indicator is present
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9440159Z   -  26 e2e\ui-controls-sweep.spec.js:537:5 › UI controls 
+sweep › presence pill is present
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9442236Z   -  27 e2e\ui-controls-sweep.spec.js:545:5 › UI controls 
+sweep › binary clock toggle opens and closes popup
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9445576Z   -  28 e2e\ui-controls-sweep.spec.js:566:5 › UI controls 
+sweep › model picker opens, shows provider groups, search filters, and selects a model
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9454080Z   -  29 e2e\ui-controls-sweep.spec.js:603:5 › UI controls 
+sweep › calendar popover opens, shows Deadlines tab, add and remove a deadline
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:28.9941873Z   -  30 e2e\ui-controls-sweep.spec.js:655:5 › UI controls 
+sweep › calendar popover Open In tab shows external calendar links
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0217792Z   -  31 e2e\ui-controls-sweep.spec.js:703:5 › UI controls 
+sweep › More menu Panels tab opens panels
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0220311Z   -  32 e2e\ui-controls-sweep.spec.js:732:5 › UI controls 
+sweep › More menu Tools tab items are present and clickable
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0424900Z   -  33 e2e\ui-controls-sweep.spec.js:754:5 › UI controls 
+sweep › More menu View tab: all clock and calendar settings toggle correctly
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0562570Z   -  34 e2e\ui-controls-sweep.spec.js:855:5 › UI controls 
+sweep › More menu Boss tab: runtime roles and toggles respond
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0894616Z   -  35 e2e\ui-controls-sweep.spec.js:883:5 › UI controls 
+sweep › study coach card subject pills are clickable and change card state
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0896832Z   -  36 e2e\ui-controls-sweep.spec.js:915:5 › UI controls 
+sweep › quick-start welcome cards are visible
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0900312Z   -  37 e2e\ui-controls-sweep.spec.js:929:5 › UI controls 
+sweep › settings drawer opens and closes
+ship_readiness	UNKNOWN STEP	2026-05-05T08:32:29.0901965Z   -  38 e2e\ui-controls-sweep.spec.js:942:5 › UI controls 
+sweep › full button sweep passes with no failures
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8244772Z   ok 39 e2e\voiceRoom.spec.js:15:1 › Voice room panel 
+renders and join control is available (6.1s)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8505704Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8513323Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8524133Z   1) e2e\react-core.spec.js:465:5 › NeuralShell React Core 
+UI › Offline kill switch forces local-only bridge posture 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8524916Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8525204Z     Test timeout of 120000ms exceeded.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8525433Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8525870Z     Error Context: 
+test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8526383Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8526799Z     Error Context: 
+test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8528142Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8529008Z   2) e2e\ui-controls-sweep.spec.js:502:5 › UI controls 
+sweep › primary top-bar buttons open and close 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8529763Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8530060Z     Test timeout of 180000ms exceeded.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8530281Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8531025Z     Error Context: 
+test-results\ui-controls-sweep-UI-contr-2a53b--bar-buttons-open-and-close\error-context.md
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8531556Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8532002Z     Error Context: 
+test-results\ui-controls-sweep-UI-contr-2a53b--bar-buttons-open-and-close\error-context.md
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8532496Z 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8532591Z   2 failed
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8533243Z     e2e\react-core.spec.js:465:5 › NeuralShell React Core 
+UI › Offline kill switch forces local-only bridge posture 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8534886Z     e2e\ui-controls-sweep.spec.js:502:5 › UI controls sweep 
+› primary top-bar buttons open and close 
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8535766Z   26 did not run
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.8536210Z   11 passed (10.8m)
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.9216550Z ##[error]Process completed with exit code 1.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:56.9519987Z Post job cleanup.
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2094947Z [command]"C:\Program Files\Git\bin\git.exe" version
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2387216Z git version 2.54.0.windows.1
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2489762Z Temporarily overriding 
+HOME='D:\a\_temp\eb5a26f6-d639-4f8b-afcf-f4b9da509545' before making global git config changes
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2491275Z Adding repository directory to the temporary git global 
+config as a safe directory
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2502434Z [command]"C:\Program Files\Git\bin\git.exe" config --global 
+--add safe.directory D:\a\NeuralShell\NeuralShell
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.2839437Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp core\.sshCommand
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.3162868Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 
+'core.sshCommand' || :\""
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.8617978Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.8950709Z http.https://github.com/.extraheader
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.9011209Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--unset-all http.https://github.com/.extraheader
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:57.9346234Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git 
+config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:58.5305355Z [command]"C:\Program Files\Git\bin\git.exe" config --local 
+--name-only --get-regexp ^includeIf\.gitdir:
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:58.5611860Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach 
+--recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:59.1288666Z Cleaning up orphan processes
+ship_readiness	UNKNOWN STEP	2026-05-05T08:33:59.1478145Z ##[warning]Node.js 20 actions are deprecated. The following 
+actions are running on Node.js 20 and may not work as expected: 
+actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, 
+actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. Actions will be forced to run with Node.js 24 by default 
+starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated 
+versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the 
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 
+becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more 
+information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

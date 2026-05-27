@@ -1,0 +1,550 @@
+NeuralLink? Tactical Suite Loaded.
+
+Running 1 test using 1 worker
+
+(node:21128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+offline-kill-open-settings-early-wrapper-invocation-id=1
+offline-kill-open-settings-invocation-count=1
+offline-kill-early-stage-open-settings-started=true
+offline-kill-early-stage-open-settings-started-at=1778886827543
+offline-kill-early-stage-name=open-settings
+early-open-settings-stage-entered
+early-open-settings-stage-normalize-start
+early-open-settings-stage-normalize-done
+early-open-settings-stage-shell-settle-start
+offline-kill-shell-settle=ok iterations=1 elapsedMs=642 activeFp=BODY|
+early-open-settings-stage-shell-settle-done
+early-open-settings-stage-reset-start
+early-open-settings-stage-reset-done
+offline-kill-open-settings-invocation-id=1
+offline-kill-open-settings-invocation-count=1
+offline-kill-open-settings-helper-entered=true
+offline-kill-open-settings-reason-label=offline-kill
+offline-kill-open-settings-start=true
+offline-kill-open-settings-readiness-phase=after-helper-enter
+offline-kill-open-settings-opener-attached-count=1
+offline-kill-open-settings-opener-visible-count=1
+offline-kill-open-settings-opener-enabled=true
+offline-kill-settings-drawer-attached-count=0
+offline-kill-settings-drawer-visible-count=0
+offline-kill-settings-drawer-open-state={"openAttached":0,"openVisible":0,"slice":[]}
+offline-kill-provider-panel-state={"tabActive":null,"panelPresent":false,"panelVisible":false}
+offline-kill-open-settings-after-helper-enter-dom-state={"topBarPresent":true,"bodyTextLen":3517,"openerAttached":1,"openerVisible":1,"openerEnabledFirst":true,"drawerAttached":0,"drawerOpenAttached":0,"drawerOpenVisible":0,"connectionTabActive":null,"connectionPanelPresent":false,"connectionPanelVisible":false}
+early-open-settings-stage-open-settings-drawer-helper-entered
+offline-kill-open-settings-readiness-phase=after-pre-opener-dismiss
+offline-kill-open-settings-opener-attached-count=1
+offline-kill-open-settings-opener-visible-count=1
+offline-kill-open-settings-opener-enabled=true
+offline-kill-settings-drawer-attached-count=0
+offline-kill-settings-drawer-visible-count=0
+offline-kill-settings-drawer-open-state={"openAttached":0,"openVisible":0,"slice":[]}
+offline-kill-provider-panel-state={"tabActive":null,"panelPresent":false,"panelVisible":false}
+offline-kill-open-settings-after-pre-opener-dismiss-dom-state={"topBarPresent":true,"bodyTextLen":3517,"openerAttached":1,"openerVisible":1,"openerEnabledFirst":true,"drawerAttached":0,"drawerOpenAttached":0,"drawerOpenVisible":0,"connectionTabActive":null,"connectionPanelPresent":false,"connectionPanelVisible":false}
+early-open-settings-stage-locator-resolve-start
+early-open-settings-stage-locator-resolve-done
+early-open-settings-stage-opener-visible-wait-start
+early-open-settings-stage-opener-visible-wait-done
+offline-kill-open-settings-readiness-phase=after-opener-visible
+offline-kill-open-settings-opener-attached-count=1
+offline-kill-open-settings-opener-visible-count=1
+offline-kill-open-settings-opener-enabled=true
+offline-kill-settings-drawer-attached-count=0
+offline-kill-settings-drawer-visible-count=0
+offline-kill-settings-drawer-open-state={"openAttached":0,"openVisible":0,"slice":[]}
+offline-kill-provider-panel-state={"tabActive":null,"panelPresent":false,"panelVisible":false}
+offline-kill-open-settings-after-opener-visible-dom-state={"topBarPresent":true,"bodyTextLen":3517,"openerAttached":1,"openerVisible":1,"openerEnabledFirst":true,"drawerAttached":0,"drawerOpenAttached":0,"drawerOpenVisible":0,"connectionTabActive":null,"connectionPanelPresent":false,"connectionPanelVisible":false}
+offline-kill-open-settings-readiness-phase=before-click
+offline-kill-open-settings-opener-attached-count=1
+offline-kill-open-settings-opener-visible-count=1
+offline-kill-open-settings-opener-enabled=true
+offline-kill-settings-drawer-attached-count=0
+offline-kill-settings-drawer-visible-count=0
+offline-kill-settings-drawer-open-state={"openAttached":0,"openVisible":0,"slice":[]}
+offline-kill-provider-panel-state={"tabActive":null,"panelPresent":false,"panelVisible":false}
+offline-kill-open-settings-before-click-dom-state={"topBarPresent":true,"bodyTextLen":3517,"openerAttached":1,"openerVisible":1,"openerEnabledFirst":true,"drawerAttached":0,"drawerOpenAttached":0,"drawerOpenVisible":0,"connectionTabActive":null,"connectionPanelPresent":false,"connectionPanelVisible":false}
+early-open-settings-stage-first-click-target-setup-start
+early-open-settings-stage-first-click-target-locator-start
+early-open-settings-stage-first-click-target-locator-done
+early-open-settings-stage-first-click-target-resolve-start
+early-open-settings-stage-first-click-target-resolve-done
+early-open-settings-stage-first-click-target-bbox-start
+early-open-settings-stage-first-click-target-bbox-done
+early-open-settings-stage-first-click-target-elementfrompoint-start
+early-open-settings-stage-first-click-target-elementfrompoint-done
+early-open-settings-stage-first-click-target-probe-install-start
+early-open-settings-stage-first-click-target-probe-install-done
+early-open-settings-stage-first-click-target-setup-done
+early-open-settings-stage-binding-setup-start
+early-open-settings-stage-binding-setup-done
+early-open-settings-stage-preclick-snapshot-start
+early-open-settings-stage-preclick-snapshot-evaluate-start
+early-open-settings-stage-preclick-snapshot-evaluate-done
+early-open-settings-stage-preclick-snapshot-candidates-start
+early-open-settings-stage-preclick-snapshot-candidates-done
+early-open-settings-stage-preclick-snapshot-artifact-start
+early-open-settings-stage-preclick-snapshot-artifact-done
+early-open-settings-stage-preclick-snapshot-done
+early-open-settings-stage-event-phase-install-start
+early-open-settings-stage-event-phase-install-done
+early-open-settings-stage-click-about-to-attempt
+early-open-settings-stage-click-attempted
+offline-kill-open-settings-click-attempted=true
+offline-kill-open-settings-readiness-phase=after-click
+offline-kill-open-settings-opener-attached-count=1
+offline-kill-open-settings-opener-visible-count=1
+offline-kill-open-settings-opener-enabled=true
+offline-kill-settings-drawer-attached-count=1
+offline-kill-settings-drawer-visible-count=1
+offline-kill-settings-drawer-open-state={"openAttached":1,"openVisible":1,"slice":[{"state":"open","ready":"false","vis":true}]}
+offline-kill-provider-panel-state={"tabActive":null,"panelPresent":false,"panelVisible":false}
+offline-kill-open-settings-after-click-dom-state={"topBarPresent":true,"bodyTextLen":3542,"openerAttached":1,"openerVisible":1,"openerEnabledFirst":true,"drawerAttached":1,"drawerOpenAttached":1,"drawerOpenVisible":1,"connectionTabActive":null,"connectionPanelPresent":false,"connectionPanelVisible":false}
+offline-kill-settings-opener-clicked-node-exists=true
+offline-kill-settings-opener-react-bound-node-exists=true
+offline-kill-settings-opener-clicked-equals-react-bound=true
+offline-kill-settings-opener-multiple-candidates=false
+offline-kill-settings-opener-likely-cause=same-opener-delegation-not-receiving
+offline-kill-settings-opener-event-phase-classification=react-root-receives-event-but-synthetic-handler-not-fired
+offline-kill-settings-opener-window-click-seen=true
+offline-kill-settings-opener-document-click-seen=true
+offline-kill-settings-opener-react-root-click-seen=true
+offline-kill-settings-opener-opener-click-seen=true
+offline-kill-settings-opener-react-synthetic-seen=false
+offline-kill-settings-opener-event-cancelled=false
+offline-kill-settings-opener-drawer-mounted-within-250ms=true
+offline-kill-settings-opener-drawer-mounted-within-1000ms=true
+offline-kill-settings-opener-drawer-mounted-within-4500ms=true
+early-open-settings-stage-first-click-commit-wait-start
+early-open-settings-stage-first-click-commit-wait-done
+offline-kill-open-settings-helper-returned=true
+offline-kill-open-settings-helper-returned-caller=open-settings-test-step
+offline-kill-early-stage-open-settings-callback-resolved=true
+offline-kill-early-stage-open-settings-final-outcome=resolved
+offline-kill-early-stage-open-settings-resolved-at=1778886853534
+offline-kill-early-stage-open-settings-finally-clear-timer=true
+offline-kill-ensure-panel-live-connection-panel-visible=true
+offline-kill-force-posture-budget-ms=72093 serialCapMs=420000 elapsedSinceTestStartMs=72907 workerAlignedMs=72093 playwrightRemainingMs=222093
+offline-kill-force-posture-stage name=offline-kill-force-posture-entered stepElapsedMs=1 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-open-settings-start stepElapsedMs=1 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-open-settings-done stepElapsedMs=1 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-provider-select-start stepElapsedMs=36228 priorStageMs=36227
+offline-kill-force-posture-stage name=offline-kill-force-posture-openrouter-start stepElapsedMs=37893 priorStageMs=1665
+offline-kill-provider-select-openrouter-start=true
+offline-kill-provider-setup-stage=provider-select-openrouter-before-ensure-panel
+offline-kill-provider-select-openrouter-dom-state={"connectionTabActive":"true","panelPresent":true,"drawerState":"open","selectPresent":true,"selectTag":"SELECT","selectLikelyVisible":true,"selectEnabled":true,"optionCount":10,"hasOpenrouter":true,"optionsHead":["ollama","openai","anthropic","google","deepseek","mistral","groq","openrouter","together","custom_openai"]}
+offline-kill-provider-select-openrouter-visible-count=1
+offline-kill-provider-select-openrouter-attached-count=1
+offline-kill-provider-select-openrouter-enabled=true
+offline-kill-settings-drawer-open-state=drawer=open tab=true panel=true
+offline-kill-provider-panel-state=tabActive=true panel=true opts=10 hasOR=true
+offline-kill-ensure-panel-live-connection-panel-visible=true
+offline-kill-provider-setup-stage=provider-select-openrouter-after-ensure-panel
+offline-kill-provider-select-openrouter-dom-state={"connectionTabActive":"true","panelPresent":true,"drawerState":"open","selectPresent":true,"selectTag":"SELECT","selectLikelyVisible":true,"selectEnabled":true,"optionCount":10,"hasOpenrouter":true,"optionsHead":["ollama","openai","anthropic","google","deepseek","mistral","groq","openrouter","together","custom_openai"]}
+offline-kill-provider-select-openrouter-visible-count=1
+offline-kill-provider-select-openrouter-attached-count=1
+offline-kill-provider-select-openrouter-enabled=true
+offline-kill-settings-drawer-open-state=drawer=open tab=true panel=true
+offline-kill-provider-panel-state=tabActive=true panel=true opts=10 hasOR=true
+offline-kill-provider-select-openrouter-option-probe-start
+offline-kill-provider-select-openrouter-option-probe-done
+offline-kill-provider-select-openrouter-native-select=true
+offline-kill-provider-select-openrouter-option-presence-ok=true
+offline-kill-provider-select-openrouter-selectoption-attempted=true
+offline-kill-provider-select-openrouter-selectoption-start
+offline-kill-provider-select-openrouter-harness-providerSelectCount=1
+offline-kill-provider-select-openrouter-harness-providerSelectLocatorMatchesQuerySelector=undefined
+offline-kill-provider-select-openrouter-harness-openrouterSelectIsNativeSelect=undefined
+offline-kill-provider-select-openrouter-harness-openrouterSelectConnected=undefined
+offline-kill-provider-select-openrouter-harness-openrouterSelectValueCurrent=
+offline-kill-provider-select-openrouter-selectoption-done
+offline-kill-provider-select-openrouter-selectoption-failed=false
+offline-kill-provider-select-openrouter-read-after-select-start
+offline-kill-provider-select-openrouter-live-value-after=openrouter
+offline-kill-provider-select-openrouter-value-after=openrouter
+offline-kill-provider-select-openrouter-commit-accepted=true
+offline-kill-provider-select-openrouter-already-selected=true
+offline-kill-provider-select-openrouter-success-by-value=true
+offline-kill-provider-select-openrouter-success-after-select-immediate=true
+offline-kill-provider-select-openrouter-read-after-select-done
+offline-kill-force-posture-stage name=offline-kill-force-posture-openrouter-done stepElapsedMs=67595 priorStageMs=29702
+offline-kill-force-posture-openrouter-done=true
+offline-kill-force-posture-openrouter-segment-ms=20345
+offline-kill-force-posture-stage name=offline-kill-force-posture-after-openrouter-immediate stepElapsedMs=67595 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-provider-select-finalize-start stepElapsedMs=67595 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-provider-select-finalize-done stepElapsedMs=68372 priorStageMs=777
+offline-kill-force-posture-stage name=offline-kill-force-posture-provider-select-done stepElapsedMs=70213 priorStageMs=1841
+offline-kill-force-posture-stage name=offline-kill-force-posture-before-ensure-panel-after-provider stepElapsedMs=70213 priorStageMs=0
+offline-kill-force-posture-stage name=offline-kill-force-posture-ensure-panel-after-provider-call-start stepElapsedMs=72233 priorStageMs=2020
+offline-kill-force-posture-timeout=true
+offline-kill-force-posture-classification=offline-kill-force-posture-ensure-panel-call-not-entered
+offline-kill-force-posture-last-stage=offline-kill-force-posture-ensure-panel-after-provider-call-start
+offline-kill-force-posture-last-force-posture-stage=offline-kill-force-posture-ensure-panel-after-provider-call-start
+offline-kill-force-posture-last-stage-elapsed-ms=-125
+offline-kill-force-posture-elapsed-ms-in-stage=-125
+offline-kill-force-posture-selected-provider=openrouter
+offline-kill-force-posture-offline-toggle-present=true
+offline-kill-force-posture-offline-toggle-checked=false
+offline-kill-force-posture-local-only-observed=false
+offline-kill-force-posture-bridge-status=
+offline-kill-terminal-fast-exit=true
+offline-kill-terminal-fast-exit-reason=force-posture-step-budget
+offline-kill-fast-exit-source=force-posture-step-budget
+offline-kill-skip-heavy-finally-emit-attempted=true
+offline-kill-skip-heavy-finally=true
+offline-kill-terminal-electron-hard-teardown=true
+offline-kill-skip-heavy-finally-state-before-finally=true
+offline-kill-skip-heavy-finally=true
+offline-kill-force-posture-stage name=offline-kill-force-posture-ensure-panel-after-provider-start stepElapsedMs=73053 priorStageMs=820
+offline-kill-force-posture-stage name=offline-kill-force-posture-ensure-panel-drawer-resolve-start stepElapsedMs=73054 priorStageMs=1
+  x  1 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:12815:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture (2.4m)
+
+
+  1) ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:12815:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 
+
+    Error: offline-kill-force-posture-step-budget-exceeded
+
+      13891 |                                 () =>
+      13892 |                                     reject(
+    > 13893 |                                         Object.assign(new Error('offline-kill-force-posture-step-budget-exceeded'), {
+            |                                                       ^
+      13894 |                                             code: 'OFFLINE_KILL_FORCE_POSTURE_STEP_BUDGET',
+      13895 |                                         }),
+      13896 |                                     ),
+        at Timeout._onTimeout (C:\Users\KickA\Projects\Active\NeuralShell\e2e\react-core.spec.js:13893:55)
+
+    attachment #1: offline-kill-compact-test-entry.json (application/json) ─────────────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-test-entry-json-5c7c058a6a5df78f303e664a67198432db1e6d4a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: offline-kill-compact-before-open-settings.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-open-settings-json-696d068e60d3a9243ecf3973d126952d2153a66d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: offline-kill-early-open-settings-entered.json (application/json) ────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-entered-json-b34f9c86f9ad2b27985c1938da116d052e75571d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: offline-kill-early-open-settings-before.json (application/json) ─────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-before-json-68485abc8afa19fa1b57ff468e2cf1fe11bb6129.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: offline-kill-open-settings-precondition-before.json (application/json) ──────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-before-json-5b88189a8e8bb61405b617245b33eafcb866e5ed.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: offline-kill-open-settings-precondition-after.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-after-json-58d36f32dbab3f14a9ff20661823c9ddb45a3827.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: offline-kill-open-settings-shell-settle-before.json (application/json) ──────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-before-json-fa86f4f966b93ec71393ba06b0f21e32d9201a82.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #8: offline-kill-open-settings-shell-settle-after.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-after-json-b63ae9455dc8281110ed41909c97f93caed4fa01.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #9: offline-kill-open-settings-app-reset-before.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-before-json-605a1db1f7c353501087787b7c57276555c8045c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #10: offline-kill-open-settings-app-reset-after.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-after-json-fe81d080a9a174204864ac152c5008fabf9546d0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #11: offline-kill-open-settings-offline-kill-entered.json (application/json) ────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-entered-json-82c12794df63730aca27327c69839c33119970d0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #12: offline-kill-open-settings-offline-kill-before-click.json (application/json) ───
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-before-click-json-a97c1c15ef18b00587cdf4e163e6eebf3d902398.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #13: offline-kill-open-settings-offline-kill-runtime-state-before-click.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-runtime-state-before-click-json-a52bc9ab9990bd8896d105eab3226fd8192c6179.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #14: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-7a4826127ea18bd40d02f44d111f8511d1f12d71.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #15: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-7a4826127ea18bd40d02f44d111f8511d1f12d71.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #16: offline-kill-open-settings-offline-kill-first-click-state.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-state-json-7df0fbd6e3c061e0fec344d622796d5f39a66a81.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #17: offline-kill-open-settings-offline-kill-opener-binding-before-click.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-opener-binding-before-click-json-ab57c8fe8ad4d98776d61428b0d0514733ae5ad1.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #18: offline-kill-open-settings-preclick-state.json (application/json) ──────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-preclick-state-json-bc0634492df5e18ad0918ae989f6d7645ef3915d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #19: offline-kill-open-settings-postclick-state.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-postclick-state-json-4e469bd61a4949c0b973c205b1b82260ee20d537.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #20: offline-kill-settings-opener-react-bound-comparison.json (application/json) ────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-react-bound-comparison-json-18566e52d7aeb90a13e43674059e36af92b03d07.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #21: offline-kill-settings-opener-event-phase-trace.json (application/json) ─────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-event-phase-trace-json-26119e2b8f362b1341a5f079002c704d1212359d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #22: offline-kill-open-settings-offline-kill-after-click.json (application/json) ────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-after-click-json-afb2723e1294a160ac3ef07b97068bc086fec0a3.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #23: offline-kill-open-settings-offline-kill-after-open.json (application/json) ─────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-after-open-json-2cc855a946cbd84117cd7065bbc19ba6f5c7733f.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #24: offline-kill-early-open-settings-after.json (application/json) ─────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-after-json-3d48bb252d33e6b0b1773e7da2d4516e59032587.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #25: offline-kill-early-settings-drawer-ready-entered.json (application/json) ───────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-entered-json-2f13779e267eab1cc77825aeca582b75fb37da0e.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #26: offline-kill-early-settings-drawer-ready-before.json (application/json) ────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-before-json-063d4eab2b34a1bc7f22715d4de8a78e8b58ff0a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #27: offline-kill-early-settings-drawer-ready-after.json (application/json) ─────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-settings-drawer-ready-after-json-0057bf993ebf0bf915e470ca00d7cac35f2824d8.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #28: offline-kill-compact-after-open-settings.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-after-open-settings-json-bae48b9b7a3a9c4f39d3c24fc8fa4da2419780a2.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #29: offline-kill-compact-before-connection-tab.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-connection-tab-json-9c1c113d3d05e8f03c6af0cec878fc72d5957e67.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #30: offline-kill-compact-before-connection-tab-diagnostic.json (application/json) ──
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-connection-tab-diagnostic-json-c4a356f71ae55112a59662d5f108e5eca7a0eda6.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #31: offline-kill-early-connection-tab-activate-entered.json (application/json) ─────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-entered-json-4fd0b855878f7a58e8c81655505372c71178d1a0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #32: offline-kill-early-connection-tab-activate-before.json (application/json) ──────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-before-json-3d852afb90d679f1d9e9a612abb9dc7954aec7b4.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #33: offline-kill-compact-after-connection-tab-diagnostic.json (application/json) ───
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-after-connection-tab-diagnostic-json-8910701d402ec596b47fe2dc9ba0aba119b02456.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #34: offline-kill-early-connection-tab-activate-after.json (application/json) ───────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-tab-activate-after-json-27603d42e0e3cb2196b0bab51bd6b82547c4b1ff.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #35: offline-kill-early-connection-panel-open-entered.json (application/json) ───────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-entered-json-6953a0084d5f381954bd40a175f0173df0ca392c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #36: offline-kill-early-connection-panel-open-before.json (application/json) ────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-before-json-4801fd524ea01069c6717bbd2e6212c9ff27a1ff.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #37: settings-before-kill-visible.json (application/json) ───────────────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\settings-before-kill-visible-json-55e9546c1c3284235f5c29f7b5bcb38b56e73189.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #38: offline-kill-compact-before-kill-visible.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-kill-visible-json-b7e0cb4ce127c9b497c2f5f445bd91f1829a9de0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #39: offline-kill-compact-after-connection-tab.json (application/json) ──────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-after-connection-tab-json-5b21f8de12d6baf6ffe955870a595fbd701860ac.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #40: offline-kill-compact-after-open-connection-panel.json (application/json) ───────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-after-open-connection-panel-json-473e94a70a1aefe2abe8d7ba9ca4d2821f92e365.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #41: offline-kill-early-connection-panel-open-after.json (application/json) ─────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-connection-panel-open-after-json-55aa60752018888cfda2eb4dceef180e1bb6fe84.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #42: offline-kill-early-force-start-entry-entered.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-entered-json-f649624166dea2fd4eb8862621d7f8b5d949609d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #43: offline-kill-early-force-start-entry-before.json (application/json) ────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-before-json-49b4cfb85e273bf22aa14b14df6f4b61f4ff21ed.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #44: offline-kill-compact-force-start.json (application/json) ───────────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-force-start-json-00b047b96983ac0fc956e699ccf6143b72689f59.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #45: offline-kill-early-force-start-entry-after.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-force-start-entry-after-json-00d16bae18730a75032bb04d0597d8c9cb736e0c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #46: offline-kill-early-prep-entry-entered.json (application/json) ──────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-entered-json-9aaca0deba3d16f4e671621794ea18ee4b4d8013.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #47: offline-kill-early-prep-entry-before.json (application/json) ───────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-before-json-537e366b2e7c13df8ddbeabb06f01fe36d5f5324.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #48: offline-kill-early-prep-entry-marker.json (application/json) ───────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-marker-json-19ac3e7979403f973c1772677b90fe9e1ed10ba4.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #49: offline-kill-early-prep-entry-after.json (application/json) ────────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-early-prep-entry-after-json-d979f498d578d5760f78577c62b45aa65fb41c1a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #50: offline-kill-prep-active-settings-drawer-entering.json (application/json) ──────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-entering-json-b07994099f3d2f2fac4e3c18189394e2a49be33d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #51: offline-kill-prep-active-settings-drawer-before.json (application/json) ────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-before-json-11fa2d3ef5900f9a69ecb8f3f3372557c9a79c19.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #52: offline-kill-prep-active-settings-drawer-after.json (application/json) ─────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-active-settings-drawer-after-json-9cdc26f6b775f4fb702b644adc861cb2370265f2.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #53: offline-kill-prep-provider-controls-entering.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-entering-json-ba1703a2febf8fade919baaca6e09f183d05d89c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #54: offline-kill-prep-provider-controls-before.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-before-json-57bb266acf5895cbfb1e80c31514071f3b88a381.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #55: offline-kill-prep-provider-controls-after.json (application/json) ──────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-controls-after-json-991e1cb95b517260ec297b2403b228dd592381cf.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #56: offline-kill-prep-provider-visible-enabled-entering.json (application/json) ────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-entering-json-42036d177e73c3aa3cd3ffb068fb2d4a3b763b77.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #57: offline-kill-prep-provider-visible-enabled-before.json (application/json) ──────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-before-json-6161dac67476d791cad0ae003e92e0b1cc7d00f4.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #58: offline-kill-prep-provider-visible-enabled-after.json (application/json) ───────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-provider-visible-enabled-after-json-5dbae8fc0667518260bfed8637c2d7d83707d6ae.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #59: offline-kill-prep-openrouter-lane-entering.json (application/json) ─────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-openrouter-lane-entering-json-42933514b75fdcab46d8d4e5ce05cafe2abca0be.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #60: offline-kill-prep-openrouter-lane-before.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-openrouter-lane-before-json-e2d676a84729275248f322c6fd5fe871c9f76cfe.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #61: offline-kill-prep-openrouter-lane-after.json (application/json) ────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-openrouter-lane-after-json-442d320e8cdd783acadabcf39622b445b56ad0ce.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #62: offline-kill-prep-before-provider-stage-entry-entering.json (application/json) ─
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-before-provider-stage-entry-entering-json-2dfc00d79259bb208cec2429941c5a27bbb8bfba.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #63: offline-kill-prep-before-provider-stage-entry-before.json (application/json) ───
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-before-provider-stage-entry-before-json-061023e4056d4c61ea1ee457a916f736024b0415.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #64: offline-kill-handoff-provider-stage-entering.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-handoff-provider-stage-entering-json-76c2f5ce0eef3836e8c8df587d65ae881fbd6a8f.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #65: offline-kill-prep-before-provider-stage-entry-compact.json (application/json) ──
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-before-provider-stage-entry-compact-json-f80267425f79de837cec411caada55319559f892.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #66: offline-kill-prep-before-provider-stage-entry-snapshot.json (application/json) ─
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-before-provider-stage-entry-snapshot-json-253a0e8ca2359fdfe7bbe241e2a54fca5367cc09.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #67: offline-kill-prep-before-provider-stage-entry-after.json (application/json) ────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-prep-before-provider-stage-entry-after-json-a5d1acf60dae3b8590f7bc42d26d19b1afa2ba1d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #68: offline-kill-stage-provider-select-openrouter-entered.json (application/json) ──
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-provider-select-openrouter-entered-json-5c4d67e264b27476cd9f5905a78f1aa4291e53d2.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #69: offline-kill-stage-provider-select-openrouter-before.json (application/json) ───
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-provider-select-openrouter-before-json-3e979698e30efe3f15f38cb925e363ac1313e458.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #70: offline-kill-compact-before-openrouter-select.json (application/json) ──────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-openrouter-select-json-c72dc58a272cb052abb7a6c54eb5ff7a4e55f65c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #71: offline-kill-provider-select-openrouter-entered.json.json (application/json) ───
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-provider-select-openrouter-entered-json-json-5c8b028c3b19fde6d1b2c3cb4863a0fff68cac8f.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #72: offline-kill-provider-select-openrouter-before-select.json.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-provider-select-openrouter-before-select-json-json-7e8fa0842c470eda7d2139db57774ca945aa1f91.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #73: offline-kill-provider-select-openrouter-after-select-attempt.json.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-provider-select-openrouter-after-select-attempt-json-json-a27fdab590416b3d6b92463dddd05251ecbdcd77.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #74: offline-kill-provider-select-openrouter-after-success.json.json (application/json) 
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-provider-select-openrouter-after-success-json-json-edafc870a46c272bf92d1fb845dafb9eadba3021.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #75: offline-kill-compact-after-openrouter-select.json (application/json) ───────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-after-openrouter-select-json-5df5f07db21a03e5fe8d182d2c52843e176b4310.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #76: offline-kill-stage-provider-select-openrouter-after.json (application/json) ────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-provider-select-openrouter-after-json-d65da39862ef9a94216bfb5bd15844e5dd347e29.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #77: offline-kill-dom-after-provider.json (application/json) ────────────────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-dom-after-provider-json-073f3e8eb43f4e7c124c32ee9e0756f67498fdaf.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #78: offline-kill-compact-before-ensure-panel.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-compact-before-ensure-panel-json-a803df3d2c41eacedd78371bdcde7d06b5e41e5e.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #79: offline-kill-stage-ensure-panel-after-provider-entered.json (application/json) ─
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-ensure-panel-after-provider-entered-json-abd76eaed256762c657f8bec080bcd83b6234005.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #80: offline-kill-force-posture-timeout-state.json (application/json) ───────────────
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-force-posture-timeout-state-json-dfcc2fe145a1a132d188a453e95066410208aba4.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\error-context.md
+
+    attachment #82: offline-kill-stage-ensure-panel-after-provider-before.json (application/json) ──
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-ensure-panel-after-provider-before-json-7433f5bb68a773fc2c6b8600849e3975a24126f0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #83: offline-kill-stage-ensure-panel-after-provider-failed.json (application/json) ──
+    test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\attachments\offline-kill-stage-ensure-panel-after-provider-failed-json-f9f3ae5931010daf41d5fcdbcab59295114b8e8f.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\e2e-react-core-NeuralShell-3d24b-s-local-only-bridge-posture\error-context.md
+
+  1 failed
+    ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:12815:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 

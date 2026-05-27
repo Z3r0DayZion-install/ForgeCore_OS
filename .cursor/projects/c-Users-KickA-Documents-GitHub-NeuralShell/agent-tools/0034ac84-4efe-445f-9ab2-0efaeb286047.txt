@@ -1,0 +1,315 @@
+NeuralLink? Tactical Suite Loaded.
+verify_ui_serial	Checkout	2026-05-12T08:03:19.2507120Z ##[group]Disabling automatic garbage collection
+verify_ui_serial	Checkout	2026-05-12T08:03:23.8136223Z HEAD is now at cac62a4 Merge 43851f9003385033d74a5e7bb57f5be250e80848 into 4e41cbcbf973ca95ec29f9b5ef11fb22b8a7e3bf
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:26.3057407Z offline-kill-open-settings-page-closed-during-collect=false
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:31.9055544Z offline-kill-state-gate-collect-error=page.evaluate: Target page, context or browser has been closed
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.0934250Z offline-kill-settings-handler-trace-collect-error=page.evaluate: Target page, context or browser has been closed
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.0998589Z offline-kill-settings-handler-path-classification=settings-open-handler-trace-collect-error
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.1633827Z offline-kill-settings-handler-entry-kinds=
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.1634625Z offline-kill-settings-handler-classification-source=collect-error-only
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.1635432Z offline-kill-settings-handler-page-closed-during-collect=true
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.1636380Z offline-kill-runtime-state-collect-error=page.evaluate: Target page, context or browser has been closed
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:32.1637913Z offline-kill-runtime-state-summary=ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9958717Z     attachment #21: offline-kill-settings-opener-event-phase-trace.json (application/json) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9959886Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-event-phase-trace-json-f57fdbeb96e87198cb750cfdcb9b216162b241e7.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9981098Z     attachment #29: offline-kill-open-settings-handler-trace-before-teardown.json (application/json) 
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9982323Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-before-teardown-json-1ef739e88080e3def6cc09a5a58b34da9fef1afc.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9992740Z     attachment #32: offline-kill-open-settings-handler-trace-minimal.json (application/json) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9993899Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-minimal-json-e6c45bd1bb1c532231f6f367ae586c990c7058c5.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9995650Z     attachment #33: offline-kill-open-settings-handler-trace.json (application/json) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:40.9996774Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-json-57e78260eb58ad0bc4fd0645bdf6d0ffae66bc91.json
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:41.0021755Z     attachment #42: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:41.0022494Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+verify_ui_serial	Verify UI (serial worker)	2026-05-12T08:09:41.0023437Z         npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:41.6721783Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:41.8297717Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0582186Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-before-teardown-json-1ef739e88080e3def6cc09a5a58b34da9fef1afc.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0591977Z   "classification": "offline-kill-open-settings-handler-trace-before-teardown",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0596228Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0597726Z   "collectErrorName": "Error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0599166Z   "traceExists": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0600559Z   "traceEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0615592Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0617092Z   "priorHandlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0618621Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0620055Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0621544Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0723737Z   "stateGateCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0725427Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0726733Z   "stateGateAfterCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0740677Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0742100Z   "runtimeStateCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0743549Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0745229Z   "runtimeStateCollectErrorAfter": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0773182Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-json-57e78260eb58ad0bc4fd0645bdf6d0ffae66bc91.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0782108Z   "classification": "offline-kill-open-settings-handler-trace",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0787771Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0789134Z   "collectErrorName": "Error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0790482Z   "traceExists": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0791947Z   "traceEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0807181Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0808732Z   "handlerPathClassificationInitial": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0814640Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0815756Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0817151Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0913892Z   "drawerMountedInTrace": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0923458Z   "collectErrorMessage": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0924919Z   "pageIsClosedTrace": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0926434Z   "traceCaptureEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0946078Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0946963Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0948612Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0950710Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0959470Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0961145Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0962545Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0964428Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0967605Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0969153Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.0993953Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-minimal-json-e6c45bd1bb1c532231f6f367ae586c990c7058c5.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1003653Z   "classification": "settings-open-handler-trace-collect-started",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1490498Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1494320Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1496431Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1498346Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1614608Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1615954Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1617932Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1621682Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1633741Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1635587Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1637194Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1639059Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1643000Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1645138Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1684537Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1688399Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1690414Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1692310Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.1846691Z     "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2227081Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2228939Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2230478Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2232270Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2234262Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2247380Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2249321Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2250844Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2252851Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2256339Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2258337Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2298543Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2302048Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2304426Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2306086Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2341774Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2342493Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2345019Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2346609Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2358611Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2361245Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2362789Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2365120Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2368280Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2370458Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2499799Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2501681Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2503387Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2505667Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2517420Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2519835Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2521812Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2523841Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2527620Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2529681Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2577900Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2663138Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2666865Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2668294Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2669744Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2705394Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.2814984Z     "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.3050698Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.3447556Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.3866609Z   "runtimeStateSummary": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.3868445Z   "collectError": "page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4325621Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4328729Z   "stateGateSnapshotStatus": "collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4355037Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4754477Z       "key": "__NEURAL_SHELL_E2E_SETTINGS_HANDLER_TRACE__",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4817437Z   "nativeClickTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4819210Z   "reactHandlerTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4946416Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4948424Z   "traceExists": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.4950096Z   "traceEnabled": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.5728570Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6003060Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6418108Z   "nativeClickTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6419614Z   "reactHandlerTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6527465Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6529054Z   "traceExists": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6531258Z   "traceEnabled": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6654015Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-event-phase-trace-json-f57fdbeb96e87198cb750cfdcb9b216162b241e7.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6671604Z   "productTraceEntryKinds": [
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.6762032Z   "reactSyntheticTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7270495Z   "reactBoundFromTrace": {
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7708793Z   1610 |                     const pageWasClosedDuringCollect = pg.isClosed();
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7710289Z   1611 |                     let collectError = null;
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7713387Z   1613 |                     if (!pageWasClosedDuringCollect) {
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7716615Z   1615 |                             refreshAtTimeout = await collectOfflineKillOpenSettingsPreclickState(pg, {
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7726284Z   1621 |                             collectError = e && e.message ? String(e.message) : String(e);
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7733770Z   1625 |                     if (!pageWasClosedDuringCollect) {
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7756915Z   1637 |                         lastKnownNativeClickTraceObserved: d.nativeClickObserved,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7758840Z   1638 |                         lastKnownReactHandlerTraceObserved: d.reactHandlerObserved,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7772257Z   1645 |                         pageWasClosedDuringCollect,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.7774094Z   1646 |                         collectError,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9144144Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-before-teardown.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9154250Z   "classification": "offline-kill-open-settings-handler-trace-before-teardown",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9158602Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9160047Z   "collectErrorName": "Error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9161409Z   "traceExists": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9162899Z   "traceEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9178093Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9179627Z   "priorHandlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9181123Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9182513Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9184042Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9289746Z   "stateGateCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9291238Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9292775Z   "stateGateAfterCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9306302Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9307765Z   "runtimeStateCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9309264Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9311317Z   "runtimeStateCollectErrorAfter": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9339469Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-minimal.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9349757Z   "classification": "settings-open-handler-trace-collect-started",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9401420Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9410363Z   "classification": "offline-kill-open-settings-handler-trace",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9414988Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9416611Z   "collectErrorName": "Error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9418224Z   "traceExists": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9419926Z   "traceEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9437462Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9439336Z   "handlerPathClassificationInitial": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9446612Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9448173Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9449994Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9561300Z   "drawerMountedInTrace": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9571557Z   "collectErrorMessage": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9573106Z   "pageIsClosedTrace": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9575121Z   "traceCaptureEnabled": false,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9596658Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9598068Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9599993Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9601951Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9611793Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9613723Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9615535Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9616775Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9620319Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:42.9622272Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0024295Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0028192Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0029777Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0031250Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0146622Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0148546Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0150494Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0154065Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0167062Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0168948Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0170474Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0172339Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0176730Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0178713Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0214649Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0218390Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0220117Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0221878Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0371737Z     "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0609686Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0611447Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0612931Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0615543Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0617247Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0628246Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0630234Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0631657Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0633708Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0637760Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0639634Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0674616Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0678674Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0680277Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0681855Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0717282Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0717538Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0719656Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0721449Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0733102Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0735915Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0736163Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0737981Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0741449Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0743562Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0873576Z   "stateGateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0875512Z   "stateGateBeforeCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0876876Z   "stateGateAfterCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0879038Z   "stateGateSummary": "after-collect-error|refined=settings-open-first-click-handler-not-committing|mounted=none|final=settings-open-first-click-handler-not-committing",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0889898Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0891834Z   "runtimeStateCollectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0893261Z   "runtimeStateCollectErrorBefore": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0895835Z   "runtimeStateCollectErrorAfter": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0898455Z   "runtimeStateSummaryAfter": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0900234Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.0951102Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1054615Z   "handlerPathClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1058083Z   "postCollectRawClassification": "settings-open-handler-trace-collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1060308Z   "classificationSource": "collect-error-only",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1061397Z   "pageWasClosedDuringCollect": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1102106Z   "runtimeStateSummary": "ls=50|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1232228Z     "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1481120Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.1840455Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.2198697Z   "runtimeStateSummary": "collect-error:page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.2200189Z   "collectError": "page.evaluate: Target page, context or browser has been closed"
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.2665274Z   "mountedDrawerReadinessCollectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.2668773Z   "stateGateSnapshotStatus": "collect-error",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.2694206Z   "collectError": "page.evaluate: Target page, context or browser has been closed",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3070796Z       "key": "__NEURAL_SHELL_E2E_SETTINGS_HANDLER_TRACE__",
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3131576Z   "nativeClickTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3133550Z   "reactHandlerTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3246170Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3248163Z   "traceExists": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3249278Z   "traceEnabled": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.3888799Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4150893Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4531259Z   "nativeClickTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4532616Z   "reactHandlerTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4621807Z   "collectError": null,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4623029Z   "traceExists": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4624301Z   "traceEnabled": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4714979Z ===== DIAGNOSTIC FILE: D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-settings-opener-event-phase-trace.json =====
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4727947Z   "productTraceEntryKinds": [
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.4794770Z   "reactSyntheticTraceObserved": true,
+verify_ui_serial	Print Verify UI diagnostics to log	2026-05-12T08:09:43.5218271Z   "reactBoundFromTrace": {
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6073653Z [36;1m    # trace.zip only (Playwright); skip other zips to keep artifact size bounded.[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6073824Z [36;1m    if ($ext -eq ".zip" -and $_.Name -ieq "trace.zip") {[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6075320Z [36;1m    "*handler-trace*.json",[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6075895Z [36;1m  Write-Host "=== Minimal bundle: diagnostic JSON / trace match check ==="[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6077251Z [36;1m  $traceZips = @(Get-ChildItem -LiteralPath test-results -Recurse -File -Filter "trace.zip" -ErrorAction SilentlyContinue)[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6077436Z [36;1m  Write-Host ("trace.zip under test-results: {0}" -f $traceZips.Count)[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:43.6077571Z [36;1m  foreach ($t in $traceZips | Select-Object -First 20) {[0m
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2134193Z === Minimal bundle: diagnostic JSON / trace match check ===
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2622015Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-before-teardown.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2629098Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-minimal.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2635136Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2841194Z pattern *handler-trace*.json -> 6 file(s) under test-results
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2849135Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-before-teardown.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2855209Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace-minimal.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2861736Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\offline-kill-open-settings-handler-trace.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2869367Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-before-teardown-json-1ef739e88080e3def6cc09a5a58b34da9fef1afc.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2875759Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-json-57e78260eb58ad0bc4fd0645bdf6d0ffae66bc91.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.2881558Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-minimal-json-e6c45bd1bb1c532231f6f367ae586c990c7058c5.json
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.3019754Z trace.zip under test-results: 1
+verify_ui_serial	Bundle minimal Verify UI diagnostics	2026-05-12T08:09:44.3027919Z   D:\a\NeuralShell\NeuralShell\test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip

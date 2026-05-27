@@ -1,0 +1,820 @@
+NeuralLink? Tactical Suite Loaded.
+diff --git a/package.json b/package.json
+index 6ed256b..eb74073 100644
+--- a/package.json
++++ b/package.json
+@@ -8,171 +8,6 @@
+   "engines": {
+     "node": ">=22.12.0 <23"
+   },
+-  "scripts": {
+-    "start": "electron .",
+-    "test": "node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node --test tear/window-state.test.js tear/omega-kernel.test.js && node tear/to-provider-messages.test.js && node tear/hotfix-2134-provider-proof.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/canary-gate-contract.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/app-trust-polish.test.js && node tear/llm-connection-matrix.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js",
+-    "setup": "npm ci && node scripts/install-hooks.js",
+-    "hooks:install": "node scripts/install-hooks.js",
+-    "gate:prepush": "node scripts/prepush-gate.js",
+-    "determinism:test": "node scripts/determinism_test.js",
+-    "smoke:packaged:strict": "node tear/smoke-packaged.js --strict-launch --isolated-user-data --timeout-ms=25000",
+-    "diagnose:packaged": "node tear/diagnose-packaged-launch.js --require-uptime-ms=4500",
+-    "smoke:installer": "node tear/smoke-installer.js --strict-install --timeout-ms=45000",
+-    "release:worktree": "node scripts/verify-clean-worktree.js",
+-    "release:worktree:strict": "node scripts/verify-clean-worktree.js --strict",
+-    "release:gate": "node tear/release-gate.js",
+-    "release:gate:strict": "node tear/release-gate.js --strict-packaged",
+-    "release:manifest": "node scripts/release-manifest.js",
+-    "release:sign": "node scripts/sign-release.js",
+-    "release:status": "node tear/release-status.js",
+-    "release:upgrade:validate": "node scripts/release-upgrade-validation.js --strict",
+-    "release:checksums": "node scripts/release-checksums.js",
+-    "release:verify:signature": "node scripts/verify-release-signature.js",
+-    "release:notes": "node scripts/release-notes.js",
+-    "release:verify:fresh": "node tear/verify-release-freshness.js",
+-    "release:verify:fresh:strict": "node tear/verify-release-freshness.js --strict-installer",
+-    "canary:gate": "node scripts/canary-gate.js --cycles=3 --min-uptime-ms=750",
+-    "canary:24h": "node scripts/canary-gate.js --duration-hours=24 --cycles=1 --delay-ms=300000 --min-uptime-ms=750",
+-    "benchmark:autonomy": "node tear/benchmark-autonomy.js",
+-    "benchmark:regression": "node tear/regression-eval.js",
+-    "redteam:nightly": "node tear/redteam-nightly.js",
+-    "kpi:operator": "node tear/operator-kpi.js",
+-    "slo:gate": "node tear/slo-gate.js",
+-    "diagnose:crash": "node tear/classify-crash.js",
+-    "replay:autonomy": "node tear/replay-autonomy.js",
+-    "sbom:generate": "node scripts/generate-sbom.js",
+-    "soc2:collect": "node compliance/soc2_collector.cjs",
+-    "attribution:gen": "node scripts/genAttribution.cjs",
+-    "bench:gpu": "node scripts/bench_gpu.cjs",
+-    "attest:release": "node scripts/generate-attestation.js",
+-    "security:pass": "node scripts/security-pass.js",
+-    "security:pass:local": "node scripts/security-pass.js --skip-audit",
+-    "governance:branch:verify": "node scripts/verify-branch-protection.js",
+-    "governance:branch:enforce": "node scripts/enforce-branch-protection.js",
+-    "governance:branch:enforce:dry": "node scripts/enforce-branch-protection.js --dry-run",
+-    "governance:merge:controlled": "node scripts/controlled-merge-window.js",
+-    "governance:merge:controlled:dry": "node scripts/controlled-merge-window.js --dry-run",
+-    "perf:gate": "node scripts/performance-gate.js",
+-    "ship": "node scripts/ship.js",
+-    "ship:strict": "node scripts/ship-strict.js",
+-    "verify:ship": "npm run icons:generate && npm run release:worktree:strict && npm run lint && node tear/architecture-enforcement.test.js && npm run test:flaky && npm run coverage:check && npm run security:pass:local && npm run test:e2e && npm run build && npm run release:gate:strict && npm run canary:gate && npm run diagnose:packaged && npm run release:manifest && npm run release:sign && npm run release:verify:signature && npm run release:status && npm run release:upgrade:validate && npm run release:checksums && npm run release:verify:fresh:strict && npm run kpi:operator && npm run slo:gate && npm run perf:gate",
+-    "verify:strict": "npm run verify:ship && npm run benchmark:regression && npm run redteam:nightly && npm run replay:autonomy",
+-    "verify:all": "npm run lint && npm run test:flaky && npm run coverage:check && npm run build",
+-    "maintain:verify": "node scripts/maintenance-clean-verify.js",
+-    "maintain:clean": "node scripts/maintenance-clean-verify.js --skip-verify",
+-    "icons:generate": "node tear/generate-icons.js",
+-    "build": "electron-builder",
+-    "build:renderer": "npm ci --prefix src/renderer && npm run build --prefix src/renderer",
+-    "dist": "electron-builder --publish never",
+-    "package:product": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-product-release.ps1",
+-    "package:product:stage": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-product-release.ps1 -SkipBuild",
+-    "test:flaky": "node scripts/flaky-test-gate.js npm test",
+-    "test:e2e": "playwright test e2e/react-core.spec.js e2e/workpad.spec.js e2e/operator-surfaces.spec.js -c playwright.e2e.config.js --workers=1",
+-    "test:e2e:operator": "playwright test e2e/operator-surfaces.spec.js -c playwright.e2e.config.js --workers=1",
+-    "test:local:ops": "node --check src/main.js && node --test tear/workpad-store.test.js tear/task-registry.test.js tear/system-health-check.test.js tear/branch-protection-policy.test.js",
+-    "test:local:full": "powershell -File scripts/local-ci.ps1 -Tier full",
+-    "ci:local": "powershell -File scripts/local-ci.ps1 -Tier merge",
+-    "ci:local:quick": "powershell -File scripts/local-ci.ps1 -Tier quick",
+-    "ci:local:fast": "powershell -File scripts/local-ci.ps1 -Tier fast",
+-    "ci:local:standard": "powershell -File scripts/local-ci.ps1 -Tier standard",
+-    "ci:local:merge": "powershell -File scripts/local-ci.ps1 -Tier merge",
+-    "ci:local:prepush": "powershell -File scripts/local-ci.ps1 -Tier prepush",
+-    "ci:local:full": "powershell -File scripts/local-ci.ps1 -Tier full",
+-    "ci:local:e2e": "powershell -File scripts/local-ci.ps1 -Tier e2e",
+-    "ci:local:ship": "powershell -File scripts/local-ci.ps1 -Tier ship",
+-    "ci:status": "powershell -File scripts/ops/ci-status.ps1",
+-    "ci:purge-artifacts": "powershell -File scripts/ops/purge-github-artifacts.ps1",
+-    "verify:ui": "playwright test e2e/react-core.spec.js e2e/workpad.spec.js e2e/agentInstall.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js e2e/billingActivation.spec.js e2e/upgradePrompt.spec.js e2e/marketplacePaidInstall.spec.js e2e/referralFlow.spec.js e2e/whiteLabelBuild.spec.js e2e/partnerConsole.spec.js e2e/certificationFlow.spec.js e2e/ecosystemLauncher.spec.js e2e/missionControl.spec.js e2e/nodeChainRules.spec.js e2e/watchdogAlerts.spec.js e2e/firstBootAuthority.spec.js e2e/splitWorkspace.spec.js e2e/stateSnapshots.spec.js e2e/fleetControl.spec.js e2e/recoveryCenter.spec.js e2e/applianceMode.spec.js e2e/shiftConsole.spec.js e2e/incidentMode.spec.js e2e/policyRollout.spec.js e2e/offlineUpdatePacks.spec.js e2e/missionScheduler.spec.js e2e/airgapOperations.spec.js e2e/trustFabric.spec.js e2e/hardwareAppliance.spec.js e2e/courierTransfer.spec.js e2e/continuityDrills.spec.js e2e/procurementPack.spec.js e2e/tamperSimulation.spec.js e2e/institutionalCommand.spec.js e2e/demoMode.spec.js e2e/deploymentProgram.spec.js e2e/trainingDelivery.spec.js e2e/supportOps.spec.js e2e/buyerJourney.spec.js e2e/pilotConversion.spec.js e2e/commercialPackages.spec.js e2e/fieldLaunch.spec.js e2e/partnerRollout.spec.js e2e/buyerOps.spec.js e2e/demoToPilot.spec.js e2e/pilotExpansion.spec.js e2e/renewalRisk.spec.js e2e/launchWeek.spec.js e2e/followupGenerator.spec.js e2e/fieldFeedback.spec.js e2e/partnerCertification.spec.js e2e/managedServices.spec.js e2e/strategicAccount.spec.js e2e/portfolioRollout.spec.js e2e/revenueOps.spec.js e2e/channelExpansion.spec.js e2e/crossAccountRenewal.spec.js e2e/executiveScale.spec.js e2e/ecosystemPortfolio.spec.js e2e/serviceLine.spec.js e2e/partnerNetworkGovernance.spec.js e2e/globalPlanning.spec.js e2e/ecosystemRevenue.spec.js e2e/boardOperatingPack.spec.js e2e/licensedOperator.spec.js e2e/ecosystemCommand.spec.js -c playwright.e2e.config.js --workers=1",
+-    "screenshots:delta11": "node scripts/capture_delta11_screenshots.cjs",
+-    "test:e2e:parallel": "playwright test e2e/react-core.spec.js -c playwright.e2e.config.js --workers=2",
+-    "test:visual": "playwright test e2e/ui-visual-regression.spec.js -c playwright.vreg.config.js",
+-    "test:visual:parallel": "playwright test e2e/ui-visual-regression.spec.js -c playwright.vreg.config.js --workers=2",
+-    "test:visual:update": "playwright test e2e/ui-visual-regression.spec.js -c playwright.vreg.config.js --update-snapshots",
+-    "coverage:test": "c8 --clean --reporter=text-summary --reporter=json-summary npm test",
+-    "coverage:check": "npm run coverage:test && node scripts/check-coverage-thresholds.js",
+-    "lint": "eslint src/ scripts/ tear/ tests/ --max-warnings=0",
+-    "lint:fix": "eslint src/ scripts/ tear/ tests/ --fix",
+-    "outreach:send": "python scripts/send_beta_outreach_emails.py",
+-    "outreach:followup": "python scripts/send_beta_followup_emails.py --min-age-hours 72 --limit 20",
+-    "outreach:followup:dry": "python scripts/send_beta_followup_emails.py --dry-run --min-age-hours 72 --limit 20",
+-    "outreach:inbox:fetch": "python scripts/fetch_gmail_inbound_replies.py --output release/inbound_replies.csv --merge-existing",
+-    "outreach:triage": "python scripts/triage_beta_inbound_replies.py --input release/inbound_replies.csv",
+-    "outreach:triage:apply": "python scripts/triage_beta_inbound_replies.py --input release/inbound_replies.csv --apply",
+-    "outreach:status": "python scripts/beta_outreach_status_report.py",
+-    "outreach:drafts": "python scripts/generate_beta_reply_drafts.py",
+-    "outreach:drafts:next24": "python scripts/generate_beta_reply_drafts.py --include-tracker-actions --tracker-window-hours 24 --include-low-confidence",
+-    "outreach:reply:send": "python scripts/send_beta_reply_outbox.py",
+-    "outreach:reply:send:dry": "python scripts/send_beta_reply_outbox.py --dry-run",
+-    "outreach:manual:capterra:done": "python scripts/mark_beta_manual_task_done.py --email vendors@capterra.com --completed-action submit_listing_form --next-action await_listing_confirmation --next-in-hours 72 --note gartner_digital_markets",
+-    "channel:winget:prepare": "python scripts/generate_winget_manifests.py && python scripts/validate_winget_manifests.py",
+-    "channel:winget:generate": "python scripts/generate_winget_manifests.py",
+-    "channel:winget:validate": "python scripts/validate_winget_manifests.py",
+-    "channel:store:screenshots": "node scripts/capture_store_screenshots.js",
+-    "channel:site:prepare": "node scripts/prepare_public_site_assets.js && electron scripts/render_marketing_assets.js",
+-    "outreach:autopilot": "python scripts/run_beta_inbound_autopilot.py --skip-fetch",
+-    "outreach:autopilot:full": "python scripts/run_beta_inbound_autopilot.py",
+-    "proof:relay": "node scripts/proofRelay.cjs",
+-    "share:image": "node scripts/genShareImage.cjs",
+-    "proof:bundle": "node scripts/proof_bundle.cjs",
+-    "billing:checkout-links": "node scripts/checkout_links.cjs",
+-    "growth:referral-link": "node scripts/referral_links.cjs",
+-    "growth:launch-pack": "node scripts/generate_launch_pack.cjs",
+-    "test:e2e:keyvault": "playwright test e2e/keyvault.spec.js -c playwright.e2e.config.js",
+-    "test:e2e:proofRelay": "playwright test e2e/proofRelay.spec.js -c playwright.e2e.config.js",
+-    "test:e2e:delta9": "playwright test e2e/billingActivation.spec.js e2e/upgradePrompt.spec.js e2e/marketplacePaidInstall.spec.js e2e/referralFlow.spec.js -c playwright.e2e.config.js --workers=1",
+-    "pilot:pack": "node scripts/gen_pilot_pack.cjs",
+-    "board:pack": "node scripts/gen_board_pack.cjs",
+-    "recovery:export": "node scripts/export_recovery_bundle.cjs",
+-    "recovery:verify": "node scripts/verify_recovery_bundle.cjs",
+-    "airgap:bundle": "node scripts/gen_airgap_bundle.cjs",
+-    "airgap:verify": "node scripts/verify_airgap_bundle.cjs",
+-    "shift:export": "node scripts/export_shift_summary.cjs",
+-    "appliance:build": "node scripts/gen_appliance_build.cjs",
+-    "hardware:build": "node scripts/gen_hardware_appliance_build.cjs",
+-    "update-pack:gen": "node scripts/gen_offline_update_pack.cjs",
+-    "courier:package": "node scripts/gen_courier_package.cjs",
+-    "courier:verify": "node scripts/verify_courier_package.cjs",
+-    "procurement:security-pack": "node scripts/gen_security_review_pack.cjs",
+-    "procurement:pack": "node scripts/gen_procurement_pack.cjs",
+-    "demo:bundle": "node scripts/gen_demo_bundle.cjs",
+-    "demo:reset": "node scripts/reset_demo_state.cjs",
+-    "deployment:preflight": "node scripts/preflight_deployment_check.cjs",
+-    "deployment:postinstall": "node scripts/postinstall_validation_check.cjs",
+-    "training:bundle": "node scripts/gen_training_bundle.cjs",
+-    "support:playbook": "node scripts/gen_support_playbook.cjs",
+-    "pilot:conversion:pack": "node scripts/gen_pilot_conversion_pack.cjs",
+-    "partner:rollout:summary": "node scripts/gen_partner_rollout_summary.cjs",
+-    "buyer:followup:pack": "node scripts/gen_buyer_followup_pack.cjs",
+-    "buyer:demo:recap": "node scripts/gen_demo_recap.cjs",
+-    "demo:to:pilot:pack": "node scripts/gen_demo_to_pilot_pack.cjs",
+-    "pilot:expansion:summary": "node scripts/gen_expansion_summary_pack.cjs",
+-    "renewal:summary": "node scripts/gen_renewal_summary.cjs",
+-    "launch:day:summary": "node scripts/gen_launch_day_summary.cjs",
+-    "followup:proof": "node scripts/gen_proof_backed_followup.cjs",
+-    "field:feedback:summary": "node scripts/gen_field_feedback_summary.cjs",
+-    "partner:enablement:pack": "node scripts/gen_partner_enablement_pack.cjs",
+-    "managed-services:summary": "node scripts/gen_managed_services_summary.cjs",
+-    "strategic-account:brief": "node scripts/gen_strategic_account_brief.cjs",
+-    "portfolio:rollout:summary": "node scripts/gen_portfolio_rollout_summary.cjs",
+-    "revenue:ops:pack": "node scripts/gen_revenue_ops_pack.cjs",
+-    "channel:expansion:plan": "node scripts/gen_channel_expansion_plan.cjs",
+-    "renewal:cross-account:pack": "node scripts/gen_cross_account_renewal_pack.cjs",
+-    "scale:status:pack": "node scripts/gen_scale_status_pack.cjs",
+-    "ecosystem:portfolio:brief": "node scripts/gen_ecosystem_portfolio_brief.cjs",
+-    "service-line:ops:pack": "node scripts/gen_service_line_ops_pack.cjs",
+-    "partner-network:report": "node scripts/gen_partner_network_report.cjs",
+-    "global:planning:pack": "node scripts/gen_global_planning_pack.cjs",
+-    "ecosystem:revenue:pack": "node scripts/gen_ecosystem_revenue_pack.cjs",
+-    "board:operating:pack": "node scripts/gen_board_operating_pack.cjs",
+-    "operator:launch:pack": "node scripts/gen_operator_launch_pack.cjs",
+-    "ecosystem:command:pack": "node scripts/gen_ecosystem_command_pack.cjs",
+-    "field-launch:health": "node scripts/field_launch_health_check.cjs",
+-    "white-label:sign": "node scripts/sign_white_label_config.cjs",
+-    "white-label:verify": "node scripts/verify_white_label_config.cjs",
+-    "white-label:build": "node scripts/gen_white_label_build.cjs",
+-    "release:truth:verify": "node scripts/release_truth_verify.cjs",
+-    "site:smoke": "node scripts/site_smoke_check.cjs"
+-  },
+   "dependencies": {
+     "@neural/omega-core": "file:vendor/omega-core",
+     "dayjs": "^1.11.9",
+@@ -180,20 +15,6 @@
+     "node-fetch": "^2.7.0",
+     "ws": "^8.20.0"
+   },
+-  "devDependencies": {
+-    "@babel/parser": "^7.29.0",
+-    "@babel/traverse": "^7.29.0",
+-    "@eslint/js": "^9.39.3",
+-    "@playwright/test": "^1.58.2",
+-    "ajv": "^6.14.0",
+-    "c8": "^11.0.0",
+-    "electron": "^41.2.2",
+-    "electron-builder": "^26.8.1",
+-    "eslint": "^9.39.3",
+-    "eslint-plugin-security": "^4.0.0",
+-    "icon-gen": "^5.0.0",
+-    "pngjs": "^7.0.0"
+-  },
+   "overrides": {
+     "@xmldom/xmldom": "^0.8.12",
+     "brace-expansion": "^5.0.1",
+@@ -201,94 +22,5 @@
+     "lodash": "^4.17.21",
+     "picomatch": "^4.0.4",
+     "tar": "^7.5.1"
+-  },
+-  "build": {
+-    "productName": "NeuralShell",
+-    "appId": "com.neuralshell.app",
+-    "files": [
+-      "**/*",
+-      "!dist/**",
+-      "!dist_fresh/**",
+-      "!release/**",
+-      "!release-output/**",
+-      "!validation-artifacts/**",
+-      "!tmp/**",
+-      "!actions-runner/**",
+-      "!artifacts/**",
+-      "!**/*_verify/**",
+-      "!**/*_verify_*/**",
+-      "!state/**",
+-      "!.snapshots/**",
+-      "!.venv/**",
+-      "!.vscode/**",
+-      "!.kiro/**",
+-      "!.claude/**",
+-      "!.githooks/**",
+-      "!archive/**",
+-      "!test-results/**",
+-      "!playwright-report/**",
+-      "!coverage/**",
+-      "!**/*.zip",
+-      "!**/*.log",
+-      "!**/*.tmp",
+-      "!bin/**",
+-      "!.git/**",
+-      "!.github/**",
+-      "!.env",
+-      "!.env.*",
+-      "!e2e/**",
+-      "!tear/**",
+-      "!tests/**",
+-      "!scripts/**",
+-      "scripts/export_support_bundle.cjs",
+-      "scripts/release_health_check.cjs",
+-      "scripts/_omega_utils.js"
+-    ],
+-    "asarUnpack": [
+-      "**/bin/*.exe"
+-    ],
+-    "extraResources": [
+-      {
+-        "from": "bin",
+-        "to": "bin",
+-        "filter": [
+-          "neural-linkd.exe"
+-        ]
+-      }
+-    ],
+-    "mac": {
+-      "target": [
+-        "dmg",
+-        "zip"
+-      ],
+-      "icon": "assets/icon.icns"
+-    },
+-    "win": {
+-      "target": [
+-        "nsis"
+-      ],
+-      "icon": "assets/icon.ico"
+-    },
+-    "nsis": {
+-      "oneClick": false,
+-      "allowToChangeInstallationDirectory": true,
+-      "createDesktopShortcut": true,
+-      "createStartMenuShortcut": true,
+-      "shortcutName": "NeuralShell",
+-      "include": "build/installer.nsh",
+-      "license": "build/LICENSE.txt"
+-    },
+-    "linux": {
+-      "target": [
+-        "AppImage"
+-      ],
+-      "icon": "assets/icon.png"
+-    },
+-    "publish": [
+-      {
+-        "provider": "generic",
+-        "url": "https://updates.neuralshell.app/desktop/"
+-      }
+-    ]
+   }
+-}
++}
+\ No newline at end of file
+diff --git a/src/renderer/src/App.jsx b/src/renderer/src/App.jsx
+index 4c1221e..d534d36 100644
+--- a/src/renderer/src/App.jsx
++++ b/src/renderer/src/App.jsx
+@@ -32,6 +32,7 @@ import { applyWorkpadTemplate, exportWorkpadMarkdown, loadWorkpad } from './lib/
+ import { OPERATOR_GUIDE_MARK, OPERATOR_GUIDE_TEXT } from './lib/operatorGuide.js';
+ import workpadTemplates from './config/workpad_templates.json';
+ import { showAppToast } from './utils/appToast.js';
++import { persistDefaultModelSettings } from './lib/activeModel.js';
+ import { openDiscordSupport } from './lib/supportLinks.js';
+ import FleetControlPanel from './components/FleetControlPanel.jsx';
+ import RecoveryCenter from './components/RecoveryCenter.jsx';
+@@ -373,6 +374,13 @@ function App() {
+         openSettings();
+     }, [openSettings]);
+ 
++    const handleModelChange = React.useCallback(async (nextModel) => {
++        const safeModel = String(nextModel || '').trim();
++        if (!safeModel) return;
++        await setModel(safeModel);
++        await persistDefaultModelSettings(safeModel);
++    }, [setModel]);
++
+     const handleOpenSupport = React.useCallback(() => {
+         openDiscordSupport();
+         setShowSupportOps(true);
+@@ -3272,7 +3280,7 @@ function App() {
+             <OmegaBootOverlay report={omegaReport} />
+             <TopStatusBar
+                 model={model}
+-                setModel={setModel}
++                setModel={handleModelChange}
+                 stats={stats}
+                 xpState={xpState}
+                 workflowId={workflowId}
+@@ -3426,6 +3434,13 @@ function App() {
+                         onToggleWorkbenchRailCollapse={toggleWorkbenchRailCollapse}
+                         showScratchpad={showScratchpad}
+                         onCloseScratchpad={() => setShowScratchpad(false)}
++                        connectionInfo={connectionInfo}
++                        omegaReport={omegaReport}
++                        omegaLoading={omegaLoading}
++                        omegaError={omegaError}
++                        onRefreshOmega={refreshOmega}
++                        activeModel={model}
++                        onModelChange={handleModelChange}
+                     />
+                 ) : (
+                 <>
+diff --git a/src/renderer/src/components/MultiWorkspace.jsx b/src/renderer/src/components/MultiWorkspace.jsx
+index 22bee26..df2f019 100644
+--- a/src/renderer/src/components/MultiWorkspace.jsx
++++ b/src/renderer/src/components/MultiWorkspace.jsx
+@@ -339,12 +339,13 @@ const PaneEmptyState = React.memo(function PaneEmptyState({ pane, onSend, onUpda
+                 <div className="ui-holo-panel rounded-[1.35rem] p-4">
+                     <div className="mb-2.5 flex items-center justify-between gap-3">
+                         <div className="text-[13px] font-semibold text-slate-300">Suggested prompts</div>
+-                        <div className="text-[11px] uppercase tracking-wide text-slate-500 font-mono">one tap seed</div>
++                        <div className="text-[11px] uppercase tracking-wide text-slate-500 font-mono">tap to send</div>
+                     </div>
+                     <div className="grid gap-2 md:grid-cols-2">
+                         {promptSuggestions.map((q) => (
+                             <button key={q}
+-                                onClick={() => { onUpdatePane(pane.id, { prompt: q }); }}
++                                type="button"
++                                onClick={() => { onSend(pane.id, q); }}
+                                 className="ui-tactile rounded-xl border border-white/[0.05] bg-black/10 px-3.5 py-2.5 text-left text-[13px] leading-6 text-slate-400 hover:border-white/[0.10] hover:bg-white/[0.035] hover:text-slate-200">
+                                 {q}
+                             </button>
+@@ -369,6 +370,7 @@ const PaneChat = React.memo(function PaneChat({
+     onClear,
+     onRename,
+     onUpdatePane,
++    onModelChange,
+     panels,
+     moodEngine,
+     rgbEnabled = false,
+@@ -489,7 +491,13 @@ const PaneChat = React.memo(function PaneChat({
+                 {!compact && (
+                     <select
+                         value={pane.model}
+-                        onChange={(e) => onUpdatePane(pane.id, { model: e.target.value })}
++                        onChange={(e) => {
++                            const nextModel = e.target.value;
++                            onUpdatePane(pane.id, { model: nextModel });
++                            if (typeof onModelChange === 'function') {
++                                void Promise.resolve(onModelChange(nextModel)).catch(() => {});
++                            }
++                        }}
+                         className="bg-white/[0.04] border border-white/[0.08] rounded px-1.5 py-1 text-[12px] font-mono text-slate-400 outline-none hover:bg-white/[0.06] transition-all cursor-pointer appearance-none max-w-24 truncate"
+                     >
+                         {[
+@@ -790,6 +798,8 @@ const MultiWorkspace = React.memo(function MultiWorkspace({
+     moodEngine = null,
+     rgbEnabled = false,
+     rgbStatus = null,
++    activeModel = 'llama3',
++    onModelChange,
+ }) {
+     const ms = useMultiSession({ onSendMessage, preferAppSend, sessionKey });
+     const [activeTaskCount, setActiveTaskCount] = React.useState(0);
+@@ -809,6 +819,15 @@ const MultiWorkspace = React.memo(function MultiWorkspace({
+     useEffect(() => { activePaneIdRef.current = ms.activePaneId; }, [ms.activePaneId]);
+     useEffect(() => { panesLenRef.current = ms.panes.length; }, [ms.panes.length]);
+ 
++    useEffect(() => {
++        const safeModel = String(activeModel || '').trim();
++        if (!safeModel || !ms.activePaneId) return;
++        const activePane = ms.panes.find((pane) => pane.id === ms.activePaneId);
++        if (activePane && String(activePane.model || '') !== safeModel) {
++            ms.updatePane(ms.activePaneId, { model: safeModel });
++        }
++    }, [activeModel, ms.activePaneId, ms.panes, ms.updatePane]);
++
+     React.useEffect(() => {
+         let mounted = true;
+         const refreshTaskCount = async () => {
+@@ -974,6 +993,7 @@ const MultiWorkspace = React.memo(function MultiWorkspace({
+             onClear={ms.clearChat}
+             onRename={ms.renamePane}
+             onUpdatePane={ms.updatePane}
++            onModelChange={onModelChange}
+             panels={panels}
+             moodEngine={moodEngine}
+             rgbEnabled={rgbEnabled}
+@@ -984,7 +1004,7 @@ const MultiWorkspace = React.memo(function MultiWorkspace({
+             workpadOpen={workpadOpen}
+             workpadOpenCount={workpadOpenCount}
+         />
+-    ), [ms, panels, moodEngine, rgbEnabled, rgbStatus, activeTaskCount, workpadOpenCount, workpadOpen, onOpenTaskManager, onToggleWorkpad]);
++    ), [ms, onModelChange, panels, moodEngine, rgbEnabled, rgbStatus, activeTaskCount, workpadOpenCount, workpadOpen, onOpenTaskManager, onToggleWorkpad]);
+ 
+     return (
+         <div ref={workspacePanelRef} data-testid="workspace-panel" className={`flex flex-col h-full min-h-0 bg-shell-canvas ${className}`}>
+diff --git a/src/renderer/src/components/PrimaryWorkspaceRegion.jsx b/src/renderer/src/components/PrimaryWorkspaceRegion.jsx
+index 463e4d3..fadf434 100644
+--- a/src/renderer/src/components/PrimaryWorkspaceRegion.jsx
++++ b/src/renderer/src/components/PrimaryWorkspaceRegion.jsx
+@@ -56,6 +56,13 @@ const PrimaryWorkspaceRegion = React.memo(function PrimaryWorkspaceRegion({
+     onToggleWorkbenchRailCollapse,
+     showScratchpad,
+     onCloseScratchpad,
++    connectionInfo,
++    omegaReport = null,
++    omegaLoading = false,
++    omegaError = '',
++    onRefreshOmega,
++    activeModel = 'llama3',
++    onModelChange,
+ }) {
+     return (
+         <main id="main-workspace" tabIndex={-1} className="flex-1 flex min-h-0 overflow-hidden relative outline-none">
+@@ -138,6 +145,8 @@ const PrimaryWorkspaceRegion = React.memo(function PrimaryWorkspaceRegion({
+                 moodEngine={moodEngine}
+                 rgbEnabled={rgbEnabled}
+                 rgbStatus={rgbStatus}
++                activeModel={activeModel}
++                onModelChange={onModelChange}
+             />
+ 
+             {showInlineWorkbenchRailPanel && (
+@@ -162,6 +171,11 @@ const PrimaryWorkspaceRegion = React.memo(function PrimaryWorkspaceRegion({
+                         onInsertPrompt={onInsertPrompt}
+                         auditOnly={auditOnly}
+                         widthPx={inlineWorkbenchRailWidth}
++                        connectionInfo={connectionInfo}
++                        omegaReport={omegaReport}
++                        omegaLoading={omegaLoading}
++                        omegaError={omegaError}
++                        onRefreshOmega={onRefreshOmega}
+                     />
+                 </>
+             )}
+diff --git a/src/renderer/src/components/TopStatusBar.jsx b/src/renderer/src/components/TopStatusBar.jsx
+index 42f1cdb..16549e3 100644
+--- a/src/renderer/src/components/TopStatusBar.jsx
++++ b/src/renderer/src/components/TopStatusBar.jsx
+@@ -391,7 +391,9 @@ export function TopStatusBar({
+                 <select
+                     value={model}
+                     aria-label="Active model"
+-                    onChange={(event) => setModel(event.target.value)}
++                    onChange={(event) => {
++                        void Promise.resolve(setModel(event.target.value)).catch(() => {});
++                    }}
+                     className="bg-violet-500/5 border border-violet-400/15 rounded-lg px-2.5 py-1 text-[11px] text-sky-300 outline-none focus:border-violet-400/40 transition-all font-mono hover:bg-violet-500/10 cursor-pointer appearance-none min-w-20 shadow-inner"
+                 >
+                     {modelOptions.map((item) => (
+diff --git a/src/renderer/src/components/WorkbenchRail.jsx b/src/renderer/src/components/WorkbenchRail.jsx
+index 209aff7..cda71e8 100644
+--- a/src/renderer/src/components/WorkbenchRail.jsx
++++ b/src/renderer/src/components/WorkbenchRail.jsx
+@@ -1,10 +1,10 @@
+ import React from 'react';
+-import RitualTerminal from './RitualTerminal';
+ import ShellBadge from './ShellBadge';
+ import WorkspaceFileItem from './WorkspaceFileItem';
+ import WorkspaceFileViewer from './WorkspaceFileViewer';
+ import { OmegaTrustStrip } from './OmegaTrustStrip.jsx';
+ import { providerLabel } from '../lib/bridgeProviderUi.js';
++import { pickAndActivateWorkspace } from '../lib/workspacePicker.js';
+ 
+ export function WorkbenchRail({
+     stats,
+@@ -20,6 +20,7 @@ export function WorkbenchRail({
+     onRefreshOmega,
+ }) {
+     const [gitSummary, setGitSummary] = React.useState(null);
++    const [workspaceBusy, setWorkspaceBusy] = React.useState(false);
+     const railWidth = Number.isFinite(Number(widthPx)) ? Math.max(220, Math.round(Number(widthPx))) : 288;
+ 
+     React.useEffect(() => {
+@@ -45,23 +46,38 @@ export function WorkbenchRail({
+ 
+         refreshGitStatus();
+         const interval = window.setInterval(refreshGitStatus, 2000);
++        const onWorkspaceChanged = () => { refreshGitStatus(); };
++        if (window.api?.workspace?.onChanged) {
++            window.api.workspace.onChanged(onWorkspaceChanged);
++        }
+         return () => {
+             mounted = false;
+             window.clearInterval(interval);
+         };
+     }, []);
+ 
+-    const triggerPalette = () => {
+-        window.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'k', ctrlKey: true }));
+-    };
+-
+-    const runCommand = (command) => {
++    const runCommand = React.useCallback((command) => {
+         if (typeof onExecute === 'function') {
+             onExecute(command);
+-            return;
+         }
+-        triggerPalette();
+-    };
++    }, [onExecute]);
++
++    const handleLoadRepository = React.useCallback(async () => {
++        if (auditOnly || workspaceBusy) return;
++        setWorkspaceBusy(true);
++        try {
++            await pickAndActivateWorkspace();
++        } finally {
++            setWorkspaceBusy(false);
++        }
++    }, [auditOnly, workspaceBusy]);
++
++    const handleBridgeStatus = React.useCallback(() => {
++        runCommand('/status');
++    }, [runCommand]);
++
++    const cpuPercent = Number.isFinite(Number(stats?.cpuPercent)) ? Math.round(Number(stats.cpuPercent)) : 0;
++    const memoryMb = Number.isFinite(Number(stats?.memoryMb)) ? Math.round(Number(stats.memoryMb)) : 0;
+ 
+     return (
+         <aside
+@@ -83,10 +99,6 @@ export function WorkbenchRail({
+                     onRunOmega={() => runCommand('/omega')}
+                 />
+ 
+-                {/* Core Protocol Engine */}
+-                <RitualTerminal />
+-
+-                {/* Contextual Workbench State tied to Active Session */}
+                 <div className="p-5 border border-cyan-400/20 bg-cyan-400/[0.03] rounded-2xl shadow-inner">
+                     <div className="flex justify-between items-start mb-4">
+                         <div>
+@@ -95,13 +107,15 @@ export function WorkbenchRail({
+                                 {workflowId || 'Global_Empty_State'}
+                             </div>
+                         </div>
+-                        <ShellBadge tone={workflowId ? "green" : "warn"}>{workflowId ? "ON_LINK" : "AWAIT"}</ShellBadge>
++                        <ShellBadge tone={workflowId ? 'green' : 'warn'}>{workflowId ? 'ON_LINK' : 'AWAIT'}</ShellBadge>
+                     </div>
+ 
+                     <div className="space-y-4 pt-4 border-t border-white/5">
+                         <div className="flex flex-col gap-1">
+-                            <span className="text-[9px] text-slate-500 font-bold uppercase tracking-widest">Heuristic Artifacts</span>
+-                            <span className="text-[11px] font-mono text-slate-300">0 Staged / 0 Compiled</span>
++                            <span className="text-[9px] text-slate-500 font-bold uppercase tracking-widest">Runtime</span>
++                            <span className="text-[11px] font-mono text-slate-300">
++                                CPU {cpuPercent}% · Memory {memoryMb} MB
++                            </span>
+                         </div>
+                         <div className="flex flex-wrap gap-1.5">
+                             <WorkspaceFileItem
+@@ -131,26 +145,35 @@ export function WorkbenchRail({
+                     </div>
+                 </div>
+ 
+-                {/* Essential Quick Actions (Restoring functional density) */}
+                 <div className="space-y-2">
+-                    <div className="text-[9px] font-bold uppercase tracking-[0.2em] text-slate-600 mb-3 px-1">Route Suggestions</div>
++                    <div className="text-[9px] font-bold uppercase tracking-[0.2em] text-slate-600 mb-3 px-1">Quick Actions</div>
+                     <button
+-                       onClick={triggerPalette}
+-                       className="w-full flex items-center justify-between p-4 rounded-xl border border-white/5 bg-black/40 hover:bg-white/[0.04] text-slate-300 transition-all group"
++                        type="button"
++                        data-testid="workbench-load-repo-btn"
++                        disabled={auditOnly || workspaceBusy}
++                        onClick={handleLoadRepository}
++                        className="w-full flex items-center justify-between p-4 rounded-xl border border-white/5 bg-black/40 hover:bg-white/[0.04] text-slate-300 transition-all group disabled:opacity-40 disabled:cursor-not-allowed"
+                     >
+-                       <span className="text-[10px] font-bold uppercase tracking-widest group-hover:text-cyan-300 transition-colors">GOTO: LOAD REPOSITORY</span>
+-                       <span className="text-cyan-500/30 group-hover:text-cyan-400 transition-colors">→</span>
++                        <span className="text-[10px] font-bold uppercase tracking-widest group-hover:text-cyan-300 transition-colors">
++                            {workspaceBusy ? 'Opening folder…' : 'Open workspace folder'}
++                        </span>
++                        <span className="text-cyan-500/30 group-hover:text-cyan-400 transition-colors">→</span>
+                     </button>
+                     <button
+-                       onClick={triggerPalette}
+-                       className="w-full flex items-center justify-between p-4 rounded-xl border border-white/5 bg-black/40 hover:bg-white/[0.04] text-slate-300 transition-all group"
++                        type="button"
++                        data-testid="workbench-bridge-status-btn"
++                        onClick={handleBridgeStatus}
++                        className="w-full flex items-center justify-between p-4 rounded-xl border border-white/5 bg-black/40 hover:bg-white/[0.04] text-slate-300 transition-all group"
+                     >
+-                       <span className="text-[10px] font-bold uppercase tracking-widest group-hover:text-amber-300 transition-colors">GOTO: NETWORK SCAN</span>
+-                       <span className="text-amber-500/30 group-hover:text-amber-400 transition-colors">→</span>
++                        <span className="text-[10px] font-bold uppercase tracking-widest group-hover:text-amber-300 transition-colors">
++                            Run bridge status (/status)
++                        </span>
++                        <span className="text-amber-500/30 group-hover:text-amber-400 transition-colors">→</span>
+                     </button>
+                 </div>
+ 
+                 <WorkspaceFileViewer
++                    auditOnly={auditOnly}
+                     onInsertCommand={(command) => {
+                         if (typeof onInsertPrompt === 'function') {
+                             onInsertPrompt(command);
+@@ -158,6 +181,7 @@ export function WorkbenchRail({
+                         }
+                         runCommand(command);
+                     }}
++                    onPickWorkspace={handleLoadRepository}
+                 />
+             </div>
+ 
+diff --git a/src/renderer/src/components/WorkspaceFileViewer.jsx b/src/renderer/src/components/WorkspaceFileViewer.jsx
+index a0df6c8..ef39b58 100644
+--- a/src/renderer/src/components/WorkspaceFileViewer.jsx
++++ b/src/renderer/src/components/WorkspaceFileViewer.jsx
+@@ -1,7 +1,8 @@
+ import React from 'react';
+ import ContextChipBar from './ContextChipBar';
++import { loadActiveWorkspacePreview } from '../lib/workspacePicker.js';
+ 
+-const SAMPLE_FILE = [
++const FALLBACK_PREVIEW = [
+     'export function verifyReleaseGate(input) {',
+     '  if (!input || !input.manifest) {',
+     "    throw new Error('manifest required');",
+@@ -13,6 +14,8 @@ const SAMPLE_FILE = [
+ 
+ export default function WorkspaceFileViewer({
+     onInsertCommand,
++    onPickWorkspace,
++    auditOnly = false,
+ }) {
+     const viewerRef = React.useRef(null);
+     const [chipState, setChipState] = React.useState({
+@@ -21,6 +24,45 @@ export default function WorkspaceFileViewer({
+         y: 0,
+         text: '',
+     });
++    const [preview, setPreview] = React.useState({
++        label: 'Example snippet',
++        content: FALLBACK_PREVIEW,
++        hasWorkspace: false,
++        loading: true,
++    });
++
++    const refreshPreview = React.useCallback(async () => {
++        setPreview((prev) => ({ ...prev, loading: true }));
++        try {
++            const loaded = await loadActiveWorkspacePreview();
++            if (loaded && loaded.content) {
++                setPreview({
++                    label: loaded.label,
++                    content: loaded.content,
++                    hasWorkspace: true,
++                    loading: false,
++                });
++                return;
++            }
++        } catch {
++            // fall through to fallback preview
++        }
++        setPreview({
++            label: 'Example snippet',
++            content: FALLBACK_PREVIEW,
++            hasWorkspace: false,
++            loading: false,
++        });
++    }, []);
++
++    React.useEffect(() => {
++        refreshPreview();
++        const onWorkspaceChanged = () => { refreshPreview(); };
++        if (window.api?.workspace?.onChanged) {
++            window.api.workspace.onChanged(onWorkspaceChanged);
++        }
++        return () => {};
++    }, [refreshPreview]);
+ 
+     React.useEffect(() => {
+         const hideOnResize = () => {
+@@ -66,11 +108,28 @@ export default function WorkspaceFileViewer({
+ 
+     return (
+         <section className="rounded-xl border border-white/10 bg-black/30 p-3">
+-            <div className="mb-2 flex items-center justify-between">
++            <div className="mb-2 flex items-center justify-between gap-2">
+                 <div>
+                     <div className="text-[9px] uppercase tracking-[0.14em] text-slate-500 font-bold">Workspace Viewer</div>
+-                    <div className="text-[10px] text-slate-400 font-mono">Select text to open context chips.</div>
++                    <div className="text-[10px] text-slate-400 font-mono">
++                        {preview.loading
++                            ? 'Loading preview…'
++                            : preview.hasWorkspace
++                                ? `${preview.label} · select text for context chips`
++                                : 'Example snippet · open a folder for your code'}
++                    </div>
+                 </div>
++                {!preview.hasWorkspace && typeof onPickWorkspace === 'function' && (
++                    <button
++                        type="button"
++                        data-testid="workspace-viewer-pick-btn"
++                        disabled={auditOnly}
++                        onClick={onPickWorkspace}
++                        className="shrink-0 px-2 py-1 rounded border border-cyan-400/25 bg-cyan-500/10 text-[9px] font-mono uppercase text-cyan-100 hover:bg-cyan-500/20 disabled:opacity-40"
++                    >
++                        Open folder
++                    </button>
++                )}
+             </div>
+             <pre
+                 ref={viewerRef}
+@@ -83,7 +142,7 @@ export default function WorkspaceFileViewer({
+                 tabIndex={0}
+                 className="m-0 rounded-lg border border-white/10 bg-slate-950/70 p-3 text-[10px] leading-relaxed font-mono text-slate-300 max-h-44 overflow-auto custom-scrollbar whitespace-pre-wrap outline-none focus:border-cyan-300/35"
+             >
+-                {SAMPLE_FILE}
++                {preview.content}
+             </pre>
+             <ContextChipBar
+                 visible={chipState.visible}
+diff --git a/src/renderer/src/components/WorkspacePanel.jsx b/src/renderer/src/components/WorkspacePanel.jsx
+index 30ce428..a1b93c2 100644
+--- a/src/renderer/src/components/WorkspacePanel.jsx
++++ b/src/renderer/src/components/WorkspacePanel.jsx
+@@ -14,6 +14,7 @@ import StreamingBar from './StreamingBar';
+ import ThreadDrawer from './ThreadDrawer';
+ import ProvGraph from './ProvGraph';
+ import VoicePanel from './VoicePanel';
++import { pickAndActivateWorkspace } from '../lib/workspacePicker.js';
+ 
+ const AUDIT_ALLOWED_COMMANDS = new Set(['/help', '/proof', '/roi', '/status', '/workflows', '/guard', '/omega', '/kernel', '/clear']);
+ 
+@@ -316,6 +317,16 @@ export function WorkspacePanel({
+         }
+     }, [onExecute, rememberCommand]);
+ 
++    const handleMountRepository = React.useCallback(async () => {
++        if (auditOnly) return;
++        try {
++            await pickAndActivateWorkspace();
++            runCommand('/guard');
++        } catch {
++            // picker cancelled or unavailable
++        }
++    }, [auditOnly, runCommand]);
++
+     const runSend = React.useCallback(() => {
+         const current = String(prompt || '').trim();
+         if (!current || !canRunPrompt) return;
+@@ -420,14 +431,8 @@ export function WorkspacePanel({
+     const onSelectQuickStart = React.useCallback((item) => {
+         const command = String(item && item.prompt ? item.prompt : '').trim();
+         if (!command) return;
+-        setPrompt(command);
+-        rememberCommand(command);
+-        window.requestAnimationFrame(() => {
+-            if (composerRef.current && typeof composerRef.current.focus === 'function') {
+-                composerRef.current.focus();
+-            }
+-        });
+-    }, [rememberCommand, setPrompt]);
++        runCommand(command);
++    }, [runCommand]);
+ 
+     const onDismissQuickStart = React.useCallback((id) => {
+         const safeId = String(id || '').trim();
+@@ -585,7 +590,7 @@ export function WorkspacePanel({
+                                         </button>
+                                         <button
+                                             type="button"
+-                                            onClick={() => onSelectQuickStart({ prompt: '/guard' })}
++                                            onClick={() => runCommand('/guard')}
+                                             className="px-4 py-3 rounded-xl border border-amber-300/30 bg-amber-400/10 text-[10px] font-black uppercase tracking-[0.14em] text-amber-200 hover:bg-amber-400/20 transition-all"
+                                         >
+                                             Prep Lock Flow
+@@ -631,7 +636,7 @@ export function WorkspacePanel({
+                                     </button>
+ 
+                                     {/* Card 2: Load Repo */}
+-                                    <button data-testid="card-context" onClick={() => { window.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'k', ctrlKey: true })) }} className="group flex flex-col text-left p-5 rounded-2xl bg-sky-500/[0.02] hover:bg-sky-500/[0.06] border border-sky-400/10 hover:border-sky-400/30 transition-all shadow-sm hover:shadow-[0_0_30px_rgba(56,189,248,0.06)] animate-fade-up-2 alive-hover">
++                                    <button data-testid="card-context" onClick={handleMountRepository} className="group flex flex-col text-left p-5 rounded-2xl bg-sky-500/[0.02] hover:bg-sky-500/[0.06] border border-sky-400/10 hover:border-sky-400/30 transition-all shadow-sm hover:shadow-[0_0_30px_rgba(56,189,248,0.06)] animate-fade-up-2 alive-hover">
+                                         <div className="text-sky-400 mb-3 opacity-60 group-hover:opacity-100 transition-opacity">
+                                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                                         </div>
+@@ -745,7 +750,7 @@ export function WorkspacePanel({
+                     ].map(({ cmd, from, to, hoverBg, hoverBorder }) => (
+                         <button
+                             key={cmd}
+-                            onClick={() => setPrompt(cmd)}
++                            onClick={() => runCommand(cmd)}
+                             disabled={auditOnly && !AUDIT_ALLOWED_COMMANDS.has(cmd)}
+                             className={cn(
+                                 'group text-[10px] font-black px-3 py-1.5 bg-white/[0.02] rounded-lg border border-white/5 whitespace-nowrap uppercase tracking-[0.15em] transition-all duration-200 hover:scale-105 hover:shadow-lg',

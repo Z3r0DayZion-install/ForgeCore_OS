@@ -1,0 +1,52 @@
+BLACKBOXAI_USER_NAME: christian cash
+BLACKBOXAI_USER_EMAIL: zerivonforge@gmail.com
+BLACKBOX_PROVIDER: blackboxai
+BLACKBOX_ENCRYPTED_SUPERVISOR_URL: https://encrypt.blackboxai.app/
+BLACKBOXAI_CUSTOMER_ID: cus_UOnelPtvpzitgh
+BLACKBOX_MODEL: blackboxai/x-ai/grok-code-fast-1:free
+extensions:
+  computercontroller:
+    bundled: true
+    display_name: Computer Controller
+    enabled: false
+    name: computercontroller
+    timeout: 300
+    type: builtin
+  developer:
+    bundled: true
+    display_name: Developer
+    enabled: true
+    name: developer
+    timeout: 300
+    type: builtin
+  jetbrains:
+    bundled: true
+    display_name: Jetbrains
+    enabled: false
+    name: jetbrains
+    timeout: 300
+    type: builtin
+  memory:
+    bundled: true
+    display_name: Memory
+    enabled: false
+    name: memory
+    timeout: 300
+    type: builtin
+  netlify:
+    bundled: true
+    description: Create new projects, build, deploy, and manage your Netlify resources.
+    enabled: false
+    env_keys: []
+    envs: {}
+    name: netlify
+    timeout: 300
+    type: sse
+    uri: http://150.136.221.95:8000/sse
+  tutorial:
+    bundled: true
+    display_name: Tutorial
+    enabled: false
+    name: tutorial
+    timeout: 300
+    type: builtin

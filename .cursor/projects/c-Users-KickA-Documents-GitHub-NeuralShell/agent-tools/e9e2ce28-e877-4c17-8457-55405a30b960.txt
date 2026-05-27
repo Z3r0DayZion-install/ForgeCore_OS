@@ -1,0 +1,762 @@
+NeuralLink? Tactical Suite Loaded.
+gate	Run flaky test gate	﻿2026-05-19T17:38:37.5844094Z ##[group]Run npm run test:flaky
+gate	Run flaky test gate	2026-05-19T17:38:37.5844401Z [36;1mnpm run test:flaky[0m
+gate	Run flaky test gate	2026-05-19T17:38:37.5877870Z shell: /usr/bin/bash -e {0}
+gate	Run flaky test gate	2026-05-19T17:38:37.5878411Z ##[endgroup]
+gate	Run flaky test gate	2026-05-19T17:38:37.6934328Z 
+gate	Run flaky test gate	2026-05-19T17:38:37.6935165Z > neuralshell-v5@2.1.34 test:flaky
+gate	Run flaky test gate	2026-05-19T17:38:37.6936239Z > node scripts/flaky-test-gate.js npm test
+gate	Run flaky test gate	2026-05-19T17:38:37.6936829Z 
+gate	Run flaky test gate	2026-05-19T17:38:37.7182711Z 
+gate	Run flaky test gate	2026-05-19T17:38:37.7183287Z [flaky-gate] attempt #1: npm test
+gate	Run flaky test gate	2026-05-19T17:38:37.8224585Z 
+gate	Run flaky test gate	2026-05-19T17:38:37.8225054Z > neuralshell-v5@2.1.34 test
+gate	Run flaky test gate	2026-05-19T17:38:37.8233123Z > node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node tear/to-provider-messages.test.js && node tear/hotfix-2134-provider-proof.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js
+gate	Run flaky test gate	2026-05-19T17:38:37.8239277Z 
+gate	Run flaky test gate	2026-05-19T17:38:37.8460820Z Smoke test passed (React Architecture).
+gate	Run flaky test gate	2026-05-19T17:38:37.8683076Z IPC surface test passed.
+gate	Run flaky test gate	2026-05-19T17:38:37.8913882Z Renderer bindings test passed.
+gate	Run flaky test gate	2026-05-19T17:38:37.9149161Z Linkage regression test passed.
+gate	Run flaky test gate	2026-05-19T17:38:37.9469231Z PASS ipcValidators
+gate	Run flaky test gate	2026-05-19T17:38:37.9491839Z PASS workspace action guards
+gate	Run flaky test gate	2026-05-19T17:38:37.9522427Z PASS workflow state validators
+gate	Run flaky test gate	2026-05-19T17:38:37.9534757Z PASS validator default branches
+gate	Run flaky test gate	2026-05-19T17:38:37.9537635Z PASS catalog helpers
+gate	Run flaky test gate	2026-05-19T17:38:37.9588753Z PASS patch plan helpers
+gate	Run flaky test gate	2026-05-19T17:38:37.9595963Z PASS bridge profile model
+gate	Run flaky test gate	2026-05-19T17:38:37.9596937Z PASS bridge settings feature module
+gate	Run flaky test gate	2026-05-19T17:38:37.9602583Z PASS bridge settings model
+gate	Run flaky test gate	2026-05-19T17:38:37.9610201Z PASS airgap policy
+gate	Run flaky test gate	2026-05-19T17:38:37.9666592Z PASS voice rtt badge thresholds
+gate	Run flaky test gate	2026-05-19T17:38:38.0861580Z PASS llmService retry
+gate	Run flaky test gate	2026-05-19T17:38:38.4264391Z PASS llmService offline
+gate	Run flaky test gate	2026-05-19T17:38:38.4272255Z PASS llmService cancel
+gate	Run flaky test gate	2026-05-19T17:38:38.4277425Z PASS llmService persona/config
+gate	Run flaky test gate	2026-05-19T17:38:38.4283702Z PASS llmService autodetect
+gate	Run flaky test gate	2026-05-19T17:38:38.4291721Z PASS llmService stream
+gate	Run flaky test gate	2026-05-19T17:38:38.4395370Z PASS llmService failure modes
+gate	Run flaky test gate	2026-05-19T17:38:38.4395985Z All unit tests passed.
+gate	Run flaky test gate	2026-05-19T17:38:38.4709748Z PASS toProviderMessages
+gate	Run flaky test gate	2026-05-19T17:38:38.5242244Z (node:2521) ExperimentalWarning: CommonJS module /home/runner/work/NeuralShell/NeuralShell/tear/hotfix-2134-provider-proof.js is loading ES Module /home/runner/work/NeuralShell/NeuralShell/src/renderer/src/lib/toProviderMessages.js using require().
+gate	Run flaky test gate	2026-05-19T17:38:38.5244716Z Support for loading ES Module in require() is an experimental feature and might change at any time
+gate	Run flaky test gate	2026-05-19T17:38:38.5245876Z (Use `node --trace-warnings ...` to show where the warning was created)
+gate	Run flaky test gate	2026-05-19T17:38:45.8516326Z {
+gate	Run flaky test gate	2026-05-19T17:38:45.8516825Z   "pass": true,
+gate	Run flaky test gate	2026-05-19T17:38:45.8517206Z   "staticProof": "pass",
+gate	Run flaky test gate	2026-05-19T17:38:45.8518531Z   "roles": [
+gate	Run flaky test gate	2026-05-19T17:38:45.8518833Z     "assistant",
+gate	Run flaky test gate	2026-05-19T17:38:45.8519126Z     "user"
+gate	Run flaky test gate	2026-05-19T17:38:45.8519393Z   ],
+gate	Run flaky test gate	2026-05-19T17:38:45.8520032Z   "ollamaIntegration": "skipped",
+gate	Run flaky test gate	2026-05-19T17:38:45.8520670Z   "reason": "no ollama on runner",
+gate	Run flaky test gate	2026-05-19T17:38:45.8521165Z   "health": {
+gate	Run flaky test gate	2026-05-19T17:38:45.8521588Z     "ok": false,
+gate	Run flaky test gate	2026-05-19T17:38:45.8522176Z     "baseUrl": "http://127.0.0.1:11434",
+gate	Run flaky test gate	2026-05-19T17:38:45.8522756Z     "model": "llama3",
+gate	Run flaky test gate	2026-05-19T17:38:45.8523262Z     "persona": "balanced",
+gate	Run flaky test gate	2026-05-19T17:38:45.8523790Z     "provider": "ollama",
+gate	Run flaky test gate	2026-05-19T17:38:45.8524249Z     "reason": "fetch failed"
+gate	Run flaky test gate	2026-05-19T17:38:45.8524760Z   }
+gate	Run flaky test gate	2026-05-19T17:38:45.8525098Z }
+gate	Run flaky test gate	2026-05-19T17:38:45.8790116Z ✓ Real key configured: sign/verify works
+gate	Run flaky test gate	2026-05-19T17:38:45.8796166Z ✓ No key + no dev override: fails closed
+gate	Run flaky test gate	2026-05-19T17:38:45.8804040Z ✓ No key + explicit dev override: dev path works
+gate	Run flaky test gate	2026-05-19T17:38:45.8811561Z ✓ Mismatched key: verification fails
+gate	Run flaky test gate	2026-05-19T17:38:45.8817987Z ✓ Dev key cannot be exploited without explicit override
+gate	Run flaky test gate	2026-05-19T17:38:45.8823139Z ✓ Dev override requires explicit '1' value
+gate	Run flaky test gate	2026-05-19T17:38:45.8823603Z 
+gate	Run flaky test gate	2026-05-19T17:38:45.8823799Z License engine test passed.
+gate	Run flaky test gate	2026-05-19T17:38:45.9080688Z Policy firewall test passed.
+gate	Run flaky test gate	2026-05-19T17:38:45.9335901Z Audit chain test passed.
+gate	Run flaky test gate	2026-05-19T17:38:45.9597596Z Security guards test passed.
+gate	Run flaky test gate	2026-05-19T17:38:45.9900936Z Security abuse test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.0205575Z Branch protection policy test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.0419637Z Cleanup guard test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.0778287Z Release manifest test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.1241253Z Release checksums test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.1570019Z Release upgrade validation test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.1785686Z Release workflow contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.1998740Z Ship entrypoint test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.2214818Z Performance gate contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.2428296Z Release freshness test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.2641790Z Release status contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.2880962Z Worktree cleanliness test passed.
+gate	Run flaky test gate	2026-05-19T17:38:46.3471264Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:46.3482819Z # Subtest: IdentityKernel persists rotated keypairs across reloads
+gate	Run flaky test gate	2026-05-19T17:38:46.3488310Z ok 1 - IdentityKernel persists rotated keypairs across reloads
+gate	Run flaky test gate	2026-05-19T17:38:46.3489290Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.3489696Z   duration_ms: 10.042156
+gate	Run flaky test gate	2026-05-19T17:38:46.3490099Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.3493621Z # Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+gate	Run flaky test gate	2026-05-19T17:38:46.3495368Z ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+gate	Run flaky test gate	2026-05-19T17:38:46.3496161Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.3496497Z   duration_ms: 2.660052
+gate	Run flaky test gate	2026-05-19T17:38:46.3496884Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.3497899Z # Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+gate	Run flaky test gate	2026-05-19T17:38:46.3501433Z ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+gate	Run flaky test gate	2026-05-19T17:38:46.3502400Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.3502751Z   duration_ms: 3.842353
+gate	Run flaky test gate	2026-05-19T17:38:46.3503134Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.3504638Z # Subtest: IdentityKernel persists trusted peers across reloads and revocations
+gate	Run flaky test gate	2026-05-19T17:38:46.3505820Z ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+gate	Run flaky test gate	2026-05-19T17:38:46.3506510Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.3506844Z   duration_ms: 5.251376
+gate	Run flaky test gate	2026-05-19T17:38:46.3507212Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.3508415Z # Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+gate	Run flaky test gate	2026-05-19T17:38:46.3509813Z ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+gate	Run flaky test gate	2026-05-19T17:38:46.3510610Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.3510928Z   duration_ms: 3.071679
+gate	Run flaky test gate	2026-05-19T17:38:46.3511282Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.3524365Z 1..5
+gate	Run flaky test gate	2026-05-19T17:38:46.3524701Z # tests 5
+gate	Run flaky test gate	2026-05-19T17:38:46.3525006Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:46.3525568Z # pass 5
+gate	Run flaky test gate	2026-05-19T17:38:46.3525989Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:46.3526557Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:46.3527106Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:46.3527638Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:46.3528469Z # duration_ms 35.415112
+gate	Run flaky test gate	2026-05-19T17:38:46.3984246Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:46.3995061Z # Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+gate	Run flaky test gate	2026-05-19T17:38:46.4001716Z ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+gate	Run flaky test gate	2026-05-19T17:38:46.4002946Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.4003319Z   duration_ms: 2.210165
+gate	Run flaky test gate	2026-05-19T17:38:46.4003717Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.4007093Z # Subtest: XP Manager still blocks when the hardware binding changes
+gate	Run flaky test gate	2026-05-19T17:38:46.4008810Z ok 2 - XP Manager still blocks when the hardware binding changes
+gate	Run flaky test gate	2026-05-19T17:38:46.4009477Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.4009822Z   duration_ms: 0.89725
+gate	Run flaky test gate	2026-05-19T17:38:46.4010189Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.4012082Z # Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+gate	Run flaky test gate	2026-05-19T17:38:46.4015025Z ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+gate	Run flaky test gate	2026-05-19T17:38:46.4016129Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.4016484Z   duration_ms: 3.117434
+gate	Run flaky test gate	2026-05-19T17:38:46.4016855Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.4019302Z # Subtest: AgentController sandbox execution still blocks on hardware mismatch
+gate	Run flaky test gate	2026-05-19T17:38:46.4020434Z ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+gate	Run flaky test gate	2026-05-19T17:38:46.4021152Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.4021481Z   duration_ms: 2.329698
+gate	Run flaky test gate	2026-05-19T17:38:46.4021819Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.4027818Z 1..4
+gate	Run flaky test gate	2026-05-19T17:38:46.4029298Z # tests 4
+gate	Run flaky test gate	2026-05-19T17:38:46.4030018Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:46.4030648Z # pass 4
+gate	Run flaky test gate	2026-05-19T17:38:46.4031286Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:46.4031938Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:46.4032536Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:46.4033161Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:46.4033826Z # duration_ms 17.749625
+gate	Run flaky test gate	2026-05-19T17:38:46.7972556Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:46.7987479Z # Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+gate	Run flaky test gate	2026-05-19T17:38:46.7992895Z ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+gate	Run flaky test gate	2026-05-19T17:38:46.7993660Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.7994015Z   duration_ms: 58.803155
+gate	Run flaky test gate	2026-05-19T17:38:46.7994414Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.7996282Z # Subtest: SessionManager stores workflow and release metadata in the index
+gate	Run flaky test gate	2026-05-19T17:38:46.7997632Z ok 2 - SessionManager stores workflow and release metadata in the index
+gate	Run flaky test gate	2026-05-19T17:38:46.7998901Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.7999321Z   duration_ms: 30.006854
+gate	Run flaky test gate	2026-05-19T17:38:46.7999678Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8000553Z # Subtest: SessionManager stores preview text and searches across preview metadata
+gate	Run flaky test gate	2026-05-19T17:38:46.8001686Z ok 3 - SessionManager stores preview text and searches across preview metadata
+gate	Run flaky test gate	2026-05-19T17:38:46.8002347Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8002745Z   duration_ms: 26.666224
+gate	Run flaky test gate	2026-05-19T17:38:46.8003238Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8003966Z # Subtest: SessionManager rejects invalid names and wrong passphrase
+gate	Run flaky test gate	2026-05-19T17:38:46.8004926Z ok 4 - SessionManager rejects invalid names and wrong passphrase
+gate	Run flaky test gate	2026-05-19T17:38:46.8005520Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8005974Z   duration_ms: 51.524654
+gate	Run flaky test gate	2026-05-19T17:38:46.8006504Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8007165Z # Subtest: SessionManager rename and delete keep index in sync
+gate	Run flaky test gate	2026-05-19T17:38:46.8008178Z ok 5 - SessionManager rename and delete keep index in sync
+gate	Run flaky test gate	2026-05-19T17:38:46.8008831Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8009200Z   duration_ms: 26.363772
+gate	Run flaky test gate	2026-05-19T17:38:46.8009713Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8010496Z # Subtest: SessionManager detects envelope checksum tampering
+gate	Run flaky test gate	2026-05-19T17:38:46.8011422Z ok 6 - SessionManager detects envelope checksum tampering
+gate	Run flaky test gate	2026-05-19T17:38:46.8012027Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8012372Z   duration_ms: 26.379361
+gate	Run flaky test gate	2026-05-19T17:38:46.8012721Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8013254Z # Subtest: SessionManager search returns all metadata and filtered matches
+gate	Run flaky test gate	2026-05-19T17:38:46.8014505Z ok 7 - SessionManager search returns all metadata and filtered matches
+gate	Run flaky test gate	2026-05-19T17:38:46.8015163Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8015461Z   duration_ms: 58.530607
+gate	Run flaky test gate	2026-05-19T17:38:46.8015790Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8016454Z # Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+gate	Run flaky test gate	2026-05-19T17:38:46.8017315Z ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+gate	Run flaky test gate	2026-05-19T17:38:46.8018079Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8018280Z   duration_ms: 26.671805
+gate	Run flaky test gate	2026-05-19T17:38:46.8018490Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8018848Z # Subtest: SessionManager handles missing sessions and rename collisions
+gate	Run flaky test gate	2026-05-19T17:38:46.8019787Z ok 9 - SessionManager handles missing sessions and rename collisions
+gate	Run flaky test gate	2026-05-19T17:38:46.8020387Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8020682Z   duration_ms: 52.345993
+gate	Run flaky test gate	2026-05-19T17:38:46.8020917Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8022575Z # Subtest: SessionManager exportToPeer is blocked in local test mode
+gate	Run flaky test gate	2026-05-19T17:38:46.8023902Z ok 10 - SessionManager exportToPeer is blocked in local test mode
+gate	Run flaky test gate	2026-05-19T17:38:46.8024472Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8024753Z   duration_ms: 0.787546
+gate	Run flaky test gate	2026-05-19T17:38:46.8025073Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8041366Z 1..10
+gate	Run flaky test gate	2026-05-19T17:38:46.8041864Z # tests 10
+gate	Run flaky test gate	2026-05-19T17:38:46.8042397Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8043021Z # pass 10
+gate	Run flaky test gate	2026-05-19T17:38:46.8043435Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8044036Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8044580Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8045123Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8045765Z # duration_ms 371.6748
+gate	Run flaky test gate	2026-05-19T17:38:46.8702712Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:46.8717665Z # Subtest: StateManager setState merges nested settings instead of replacing
+gate	Run flaky test gate	2026-05-19T17:38:46.8722586Z ok 1 - StateManager setState merges nested settings instead of replacing
+gate	Run flaky test gate	2026-05-19T17:38:46.8723319Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8723669Z   duration_ms: 7.277268
+gate	Run flaky test gate	2026-05-19T17:38:46.8724059Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8726699Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-19T17:38:46.8728382Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-19T17:38:46.8729012Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8729267Z   duration_ms: 1.75095
+gate	Run flaky test gate	2026-05-19T17:38:46.8729543Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8730515Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-19T17:38:46.8732841Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-19T17:38:46.8734135Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8734489Z   duration_ms: 1.659319
+gate	Run flaky test gate	2026-05-19T17:38:46.8735195Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8736330Z # Subtest: StateManager set updates keys and writes encrypted state
+gate	Run flaky test gate	2026-05-19T17:38:46.8737685Z ok 4 - StateManager set updates keys and writes encrypted state
+gate	Run flaky test gate	2026-05-19T17:38:46.8738711Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8739175Z   duration_ms: 2.514732
+gate	Run flaky test gate	2026-05-19T17:38:46.8739673Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8740728Z # Subtest: StateManager setState ignores non-object updates and recovers null settings
+gate	Run flaky test gate	2026-05-19T17:38:46.8742115Z ok 5 - StateManager setState ignores non-object updates and recovers null settings
+gate	Run flaky test gate	2026-05-19T17:38:46.8743004Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8743484Z   duration_ms: 2.28273
+gate	Run flaky test gate	2026-05-19T17:38:46.8743986Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8744854Z # Subtest: StateManager quarantines corrupted state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:46.8746263Z ok 6 - StateManager quarantines corrupted state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:46.8746955Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8747300Z   duration_ms: 1.508719
+gate	Run flaky test gate	2026-05-19T17:38:46.8747701Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8748741Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-19T17:38:46.8749908Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-19T17:38:46.8750619Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8750970Z   duration_ms: 1.216865
+gate	Run flaky test gate	2026-05-19T17:38:46.8751341Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8752204Z # Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+gate	Run flaky test gate	2026-05-19T17:38:46.8756771Z not ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+gate	Run flaky test gate	2026-05-19T17:38:46.8757600Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8758186Z   duration_ms: 2.14331
+gate	Run flaky test gate	2026-05-19T17:38:46.8759018Z   location: '/home/runner/work/NeuralShell/NeuralShell/tear/state-manager.test.js:255:1'
+gate	Run flaky test gate	2026-05-19T17:38:46.8759906Z   failureType: 'testCodeFailure'
+gate	Run flaky test gate	2026-05-19T17:38:46.8760389Z   error: |-
+gate	Run flaky test gate	2026-05-19T17:38:46.8760819Z     Expected values to be strictly equal:
+gate	Run flaky test gate	2026-05-19T17:38:46.8761280Z     
+gate	Run flaky test gate	2026-05-19T17:38:46.8761601Z     null !== 'phi4'
+gate	Run flaky test gate	2026-05-19T17:38:46.8761945Z     
+gate	Run flaky test gate	2026-05-19T17:38:46.8762266Z   code: 'ERR_ASSERTION'
+gate	Run flaky test gate	2026-05-19T17:38:46.8762673Z   name: 'AssertionError'
+gate	Run flaky test gate	2026-05-19T17:38:46.8763095Z   expected: 'phi4'
+gate	Run flaky test gate	2026-05-19T17:38:46.8763455Z   actual: ~
+gate	Run flaky test gate	2026-05-19T17:38:46.8763822Z   operator: 'strictEqual'
+gate	Run flaky test gate	2026-05-19T17:38:46.8764213Z   stack: |-
+gate	Run flaky test gate	2026-05-19T17:38:46.8765275Z     withMockedElectron.fingerprint.fingerprint (/home/runner/work/NeuralShell/NeuralShell/tear/state-manager.test.js:282:14)
+gate	Run flaky test gate	2026-05-19T17:38:46.8766899Z     withMockedElectron (/home/runner/work/NeuralShell/NeuralShell/tear/state-manager.test.js:49:12)
+gate	Run flaky test gate	2026-05-19T17:38:46.8768596Z     TestContext.<anonymous> (/home/runner/work/NeuralShell/NeuralShell/tear/state-manager.test.js:259:5)
+gate	Run flaky test gate	2026-05-19T17:38:46.8769679Z     Test.runInAsyncScope (node:async_hooks:211:14)
+gate	Run flaky test gate	2026-05-19T17:38:46.8770370Z     Test.run (node:internal/test_runner/test:934:25)
+gate	Run flaky test gate	2026-05-19T17:38:46.8771225Z     Test.processPendingSubtests (node:internal/test_runner/test:633:18)
+gate	Run flaky test gate	2026-05-19T17:38:46.8772090Z     Test.postRun (node:internal/test_runner/test:1045:19)
+gate	Run flaky test gate	2026-05-19T17:38:46.8772756Z     Test.run (node:internal/test_runner/test:973:12)
+gate	Run flaky test gate	2026-05-19T17:38:46.8773563Z     async Test.processPendingSubtests (node:internal/test_runner/test:633:7)
+gate	Run flaky test gate	2026-05-19T17:38:46.8774241Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8775098Z # Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:46.8776418Z ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:46.8777226Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8777581Z   duration_ms: 2.307155
+gate	Run flaky test gate	2026-05-19T17:38:46.8778199Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8779155Z # Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+gate	Run flaky test gate	2026-05-19T17:38:46.8780784Z ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+gate	Run flaky test gate	2026-05-19T17:38:46.8781666Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8782023Z   duration_ms: 2.57799
+gate	Run flaky test gate	2026-05-19T17:38:46.8782681Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8783567Z # Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+gate	Run flaky test gate	2026-05-19T17:38:46.8784956Z ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+gate	Run flaky test gate	2026-05-19T17:38:46.8785778Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8786136Z   duration_ms: 2.159059
+gate	Run flaky test gate	2026-05-19T17:38:46.8786523Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8787225Z # Subtest: StateManager handles deeply nested status updates and edge cases
+gate	Run flaky test gate	2026-05-19T17:38:46.8788541Z ok 12 - StateManager handles deeply nested status updates and edge cases
+gate	Run flaky test gate	2026-05-19T17:38:46.8789218Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:46.8789750Z   duration_ms: 1.527263
+gate	Run flaky test gate	2026-05-19T17:38:46.8790135Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:46.8790453Z 1..12
+gate	Run flaky test gate	2026-05-19T17:38:46.8790747Z # tests 12
+gate	Run flaky test gate	2026-05-19T17:38:46.8791057Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8791363Z # pass 11
+gate	Run flaky test gate	2026-05-19T17:38:46.8791682Z # fail 1
+gate	Run flaky test gate	2026-05-19T17:38:46.8792001Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8792338Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8792671Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:46.8793033Z # duration_ms 42.520471
+gate	Run flaky test gate	2026-05-19T17:38:46.8891162Z [flaky-gate] attempt #1 failed with exit code 1; retrying once...
+gate	Run flaky test gate	2026-05-19T17:38:46.8891683Z 
+gate	Run flaky test gate	2026-05-19T17:38:46.8891942Z [flaky-gate] attempt #2: npm test
+gate	Run flaky test gate	2026-05-19T17:38:46.9926163Z 
+gate	Run flaky test gate	2026-05-19T17:38:46.9926622Z > neuralshell-v5@2.1.34 test
+gate	Run flaky test gate	2026-05-19T17:38:46.9939584Z > node tear/smoke-test.js && node tear/ipc-surface-test.js && node tear/renderer-bindings-test.js && node tear/linkage-regression-test.js && node tear/unit-tests.js && node tear/to-provider-messages.test.js && node tear/hotfix-2134-provider-proof.js && node tear/license-engine.test.js && node tear/policy-firewall.test.js && node tear/audit-chain.test.js && node tear/security-guards.test.js && node tear/security-abuse.test.js && node tear/branch-protection-policy.test.js && node tear/cleanup-guard.test.js && node tear/release-manifest.test.js && node tear/release-checksums.test.js && node tear/release-upgrade-validation.test.js && node tear/release-workflows-contract.test.js && node tear/ship-entrypoints.test.js && node tear/performance-gate-contract.test.js && node tear/release-freshness.test.js && node tear/release-status-contract.test.js && node tear/worktree-cleanliness.test.js && node tear/identity-kernel.test.js && node tear/hardware-binding-contract.test.js && node tear/session-manager.test.js && node tear/state-manager.test.js && node tear/signed-artifacts.test.js && node tear/business-pack-generators.test.js && node tear/airgap-bundle.test.js && node tear/courier-package.test.js && node tear/hardware-appliance-build.test.js && node tear/commercialization-pack-generators.test.js && node tear/field-execution-pack-generators.test.js && node tear/scale-operations-pack-generators.test.js && node tear/ecosystem-dominance-pack-generators.test.js
+gate	Run flaky test gate	2026-05-19T17:38:46.9950000Z 
+gate	Run flaky test gate	2026-05-19T17:38:47.0173777Z Smoke test passed (React Architecture).
+gate	Run flaky test gate	2026-05-19T17:38:47.0399716Z IPC surface test passed.
+gate	Run flaky test gate	2026-05-19T17:38:47.0631538Z Renderer bindings test passed.
+gate	Run flaky test gate	2026-05-19T17:38:47.0867914Z Linkage regression test passed.
+gate	Run flaky test gate	2026-05-19T17:38:47.1181187Z PASS ipcValidators
+gate	Run flaky test gate	2026-05-19T17:38:47.1203484Z PASS workspace action guards
+gate	Run flaky test gate	2026-05-19T17:38:47.1230263Z PASS workflow state validators
+gate	Run flaky test gate	2026-05-19T17:38:47.1241280Z PASS validator default branches
+gate	Run flaky test gate	2026-05-19T17:38:47.1243731Z PASS catalog helpers
+gate	Run flaky test gate	2026-05-19T17:38:47.1293747Z PASS patch plan helpers
+gate	Run flaky test gate	2026-05-19T17:38:47.1299893Z PASS bridge profile model
+gate	Run flaky test gate	2026-05-19T17:38:47.1300625Z PASS bridge settings feature module
+gate	Run flaky test gate	2026-05-19T17:38:47.1305853Z PASS bridge settings model
+gate	Run flaky test gate	2026-05-19T17:38:47.1313160Z PASS airgap policy
+gate	Run flaky test gate	2026-05-19T17:38:47.1366654Z PASS voice rtt badge thresholds
+gate	Run flaky test gate	2026-05-19T17:38:47.3163262Z PASS llmService retry
+gate	Run flaky test gate	2026-05-19T17:38:47.4884246Z PASS llmService offline
+gate	Run flaky test gate	2026-05-19T17:38:47.4891857Z PASS llmService cancel
+gate	Run flaky test gate	2026-05-19T17:38:47.4897143Z PASS llmService persona/config
+gate	Run flaky test gate	2026-05-19T17:38:47.4903212Z PASS llmService autodetect
+gate	Run flaky test gate	2026-05-19T17:38:47.4925578Z PASS llmService stream
+gate	Run flaky test gate	2026-05-19T17:38:47.5022839Z PASS llmService failure modes
+gate	Run flaky test gate	2026-05-19T17:38:47.5023415Z All unit tests passed.
+gate	Run flaky test gate	2026-05-19T17:38:47.5334387Z PASS toProviderMessages
+gate	Run flaky test gate	2026-05-19T17:38:47.5876516Z (node:2741) ExperimentalWarning: CommonJS module /home/runner/work/NeuralShell/NeuralShell/tear/hotfix-2134-provider-proof.js is loading ES Module /home/runner/work/NeuralShell/NeuralShell/src/renderer/src/lib/toProviderMessages.js using require().
+gate	Run flaky test gate	2026-05-19T17:38:47.5879170Z Support for loading ES Module in require() is an experimental feature and might change at any time
+gate	Run flaky test gate	2026-05-19T17:38:47.5880026Z (Use `node --trace-warnings ...` to show where the warning was created)
+gate	Run flaky test gate	2026-05-19T17:38:55.0306001Z {
+gate	Run flaky test gate	2026-05-19T17:38:55.0306408Z   "pass": true,
+gate	Run flaky test gate	2026-05-19T17:38:55.0306752Z   "staticProof": "pass",
+gate	Run flaky test gate	2026-05-19T17:38:55.0307115Z   "roles": [
+gate	Run flaky test gate	2026-05-19T17:38:55.0307400Z     "assistant",
+gate	Run flaky test gate	2026-05-19T17:38:55.0307750Z     "user"
+gate	Run flaky test gate	2026-05-19T17:38:55.0308273Z   ],
+gate	Run flaky test gate	2026-05-19T17:38:55.0308686Z   "ollamaIntegration": "skipped",
+gate	Run flaky test gate	2026-05-19T17:38:55.0309200Z   "reason": "no ollama on runner",
+gate	Run flaky test gate	2026-05-19T17:38:55.0309587Z   "health": {
+gate	Run flaky test gate	2026-05-19T17:38:55.0309909Z     "ok": false,
+gate	Run flaky test gate	2026-05-19T17:38:55.0310321Z     "baseUrl": "http://127.0.0.1:11434",
+gate	Run flaky test gate	2026-05-19T17:38:55.0310773Z     "model": "llama3",
+gate	Run flaky test gate	2026-05-19T17:38:55.0311143Z     "persona": "balanced",
+gate	Run flaky test gate	2026-05-19T17:38:55.0311532Z     "provider": "ollama",
+gate	Run flaky test gate	2026-05-19T17:38:55.0311901Z     "reason": "fetch failed"
+gate	Run flaky test gate	2026-05-19T17:38:55.0312285Z   }
+gate	Run flaky test gate	2026-05-19T17:38:55.0313002Z }
+gate	Run flaky test gate	2026-05-19T17:38:55.0575935Z ✓ Real key configured: sign/verify works
+gate	Run flaky test gate	2026-05-19T17:38:55.0582729Z ✓ No key + no dev override: fails closed
+gate	Run flaky test gate	2026-05-19T17:38:55.0622296Z ✓ No key + explicit dev override: dev path works
+gate	Run flaky test gate	2026-05-19T17:38:55.0623790Z ✓ Mismatched key: verification fails
+gate	Run flaky test gate	2026-05-19T17:38:55.0624611Z ✓ Dev key cannot be exploited without explicit override
+gate	Run flaky test gate	2026-05-19T17:38:55.0625344Z ✓ Dev override requires explicit '1' value
+gate	Run flaky test gate	2026-05-19T17:38:55.0625667Z 
+gate	Run flaky test gate	2026-05-19T17:38:55.0625861Z License engine test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.0871936Z Policy firewall test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.1165653Z Audit chain test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.1422375Z Security guards test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.1723650Z Security abuse test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.2019734Z Branch protection policy test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.2226706Z Cleanup guard test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.2577677Z Release manifest test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.3053483Z Release checksums test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.3393921Z Release upgrade validation test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.3608005Z Release workflow contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.3817817Z Ship entrypoint test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.4028724Z Performance gate contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.4236061Z Release freshness test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.4445363Z Release status contract test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.4666246Z Worktree cleanliness test passed.
+gate	Run flaky test gate	2026-05-19T17:38:55.5251579Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:55.5262885Z # Subtest: IdentityKernel persists rotated keypairs across reloads
+gate	Run flaky test gate	2026-05-19T17:38:55.5268257Z ok 1 - IdentityKernel persists rotated keypairs across reloads
+gate	Run flaky test gate	2026-05-19T17:38:55.5269046Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5269528Z   duration_ms: 9.750449
+gate	Run flaky test gate	2026-05-19T17:38:55.5269838Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5272750Z # Subtest: IdentityKernel migrates legacy encrypted identities to the authenticated format
+gate	Run flaky test gate	2026-05-19T17:38:55.5274465Z ok 2 - IdentityKernel migrates legacy encrypted identities to the authenticated format
+gate	Run flaky test gate	2026-05-19T17:38:55.5275313Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5275650Z   duration_ms: 2.613866
+gate	Run flaky test gate	2026-05-19T17:38:55.5276043Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5277022Z # Subtest: IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+gate	Run flaky test gate	2026-05-19T17:38:55.5280360Z ok 3 - IdentityKernel quarantines tampered authenticated identities and regenerates a fresh keypair
+gate	Run flaky test gate	2026-05-19T17:38:55.5281307Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5281642Z   duration_ms: 3.623405
+gate	Run flaky test gate	2026-05-19T17:38:55.5282014Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5283623Z # Subtest: IdentityKernel persists trusted peers across reloads and revocations
+gate	Run flaky test gate	2026-05-19T17:38:55.5284806Z ok 4 - IdentityKernel persists trusted peers across reloads and revocations
+gate	Run flaky test gate	2026-05-19T17:38:55.5285508Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5285828Z   duration_ms: 6.371119
+gate	Run flaky test gate	2026-05-19T17:38:55.5286194Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5287302Z # Subtest: IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+gate	Run flaky test gate	2026-05-19T17:38:55.5288959Z ok 5 - IdentityKernel quarantines tampered peer stores and recovers with an empty trust list
+gate	Run flaky test gate	2026-05-19T17:38:55.5295219Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5295596Z   duration_ms: 3.111661
+gate	Run flaky test gate	2026-05-19T17:38:55.5295965Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5304309Z 1..5
+gate	Run flaky test gate	2026-05-19T17:38:55.5304777Z # tests 5
+gate	Run flaky test gate	2026-05-19T17:38:55.5305270Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5305769Z # pass 5
+gate	Run flaky test gate	2026-05-19T17:38:55.5306262Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5306755Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5307234Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5307792Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5308567Z # duration_ms 35.835946
+gate	Run flaky test gate	2026-05-19T17:38:55.5725274Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:55.5735803Z # Subtest: XP Manager accepts identity rotation when the stable hardware binding matches
+gate	Run flaky test gate	2026-05-19T17:38:55.5742085Z ok 1 - XP Manager accepts identity rotation when the stable hardware binding matches
+gate	Run flaky test gate	2026-05-19T17:38:55.5743635Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5744007Z   duration_ms: 2.205346
+gate	Run flaky test gate	2026-05-19T17:38:55.5744318Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5747209Z # Subtest: XP Manager still blocks when the hardware binding changes
+gate	Run flaky test gate	2026-05-19T17:38:55.5749355Z ok 2 - XP Manager still blocks when the hardware binding changes
+gate	Run flaky test gate	2026-05-19T17:38:55.5749996Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5750348Z   duration_ms: 0.904343
+gate	Run flaky test gate	2026-05-19T17:38:55.5750712Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5752742Z # Subtest: AgentController sandbox execution allows rotated identities on the same hardware
+gate	Run flaky test gate	2026-05-19T17:38:55.5755197Z ok 3 - AgentController sandbox execution allows rotated identities on the same hardware
+gate	Run flaky test gate	2026-05-19T17:38:55.5756483Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5756872Z   duration_ms: 3.070065
+gate	Run flaky test gate	2026-05-19T17:38:55.5757255Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5759352Z # Subtest: AgentController sandbox execution still blocks on hardware mismatch
+gate	Run flaky test gate	2026-05-19T17:38:55.5760647Z ok 4 - AgentController sandbox execution still blocks on hardware mismatch
+gate	Run flaky test gate	2026-05-19T17:38:55.5761533Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.5762020Z   duration_ms: 2.360964
+gate	Run flaky test gate	2026-05-19T17:38:55.5762466Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.5769968Z 1..4
+gate	Run flaky test gate	2026-05-19T17:38:55.5771236Z # tests 4
+gate	Run flaky test gate	2026-05-19T17:38:55.5771991Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5773361Z # pass 4
+gate	Run flaky test gate	2026-05-19T17:38:55.5773674Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5774041Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5774590Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5775197Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:55.5775832Z # duration_ms 17.779906
+gate	Run flaky test gate	2026-05-19T17:38:55.9667279Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:55.9681991Z # Subtest: SessionManager saves and loads payload with object.chat tokens metadata
+gate	Run flaky test gate	2026-05-19T17:38:55.9687082Z ok 1 - SessionManager saves and loads payload with object.chat tokens metadata
+gate	Run flaky test gate	2026-05-19T17:38:55.9687705Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9688261Z   duration_ms: 58.755639
+gate	Run flaky test gate	2026-05-19T17:38:55.9688684Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9690098Z # Subtest: SessionManager stores workflow and release metadata in the index
+gate	Run flaky test gate	2026-05-19T17:38:55.9692216Z ok 2 - SessionManager stores workflow and release metadata in the index
+gate	Run flaky test gate	2026-05-19T17:38:55.9693142Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9693501Z   duration_ms: 26.71628
+gate	Run flaky test gate	2026-05-19T17:38:55.9693892Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9694857Z # Subtest: SessionManager stores preview text and searches across preview metadata
+gate	Run flaky test gate	2026-05-19T17:38:55.9696202Z ok 3 - SessionManager stores preview text and searches across preview metadata
+gate	Run flaky test gate	2026-05-19T17:38:55.9697375Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9697747Z   duration_ms: 26.459363
+gate	Run flaky test gate	2026-05-19T17:38:55.9698438Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9699925Z # Subtest: SessionManager rejects invalid names and wrong passphrase
+gate	Run flaky test gate	2026-05-19T17:38:55.9701168Z ok 4 - SessionManager rejects invalid names and wrong passphrase
+gate	Run flaky test gate	2026-05-19T17:38:55.9702404Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9702749Z   duration_ms: 51.50489
+gate	Run flaky test gate	2026-05-19T17:38:55.9703119Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9704383Z # Subtest: SessionManager rename and delete keep index in sync
+gate	Run flaky test gate	2026-05-19T17:38:55.9705560Z ok 5 - SessionManager rename and delete keep index in sync
+gate	Run flaky test gate	2026-05-19T17:38:55.9706285Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9706746Z   duration_ms: 26.5015
+gate	Run flaky test gate	2026-05-19T17:38:55.9707233Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9708283Z # Subtest: SessionManager detects envelope checksum tampering
+gate	Run flaky test gate	2026-05-19T17:38:55.9709537Z ok 6 - SessionManager detects envelope checksum tampering
+gate	Run flaky test gate	2026-05-19T17:38:55.9710262Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9710721Z   duration_ms: 26.084824
+gate	Run flaky test gate	2026-05-19T17:38:55.9711186Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9713001Z # Subtest: SessionManager search returns all metadata and filtered matches
+gate	Run flaky test gate	2026-05-19T17:38:55.9714324Z ok 7 - SessionManager search returns all metadata and filtered matches
+gate	Run flaky test gate	2026-05-19T17:38:55.9715150Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9715602Z   duration_ms: 58.850335
+gate	Run flaky test gate	2026-05-19T17:38:55.9716124Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9716974Z # Subtest: SessionManager repairIndex rebuilds missing in-memory index entries
+gate	Run flaky test gate	2026-05-19T17:38:55.9718440Z ok 8 - SessionManager repairIndex rebuilds missing in-memory index entries
+gate	Run flaky test gate	2026-05-19T17:38:55.9719292Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9719851Z   duration_ms: 27.05448
+gate	Run flaky test gate	2026-05-19T17:38:55.9720263Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9720767Z # Subtest: SessionManager handles missing sessions and rename collisions
+gate	Run flaky test gate	2026-05-19T17:38:55.9722027Z ok 9 - SessionManager handles missing sessions and rename collisions
+gate	Run flaky test gate	2026-05-19T17:38:55.9723002Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9723224Z   duration_ms: 51.879369
+gate	Run flaky test gate	2026-05-19T17:38:55.9723576Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9725042Z # Subtest: SessionManager exportToPeer is blocked in local test mode
+gate	Run flaky test gate	2026-05-19T17:38:55.9726114Z ok 10 - SessionManager exportToPeer is blocked in local test mode
+gate	Run flaky test gate	2026-05-19T17:38:55.9726781Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:55.9727152Z   duration_ms: 0.827561
+gate	Run flaky test gate	2026-05-19T17:38:55.9727547Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:55.9736337Z 1..10
+gate	Run flaky test gate	2026-05-19T17:38:55.9736834Z # tests 10
+gate	Run flaky test gate	2026-05-19T17:38:55.9737457Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:55.9738262Z # pass 10
+gate	Run flaky test gate	2026-05-19T17:38:55.9738925Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:55.9739575Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:55.9740182Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:55.9740768Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:55.9741418Z # duration_ms 367.272396
+gate	Run flaky test gate	2026-05-19T17:38:56.0387718Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.0403032Z # Subtest: StateManager setState merges nested settings instead of replacing
+gate	Run flaky test gate	2026-05-19T17:38:56.0407787Z ok 1 - StateManager setState merges nested settings instead of replacing
+gate	Run flaky test gate	2026-05-19T17:38:56.0408739Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0409095Z   duration_ms: 7.202567
+gate	Run flaky test gate	2026-05-19T17:38:56.0409496Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0412123Z # Subtest: StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-19T17:38:56.0413424Z ok 2 - StateManager load seeds workflow and release defaults on a fresh profile
+gate	Run flaky test gate	2026-05-19T17:38:56.0414082Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0414279Z   duration_ms: 1.732194
+gate	Run flaky test gate	2026-05-19T17:38:56.0414504Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0415768Z # Subtest: StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-19T17:38:56.0416981Z ok 3 - StateManager migrates v1 state to v5 bridge profile settings
+gate	Run flaky test gate	2026-05-19T17:38:56.0419002Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0419366Z   duration_ms: 1.634703
+gate	Run flaky test gate	2026-05-19T17:38:56.0419806Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0421313Z # Subtest: StateManager set updates keys and writes encrypted state
+gate	Run flaky test gate	2026-05-19T17:38:56.0422458Z ok 4 - StateManager set updates keys and writes encrypted state
+gate	Run flaky test gate	2026-05-19T17:38:56.0423235Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0423707Z   duration_ms: 2.489284
+gate	Run flaky test gate	2026-05-19T17:38:56.0424194Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0425983Z # Subtest: StateManager setState ignores non-object updates and recovers null settings
+gate	Run flaky test gate	2026-05-19T17:38:56.0427317Z ok 5 - StateManager setState ignores non-object updates and recovers null settings
+gate	Run flaky test gate	2026-05-19T17:38:56.0428424Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0428882Z   duration_ms: 2.21858
+gate	Run flaky test gate	2026-05-19T17:38:56.0429369Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0430598Z # Subtest: StateManager quarantines corrupted state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:56.0431666Z ok 6 - StateManager quarantines corrupted state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:56.0432326Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0432655Z   duration_ms: 1.524628
+gate	Run flaky test gate	2026-05-19T17:38:56.0433020Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0433775Z # Subtest: StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-19T17:38:56.0434916Z ok 7 - StateManager upgrades v2 state with existing connectionProfiles to v5
+gate	Run flaky test gate	2026-05-19T17:38:56.0435677Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0436002Z   duration_ms: 1.223968
+gate	Run flaky test gate	2026-05-19T17:38:56.0436362Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0437273Z # Subtest: StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+gate	Run flaky test gate	2026-05-19T17:38:56.0438608Z ok 8 - StateManager migrates legacy encrypted v3 state into the authenticated v5 format
+gate	Run flaky test gate	2026-05-19T17:38:56.0439052Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0439231Z   duration_ms: 1.55802
+gate	Run flaky test gate	2026-05-19T17:38:56.0439426Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0440670Z # Subtest: StateManager quarantines tampered authenticated state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:56.0446200Z ok 9 - StateManager quarantines tampered authenticated state and regenerates defaults
+gate	Run flaky test gate	2026-05-19T17:38:56.0447016Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0447358Z   duration_ms: 2.36917
+gate	Run flaky test gate	2026-05-19T17:38:56.0447713Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0448918Z # Subtest: StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+gate	Run flaky test gate	2026-05-19T17:38:56.0450682Z ok 10 - StateManager migrates legacy authenticated v4 state to the stable hardware-bound v5 format
+gate	Run flaky test gate	2026-05-19T17:38:56.0451531Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0451861Z   duration_ms: 1.598295
+gate	Run flaky test gate	2026-05-19T17:38:56.0452219Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0453118Z # Subtest: StateManager preserves state across identity rotation when hardware binding is stable
+gate	Run flaky test gate	2026-05-19T17:38:56.0454481Z ok 11 - StateManager preserves state across identity rotation when hardware binding is stable
+gate	Run flaky test gate	2026-05-19T17:38:56.0455286Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0455601Z   duration_ms: 1.80524
+gate	Run flaky test gate	2026-05-19T17:38:56.0455941Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0456602Z # Subtest: StateManager handles deeply nested status updates and edge cases
+gate	Run flaky test gate	2026-05-19T17:38:56.0457608Z ok 12 - StateManager handles deeply nested status updates and edge cases
+gate	Run flaky test gate	2026-05-19T17:38:56.0458492Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0458845Z   duration_ms: 1.547921
+gate	Run flaky test gate	2026-05-19T17:38:56.0459221Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0464140Z 1..12
+gate	Run flaky test gate	2026-05-19T17:38:56.0464587Z # tests 12
+gate	Run flaky test gate	2026-05-19T17:38:56.0465284Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0465927Z # pass 12
+gate	Run flaky test gate	2026-05-19T17:38:56.0466434Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0467059Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0467649Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0468222Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0469204Z # duration_ms 40.990451
+gate	Run flaky test gate	2026-05-19T17:38:56.0958487Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.0966349Z # Subtest: signed artifact utility supports sign and verify round-trip
+gate	Run flaky test gate	2026-05-19T17:38:56.0972674Z ok 1 - signed artifact utility supports sign and verify round-trip
+gate	Run flaky test gate	2026-05-19T17:38:56.0973485Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0973817Z   duration_ms: 3.417362
+gate	Run flaky test gate	2026-05-19T17:38:56.0974151Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0977142Z # Subtest: trusted signer verification passes for checked-in white-label config
+gate	Run flaky test gate	2026-05-19T17:38:56.0978875Z ok 2 - trusted signer verification passes for checked-in white-label config
+gate	Run flaky test gate	2026-05-19T17:38:56.0980596Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0980924Z   duration_ms: 2.763554
+gate	Run flaky test gate	2026-05-19T17:38:56.0981261Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0982894Z # Subtest: fingerprint in trusted publishers matches demo public key
+gate	Run flaky test gate	2026-05-19T17:38:56.0984867Z ok 3 - fingerprint in trusted publishers matches demo public key
+gate	Run flaky test gate	2026-05-19T17:38:56.0985917Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.0986233Z   duration_ms: 0.670869
+gate	Run flaky test gate	2026-05-19T17:38:56.0986558Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.0992703Z 1..3
+gate	Run flaky test gate	2026-05-19T17:38:56.0993318Z # tests 3
+gate	Run flaky test gate	2026-05-19T17:38:56.0994136Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0994820Z # pass 3
+gate	Run flaky test gate	2026-05-19T17:38:56.0995508Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0996195Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0996858Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0997521Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.0998296Z # duration_ms 16.981869
+gate	Run flaky test gate	2026-05-19T17:38:56.5377121Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.5386013Z # Subtest: pilot pack generator creates complete non-placeholder bundle
+gate	Run flaky test gate	2026-05-19T17:38:56.5392388Z ok 1 - pilot pack generator creates complete non-placeholder bundle
+gate	Run flaky test gate	2026-05-19T17:38:56.5394661Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.5395034Z   duration_ms: 30.429507
+gate	Run flaky test gate	2026-05-19T17:38:56.5395439Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.5399473Z # Subtest: board pack generator creates markdown/pdf-or-fallback/zip artifacts
+gate	Run flaky test gate	2026-05-19T17:38:56.5400988Z ok 2 - board pack generator creates markdown/pdf-or-fallback/zip artifacts
+gate	Run flaky test gate	2026-05-19T17:38:56.5401694Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.5402045Z   duration_ms: 374.062127
+gate	Run flaky test gate	2026-05-19T17:38:56.5402427Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.5410606Z 1..2
+gate	Run flaky test gate	2026-05-19T17:38:56.5411409Z # tests 2
+gate	Run flaky test gate	2026-05-19T17:38:56.5413569Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.5414147Z # pass 2
+gate	Run flaky test gate	2026-05-19T17:38:56.5414929Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.5415601Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.5417194Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.5417714Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.5418940Z # duration_ms 412.455728
+gate	Run flaky test gate	2026-05-19T17:38:56.6641359Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.6649296Z # Subtest: air-gap bundle verify passes for valid and fails for tampered bundle
+gate	Run flaky test gate	2026-05-19T17:38:56.6655609Z ok 1 - air-gap bundle verify passes for valid and fails for tampered bundle
+gate	Run flaky test gate	2026-05-19T17:38:56.6656282Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.6656561Z   duration_ms: 89.441876
+gate	Run flaky test gate	2026-05-19T17:38:56.6657069Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.6665771Z 1..1
+gate	Run flaky test gate	2026-05-19T17:38:56.6667017Z # tests 1
+gate	Run flaky test gate	2026-05-19T17:38:56.6669343Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.6671090Z # pass 1
+gate	Run flaky test gate	2026-05-19T17:38:56.6673110Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.6675567Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.6676299Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.6676974Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.6677884Z # duration_ms 96.455381
+gate	Run flaky test gate	2026-05-19T17:38:56.7852255Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.7861619Z # Subtest: courier package verify passes for valid and fails for tampered payload
+gate	Run flaky test gate	2026-05-19T17:38:56.7867411Z ok 1 - courier package verify passes for valid and fails for tampered payload
+gate	Run flaky test gate	2026-05-19T17:38:56.7868404Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.7869070Z   duration_ms: 84.893232
+gate	Run flaky test gate	2026-05-19T17:38:56.7869424Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.7876819Z 1..1
+gate	Run flaky test gate	2026-05-19T17:38:56.7877720Z # tests 1
+gate	Run flaky test gate	2026-05-19T17:38:56.7880030Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.7881470Z # pass 1
+gate	Run flaky test gate	2026-05-19T17:38:56.7883030Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.7885133Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.7885843Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.7886498Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.7887461Z # duration_ms 91.785616
+gate	Run flaky test gate	2026-05-19T17:38:56.8515686Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:56.8524002Z # Subtest: hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Run flaky test gate	2026-05-19T17:38:56.8530632Z ok 1 - hardware appliance build generator emits at least 3 profile bundles with decommission checklists
+gate	Run flaky test gate	2026-05-19T17:38:56.8531473Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:56.8531788Z   duration_ms: 30.508218
+gate	Run flaky test gate	2026-05-19T17:38:56.8532170Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:56.8545999Z 1..1
+gate	Run flaky test gate	2026-05-19T17:38:56.8546756Z # tests 1
+gate	Run flaky test gate	2026-05-19T17:38:56.8548603Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:56.8550076Z # pass 1
+gate	Run flaky test gate	2026-05-19T17:38:56.8551653Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:56.8553705Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:56.8554344Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:56.8555011Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:56.8555738Z # duration_ms 38.016985
+gate	Run flaky test gate	2026-05-19T17:38:57.0700485Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:57.0717381Z # Subtest: demo bundle and reset plan generate deterministic-ready outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.0724121Z ok 1 - demo bundle and reset plan generate deterministic-ready outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.0724839Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.0725204Z   duration_ms: 54.845911
+gate	Run flaky test gate	2026-05-19T17:38:57.0725618Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.0728940Z # Subtest: training/support/pilot pack generators produce complete non-placeholder outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.0730549Z ok 2 - training/support/pilot pack generators produce complete non-placeholder outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.0732361Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.0732727Z   duration_ms: 79.889803
+gate	Run flaky test gate	2026-05-19T17:38:57.0733112Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.0735013Z # Subtest: deployment preflight and field-launch health checks pass
+gate	Run flaky test gate	2026-05-19T17:38:57.0737501Z ok 3 - deployment preflight and field-launch health checks pass
+gate	Run flaky test gate	2026-05-19T17:38:57.0739056Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.0739427Z   duration_ms: 47.188923
+gate	Run flaky test gate	2026-05-19T17:38:57.0739821Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.0746685Z 1..3
+gate	Run flaky test gate	2026-05-19T17:38:57.0747167Z # tests 3
+gate	Run flaky test gate	2026-05-19T17:38:57.0747777Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:57.0749259Z # pass 3
+gate	Run flaky test gate	2026-05-19T17:38:57.0749831Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:57.0750404Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:57.0750904Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:57.0751388Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:57.0751934Z # duration_ms 191.660891
+gate	Run flaky test gate	2026-05-19T17:38:57.2670184Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:57.2680011Z # Subtest: buyer follow-up and demo recap packs are generated and stage-correct
+gate	Run flaky test gate	2026-05-19T17:38:57.2686094Z ok 1 - buyer follow-up and demo recap packs are generated and stage-correct
+gate	Run flaky test gate	2026-05-19T17:38:57.2686957Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.2687197Z   duration_ms: 53.469429
+gate	Run flaky test gate	2026-05-19T17:38:57.2687458Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.2691074Z # Subtest: demo-to-pilot and expansion packs produce non-placeholder outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.2692550Z ok 2 - demo-to-pilot and expansion packs produce non-placeholder outputs
+gate	Run flaky test gate	2026-05-19T17:38:57.2694472Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.2694707Z   duration_ms: 52.402667
+gate	Run flaky test gate	2026-05-19T17:38:57.2694965Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.2696769Z # Subtest: renewal and feedback summaries are generated and complete
+gate	Run flaky test gate	2026-05-19T17:38:57.2700286Z ok 3 - renewal and feedback summaries are generated and complete
+gate	Run flaky test gate	2026-05-19T17:38:57.2701796Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.2702018Z   duration_ms: 52.289038
+gate	Run flaky test gate	2026-05-19T17:38:57.2702259Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.2715125Z 1..3
+gate	Run flaky test gate	2026-05-19T17:38:57.2715730Z # tests 3
+gate	Run flaky test gate	2026-05-19T17:38:57.2716220Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:57.2717318Z # pass 3
+gate	Run flaky test gate	2026-05-19T17:38:57.2718707Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:57.2718955Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:57.2719442Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:57.2719926Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:57.2720527Z # duration_ms 167.580507
+gate	Run flaky test gate	2026-05-19T17:38:57.5169070Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:57.5179838Z # Subtest: partner and managed-service packs are generated and complete
+gate	Run flaky test gate	2026-05-19T17:38:57.5185944Z ok 1 - partner and managed-service packs are generated and complete
+gate	Run flaky test gate	2026-05-19T17:38:57.5186628Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.5186976Z   duration_ms: 55.131095
+gate	Run flaky test gate	2026-05-19T17:38:57.5187401Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.5190891Z # Subtest: strategic, rollout, and revenue packs are generated with non-placeholder output
+gate	Run flaky test gate	2026-05-19T17:38:57.5192205Z ok 2 - strategic, rollout, and revenue packs are generated with non-placeholder output
+gate	Run flaky test gate	2026-05-19T17:38:57.5194214Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.5194582Z   duration_ms: 78.146704
+gate	Run flaky test gate	2026-05-19T17:38:57.5194973Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.5196725Z # Subtest: channel, renewal, and scale status packs are generated and internally consistent
+gate	Run flaky test gate	2026-05-19T17:38:57.5199294Z ok 3 - channel, renewal, and scale status packs are generated and internally consistent
+gate	Run flaky test gate	2026-05-19T17:38:57.5200553Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.5200904Z   duration_ms: 78.80132
+gate	Run flaky test gate	2026-05-19T17:38:57.5201300Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.5208087Z 1..3
+gate	Run flaky test gate	2026-05-19T17:38:57.5209442Z # tests 3
+gate	Run flaky test gate	2026-05-19T17:38:57.5209772Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:57.5210799Z # pass 3
+gate	Run flaky test gate	2026-05-19T17:38:57.5211124Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:57.5212073Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:57.5212437Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:57.5212776Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:57.5213181Z # duration_ms 220.886572
+gate	Run flaky test gate	2026-05-19T17:38:57.7619297Z TAP version 13
+gate	Run flaky test gate	2026-05-19T17:38:57.7629316Z # Subtest: ecosystem portfolio/service/network/global packs are generated
+gate	Run flaky test gate	2026-05-19T17:38:57.7636035Z ok 1 - ecosystem portfolio/service/network/global packs are generated
+gate	Run flaky test gate	2026-05-19T17:38:57.7636759Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.7637124Z   duration_ms: 105.561897
+gate	Run flaky test gate	2026-05-19T17:38:57.7637514Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.7640932Z # Subtest: revenue/board/operator packs are generated and defensible
+gate	Run flaky test gate	2026-05-19T17:38:57.7642295Z ok 2 - revenue/board/operator packs are generated and defensible
+gate	Run flaky test gate	2026-05-19T17:38:57.7644533Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.7644912Z   duration_ms: 75.578274
+gate	Run flaky test gate	2026-05-19T17:38:57.7645304Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.7646637Z # Subtest: ecosystem command pack is generated and links drilldowns
+gate	Run flaky test gate	2026-05-19T17:38:57.7649349Z ok 3 - ecosystem command pack is generated and links drilldowns
+gate	Run flaky test gate	2026-05-19T17:38:57.7650877Z   ---
+gate	Run flaky test gate	2026-05-19T17:38:57.7651088Z   duration_ms: 25.238238
+gate	Run flaky test gate	2026-05-19T17:38:57.7651325Z   ...
+gate	Run flaky test gate	2026-05-19T17:38:57.7657426Z 1..3
+gate	Run flaky test gate	2026-05-19T17:38:57.7659832Z # tests 3
+gate	Run flaky test gate	2026-05-19T17:38:57.7660200Z # suites 0
+gate	Run flaky test gate	2026-05-19T17:38:57.7660528Z # pass 3
+gate	Run flaky test gate	2026-05-19T17:38:57.7662182Z # fail 0
+gate	Run flaky test gate	2026-05-19T17:38:57.7662498Z # cancelled 0
+gate	Run flaky test gate	2026-05-19T17:38:57.7662821Z # skipped 0
+gate	Run flaky test gate	2026-05-19T17:38:57.7663480Z # todo 0
+gate	Run flaky test gate	2026-05-19T17:38:57.7663829Z # duration_ms 215.908018
+gate	Run flaky test gate	2026-05-19T17:38:57.7755268Z [flaky-gate] FAIL: inconsistent result detected (first=1, second=0).
+gate	Run flaky test gate	2026-05-19T17:38:57.7844749Z ##[error]Process completed with exit code 1.

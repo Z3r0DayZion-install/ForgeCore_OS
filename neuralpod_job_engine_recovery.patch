@@ -1,0 +1,136 @@
+diff --git a/packages/shells/winshadow/src/App.tsx b/packages/shells/winshadow/src/App.tsx
+index 56dd4ed..8f28354 100644
+--- a/packages/shells/winshadow/src/App.tsx
++++ b/packages/shells/winshadow/src/App.tsx
+@@ -1072,6 +1072,22 @@ export default function App() {
+   const [complianceScore, setComplianceScore] = useState(98);
+   const [integrityStatus, setIntegrityStatus] = useState<'clean' | 'scanning' | 'dirty'>('clean');
+ 
++  // --- Warp Capsules ---
++  const [warpCapsulePresets] = useState([
++    { id: 'ir-1', name: 'Preset // Incident Response', signer: 'neural-core', trusted: true },
++    { id: 'dr-1', name: 'Preset // Disaster Recovery', signer: 'neural-core', trusted: true },
++    { id: 'sa-1', name: 'Preset // Security Audit', signer: 'neural-core', trusted: true },
++  ]);
++  const [warpSignerRegistry, setWarpSignerRegistry] = useState<Array<{ id: string; label: string; trusted: boolean }>>([
++    { id: 'neural-core', label: 'neural-core (built-in)', trusted: true },
++  ]);
++  const [warpTrustFeed, setWarpTrustFeed] = useState<Array<{ ts: number; text: string }>>(() => [
++    { ts: Date.now(), text: 'Warp presets installed — 3 mission capsules loaded.' },
++  ]);
++  const [warpForgeLast, setWarpForgeLast] = useState<number | null>(null);
++  const [warpDeployLast, setWarpDeployLast] = useState<number | null>(null);
++  const [warpPresetDeployCount, setWarpPresetDeployCount] = useState(0);
++
+   const commandPaletteRef = useRef<HTMLDivElement | null>(null);
+   const commandPaletteInputRef = useRef<HTMLInputElement | null>(null);
+   const launcherPanelRef = useRef<HTMLDivElement | null>(null);
+@@ -1466,6 +1482,33 @@ export default function App() {
+     showStatus('Threat queue cleared.', 'success');
+   };
+ 
++  const deployWarpCapsule = (_capsuleId: string, capsuleName: string): void => {
++    const start = performance.now();
++    window.setTimeout(() => {
++      const elapsed = Math.round(performance.now() - start);
++      setWarpDeployLast(elapsed);
++      setWarpPresetDeployCount((c) => c + 1);
++      setWarpTrustFeed((prev) => [...prev, { ts: Date.now(), text: `Deployed ${capsuleName} (${elapsed}ms)` }]);
++      showStatus(`Warp capsule deployed: ${capsuleName}`, 'success');
++    }, 80 + Math.random() * 120);
++  };
++
++  const forgeWarpCapsule = (): void => {
++    const start = performance.now();
++    window.setTimeout(() => {
++      const elapsed = Math.round(performance.now() - start);
++      setWarpForgeLast(elapsed);
++      setWarpTrustFeed((prev) => [...prev, { ts: Date.now(), text: `Capsule forged (${elapsed}ms)` }]);
++      showStatus('New warp capsule forged.', 'success');
++    }, 60 + Math.random() * 100);
++  };
++
++  const toggleWarpSignerTrust = (signerId: string): void => {
++    setWarpSignerRegistry((prev) =>
++      prev.map((s) => (s.id === signerId ? { ...s, trusted: !s.trusted } : s))
++    );
++  };
++
+   const activateFullControl = (): void => {
+     const newSession = createOperatorSession('full-control');
+     setOperatorSession(newSession);
+@@ -3387,6 +3430,74 @@ export default function App() {
+         </div>
+       </div>
+ 
++      {/* --- Warp Capsules Panel --- */}
++      <div data-testid="warp-capsules-panel" className="absolute top-[360px] right-6 z-[1150] w-[280px] rounded-2xl border border-white/10 bg-black/80 px-4 py-4 shadow-2xl backdrop-blur-2xl">
++        <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-gray-500 mb-2">Warp Capsules</div>
++        <div className="space-y-1.5">
++          {warpCapsulePresets.map((preset) => (
++            <button
++              key={preset.id}
++              onClick={() => deployWarpCapsule(preset.id, preset.name)}
++              className="w-full text-left rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-[10px] text-gray-200 hover:bg-white/10 transition-colors"
++            >
++              {preset.name}
++            </button>
++          ))}
++        </div>
++        <button
++          onClick={forgeWarpCapsule}
++          className="mt-2 w-full rounded-lg border border-blue-500/40 bg-blue-600/20 px-2 py-1.5 text-[10px] uppercase tracking-wider text-blue-200 hover:bg-blue-600/30 transition-colors"
++        >
++          Forge New Capsule
++        </button>
++
++        <div className="border-t border-white/10 pt-3 mt-3">
++          <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-gray-500 mb-1">Speed Scoreboard</div>
++          <div className="grid grid-cols-3 gap-2 text-[10px] font-mono">
++            <div className="flex flex-col gap-0.5">
++              <span className="text-gray-600">Forge</span>
++              <span data-testid="warp-forge-last" className="text-white">{warpForgeLast !== null ? `${warpForgeLast}ms` : '—'}</span>
++            </div>
++            <div className="flex flex-col gap-0.5">
++              <span className="text-gray-600">Deploy</span>
++              <span data-testid="warp-deploy-last" className="text-white">{warpDeployLast !== null ? `${warpDeployLast}ms` : '—'}</span>
++            </div>
++            <div className="flex flex-col gap-0.5">
++              <span className="text-gray-600">Presets</span>
++              <span data-testid="warp-preset-deploy-count" className="text-white">{warpPresetDeployCount}</span>
++            </div>
++          </div>
++        </div>
++
++        <div className="border-t border-white/10 pt-3 mt-3">
++          <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-gray-500 mb-1">Signer Registry</div>
++          <div className="space-y-1">
++            {warpSignerRegistry.map((signer) => (
++              <div key={signer.id} className="flex items-center justify-between text-[10px] font-mono">
++                <span className="text-gray-300 truncate">{signer.label}</span>
++                <button
++                  onClick={() => toggleWarpSignerTrust(signer.id)}
++                  className={`px-1.5 py-0.5 rounded text-[9px] uppercase tracking-wider ${signer.trusted ? 'text-green-300 bg-green-500/20' : 'text-red-300 bg-red-500/20'}`}
++                >
++                  {signer.trusted ? 'Trusted' : 'Untrusted'}
++                </button>
++              </div>
++            ))}
++          </div>
++        </div>
++
++        <div data-testid="trust-feed-panel" className="border-t border-white/10 pt-3 mt-3 max-h-[100px] overflow-y-auto">
++          <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-gray-500 mb-1">Trust Feed</div>
++          <div className="space-y-0.5">
++            {warpTrustFeed.slice(-10).reverse().map((entry, i) => (
++              <div key={`tf-${i}-${entry.ts}`} className="text-[9px] text-gray-400 font-mono truncate">
++                {entry.text}
++              </div>
++            ))}
++          </div>
++        </div>
++      </div>
++
+       {status ? (
+         <div data-testid="shell-status-toast" className="absolute top-6 right-6 z-[1200] max-w-xs rounded-2xl border border-white/10 bg-black/90 px-5 py-3 shadow-2xl backdrop-blur-xl text-sm">
+           <div

@@ -1,0 +1,426 @@
+NeuralLink? Tactical Suite Loaded.
+
+> neuralshell-v5@2.1.32 build:renderer
+> cd src/renderer && npm run build
+
+
+> neuralshell-renderer@2.0.0 build
+> vite build
+
+vite v8.0.10 building client environment for production...
+[2Ktransforming...✓ 2054 modules transformed.
+rendering chunks...
+../../dist-renderer/index.html                                    0.93 kB
+../../dist-renderer/assets/index-CidDSky-.css                   313.54 kB
+../../dist-renderer/js/rolldown-runtime-E2wbm5IW.js               0.69 kB
+../../dist-renderer/js/OnboardingProgressRail-DtHMNd7z.js         1.23 kB
+../../dist-renderer/js/RoleSwitcher-Dz4eebJv.js                   1.37 kB
+../../dist-renderer/js/runtimeEventBus-CCiW6qjq.js                1.39 kB
+../../dist-renderer/js/recordIO-DWzXnVa3.js                       1.67 kB
+../../dist-renderer/js/DrillTemplateEditor-nI9FEC_P.js            1.77 kB
+../../dist-renderer/js/SupportBundleCard-D_WhnU95.js              2.08 kB
+../../dist-renderer/js/MessageDensityBar-CqNRRYuZ.js              2.38 kB
+../../dist-renderer/js/ScratchpadTab-idPoV_5D.js                  2.49 kB
+../../dist-renderer/js/UpdateRingConsole-CXFO-zQt.js              2.51 kB
+../../dist-renderer/js/vendor-state-D-fEEIv3.js                   2.54 kB
+../../dist-renderer/js/ReleaseHealthConsole-Dp7XTrtW.js           2.65 kB
+../../dist-renderer/js/BuyerEvaluationCenter-BkajtYSZ.js          2.69 kB
+../../dist-renderer/js/CommercialPackageConsole-DGzTpcoe.js       3.08 kB
+../../dist-renderer/js/UpgradeModal-LZdjeHP3.js                   3.10 kB
+../../dist-renderer/js/ProviderSweep-D0GflgJL.js                  3.20 kB
+../../dist-renderer/js/ReferralCard-DBdiJWle.js                   3.22 kB
+../../dist-renderer/js/RuntimeAlertsDrawer-CVnY94v_.js            3.24 kB
+../../dist-renderer/js/signedArtifacts-bFkVFdnG.js                3.42 kB
+../../dist-renderer/js/vendor-misc-CedZIPer.js                    3.43 kB
+../../dist-renderer/js/PilotKitConsole-DLfBHT7Z.js                3.48 kB
+../../dist-renderer/js/ProvisioningWizard-DqE3VtqW.js             3.48 kB
+../../dist-renderer/js/ThreadDrawer-DkpY9fL1.js                   3.72 kB
+../../dist-renderer/js/BoardOperatingPackConsole-BSwC6Xm5.js      3.76 kB
+../../dist-renderer/js/LicensedOperatorFramework-BApIzWK7.js      3.78 kB
+../../dist-renderer/js/PartnerNetworkGovernance-D6WggTnK.js       3.90 kB
+../../dist-renderer/js/IssueAssistModal-BcS4k9xq.js               3.92 kB
+../../dist-renderer/js/BranchDiffView-DdyafQBm.js                 3.92 kB
+../../dist-renderer/js/SupportOpsConsole-DLK4yx2R.js              3.92 kB
+../../dist-renderer/js/VoiceMode-B-d8I_f9.js                      3.93 kB
+../../dist-renderer/js/PilotConversionConsole-DaIg9IvY.js         3.95 kB
+../../dist-renderer/js/EcosystemPortfolioConsole-7onLDXkY.js      4.02 kB
+../../dist-renderer/js/SmartContextWindow-BNgYpIgi.js             4.07 kB
+../../dist-renderer/js/SuccessCaptureModal-H8uqGrUz.js            4.15 kB
+../../dist-renderer/js/pricingTiers-BBqgecfY.js                   4.18 kB
+../../dist-renderer/js/ServiceLineConsole-D2qPt1N4.js             4.22 kB
+../../dist-renderer/js/ProofVisualizer-BZOTbY4c.js                4.24 kB
+../../dist-renderer/js/GhostReplay-DeKX1XxR.js                    4.28 kB
+../../dist-renderer/js/OfflineUpdateConsole-DEuT9oZc.js           4.29 kB
+../../dist-renderer/js/GlobalPlanningConsole-BKVF1fUq.js          4.34 kB
+../../dist-renderer/js/EcosystemRevenuePlanner-DhA6iyFW.js        4.36 kB
+../../dist-renderer/js/PortfolioRolloutPlanner-u4OWysJC.js        4.41 kB
+../../dist-renderer/js/DeploymentProgramCenter-CoH-8c9o.js        4.48 kB
+../../dist-renderer/js/EcosystemCommandCenter-v8qO5D9v.js         4.67 kB
+../../dist-renderer/js/RevenueOpsConsole-BiUWZIeg.js              4.71 kB
+../../dist-renderer/js/ChannelExpansionPlanner-DSCRvCDu.js        4.74 kB
+../../dist-renderer/js/OperatorDashboard-DBTwKX6D.js              4.74 kB
+../../dist-renderer/js/OnboardingWizard-BUDYmnzm.js               4.75 kB
+../../dist-renderer/js/FunnelDashboard-9zgMFLBO.js                4.93 kB
+../../dist-renderer/js/RevenueConsole-DHMDaKNM.js                 4.96 kB
+../../dist-renderer/js/CrossAccountRenewalMatrix-DWde9tMI.js      5.01 kB
+../../dist-renderer/js/ApplianceConsole-kJ6c5phS.js               5.04 kB
+../../dist-renderer/js/ExecutiveScaleDashboard-CcQEfIfj.js        5.08 kB
+../../dist-renderer/js/SmartClipboard-C9ZA1fhn.js                 5.08 kB
+../../dist-renderer/js/TrainingDeliveryCenter-D--jw4BI.js         5.13 kB
+../../dist-renderer/js/QuickSearchWidget-D5FgUvVc.js              5.16 kB
+../../dist-renderer/js/ShortcutCheatSheet-CXEJcs1V.js             5.23 kB
+../../dist-renderer/js/PilotExpansionConsole-BbGUmaMH.js          5.26 kB
+../../dist-renderer/js/BillingCenter-C-7ed73S.js                  5.37 kB
+../../dist-renderer/js/ManagedServicesConsole-DOIZ7eZ6.js         5.47 kB
+../../dist-renderer/js/StrategicAccountConsole-DmIoz09T.js        5.47 kB
+../../dist-renderer/js/PolicyProfileCard-DIFe0h5V.js              5.67 kB
+../../dist-renderer/js/AgentOrchestrator-CL9SDdRV.js              5.67 kB
+../../dist-renderer/js/MultiModelSplit-BxqR3Ktz.js                5.79 kB
+../../dist-renderer/js/RenewalRiskConsole-B1Bc43oW.js             5.92 kB
+../../dist-renderer/js/AgentStore-CcJ-D8Om.js                     5.97 kB
+../../dist-renderer/js/BoardConsole-eRtCR276.js                   6.02 kB
+../../dist-renderer/js/LaunchWeekCommandCenter-B4by1CcF.js        6.02 kB
+../../dist-renderer/js/FollowupGenerator-BQ4eo91M.js              6.08 kB
+../../dist-renderer/js/BuyerOpsConsole-DTgJgJW4.js                6.23 kB
+../../dist-renderer/js/ShareProofModal-D5bmV9_a.js                6.31 kB
+../../dist-renderer/js/PartnerCertificationHub-CdUaX9Uv.js        6.39 kB
+../../dist-renderer/js/ShiftConsole-CsNCw7YR.js                   6.40 kB
+../../dist-renderer/js/CustomerSuccessConsole-CBlAuErd.js         6.42 kB
+../../dist-renderer/js/FieldLaunchCommandCenter-rj_TPqzS.js       6.45 kB
+../../dist-renderer/js/PartnerRolloutConsole-CuAPRDvj.js          6.45 kB
+../../dist-renderer/js/ExpansionPlanner-DcU4fOnP.js               6.57 kB
+../../dist-renderer/js/FocusMode-Dn9-LrzS.js                      6.58 kB
+../../dist-renderer/js/BrandingOverrides-Wnekuxhp.js              6.76 kB
+../../dist-renderer/js/FieldFeedbackConsole-Dqh3BS2x.js           6.77 kB
+../../dist-renderer/js/DemoToPilotConsole-wWycCOFG.js             6.80 kB
+../../dist-renderer/js/HardwareApplianceManager-peYvan3S.js       7.17 kB
+../../dist-renderer/js/TamperSimulationCenter-BmseGhng.js         7.18 kB
+../../dist-renderer/js/PomodoroTimer-DUch4XL5.js                  7.24 kB
+../../dist-renderer/js/ProcurementCommandCenter-BjW4TWNg.js       7.27 kB
+../../dist-renderer/js/InstitutionalCommandConsole-D23DWVdr.js    7.56 kB
+../../dist-renderer/js/DemoFlowConsole-CwAkVxdv.js                7.59 kB
+../../dist-renderer/js/KeyboardShortcutsModal-Co1PRd9l.js         7.68 kB
+../../dist-renderer/js/AICostEstimator-KjXLkHWV.js                7.76 kB
+../../dist-renderer/js/SessionSnapshotPanel-DIyW27zo.js           7.82 kB
+../../dist-renderer/js/AnalyticsDrawer-DjaRCM4w.js                7.83 kB
+../../dist-renderer/js/SystemPulse-NstTOiUn.js                    7.89 kB
+../../dist-renderer/js/SignalLabPanel-DhwDMUxN.js                 8.06 kB
+../../dist-renderer/js/PolicyRolloutConsole-CS0j3eHr.js           8.24 kB
+../../dist-renderer/js/ContextualHotswap-CBHVkV50.js              8.39 kB
+../../dist-renderer/js/CourierTransferCenter-DnP18fS0.js          8.40 kB
+../../dist-renderer/js/RealTimeMonitor-KruB4cuS.js                8.44 kB
+../../dist-renderer/js/RuntimeEventFeed-DlzcFHLh.js               8.46 kB
+../../dist-renderer/js/NeuralPulseMap-DlX9gAPv.js                 8.69 kB
+../../dist-renderer/js/SalesConsole-DtyPAslA.js                   8.78 kB
+../../dist-renderer/js/PartnerConsole-CR6hOAUj.js                 8.80 kB
+../../dist-renderer/js/GuidedDemoMode-DFmmVJlt.js                 8.83 kB
+../../dist-renderer/js/CertificationCenter-CEoU5GZW.js            8.83 kB
+../../dist-renderer/js/IncidentModePanel-BT58y-9-.js              8.93 kB
+../../dist-renderer/js/CommandCenter-DKID4UBo.js                  9.10 kB
+../../dist-renderer/js/EnterprisePolicySuite-DPqNC8-m.js          9.18 kB
+../../dist-renderer/js/ChatThemeCustomizer-B4UOXvOe.js            9.45 kB
+../../dist-renderer/js/CollabRoomPanel-tmvIgLqI.js                9.47 kB
+../../dist-renderer/js/NeuralGraph-HMP7hcaZ.js                    9.53 kB
+../../dist-renderer/js/PromptDiffModal-DkEmI0Qt.js                9.75 kB
+../../dist-renderer/js/CommandPalette-C4vBYvcT.js                 9.89 kB
+../../dist-renderer/js/ProofStreakCounter-0A3LuGPn.js             9.89 kB
+../../dist-renderer/js/SessionNotesPanel-BJ4J3giu.js              9.99 kB
+../../dist-renderer/js/SessionHealthScore-Cukhhehk.js            10.03 kB
+../../dist-renderer/js/NeuralRuntimeDrivers-Cp8Bm0s6.js          10.11 kB
+../../dist-renderer/js/DeadlinesPanel-BHCm9aX9.js                10.15 kB
+../../dist-renderer/js/ConversationInsights-ByaKa09o.js          10.30 kB
+../../dist-renderer/js/NodeChainPanel-YX123nG4.js                10.38 kB
+../../dist-renderer/js/SpotlightBar-DMcbQphb.js                  10.42 kB
+../../dist-renderer/js/SessionCompareView-CjAXt3Kw.js            10.61 kB
+../../dist-renderer/js/operatorProgress-TBRoZZlC.js              11.02 kB
+../../dist-renderer/js/ContinuityDrillCenter-qNkEz-br.js         11.16 kB
+../../dist-renderer/js/AuditChainView-C02GRftP.js                11.46 kB
+../../dist-renderer/js/MissionScheduler-DHW28v0f.js              11.47 kB
+../../dist-renderer/js/FirstBootWizard-Dyf9OtLI.js               11.54 kB
+../../dist-renderer/js/AirGapOperationsCenter-CujUwqzo.js        11.59 kB
+../../dist-renderer/js/SessionRewind-BkgJHZ-i.js                 11.59 kB
+../../dist-renderer/js/OperatorProfilePanel-BLVzTkl5.js          11.78 kB
+../../dist-renderer/js/AdvancedOptimizationEngine-xiO2AN0Q.js    11.84 kB
+../../dist-renderer/js/ThoughtChainVisualizer-D10mw3Eq.js        12.03 kB
+../../dist-renderer/js/RecoveryCenter-Cdle53Ie.js                12.29 kB
+../../dist-renderer/js/PricingTierModal-7_WJ9Ne6.js              12.31 kB
+../../dist-renderer/js/ProofBadgePanel-B9by6QWz.js               12.46 kB
+../../dist-renderer/js/FleetControlPanel-CGYVq_a4.js             12.48 kB
+../../dist-renderer/js/AdaptiveLayoutEngine-DcVh-1AN.js          12.54 kB
+../../dist-renderer/js/AmbientMorph-CM6xC1ie.js                  12.57 kB
+../../dist-renderer/js/OperatorCommandBridge-xNtTVVNB.js         12.59 kB
+../../dist-renderer/js/OperatorXPPanel-Cq2irLjz.js               12.61 kB
+../../dist-renderer/js/OperatorProgressPanel-D1rwb8wm.js         12.67 kB
+../../dist-renderer/js/ContextWindowRadar-_OEGeLCO.js            12.92 kB
+../../dist-renderer/js/TaskManagerDrawer-DoMu8FJq.js             13.47 kB
+../../dist-renderer/js/Phase24MutantDNA-hdvy47uR.js              13.58 kB
+../../dist-renderer/js/SplitWorkspace-BMuzyvLF.js                13.64 kB
+../../dist-renderer/js/ChainLearningPanel-Dk6k3Vuh.js            13.66 kB
+../../dist-renderer/js/AIResponseAuditor-Bz33qExV.js             14.31 kB
+../../dist-renderer/js/TrustFabricConsole-Cn730oVo.js            15.05 kB
+../../dist-renderer/js/SwarmNodePanel-Cl78MzMS.js                15.19 kB
+../../dist-renderer/js/FleetDashboard-k9lFM1CC.js                15.44 kB
+../../dist-renderer/js/SessionTemplatesModal-DdcdhN0E.js         15.92 kB
+../../dist-renderer/js/CanvasMode-Bc-dpNWQ.js                    16.01 kB
+../../dist-renderer/js/AppConnectPanel-D44yo3FK.js               16.18 kB
+../../dist-renderer/js/OperatorHomeOverlay-BEtk7DMs.js           17.56 kB
+../../dist-renderer/js/CommunityShowcasePanel-CFSSwrc-.js        17.82 kB
+../../dist-renderer/js/SecurityLockPanel-DIUMK9Nv.js             18.84 kB
+../../dist-renderer/js/MarkdownExport-6XQxnYH-.js                20.26 kB
+../../dist-renderer/js/RuntimePerformancePanel-DEIwZcGz.js       22.22 kB
+../../dist-renderer/js/MissionControl-BDQcL66i.js                28.51 kB
+../../dist-renderer/js/ProjectsMode-288sJtfS.js                  57.95 kB
+../../dist-renderer/js/EcosystemLauncher-BhSQaMn4.js             63.78 kB
+../../dist-renderer/js/SettingsDrawer-BpCLppUQ.js                78.68 kB
+../../dist-renderer/js/ConversationDNA-ByyCJ1-4.js              103.34 kB
+../../dist-renderer/js/vendor-react-BDUijfFW.js                 208.38 kB
+../../dist-renderer/js/index-BId-sYs9.js                        687.58 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] Warning:[0m Your build spent significant time in plugin `vite:terser`. See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 5.51s
+
+> neuralshell-v5@2.1.32 governance:manifest-hashes
+> node scripts/update-source-manifest-hashes.js
+
+governance/source_manifest.json: 2 file hash(es) updated.
+
+Running 1 test using 1 worker
+
+(node:20744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+offline-kill-shell-settle=ok iterations=1 elapsedMs=777 activeFp=BODY|
+offline-kill-settings-opener-clicked-node-exists=true
+offline-kill-settings-opener-react-bound-node-exists=true
+offline-kill-settings-opener-clicked-equals-react-bound=true
+offline-kill-settings-opener-multiple-candidates=false
+offline-kill-settings-opener-likely-cause=react-handler-drawer-not-committing
+offline-kill-settings-opener-event-phase-classification=synthetic-handler-fired-but-state-update-not-called
+offline-kill-settings-opener-window-click-seen=true
+offline-kill-settings-opener-document-click-seen=true
+offline-kill-settings-opener-react-root-click-seen=true
+offline-kill-settings-opener-opener-click-seen=true
+offline-kill-settings-opener-react-synthetic-seen=true
+offline-kill-settings-opener-event-cancelled=false
+offline-kill-settings-opener-drawer-mounted-within-250ms=false
+offline-kill-settings-opener-drawer-mounted-within-1000ms=false
+offline-kill-settings-opener-drawer-mounted-within-4500ms=false
+offline-kill-settings-opener-binding-classification=settings-open-opener-binding-matches-handler-not-invoked
+offline-kill-open-settings-timeout=true
+offline-kill-open-settings-button-count=1
+offline-kill-open-settings-click-attempted=true
+offline-kill-open-settings-click-succeeded=true
+offline-kill-open-settings-native-click-observed=true
+offline-kill-open-settings-react-handler-observed=true
+offline-kill-open-settings-drawer-present=false
+offline-kill-open-settings-drawer-visible=false
+offline-kill-open-settings-handler-path-classification=settings-drawer-lazy-resolved-but-wrapper-not-entered
+offline-kill-open-settings-classification-source=immediate-post-click
+offline-kill-open-settings-page-closed-during-collect=false
+offline-kill-state-gate-collect-error=none
+offline-kill-state-gate-classification=settings-open-first-click-handler-not-committing
+offline-kill-opener-commit-classification=settings-open-first-click-event-fired-no-mount
+offline-kill-final-open-settings-classification=settings-open-first-click-handler-not-committing
+offline-kill-settings-handler-trace-collect-error=none
+offline-kill-settings-handler-path-classification=settings-open-handler-guarded
+offline-kill-settings-handler-entry-kinds=settings-open-button-render-identity,settings-open-button-rendered,settings-open-button-handler-defined,settings-open-button-disabled-state,settings-open-button-react-pointerdown-capture,settings-open-button-pointerdown-entered,settings-open-button-react-pointerdown-bubble,settings-open-button-pointerdown-entered,settings-open-button-react-mousedown-capture,settings-open-button-mousedown-entered,settings-open-button-react-mousedown-bubble,settings-open-button-mousedown-entered,settings-open-button-react-click-capture,settings-open-button-click-capture-entered,settings-open-button-onclick-entered,settings-open-button-click-bubble-entered,settings-open-button-onclick-invoke,settings-open-button-open-action-before,settings-open-action-called,settings-drawer-state-before-open,open-settings-invoke,setShowSettings,settings-show-state-set-true,settings-drawer-state-after-open,settings-open-button-open-action-after,settings-drawer-parent-instantiating-lazy-child,settings-drawer-suspense-child-requested,settings-drawer-lazy-import-start,settings-drawer-suspense-fallback-rendered,settings-drawer-render-condition,settings-drawer-lazy-boundary-entered,settings-drawer-parent-before-child,palette-showSettings-prop,settings-drawer-parent-after-child,showSettings-post-commit,settings-show-state-render-value,settings-shell-render-settings-state,settings-drawer-lazy-import-resolved,close-settings-invoke,setShowSettings,settings-show-state-reset-false,settings-drawer-parent-instantiating-lazy-child,settings-drawer-render-condition,palette-showSettings-prop,showSettings-post-commit,settings-show-state-render-value,settings-shell-render-settings-state
+offline-kill-settings-handler-prior-path-classification=settings-drawer-lazy-resolved-but-wrapper-not-entered
+offline-kill-settings-handler-classification-source=post-collect
+offline-kill-settings-handler-page-closed-during-collect=false
+offline-kill-runtime-state-collect-error=none
+offline-kill-runtime-state-summary=ls=47|ss=1|wk=1|drawer=0/0|provider=n/a|ae=BODY :: ls=50|ss=1|wk=2|drawer=0/0|provider=n/a|ae=settings-open-btn
+offline-kill-final-open-settings-classification=settings-open-first-click-handler-not-committing
+offline-kill-open-settings-first-click-harness-classification=settings-open-first-click-handler-not-committing
+  x  1 ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:7750:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture (50.8s)
+
+
+  1) ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:7750:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 
+
+    Error: [offline-kill-early] open-settings exceeded 45000ms
+
+      1574 |             timerId = setTimeout(() => {
+      1575 |                 timedOut = true;
+    > 1576 |                 reject(new Error(`[offline-kill-early] ${earlyName} exceeded ${timeoutMs}ms`));
+           |                        ^
+      1577 |             }, timeoutMs);
+      1578 |         });
+      1579 |
+        at Timeout.<anonymous> (C:\Users\KickA\Projects\Active\NeuralShell\e2e\react-core.spec.js:1576:24)
+
+    attachment #1: offline-kill-compact-test-entry.json (application/json) ─────────────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-test-entry-json-ce0b0a15710fa9c0ce0a39e8500347f487644c82.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: offline-kill-compact-before-open-settings.json (application/json) ───────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-before-open-settings-json-fe24176d1666f872375bdb313e085d33b5c140f6.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: offline-kill-early-open-settings-entered.json (application/json) ────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-entered-json-a733183e574b844775e4f9464508a941fe819b9a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: offline-kill-early-open-settings-before.json (application/json) ─────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-before-json-473da3612fe575529ad4c92021184bf040677f54.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: offline-kill-open-settings-precondition-before.json (application/json) ──────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-before-json-c48bc71bbac474708e4a6c8c4971de4bd05fa939.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: offline-kill-open-settings-precondition-after.json (application/json) ───────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-precondition-after-json-b62647012a0e04743a52ddd4c122a967612bfa49.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: offline-kill-open-settings-shell-settle-before.json (application/json) ──────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-before-json-df31ae59d5364ab1d034a7f48995d14cedf8f534.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #8: offline-kill-open-settings-shell-settle-after.json (application/json) ───────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-shell-settle-after-json-fe49763c63a5c52b364a9544551f57d506f57442.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #9: offline-kill-open-settings-app-reset-before.json (application/json) ─────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-before-json-64a07d8bb588f934469e3b4b0d0d57427361426c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #10: offline-kill-open-settings-app-reset-after.json (application/json) ─────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-app-reset-after-json-572ca89d1f16533e4a5e2d65d2b9c5ee5aee64d0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #11: offline-kill-open-settings-offline-kill-entered.json (application/json) ────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-entered-json-0ec69bce754a0b943c74a6333349cf73a60af87b.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #12: offline-kill-open-settings-offline-kill-before-click.json (application/json) ───
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-before-click-json-094621c537f3d8ad4f355e63a2238afe99a596e4.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #13: offline-kill-open-settings-offline-kill-runtime-state-before-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-runtime-state-before-click-json-ab9cea630269cb016673a3786e31731cdba0466e.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #14: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-4a995e918aba0572fc9633d6df284e17427a42c9.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #15: offline-kill-open-settings-offline-kill-state-gate-before-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-before-click-json-4a995e918aba0572fc9633d6df284e17427a42c9.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #16: offline-kill-open-settings-offline-kill-first-click-state.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-state-json-b83b128428f3abc3e8d0f6e9da49aaa4f2579666.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #17: offline-kill-open-settings-offline-kill-opener-binding-before-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-opener-binding-before-click-json-64a6378c73f7203eec34fdc156e5bbde9fb98814.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #18: offline-kill-open-settings-preclick-state.json (application/json) ──────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-preclick-state-json-faffd8075b3424e5457de566a208c55f959c81ec.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #19: offline-kill-open-settings-postclick-state.json (application/json) ─────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-postclick-state-json-c1758af8ea8e04745184f65d48a4ce3b199063f1.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #20: offline-kill-settings-opener-react-bound-comparison.json (application/json) ────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-react-bound-comparison-json-70efc17d89adb1ef5f9b2044085d9fd8eb0bda3e.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #21: offline-kill-settings-opener-event-phase-trace.json (application/json) ─────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-settings-opener-event-phase-trace-json-1c916be1d73ba9973efe985af931fb287b7b7244.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #22: offline-kill-open-settings-offline-kill-after-click.json (application/json) ────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-after-click-json-dd079d1437bbd7a7fc8b8d76c4ed214f3718beb0.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #23: offline-kill-open-settings-offline-kill-opener-binding-after-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-opener-binding-after-click-json-3e2efc9729e758e045725ace022036a3e51df7ba.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #24: offline-kill-open-settings-timeout-state.json (application/json) ───────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-timeout-state-json-7014ee8372adb86a9c7619903f03d36c51991423.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #25: offline-kill-early-open-settings-failed.json (application/json) ────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-failed-json-32f737d03aaba8e1b7ddd290e4ebbb1bf61dbd38.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #26: offline-kill-open-settings-handler-trace-before-teardown.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-before-teardown-json-bae274de0f76075998d0727d54bfd82b56bc288d.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #27: offline-kill-early-open-settings-failed-diagnostics.json (application/json) ────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-early-open-settings-failed-diagnostics-json-1d37504db0b9498e16906ff6619289e39c2e7c4a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #28: offline-kill-open-settings-offline-kill-state-gate-after-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-after-click-json-28518d9159cc39c0ebec636ae17803b6430c6d92.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #29: offline-kill-compact-finally.json (application/json) ───────────────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-compact-finally-json-11c3d9da1cd697ae6dd777b5a0b86a38c78d282a.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #30: offline-kill-open-settings-offline-kill-state-gate-after-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-state-gate-after-click-json-28518d9159cc39c0ebec636ae17803b6430c6d92.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #31: offline-kill-open-settings-handler-trace-minimal.json (application/json) ───────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-minimal-json-60935e3a225fa691a1ae51559b8dfcb04ceb7a3e.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+
+    attachment #33: offline-kill-open-settings-handler-trace.json (application/json) ───────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-handler-trace-json-9a3c5ce59965c87aa589e345fcdcee9bc1d6bc31.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #34: offline-kill-open-settings-offline-kill-runtime-state-after-click.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-runtime-state-after-click-json-79293ba3c2b3db306e91411e5a5a62a61d21b9b9.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #35: offline-kill-open-settings-offline-kill-first-click-post-samples.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-post-samples-json-f885cc9452fd0d7e408ee25a1c189bee1b63818f.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #36: offline-kill-open-settings-offline-kill-first-click-commit-probe.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-commit-probe-json-4a8269a80aa239cfda3d0b1a0e08bc7040d89aac.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #37: offline-kill-open-settings-offline-kill-first-click-drawer-timeout-state.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-drawer-timeout-state-json-b15cda739644518fee91974c775bd55e6db5d390.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #38: offline-kill-open-settings-offline-kill-first-click-no-drawer.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-first-click-no-drawer-json-3c74cfbb76db98c00805fb47c7d7f40fd3bd6bbd.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #39: offline-kill-open-settings-offline-kill-handler-not-committing.json (application/json) 
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-handler-not-committing-json-8f1e53b69e38d55ef085bc7e92a320afeb148274.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #40: offline-kill-open-settings-offline-kill-failed.json (application/json) ─────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\attachments\offline-kill-open-settings-offline-kill-failed-json-8c91e72cf813df7fbcbdcfecdb5ec3282d694863.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+
+    attachment #42: trace (application/zip) ────────────────────────────────────────────────────────
+    test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    ..\..\..\Projects\Active\NeuralShell\e2e\react-core.spec.js:7750:5 › NeuralShell React Core UI › Offline kill switch forces local-only bridge posture 

@@ -13,6 +13,9 @@ const PACKET_ID_REQUEST_CONTROLLER_COUNT = 0;
 const PACKET_ID_REQUEST_CONTROLLER_DATA = 1;
 const PACKET_ID_REQUEST_PROTOCOL_VERSION = 40;
 const PACKET_ID_SET_CLIENT_NAME = 50;
+const PACKET_ID_RGBCONTROLLER_UPDATELEDS = 1050;
+const PACKET_ID_RGBCONTROLLER_UPDATEZONELEDS = 1051;
+const PACKET_ID_RGBCONTROLLER_UPDATESINGLELED = 1052;
 
 export class OpenRgbClient extends EventEmitter {
   private socket: Socket | null = null;
@@ -299,10 +302,10 @@ export class OpenRgbClient extends EventEmitter {
       const device = this.deviceList.find(d => d.index === deviceIndex);
       const ledCount = device?.ledCount || 100;
 
-      // Build LED data: Command 0x03 (Update LEDs)
-      const header = Buffer.alloc(5);
-      header.writeUInt8(0x03, 0); // Command
-      header.writeUInt32LE(deviceIndex, 1); // Device ID
+      // OpenRGB SDK Protocol: Update LEDs command (1050)
+      // Packet format: [4 bytes device ID][4 bytes LED count][RGB data...]
+      const deviceIdBuf = Buffer.alloc(4);
+      deviceIdBuf.writeUInt32LE(deviceIndex, 0);
 
       const ledCountBuf = Buffer.alloc(4);
       ledCountBuf.writeUInt32LE(ledCount, 0);
@@ -315,8 +318,8 @@ export class OpenRgbClient extends EventEmitter {
         colorData.writeUInt8(color.b, i * 3 + 2);
       }
 
-      const fullBuffer = Buffer.concat([header, ledCountBuf, colorData]);
-      this.socket?.write(fullBuffer);
+      const dataBuffer = Buffer.concat([deviceIdBuf, ledCountBuf, colorData]);
+      this.sendPacket(deviceIndex, PACKET_ID_RGBCONTROLLER_UPDATELEDS, dataBuffer);
 
       return {
         success: true,

@@ -1,0 +1,311 @@
+NeuralLink? Tactical Suite Loaded.
+build_windows	Run e2e founder flows	∩╗┐2026-05-07T21:11:12.9760061Z ##[group]Run npm run test:e2e
+build_windows	Run e2e founder flows	2026-05-07T21:11:12.9760382Z [36;1mnpm run test:e2e[0m
+build_windows	Run e2e founder flows	2026-05-07T21:11:12.9820872Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+build_windows	Run e2e founder flows	2026-05-07T21:11:12.9821201Z ##[endgroup]
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.5923152Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.5923691Z > neuralshell-v5@2.1.32 pretest:e2e
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.5924227Z > npm run renderer:ensure-build
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.5924400Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.8932970Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.8933571Z > neuralshell-v5@2.1.32 renderer:ensure-build
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.8933969Z > node scripts/ensure_renderer_built.cjs
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.8934164Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:13.9648429Z [renderer:ensure-build] Renderer dist is stale; rebuilding...
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.2658135Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.2658691Z > neuralshell-renderer@2.0.0 build
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.2659004Z > vite build
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.2659116Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.7708377Z [36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+build_windows	Run e2e founder flows	2026-05-07T21:11:14.7891402Z [2K
+build_windows	Run e2e founder flows	2026-05-07T21:11:16.0669752Z transforming...Γ£ô 2053 modules transformed.
+build_windows	Run e2e founder flows	2026-05-07T21:11:16.6326531Z rendering chunks...
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2080558Z ../../dist-renderer/index.html                                    0.95 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2081624Z ../../dist-renderer/assets/index-CidDSky-.css                   313.54 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2082845Z ../../dist-renderer/js/rolldown-runtime-E2wbm5IW.js               0.69 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2083964Z ../../dist-renderer/js/OnboardingProgressRail-DtHMNd7z.js         1.23 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2085400Z ../../dist-renderer/js/RoleSwitcher-DurgV7zm.js                   1.37 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2086736Z ../../dist-renderer/js/runtimeEventBus-CCiW6qjq.js                1.39 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2087686Z ../../dist-renderer/js/recordIO-DWzXnVa3.js                       1.67 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2088618Z ../../dist-renderer/js/DrillTemplateEditor-nI9FEC_P.js            1.77 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2089295Z ../../dist-renderer/js/SupportBundleCard-CgHPBYnC.js              2.08 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2089842Z ../../dist-renderer/js/MessageDensityBar-CqNRRYuZ.js              2.38 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2090343Z ../../dist-renderer/js/ScratchpadTab-CyzJe98O.js                  2.49 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2090838Z ../../dist-renderer/js/UpdateRingConsole-CXFO-zQt.js              2.51 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2091339Z ../../dist-renderer/js/vendor-state-D-fEEIv3.js                   2.54 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2091861Z ../../dist-renderer/js/ReleaseHealthConsole-DfrTRdwQ.js           2.65 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2092368Z ../../dist-renderer/js/BuyerEvaluationCenter-HD2PJv7n.js          2.69 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2092870Z ../../dist-renderer/js/CommercialPackageConsole-C8wOYUDF.js       3.08 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2093355Z ../../dist-renderer/js/UpgradeModal-C8TqbzRs.js                   3.10 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2093822Z ../../dist-renderer/js/ProviderSweep-D0GflgJL.js                  3.20 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2094302Z ../../dist-renderer/js/ReferralCard-DBdiJWle.js                   3.22 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2094791Z ../../dist-renderer/js/RuntimeAlertsDrawer-Ch3sjSBl.js            3.24 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2095280Z ../../dist-renderer/js/signedArtifacts-bFkVFdnG.js                3.42 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2095991Z ../../dist-renderer/js/vendor-misc-CedZIPer.js                    3.43 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2096803Z ../../dist-renderer/js/PilotKitConsole-DLfBHT7Z.js                3.48 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2097305Z ../../dist-renderer/js/ProvisioningWizard-DqE3VtqW.js             3.48 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2097882Z ../../dist-renderer/js/ThreadDrawer-BfrVgvFB.js                   3.72 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2098677Z ../../dist-renderer/js/BoardOperatingPackConsole-CRTq0Rw0.js      3.76 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2099360Z ../../dist-renderer/js/LicensedOperatorFramework-BApIzWK7.js      3.78 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2099899Z ../../dist-renderer/js/PartnerNetworkGovernance-D6WggTnK.js       3.90 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2100392Z ../../dist-renderer/js/IssueAssistModal-DYvz_44r.js               3.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2103530Z ../../dist-renderer/js/BranchDiffView-CjdKV7o1.js                 3.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2104065Z ../../dist-renderer/js/SupportOpsConsole-ClZgqEDB.js              3.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2104757Z ../../dist-renderer/js/VoiceMode-lxiOBBpC.js                      3.93 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2105662Z ../../dist-renderer/js/PilotConversionConsole-DCOwNui5.js         3.95 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2106356Z ../../dist-renderer/js/EcosystemPortfolioConsole-d27a7mGX.js      4.02 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2107102Z [33m[plugin builtin:vite-reporter] 
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2107499Z (!) Some chunks are larger than 500 kB after minification. Consider:
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2107933Z - Using dynamic import() to code-split the application
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2108673Z - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2109523Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2110577Z [33m[33m[PLUGIN_TIMINGS] Warning:[0m Your build spent significant time in plugin `vite:terser`. See https://rolldown.rs/options/checks#plugintimings for more details.
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2111260Z [39m
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2111591Z ../../dist-renderer/js/SmartContextWindow-C0P7v-jA.js             4.07 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2112107Z ../../dist-renderer/js/SuccessCaptureModal-DK25VAfc.js            4.15 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2112607Z ../../dist-renderer/js/pricingTiers-BBqgecfY.js                   4.18 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2113089Z ../../dist-renderer/js/ServiceLineConsole-BX9PzNU3.js             4.22 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2113579Z ../../dist-renderer/js/ProofVisualizer-BTjt2iQV.js                4.24 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2114058Z ../../dist-renderer/js/GhostReplay-DlN2rT9X.js                    4.28 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2114536Z ../../dist-renderer/js/OfflineUpdateConsole-DtZW9cfW.js           4.29 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2115047Z ../../dist-renderer/js/GlobalPlanningConsole-Dz7t7AVY.js          4.34 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2115540Z ../../dist-renderer/js/EcosystemRevenuePlanner-BlWK6xw_.js        4.36 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2116048Z ../../dist-renderer/js/PortfolioRolloutPlanner-u4OWysJC.js        4.41 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2116566Z ../../dist-renderer/js/DeploymentProgramCenter-BrN-d4Iv.js        4.48 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2117070Z ../../dist-renderer/js/EcosystemCommandCenter-siQqEO6A.js         4.67 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2117553Z ../../dist-renderer/js/RevenueOpsConsole-Byx-m8bc.js              4.71 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2118050Z ../../dist-renderer/js/ChannelExpansionPlanner-CPFQ2PK1.js        4.74 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2118548Z ../../dist-renderer/js/OperatorDashboard-Dcl6hZT6.js              4.74 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2119022Z ../../dist-renderer/js/OnboardingWizard-CHpZ8O41.js               4.75 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2119502Z ../../dist-renderer/js/FunnelDashboard-9zgMFLBO.js                4.93 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2119975Z ../../dist-renderer/js/RevenueConsole-DHMDaKNM.js                 4.96 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2120465Z ../../dist-renderer/js/CrossAccountRenewalMatrix-BYp4x6S_.js      5.01 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2120961Z ../../dist-renderer/js/ApplianceConsole-E0P4z2bo.js               5.04 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2121438Z ../../dist-renderer/js/ExecutiveScaleDashboard-0U50dJ4-.js        5.08 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2121919Z ../../dist-renderer/js/SmartClipboard-TaVsXc_7.js                 5.08 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2122401Z ../../dist-renderer/js/TrainingDeliveryCenter-KGKPsFKI.js         5.13 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2122880Z ../../dist-renderer/js/QuickSearchWidget-B_HNk-wJ.js              5.16 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2123366Z ../../dist-renderer/js/ShortcutCheatSheet-Bk-RTeOM.js             5.23 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2123856Z ../../dist-renderer/js/PilotExpansionConsole-mj-uKYsZ.js          5.26 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2124332Z ../../dist-renderer/js/BillingCenter-CLurPRKw.js                  5.37 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2126432Z ../../dist-renderer/js/ManagedServicesConsole-tX03PdYE.js         5.47 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2127003Z ../../dist-renderer/js/StrategicAccountConsole-CvDXGIIa.js        5.47 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2128382Z ../../dist-renderer/js/PolicyProfileCard-Bi2mKK88.js              5.67 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2129017Z ../../dist-renderer/js/AgentOrchestrator-CwFs27kZ.js              5.67 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2129513Z ../../dist-renderer/js/MultiModelSplit-CspjlZQS.js                5.79 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2130036Z ../../dist-renderer/js/RenewalRiskConsole-DAjdme7M.js             5.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2130519Z ../../dist-renderer/js/AgentStore-Cj9yY152.js                     5.97 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2130982Z ../../dist-renderer/js/BoardConsole-eRtCR276.js                   6.02 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2131469Z ../../dist-renderer/js/LaunchWeekCommandCenter-BEdAH3ns.js        6.02 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2131974Z ../../dist-renderer/js/FollowupGenerator-DNxwiznx.js              6.08 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2132464Z ../../dist-renderer/js/BuyerOpsConsole-cicmLJue.js                6.23 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2132964Z ../../dist-renderer/js/ShareProofModal-COxnCBnd.js                6.31 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2133468Z ../../dist-renderer/js/PartnerCertificationHub-DnFxOsSa.js        6.39 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2133949Z ../../dist-renderer/js/ShiftConsole-CszZSx9d.js                   6.40 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2134460Z ../../dist-renderer/js/CustomerSuccessConsole-CBlAuErd.js         6.42 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2134966Z ../../dist-renderer/js/FieldLaunchCommandCenter-DG1hLf1C.js       6.45 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2135471Z ../../dist-renderer/js/PartnerRolloutConsole-BlfgrFkG.js          6.45 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2135960Z ../../dist-renderer/js/ExpansionPlanner-DcU4fOnP.js               6.57 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2136432Z ../../dist-renderer/js/FocusMode-BT3pGgUH.js                      6.58 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2136912Z ../../dist-renderer/js/BrandingOverrides-CufkShY2.js              6.76 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2137392Z ../../dist-renderer/js/FieldFeedbackConsole-Rm52rtVs.js           6.77 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2137884Z ../../dist-renderer/js/DemoToPilotConsole-DnkJyI-T.js             6.80 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2138394Z ../../dist-renderer/js/HardwareApplianceManager-4MuwxowK.js       7.17 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2138893Z ../../dist-renderer/js/TamperSimulationCenter-CqhW3Ww2.js         7.18 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2139368Z ../../dist-renderer/js/PomodoroTimer-Dykn_8mH.js                  7.24 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2139857Z ../../dist-renderer/js/ProcurementCommandCenter-BdAiVF0R.js       7.27 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2140363Z ../../dist-renderer/js/InstitutionalCommandConsole-Cl1bnRDV.js    7.56 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2140844Z ../../dist-renderer/js/DemoFlowConsole-DQfqHWYT.js                7.59 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2141327Z ../../dist-renderer/js/KeyboardShortcutsModal-D86cEZ-o.js         7.68 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2141835Z ../../dist-renderer/js/AICostEstimator-DW2ZGoiD.js                7.76 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2142324Z ../../dist-renderer/js/SessionSnapshotPanel-q8rp4kAm.js           7.82 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2142814Z ../../dist-renderer/js/AnalyticsDrawer-KTashSAt.js                7.83 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2143296Z ../../dist-renderer/js/SystemPulse-DMRLcoO0.js                    7.89 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2143762Z ../../dist-renderer/js/SignalLabPanel-CAa6WEGT.js                 8.06 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2144244Z ../../dist-renderer/js/PolicyRolloutConsole-DxTNZDtf.js           8.24 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2144733Z ../../dist-renderer/js/ContextualHotswap-DBLcFjD4.js              8.39 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2145548Z ../../dist-renderer/js/CourierTransferCenter-D79Zduhq.js          8.40 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2146080Z ../../dist-renderer/js/RealTimeMonitor-KruB4cuS.js                8.44 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2146579Z ../../dist-renderer/js/RuntimeEventFeed-DFvxk1A7.js               8.46 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2147512Z ../../dist-renderer/js/NeuralPulseMap--h7WWDkz.js                 8.69 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2148003Z ../../dist-renderer/js/SalesConsole-DtyPAslA.js                   8.78 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2148584Z ../../dist-renderer/js/PartnerConsole-CR6hOAUj.js                 8.80 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2149054Z ../../dist-renderer/js/GuidedDemoMode-By4c1dYi.js                 8.83 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2149537Z ../../dist-renderer/js/CertificationCenter-CEoU5GZW.js            8.83 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2150019Z ../../dist-renderer/js/IncidentModePanel-BT58y-9-.js              8.93 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2150485Z ../../dist-renderer/js/CommandCenter-BQZqL7FS.js                  9.10 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2150975Z ../../dist-renderer/js/EnterprisePolicySuite-C-JxV064.js          9.18 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2151456Z ../../dist-renderer/js/ChatThemeCustomizer-DLg7YLXq.js            9.45 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2151936Z ../../dist-renderer/js/CollabRoomPanel-B2xTeAxF.js                9.47 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2152414Z ../../dist-renderer/js/NeuralGraph-Be-sW4lV.js                    9.53 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2152883Z ../../dist-renderer/js/PromptDiffModal-BWSKFv-5.js                9.75 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2153366Z ../../dist-renderer/js/CommandPalette-DfqhfrRj.js                 9.89 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2153859Z ../../dist-renderer/js/ProofStreakCounter-D3ldSfdK.js             9.89 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2154329Z ../../dist-renderer/js/SessionNotesPanel-DAM1_uqR.js              9.99 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2154806Z ../../dist-renderer/js/SessionHealthScore-Cukhhehk.js            10.03 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2155293Z ../../dist-renderer/js/NeuralRuntimeDrivers-Cp8Bm0s6.js          10.11 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2155766Z ../../dist-renderer/js/DeadlinesPanel-D2yR3STL.js                10.15 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2156248Z ../../dist-renderer/js/ConversationInsights-qrFR1Q8z.js          10.30 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2156741Z ../../dist-renderer/js/NodeChainPanel-tasvXT4U.js                10.39 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2157218Z ../../dist-renderer/js/SpotlightBar-CdKBJwO7.js                  10.42 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2157699Z ../../dist-renderer/js/SessionCompareView-Djs_Jzm7.js            10.61 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2158183Z ../../dist-renderer/js/operatorProgress-TBRoZZlC.js              11.02 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2158664Z ../../dist-renderer/js/ContinuityDrillCenter-QLy6n59k.js         11.16 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2159147Z ../../dist-renderer/js/AuditChainView-Dlpbd7-m.js                11.46 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2159627Z ../../dist-renderer/js/MissionScheduler-DHW28v0f.js              11.47 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2160114Z ../../dist-renderer/js/FirstBootWizard-BY2mISX0.js               11.54 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2160601Z ../../dist-renderer/js/AirGapOperationsCenter-CcGgYDho.js        11.59 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2161080Z ../../dist-renderer/js/SessionRewind-IrPqmvoW.js                 11.59 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2161566Z ../../dist-renderer/js/OperatorProfilePanel-lQbwQxry.js          11.78 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2162068Z ../../dist-renderer/js/AdvancedOptimizationEngine-xiO2AN0Q.js    11.84 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2162563Z ../../dist-renderer/js/ThoughtChainVisualizer-D10mw3Eq.js        12.03 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2163062Z ../../dist-renderer/js/RecoveryCenter-Cdle53Ie.js                12.29 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2163536Z ../../dist-renderer/js/PricingTierModal-B1KCCZm6.js              12.31 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2164022Z ../../dist-renderer/js/ProofBadgePanel-DNK9HYkP.js               12.46 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2164506Z ../../dist-renderer/js/FleetControlPanel-Bulw2RZL.js             12.48 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2164992Z ../../dist-renderer/js/AdaptiveLayoutEngine-JvRIyQEA.js          12.54 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2165878Z ../../dist-renderer/js/AmbientMorph-BMi72pG8.js                  12.57 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2166391Z ../../dist-renderer/js/OperatorCommandBridge-BUpu0-en.js         12.59 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2167014Z ../../dist-renderer/js/OperatorXPPanel-DA-szhbs.js               12.61 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2167512Z ../../dist-renderer/js/OperatorProgressPanel-Bp9-x_pm.js         12.67 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2168025Z ../../dist-renderer/js/ContextWindowRadar-Dzp4RiHt.js            12.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2168607Z ../../dist-renderer/js/TaskManagerDrawer-BmygMijf.js             13.47 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2169095Z ../../dist-renderer/js/Phase24MutantDNA-L7vJjawm.js              13.58 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2169578Z ../../dist-renderer/js/SplitWorkspace-BaAITE85.js                13.64 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2170052Z ../../dist-renderer/js/ChainLearningPanel-BDusGeSQ.js            13.66 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2170539Z ../../dist-renderer/js/AIResponseAuditor-SjbDYoMi.js             14.31 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2171020Z ../../dist-renderer/js/TrustFabricConsole-CdCwxska.js            15.05 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2171491Z ../../dist-renderer/js/SwarmNodePanel-B8iwrlE9.js                15.19 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2171967Z ../../dist-renderer/js/FleetDashboard-BGBdIAPg.js                15.44 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2172443Z ../../dist-renderer/js/SessionTemplatesModal-C36XU_dx.js         15.92 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2172910Z ../../dist-renderer/js/CanvasMode-say6B7qb.js                    16.01 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2173403Z ../../dist-renderer/js/AppConnectPanel-DkDB-pdB.js               16.18 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2173897Z ../../dist-renderer/js/OperatorHomeOverlay-XfmWFVCj.js           17.56 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2174401Z ../../dist-renderer/js/CommunityShowcasePanel-BQTED49K.js        17.82 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2174890Z ../../dist-renderer/js/SecurityLockPanel-DIUMK9Nv.js             18.84 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2175361Z ../../dist-renderer/js/MarkdownExport-DAqeWept.js                20.26 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2175854Z ../../dist-renderer/js/RuntimePerformancePanel-CMX07q6G.js       22.22 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2176338Z ../../dist-renderer/js/MissionControl-e842M7PN.js                28.51 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2176809Z ../../dist-renderer/js/ProjectsMode-1bne6XVf.js                  57.95 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2177286Z ../../dist-renderer/js/EcosystemLauncher-BGk8sTLG.js             63.78 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2177768Z ../../dist-renderer/js/SettingsDrawer-C1fHjWP7.js                74.84 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2178235Z ../../dist-renderer/js/ConversationDNA-CgrTdWCC.js              103.34 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2178729Z ../../dist-renderer/js/vendor-react-BDUijfFW.js                 208.38 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2179195Z ../../dist-renderer/js/index-DynYphoV.js                        676.93 kB
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2179443Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.2179695Z [32mΓ£ô built in 10.44s[39m
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.3104293Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.3104876Z > neuralshell-v5@2.1.32 test:e2e
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.3105821Z > playwright test e2e/react-core.spec.js e2e/ui-controls-sweep.spec.js e2e/operatorHomeCanvas.spec.js e2e/provGraph.spec.js e2e/voiceRoom.spec.js -c playwright.e2e.config.js
+build_windows	Run e2e founder flows	2026-05-07T21:11:25.3106512Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:28.0612100Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:28.0612686Z Running 39 tests using 1 worker
+build_windows	Run e2e founder flows	2026-05-07T21:11:28.0614000Z 
+build_windows	Run e2e founder flows	2026-05-07T21:11:46.8227139Z   ok  1 e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors (12.7s)
+build_windows	Run e2e founder flows	2026-05-07T21:11:53.7980346Z   ok  2 e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON (7.0s)
+build_windows	Run e2e founder flows	2026-05-07T21:12:03.9775399Z   ok  3 e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation (10.1s)
+build_windows	Run e2e founder flows	2026-05-07T21:12:13.8458532Z   ok  4 e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file (9.8s)
+build_windows	Run e2e founder flows	2026-05-07T21:12:41.5637210Z   ok  5 e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension trust shows Shipped on bundled tiles and Imported after user install (26.2s)
+build_windows	Run e2e founder flows	2026-05-07T21:12:47.4194110Z   ok  6 e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header (5.8s)
+build_windows	Run e2e founder flows	2026-05-07T21:12:51.3510077Z   ok  7 e2e\react-core.spec.js:619:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render (185ms)
+build_windows	Run e2e founder flows	2026-05-07T21:12:51.4386229Z   ok  8 e2e\react-core.spec.js:626:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present (62ms)
+build_windows	Run e2e founder flows	2026-05-07T21:13:22.5903472Z   ok  9 e2e\react-core.spec.js:633:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values (31.1s)
+build_windows	Run e2e founder flows	2026-05-07T21:19:13.3941772Z   x  10 e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture (5.0m)
+build_windows	Run e2e founder flows	2026-05-07T21:19:13.7829942Z   -  11 e2e\react-core.spec.js:920:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Command palette opens and closes
+build_windows	Run e2e founder flows	2026-05-07T21:19:18.5901448Z   -  12 e2e\react-core.spec.js:953:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Layout presets adjust rail widths and reset panels
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6514956Z   -  13 e2e\react-core.spec.js:1024:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Inline rail collapse toggles expose mini-rail expand controls
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6575326Z   -  14 e2e\react-core.spec.js:1077:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Keyboard shortcuts nudge rail widths
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6583699Z   -  15 e2e\react-core.spec.js:1116:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Focused layout overlays expose resize handles
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6589020Z   -  16 e2e\react-core.spec.js:1136:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Composer accepts input
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6592876Z   -  17 e2e\react-core.spec.js:1145:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Thread creation mutates active workspace state
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6595359Z   -  18 e2e\react-core.spec.js:1166:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Quick-Start cards trigger real kernel responses
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6600203Z   -  19 e2e\react-core.spec.js:1178:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Proof and ROI commands execute narratives
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6603061Z   -  20 e2e\react-core.spec.js:1201:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ /clear command wipes the local chat history
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6608777Z   -  21 e2e\react-core.spec.js:1213:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Session modal exposes dialog semantics and dismisses with Escape
+build_windows	Run e2e founder flows	2026-05-07T21:19:19.6612453Z   -  22 e2e\react-core.spec.js:1226:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer close control has an accessible name
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.3882939Z [31mWorker teardown timeout of 240000ms exceeded.[39m
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.3985773Z 
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4040161Z [31mFailed worker ran 10 tests:[39m
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4060264Z e2e\operatorHomeCanvas.spec.js:265:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ opens operator home, launches scratchpad lab, and verifies canvas behaviors
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4076612Z e2e\operatorHomeCanvas.spec.js:378:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects invalid JSON
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4084097Z e2e\operatorHomeCanvas.spec.js:391:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects unsafe panel action after validation
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4108507Z e2e\operatorHomeCanvas.spec.js:415:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension import rejects oversized file
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4249280Z e2e\operatorHomeCanvas.spec.js:428:3 ΓÇ║ Operator Home + Canvas flow ΓÇ║ extension trust shows Shipped on bundled tiles and Imported after user install
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4260985Z e2e\provGraph.spec.js:15:1 ΓÇ║ Provenance graph opens from workspace header
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4271215Z e2e\react-core.spec.js:619:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ App boots and critical React shells render
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.4701500Z e2e\react-core.spec.js:626:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Trust indicators are present
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.5207773Z e2e\react-core.spec.js:633:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Settings drawer opens, changes state, and preserves values
+build_windows	Run e2e founder flows	2026-05-07T21:23:13.6433410Z e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8059142Z   x  23 e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible (0ms)
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8062032Z   -  24 e2e\ui-controls-sweep.spec.js:502:5 ΓÇ║ UI controls sweep ΓÇ║ primary top-bar buttons open and close
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8065215Z   -  25 e2e\ui-controls-sweep.spec.js:529:5 ΓÇ║ UI controls sweep ΓÇ║ trust indicator is present
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8066488Z   -  26 e2e\ui-controls-sweep.spec.js:537:5 ΓÇ║ UI controls sweep ΓÇ║ presence pill is present
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8068070Z   -  27 e2e\ui-controls-sweep.spec.js:545:5 ΓÇ║ UI controls sweep ΓÇ║ binary clock toggle opens and closes popup
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8070600Z   -  28 e2e\ui-controls-sweep.spec.js:566:5 ΓÇ║ UI controls sweep ΓÇ║ model picker opens, shows provider groups, search filters, and selects a model
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8073231Z   -  29 e2e\ui-controls-sweep.spec.js:603:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover opens, shows Deadlines tab, add and remove a deadline
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8075411Z   -  30 e2e\ui-controls-sweep.spec.js:655:5 ΓÇ║ UI controls sweep ΓÇ║ calendar popover Open In tab shows external calendar links
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8076993Z   -  31 e2e\ui-controls-sweep.spec.js:703:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Panels tab opens panels
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8078453Z   -  32 e2e\ui-controls-sweep.spec.js:732:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Tools tab items are present and clickable
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8080373Z   -  33 e2e\ui-controls-sweep.spec.js:754:5 ΓÇ║ UI controls sweep ΓÇ║ More menu View tab: all clock and calendar settings toggle correctly
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8082103Z   -  34 e2e\ui-controls-sweep.spec.js:855:5 ΓÇ║ UI controls sweep ΓÇ║ More menu Boss tab: runtime roles and toggles respond
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8083824Z   -  35 e2e\ui-controls-sweep.spec.js:883:5 ΓÇ║ UI controls sweep ΓÇ║ study coach card subject pills are clickable and change card state
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8085773Z   -  36 e2e\ui-controls-sweep.spec.js:915:5 ΓÇ║ UI controls sweep ΓÇ║ quick-start welcome cards are visible
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8087235Z   -  37 e2e\ui-controls-sweep.spec.js:929:5 ΓÇ║ UI controls sweep ΓÇ║ settings drawer opens and closes
+build_windows	Run e2e founder flows	2026-05-07T21:25:27.8088649Z   -  38 e2e\ui-controls-sweep.spec.js:942:5 ΓÇ║ UI controls sweep ΓÇ║ full button sweep passes with no failures
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.0960306Z   x  39 e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available (3.0m)
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1171057Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1180307Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1192554Z   1) e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1195534Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1195994Z     [31mTest timeout of 300000ms exceeded.[39m
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1196408Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1197107Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1197892Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1198630Z     Error Context: test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\error-context.md
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1200988Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1201817Z     attachment #3: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1202573Z     test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1203133Z     Usage:
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1203257Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1203771Z         npx playwright show-trace test-results\react-core-NeuralShell-Rea-89f75-s-local-only-bridge-posture\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1204293Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1204643Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1204982Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1205603Z   2) e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1206350Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1206586Z     TimeoutError: Timeout 120000ms exceeded.
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1206933Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1207419Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1208689Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1209454Z     Error Context: test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\error-context.md
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1210677Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1211472Z     attachment #3: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1212701Z     test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1213532Z     Usage:
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1213782Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1214580Z         npx playwright show-trace test-results\ui-controls-sweep-UI-contr-742ed-r-core-elements-are-visible\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1215540Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1215954Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1216251Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1216729Z   3) e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1217122Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1217265Z     TimeoutError: Timeout 180000ms exceeded.
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1217498Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1217939Z     Error Context: test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\error-context.md
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1218442Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1219155Z     attachment #2: trace (application/zip) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1219880Z     test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1220343Z     Usage:
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1220486Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1221221Z         npx playwright show-trace test-results\voiceRoom-Voice-room-panel-33e55-d-join-control-is-available\trace.zip
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1221769Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1222166Z     ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1222464Z 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1222562Z   3 failed
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1223179Z     e2e\react-core.spec.js:675:5 ΓÇ║ NeuralShell React Core UI ΓÇ║ Offline kill switch forces local-only bridge posture 
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1224070Z     e2e\ui-controls-sweep.spec.js:489:5 ΓÇ║ UI controls sweep ΓÇ║ top-bar core elements are visible ΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1224824Z     e2e\voiceRoom.spec.js:15:1 ΓÇ║ Voice room panel renders and join control is available ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1225303Z   27 did not run
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1225554Z   9 passed (17.1m)
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.1225867Z   1 error was not a part of any test, see above for details
+build_windows	Run e2e founder flows	2026-05-07T21:28:31.2815980Z ##[error]Process completed with exit code 1.

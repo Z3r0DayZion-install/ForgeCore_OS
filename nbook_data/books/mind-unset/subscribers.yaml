@@ -1,0 +1,24 @@
+- email: reader1@example.com
+  tier_id: pro
+  book_slug: mind-unset
+  subscribed_at: '2026-04-22T07:07:23.803121+00:00'
+  updated_at: '2026-04-22T07:07:23.803128+00:00'
+  expires_at: null
+  price_paid: 29.0
+  currency: USD
+  payments:
+  - amount: 29.0
+    date: '2026-04-22T07:07:23.803131+00:00'
+    currency: USD
+- email: reader2@example.com
+  tier_id: basic
+  book_slug: mind-unset
+  subscribed_at: '2026-04-22T07:07:25.848963+00:00'
+  updated_at: '2026-04-22T07:07:25.848971+00:00'
+  expires_at: null
+  price_paid: 9.0
+  currency: USD
+  payments:
+  - amount: 9.0
+    date: '2026-04-22T07:07:25.848974+00:00'
+    currency: USD
